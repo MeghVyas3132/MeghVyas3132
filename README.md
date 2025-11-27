@@ -2,6 +2,11 @@
 ## Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/megh.3132) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:megh.vyas@yahoo.com) 
 
+
+<img align="right" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHNnNGY1eXpsenZtc2w3dzVhdnhweWg2Y2VkNjkyNWg2dzZzNTZxbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1BgqtRVZH0w9OFefkf/giphy.gif" width="200"/>
+
+
+
 # PORTFOLIO: https://meghvyas.netlify.app
 
 # Tech Stack:
