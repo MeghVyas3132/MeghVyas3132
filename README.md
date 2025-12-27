@@ -56,9 +56,9 @@ technical_background:
   - System Architecture
   - Full Stack Development
   
-currently_learning: ["Kubernetes Advanced Patterns", "Terraform Enterprise", "Go", "System Design"]
-2025_goals: ["Master Kubernetes", "AWS Certified Solutions Architect", "Contribute to OSS"]
-hobbies: ["Coding", "Cloud Labs", "Tech Blogs", "Automation"]
+Currently_learning: ["Kubernetes Advanced Patterns", "Terraform Enterprise", "Go", "System Design"]
+2026_goals: ["Master Kubernetes", "AWS Certified Solutions Architect", "Contribute to OSS"]
+Hobbies: ["Coding", "Cloud Labs", "Tech Blogs", "Automation"]
 ```
 
 </details>
