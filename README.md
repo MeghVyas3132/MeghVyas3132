@@ -172,23 +172,21 @@ hobbies: ["Coding", "Cloud Labs", "Tech Blogs", "Automation"]
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## 🔥 Top Contributed Repositories:
+## 🐍 Contribution Snake:
 
 <div align="center">
   
-![](https://github-contributor-stats.vercel.app/api?username=MeghVyas3132&limit=5&theme=radical&combine_all_yearly_contributions=true&hide_border=true)
+![snake gif](https://raw.githubusercontent.com/MeghVyas3132/MeghVyas3132/output/github-snake-dark.svg)
 
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
+## 🔥 Top Contributed Repositories:
+
 <div align="center">
   
-### 💭 Dev Quote of the Day:
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-### 😂 Random Dev Meme:
-<img src='https://rmeme.onrender.com/' style="height: 400px;" alt="Meme"/>
+![](https://github-contributor-stats.vercel.app/api?username=MeghVyas3132&limit=5&theme=radical&combine_all_yearly_contributions=true&hide_border=true)
 
 </div>
 
