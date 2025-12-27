@@ -161,16 +161,13 @@ Hobbies: ["Coding", "Cloud Labs", "Tech Blogs", "Automation"]
 ## 📊 GitHub Analytics:
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=MeghVyas3132&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
-  <img width="49%" src="https://nirzak-streak-stats.vercel.app/?user=MeghVyas3132&theme=radical&hide_border=true" alt="GitHub Streak"/>
+  <img width="49%" src="./stats.svg" alt="GitHub Stats"/>
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=MeghVyas3132&theme=radical&hide_border=true" alt="GitHub Streak"/>
 </div>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MeghVyas3132&theme=radical&hide_border=true&layout=compact&langs_count=8" alt="Top Languages"/>
-  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=MeghVyas3132&theme=radical&hide_border=true&custom_title=Contribution%20Graph" alt="Contribution Graph"/>
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=MeghVyas3132&theme=radical&hide_border=true&custom_title=Contribution%20Graph" alt="Contribution Graph"/>
 </div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 🐍 Contribution Snake:
 
