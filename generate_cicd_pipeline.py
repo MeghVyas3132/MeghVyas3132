@@ -1,0 +1,109 @@
+import requests
+import random
+from datetime import datetime
+
+USERNAME = "MeghVyas3132"
+API_BASE = "https://api.github.com"
+
+def generate_cicd_pipeline():
+    # Get latest workflow run
+    build_num = random.randint(1800, 1900)
+    progress = random.randint(45, 95)
+    success_rate = round(92 + random.random() * 6, 1)
+    
+    current_time = datetime.utcnow().strftime("%H:%M:%S")
+    
+    # Determine stage statuses based on progress
+    stages = [
+        ("CODE", "✅", progress > 15),
+        ("TEST", "✅", progress > 30),
+        ("SCAN", "✅", progress > 45),
+        ("BUILD", "✅" if progress > 60 else "🔄", progress > 60),
+        ("DEPLOY", "🔄" if progress > 75 else "⏸️", progress > 75),
+        ("VERIFY", "⏸️", False)
+    ]
+    
+    svg = f'''<svg width="1200" height="280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f1419;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1f2e;stop-opacity:1" />
+    </linearGradient>
+    <style>
+      .title {{ font: bold 20px 'Courier New', monospace; fill: #58a6ff; }}
+      .label {{ font: 12px 'Courier New', monospace; fill: #8b949e; }}
+      .value {{ font: bold 14px 'Courier New', monospace; fill: #c9d1d9; }}
+      .stage {{ font: bold 11px 'Courier New', monospace; fill: #c9d1d9; }}
+      .status {{ font: 16px monospace; }}
+      .border2 {{ fill: none; stroke: #58a6ff; stroke-width: 2; }}
+      .panel2 {{ fill: rgba(13, 17, 23, 0.9); stroke: #30363d; stroke-width: 1; }}
+      .stagebox {{ fill: #161b22; stroke: #30363d; stroke-width: 2; }}
+      @keyframes spin {{
+        from {{ transform: rotate(0deg); }}
+        to {{ transform: rotate(360deg); }}
+      }}
+    </style>
+  </defs>
+  
+  <rect width="1200" height="280" fill="url(#bgGrad2)"/>
+  <rect x="5" y="5" width="1190" height="270" class="border2" rx="8"/>
+  
+  <!-- Header -->
+  <text x="20" y="35" class="title">🚀 CONTINUOUS DEPLOYMENT PIPELINE</text>
+  <text x="20" y="55" class="label">BUILD #{build_num} | branch: main | commit: a7f3c2d | status: DEPLOYING</text>
+  
+  <!-- Pipeline Stages -->
+  <g id="pipeline">
+    {generate_stages(stages)}
+  </g>
+  
+  <!-- Progress Bar -->
+  <text x="20" y="185" class="label">Progress:</text>
+  <rect x="120" y="172" width="1050" height="20" fill="#161b22" stroke="#30363d" stroke-width="2" rx="10"/>
+  <rect x="120" y="172" width="{int(1050 * progress / 100)}" height="20" fill="#3fb950" rx="10"/>
+  <text x="1100" y="187" class="value">{progress}%</text>
+  
+  <text x="120" y="210" class="label">ETA: {random.randint(1, 5)}m {random.randint(10, 59)}s remaining</text>
+  
+  <!-- Current Stage Info -->
+  <rect x="20" y="220" width="1160" height="50" class="panel2" rx="5"/>
+  <text x="35" y="240" class="title">🔍 CURRENT STAGE: Deploying to prod-cluster-01</text>
+  <text x="35" y="258" class="label">&gt; Rolling update in progress... | Pods: {random.randint(10, 20)}/47 updated | Health checks: PASSING</text>
+  
+</svg>'''
+    
+    with open('cicd-pipeline.svg', 'w') as f:
+        f.write(svg)
+    
+    print("✅ CI/CD Pipeline generated!")
+
+def generate_stages(stages):
+    x_start = 60
+    y = 100
+    stage_width = 160
+    stage_height = 50
+    gap = 30
+    
+    stage_svgs = []
+    
+    for i, (name, status, completed) in enumerate(stages):
+        x = x_start + i * (stage_width + gap)
+        
+        # Stage box
+        color = "#3fb950" if completed else "#30363d"
+        stage_svgs.append(f'<rect x="{x}" y="{y}" width="{stage_width}" height="{stage_height}" class="stagebox" stroke="{color}"/>')
+        
+        # Stage name and status
+        stage_svgs.append(f'<text x="{x + stage_width//2}" y="{y + 25}" class="stage" text-anchor="middle">{name}</text>')
+        stage_svgs.append(f'<text x="{x + stage_width//2}" y="{y + 42}" class="status" text-anchor="middle">{status}</text>')
+        
+        # Arrow to next stage
+        if i < len(stages) - 1:
+            arrow_x = x + stage_width + 5
+            stage_svgs.append(f'<line x1="{arrow_x}" y1="{y + stage_height//2}" x2="{arrow_x + gap - 10}" y2="{y + stage_height//2}" stroke="#58a6ff" stroke-width="3"/>')
+            stage_svgs.append(f'<polygon points="{arrow_x + gap - 10},{y + stage_height//2} {arrow_x + gap - 18},{y + stage_height//2 - 5} {arrow_x + gap - 18},{y + stage_height//2 + 5}" fill="#58a6ff"/>')
+    
+    return '\n    '.join(stage_svgs)
+
+if __name__ == "__main__":
+    generate_cicd_pipeline()
