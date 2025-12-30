@@ -39,7 +39,7 @@
             TypeScript
         </text>
         <text x="460" y="65" font-family="Segoe UI, sans-serif" font-size="12" fill="#aaa" text-anchor="end">
-            30.4%
+            33.3%
         </text>
         
         <circle cx="260" cy="85" r="5" fill="#f7df1e"/>
@@ -47,7 +47,7 @@
             JavaScript
         </text>
         <text x="460" y="90" font-family="Segoe UI, sans-serif" font-size="12" fill="#aaa" text-anchor="end">
-            30.4%
+            29.2%
         </text>
         
         <circle cx="260" cy="110" r="5" fill="#3776ab"/>
@@ -55,7 +55,7 @@
             Python
         </text>
         <text x="460" y="115" font-family="Segoe UI, sans-serif" font-size="12" fill="#aaa" text-anchor="end">
-            26.1%
+            25.0%
         </text>
         
         <circle cx="260" cy="135" r="5" fill="#e34c26"/>
@@ -63,7 +63,7 @@
             HTML
         </text>
         <text x="460" y="140" font-family="Segoe UI, sans-serif" font-size="12" fill="#aaa" text-anchor="end">
-            8.7%
+            8.3%
         </text>
         
         <circle cx="260" cy="160" r="5" fill="#ff6b6b"/>
@@ -71,7 +71,7 @@
             Dart
         </text>
         <text x="460" y="165" font-family="Segoe UI, sans-serif" font-size="12" fill="#aaa" text-anchor="end">
-            4.3%
+            4.2%
         </text>
         
 </svg>
