@@ -56,15 +56,38 @@ technical_background:
   - System Architecture
   - Full Stack Development
   
-Currently_learning: ["Kubernetes Advanced Patterns", "Terraform Enterprise", "Go", "System Design"]
+currently_learning: ["Kubernetes Advanced Patterns", "Terraform Enterprise", "Go", "System Design"]
 2026_goals: ["Master Kubernetes", "AWS Certified Solutions Architect", "Contribute to OSS"]
-Hobbies: ["Coding", "Cloud Labs", "Tech Blogs", "Automation"]
+hobbies: ["Coding", "Cloud Labs", "Tech Blogs", "Automation"]
 ```
 
 </details>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
+## ⚡ INFRASTRUCTURE COMMAND CENTER
+
+<div align="center">
+  <img width="100%" src="./mission-control.svg" alt="Mission Control Dashboard"/>
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+## 🚀 CI/CD PIPELINE STATUS
+
+<div align="center">
+  <img width="100%" src="./cicd-pipeline.svg" alt="CI/CD Pipeline"/>
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+## 📟 LIVE SYSTEM LOGS
+
+<div align="center">
+  <img width="100%" src="./terminal-logs.svg" alt="Terminal Logs"/>
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 💻 Tech Arsenal:
 
@@ -149,6 +172,16 @@ Hobbies: ["Coding", "Cloud Labs", "Tech Blogs", "Automation"]
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
+## 🏆 GitHub Trophies
+
+<div align="center">
+  
+![](https://github-profile-trophy.vercel.app/?username=MeghVyas3132&theme=radical&no-frame=false&no-bg=false&margin-w=4&row=1)
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
 ## 📊 GitHub Analytics:
 
 <div align="center">
@@ -159,6 +192,8 @@ Hobbies: ["Coding", "Cloud Labs", "Tech Blogs", "Automation"]
 <div align="center">
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=MeghVyas3132&theme=radical&hide_border=true&custom_title=Contribution%20Graph" alt="Contribution Graph"/>
 </div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 🐍 Contribution Snake:
 
@@ -195,6 +230,28 @@ Hobbies: ["Coding", "Cloud Labs", "Tech Blogs", "Automation"]
 </div>
 
 ---
+
+<div align="center">
+  
+### ⚠️ LIVE INFRASTRUCTURE WARNING
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│  🔴 LIVE PRODUCTION ENVIRONMENT                             │
+│  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  │
+│  📊 Real-time metrics updated every 5 minutes               │
+│  🚀 CI/CD pipelines actively monitored                      │
+│  📟 System logs streaming live                              │
+│  ☁️  Multi-cloud infrastructure (AWS | Azure | GCP)         │
+│                                                              │
+│  💡 Everything you see above is generated from actual       │
+│     system data - not mock dashboards!                      │
+└─────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+<br/>
 
 <div align="center">
   <i>⚡ "Code is like humor. When you have to explain it, it's bad." – Cory House</i>
