@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">📟 LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-debug">[2025-12-31 21:48:09] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="90" class="log-text log-info">[2025-12-31 21:48:11] INFO   | Deploy rollout: 29/47 pods updated</text>
-  <text x="30" y="110" class="log-text log-info">[2025-12-31 21:48:13] INFO   | Backup completed: 786 MB</text>
-  <text x="30" y="130" class="log-text log-info">[2025-12-31 21:48:15] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="150" class="log-text log-info">[2025-12-31 21:48:17] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="170" class="log-text log-info">[2025-12-31 21:48:19] INFO   | Deploy rollout: 30/47 pods updated</text>
-  <text x="30" y="190" class="log-text log-warn">[2025-12-31 21:48:21] WARN   | High latency detected: payment-service</text>
-  <text x="30" y="210" class="log-text log-info">[2025-12-31 21:48:23] INFO   | Health check passed: notification-svc</text>
-  <text x="30" y="230" class="log-text log-info">[2025-12-31 21:48:25] INFO   | Container started: api-gateway-6a6c2</text>
-  <text x="30" y="250" class="log-text log-info">[2025-12-31 21:48:27] INFO   | Container started: auth-service-2d5e6</text>
-  <text x="30" y="270" class="log-text log-info">[2025-12-31 21:48:29] INFO   | Container started: user-service-5a4c9</text>
-  <text x="30" y="290" class="log-text log-info">[2025-12-31 21:48:31] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="310" class="log-text log-debug">[2025-12-31 21:48:33] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="330" class="log-text log-info">[2025-12-31 21:48:35] INFO   | Request processed: 200 OK (16ms)</text>
-  <text x="30" y="350" class="log-text log-info">[2025-12-31 21:48:37] INFO   | Metric exported: cpu_usage=93%</text>
+  <text x="30" y="70" class="log-text log-info">[2025-12-31 21:58:00] INFO   | Backup completed: 872 MB</text>
+  <text x="30" y="90" class="log-text log-info">[2025-12-31 21:58:02] INFO   | Container started: notification-svc-3a1b4</text>
+  <text x="30" y="110" class="log-text log-info">[2025-12-31 21:58:04] INFO   | Auto-scaling triggered: +2 pods</text>
+  <text x="30" y="130" class="log-text log-info">[2025-12-31 21:58:06] INFO   | Auto-scaling triggered: +3 pods</text>
+  <text x="30" y="150" class="log-text log-info">[2025-12-31 21:58:08] INFO   | Auto-scaling triggered: +1 pods</text>
+  <text x="30" y="170" class="log-text log-info">[2025-12-31 21:58:10] INFO   | Deploy rollout: 37/47 pods updated</text>
+  <text x="30" y="190" class="log-text log-info">[2025-12-31 21:58:12] INFO   | Request processed: 200 OK (23ms)</text>
+  <text x="30" y="210" class="log-text log-info">[2025-12-31 21:58:14] INFO   | Deploy rollout: 20/47 pods updated</text>
+  <text x="30" y="230" class="log-text log-info">[2025-12-31 21:58:16] INFO   | Metric exported: cpu_usage=83%</text>
+  <text x="30" y="250" class="log-text log-info">[2025-12-31 21:58:18] INFO   | Pod api-gateway-2e2d5 started</text>
+  <text x="30" y="270" class="log-text log-info">[2025-12-31 21:58:20] INFO   | Deploy rollout: 28/47 pods updated</text>
+  <text x="30" y="290" class="log-text log-info">[2025-12-31 21:58:22] INFO   | Deploy rollout: 34/47 pods updated</text>
+  <text x="30" y="310" class="log-text log-info">[2025-12-31 21:58:24] INFO   | Backup completed: 763 MB</text>
+  <text x="30" y="330" class="log-text log-info">[2025-12-31 21:58:26] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="350" class="log-text log-debug">[2025-12-31 21:58:28] DEBUG  | Rate limit check: 6380 req/s</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
