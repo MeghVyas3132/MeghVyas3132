@@ -25,7 +25,7 @@
   
   <!-- Header -->
   <text x="20" y="35" class="title">🚀 CONTINUOUS DEPLOYMENT PIPELINE</text>
-  <text x="20" y="55" class="label">BUILD #1827 | branch: main | commit: a7f3c2d | status: DEPLOYING</text>
+  <text x="20" y="55" class="label">BUILD #1869 | branch: main | commit: a7f3c2d | status: DEPLOYING</text>
   
   <!-- Pipeline Stages -->
   <g id="pipeline">
@@ -44,14 +44,14 @@
     <text x="520" y="142" class="status" text-anchor="middle">✅</text>
     <line x1="605" y1="125" x2="625" y2="125" stroke="#58a6ff" stroke-width="3"/>
     <polygon points="625,125 617,120 617,130" fill="#58a6ff"/>
-    <rect x="630" y="100" width="160" height="50" class="stagebox" stroke="#30363d"/>
+    <rect x="630" y="100" width="160" height="50" class="stagebox" stroke="#3fb950"/>
     <text x="710" y="125" class="stage" text-anchor="middle">BUILD</text>
-    <text x="710" y="142" class="status" text-anchor="middle">🔄</text>
+    <text x="710" y="142" class="status" text-anchor="middle">✅</text>
     <line x1="795" y1="125" x2="815" y2="125" stroke="#58a6ff" stroke-width="3"/>
     <polygon points="815,125 807,120 807,130" fill="#58a6ff"/>
-    <rect x="820" y="100" width="160" height="50" class="stagebox" stroke="#30363d"/>
+    <rect x="820" y="100" width="160" height="50" class="stagebox" stroke="#3fb950"/>
     <text x="900" y="125" class="stage" text-anchor="middle">DEPLOY</text>
-    <text x="900" y="142" class="status" text-anchor="middle">⏸️</text>
+    <text x="900" y="142" class="status" text-anchor="middle">🔄</text>
     <line x1="985" y1="125" x2="1005" y2="125" stroke="#58a6ff" stroke-width="3"/>
     <polygon points="1005,125 997,120 997,130" fill="#58a6ff"/>
     <rect x="1010" y="100" width="160" height="50" class="stagebox" stroke="#30363d"/>
@@ -62,10 +62,10 @@
   <!-- Progress Bar -->
   <text x="20" y="185" class="label">Progress:</text>
   <rect x="120" y="172" width="1050" height="20" fill="#161b22" stroke="#30363d" stroke-width="2" rx="10"/>
-  <rect x="120" y="172" width="588" height="20" fill="#3fb950" rx="10"/>
-  <text x="1100" y="187" class="value">56%</text>
+  <rect x="120" y="172" width="924" height="20" fill="#3fb950" rx="10"/>
+  <text x="1100" y="187" class="value">88%</text>
   
-  <text x="120" y="210" class="label">ETA: 1m 49s remaining</text>
+  <text x="120" y="210" class="label">ETA: 5m 49s remaining</text>
   
   <!-- Current Stage Info -->
   <rect x="20" y="220" width="1160" height="50" class="panel2" rx="5"/>
