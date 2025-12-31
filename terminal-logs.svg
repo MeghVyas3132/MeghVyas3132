@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">📟 LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2025-12-31 04:26:07] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="90" class="log-text log-info">[2025-12-31 04:26:09] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="110" class="log-text log-debug">[2025-12-31 04:26:11] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="130" class="log-text log-info">[2025-12-31 04:26:13] INFO   | Deploy rollout: 39/47 pods updated</text>
-  <text x="30" y="150" class="log-text log-warn">[2025-12-31 04:26:15] WARN   | High latency detected: notification-svc</text>
-  <text x="30" y="170" class="log-text log-debug">[2025-12-31 04:26:17] DEBUG  | Rate limit check: 8068 req/s</text>
-  <text x="30" y="190" class="log-text log-info">[2025-12-31 04:26:19] INFO   | Health check passed: notification-svc</text>
-  <text x="30" y="210" class="log-text log-info">[2025-12-31 04:26:21] INFO   | Backup completed: 594 MB</text>
-  <text x="30" y="230" class="log-text log-info">[2025-12-31 04:26:23] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="250" class="log-text log-info">[2025-12-31 04:26:25] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="270" class="log-text log-warn">[2025-12-31 04:26:27] WARN   | High latency detected: auth-service</text>
-  <text x="30" y="290" class="log-text log-info">[2025-12-31 04:26:29] INFO   | Auto-scaling triggered: +1 pods</text>
-  <text x="30" y="310" class="log-text log-info">[2025-12-31 04:26:31] INFO   | Backup completed: 723 MB</text>
-  <text x="30" y="330" class="log-text log-info">[2025-12-31 04:26:33] INFO   | Backup completed: 722 MB</text>
-  <text x="30" y="350" class="log-text log-info">[2025-12-31 04:26:35] INFO   | Backup completed: 646 MB</text>
+  <text x="30" y="70" class="log-text log-debug">[2025-12-31 04:57:27] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="90" class="log-text log-warn">[2025-12-31 04:57:29] WARN   | High latency detected: auth-service</text>
+  <text x="30" y="110" class="log-text log-info">[2025-12-31 04:57:31] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="130" class="log-text log-info">[2025-12-31 04:57:33] INFO   | Pod auth-service-7d6a7 started</text>
+  <text x="30" y="150" class="log-text log-info">[2025-12-31 04:57:35] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="170" class="log-text log-debug">[2025-12-31 04:57:37] DEBUG  | Rate limit check: 6558 req/s</text>
+  <text x="30" y="190" class="log-text log-info">[2025-12-31 04:57:39] INFO   | Pod auth-service-2b1a5 started</text>
+  <text x="30" y="210" class="log-text log-info">[2025-12-31 04:57:41] INFO   | Request processed: 200 OK (15ms)</text>
+  <text x="30" y="230" class="log-text log-info">[2025-12-31 04:57:43] INFO   | Deploy rollout: 21/47 pods updated</text>
+  <text x="30" y="250" class="log-text log-info">[2025-12-31 04:57:45] INFO   | Request processed: 200 OK (13ms)</text>
+  <text x="30" y="270" class="log-text log-info">[2025-12-31 04:57:47] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="290" class="log-text log-debug">[2025-12-31 04:57:49] DEBUG  | Rate limit check: 8870 req/s</text>
+  <text x="30" y="310" class="log-text log-info">[2025-12-31 04:57:51] INFO   | Container started: user-service-5f1f9</text>
+  <text x="30" y="330" class="log-text log-info">[2025-12-31 04:57:53] INFO   | Container started: notification-svc-9b4c9</text>
+  <text x="30" y="350" class="log-text log-debug">[2025-12-31 04:57:55] DEBUG  | Cache hit: user:8e3c7</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
