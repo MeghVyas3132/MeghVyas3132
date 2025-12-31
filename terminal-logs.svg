@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">📟 LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-warn">[2025-12-31 20:28:01] WARN   | High latency detected: payment-service</text>
-  <text x="30" y="90" class="log-text log-info">[2025-12-31 20:28:03] INFO   | Backup completed: 638 MB</text>
-  <text x="30" y="110" class="log-text log-info">[2025-12-31 20:28:05] INFO   | Pod payment-service-2f7c8 started</text>
-  <text x="30" y="130" class="log-text log-debug">[2025-12-31 20:28:07] DEBUG  | Cache hit: user:5a2c3</text>
-  <text x="30" y="150" class="log-text log-info">[2025-12-31 20:28:09] INFO   | Metric exported: cpu_usage=87%</text>
-  <text x="30" y="170" class="log-text log-info">[2025-12-31 20:28:11] INFO   | Request processed: 200 OK (37ms)</text>
-  <text x="30" y="190" class="log-text log-debug">[2025-12-31 20:28:13] DEBUG  | Cache hit: user:9a5c7</text>
-  <text x="30" y="210" class="log-text log-info">[2025-12-31 20:28:15] INFO   | Container started: auth-service-6c5e9</text>
-  <text x="30" y="230" class="log-text log-debug">[2025-12-31 20:28:17] DEBUG  | Rate limit check: 7518 req/s</text>
-  <text x="30" y="250" class="log-text log-debug">[2025-12-31 20:28:19] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="270" class="log-text log-warn">[2025-12-31 20:28:21] WARN   | High latency detected: auth-service</text>
-  <text x="30" y="290" class="log-text log-info">[2025-12-31 20:28:23] INFO   | Container started: notification-svc-6d4a2</text>
-  <text x="30" y="310" class="log-text log-info">[2025-12-31 20:28:25] INFO   | Auto-scaling triggered: +2 pods</text>
-  <text x="30" y="330" class="log-text log-debug">[2025-12-31 20:28:27] DEBUG  | Cache hit: user:5a7a9</text>
-  <text x="30" y="350" class="log-text log-info">[2025-12-31 20:28:29] INFO   | Deploy rollout: 22/47 pods updated</text>
+  <text x="30" y="70" class="log-text log-info">[2025-12-31 20:45:24] INFO   | Backup completed: 632 MB</text>
+  <text x="30" y="90" class="log-text log-info">[2025-12-31 20:45:26] INFO   | Auto-scaling triggered: +3 pods</text>
+  <text x="30" y="110" class="log-text log-info">[2025-12-31 20:45:28] INFO   | Metric exported: cpu_usage=75%</text>
+  <text x="30" y="130" class="log-text log-debug">[2025-12-31 20:45:30] DEBUG  | Rate limit check: 8905 req/s</text>
+  <text x="30" y="150" class="log-text log-info">[2025-12-31 20:45:32] INFO   | Deploy rollout: 39/47 pods updated</text>
+  <text x="30" y="170" class="log-text log-info">[2025-12-31 20:45:34] INFO   | Pod notification-svc-8a5c8 started</text>
+  <text x="30" y="190" class="log-text log-info">[2025-12-31 20:45:36] INFO   | Request processed: 200 OK (46ms)</text>
+  <text x="30" y="210" class="log-text log-debug">[2025-12-31 20:45:38] DEBUG  | Rate limit check: 9321 req/s</text>
+  <text x="30" y="230" class="log-text log-info">[2025-12-31 20:45:40] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="250" class="log-text log-info">[2025-12-31 20:45:42] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="270" class="log-text log-info">[2025-12-31 20:45:44] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="290" class="log-text log-info">[2025-12-31 20:45:46] INFO   | Metric exported: cpu_usage=85%</text>
+  <text x="30" y="310" class="log-text log-info">[2025-12-31 20:45:48] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="330" class="log-text log-info">[2025-12-31 20:45:50] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="350" class="log-text log-info">[2025-12-31 20:45:52] INFO   | Auto-scaling triggered: +3 pods</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
