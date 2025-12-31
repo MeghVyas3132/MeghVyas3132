@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">📟 LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2025-12-31 11:53:57] INFO   | Auto-scaling triggered: +1 pods</text>
-  <text x="30" y="90" class="log-text log-info">[2025-12-31 11:53:59] INFO   | Container started: api-gateway-1a3b7</text>
-  <text x="30" y="110" class="log-text log-info">[2025-12-31 11:54:01] INFO   | Request processed: 200 OK (31ms)</text>
-  <text x="30" y="130" class="log-text log-info">[2025-12-31 11:54:03] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="150" class="log-text log-info">[2025-12-31 11:54:05] INFO   | Metric exported: cpu_usage=72%</text>
-  <text x="30" y="170" class="log-text log-info">[2025-12-31 11:54:07] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="190" class="log-text log-info">[2025-12-31 11:54:09] INFO   | Deploy rollout: 39/47 pods updated</text>
-  <text x="30" y="210" class="log-text log-debug">[2025-12-31 11:54:11] DEBUG  | Cache hit: user:5c6c7</text>
-  <text x="30" y="230" class="log-text log-warn">[2025-12-31 11:54:13] WARN   | High latency detected: payment-service</text>
-  <text x="30" y="250" class="log-text log-info">[2025-12-31 11:54:15] INFO   | Auto-scaling triggered: +1 pods</text>
-  <text x="30" y="270" class="log-text log-info">[2025-12-31 11:54:17] INFO   | Backup completed: 678 MB</text>
-  <text x="30" y="290" class="log-text log-debug">[2025-12-31 11:54:19] DEBUG  | Cache hit: user:1a6f9</text>
-  <text x="30" y="310" class="log-text log-info">[2025-12-31 11:54:21] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="330" class="log-text log-info">[2025-12-31 11:54:23] INFO   | Health check passed: user-service</text>
-  <text x="30" y="350" class="log-text log-warn">[2025-12-31 11:54:25] WARN   | High latency detected: user-service</text>
+  <text x="30" y="70" class="log-text log-info">[2025-12-31 12:37:44] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="90" class="log-text log-info">[2025-12-31 12:37:46] INFO   | Deploy rollout: 31/47 pods updated</text>
+  <text x="30" y="110" class="log-text log-debug">[2025-12-31 12:37:48] DEBUG  | Cache hit: user:2c2e6</text>
+  <text x="30" y="130" class="log-text log-debug">[2025-12-31 12:37:50] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="150" class="log-text log-debug">[2025-12-31 12:37:52] DEBUG  | Rate limit check: 9492 req/s</text>
+  <text x="30" y="170" class="log-text log-warn">[2025-12-31 12:37:54] WARN   | High latency detected: auth-service</text>
+  <text x="30" y="190" class="log-text log-info">[2025-12-31 12:37:56] INFO   | Health check passed: user-service</text>
+  <text x="30" y="210" class="log-text log-debug">[2025-12-31 12:37:58] DEBUG  | Rate limit check: 5736 req/s</text>
+  <text x="30" y="230" class="log-text log-info">[2025-12-31 12:38:00] INFO   | Health check passed: notification-svc</text>
+  <text x="30" y="250" class="log-text log-info">[2025-12-31 12:38:02] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="270" class="log-text log-info">[2025-12-31 12:38:04] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="290" class="log-text log-info">[2025-12-31 12:38:06] INFO   | Health check passed: auth-service</text>
+  <text x="30" y="310" class="log-text log-warn">[2025-12-31 12:38:08] WARN   | High latency detected: notification-svc</text>
+  <text x="30" y="330" class="log-text log-warn">[2025-12-31 12:38:10] WARN   | High latency detected: payment-service</text>
+  <text x="30" y="350" class="log-text log-warn">[2025-12-31 12:38:12] WARN   | High latency detected: payment-service</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
