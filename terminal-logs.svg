@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">📟 LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2025-12-31 15:54:29] INFO   | Backup completed: 513 MB</text>
-  <text x="30" y="90" class="log-text log-debug">[2025-12-31 15:54:31] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="110" class="log-text log-info">[2025-12-31 15:54:33] INFO   | Container started: payment-service-7d1d7</text>
-  <text x="30" y="130" class="log-text log-info">[2025-12-31 15:54:35] INFO   | Request processed: 200 OK (50ms)</text>
-  <text x="30" y="150" class="log-text log-info">[2025-12-31 15:54:37] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="170" class="log-text log-warn">[2025-12-31 15:54:39] WARN   | High latency detected: auth-service</text>
-  <text x="30" y="190" class="log-text log-info">[2025-12-31 15:54:41] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="210" class="log-text log-info">[2025-12-31 15:54:43] INFO   | Pod user-service-7f4a1 started</text>
-  <text x="30" y="230" class="log-text log-warn">[2025-12-31 15:54:45] WARN   | High latency detected: payment-service</text>
-  <text x="30" y="250" class="log-text log-debug">[2025-12-31 15:54:47] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="270" class="log-text log-debug">[2025-12-31 15:54:49] DEBUG  | Rate limit check: 7081 req/s</text>
-  <text x="30" y="290" class="log-text log-debug">[2025-12-31 15:54:51] DEBUG  | Rate limit check: 7261 req/s</text>
-  <text x="30" y="310" class="log-text log-info">[2025-12-31 15:54:53] INFO   | Container started: notification-svc-7a4d8</text>
-  <text x="30" y="330" class="log-text log-info">[2025-12-31 15:54:55] INFO   | Container started: user-service-1b2a9</text>
-  <text x="30" y="350" class="log-text log-info">[2025-12-31 15:54:57] INFO   | Health check passed: notification-svc</text>
+  <text x="30" y="70" class="log-text log-info">[2025-12-31 16:24:49] INFO   | Health check passed: auth-service</text>
+  <text x="30" y="90" class="log-text log-info">[2025-12-31 16:24:51] INFO   | Backup completed: 961 MB</text>
+  <text x="30" y="110" class="log-text log-debug">[2025-12-31 16:24:53] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="130" class="log-text log-warn">[2025-12-31 16:24:55] WARN   | High latency detected: user-service</text>
+  <text x="30" y="150" class="log-text log-info">[2025-12-31 16:24:57] INFO   | Deploy rollout: 29/47 pods updated</text>
+  <text x="30" y="170" class="log-text log-debug">[2025-12-31 16:24:59] DEBUG  | Rate limit check: 6793 req/s</text>
+  <text x="30" y="190" class="log-text log-info">[2025-12-31 16:25:01] INFO   | Metric exported: cpu_usage=81%</text>
+  <text x="30" y="210" class="log-text log-info">[2025-12-31 16:25:03] INFO   | Deploy rollout: 22/47 pods updated</text>
+  <text x="30" y="230" class="log-text log-info">[2025-12-31 16:25:05] INFO   | Pod user-service-3e5e6 started</text>
+  <text x="30" y="250" class="log-text log-info">[2025-12-31 16:25:07] INFO   | Health check passed: api-gateway</text>
+  <text x="30" y="270" class="log-text log-debug">[2025-12-31 16:25:09] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="290" class="log-text log-info">[2025-12-31 16:25:11] INFO   | Container started: payment-service-7f4a3</text>
+  <text x="30" y="310" class="log-text log-info">[2025-12-31 16:25:13] INFO   | Request processed: 200 OK (25ms)</text>
+  <text x="30" y="330" class="log-text log-info">[2025-12-31 16:25:15] INFO   | Health check passed: api-gateway</text>
+  <text x="30" y="350" class="log-text log-info">[2025-12-31 16:25:17] INFO   | Load balancer: distributing traffic</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
