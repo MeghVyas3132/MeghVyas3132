@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">📟 LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2025-12-31 05:50:34] INFO   | Request processed: 200 OK (24ms)</text>
-  <text x="30" y="90" class="log-text log-debug">[2025-12-31 05:50:36] DEBUG  | Cache hit: user:9f4c3</text>
-  <text x="30" y="110" class="log-text log-info">[2025-12-31 05:50:38] INFO   | Request processed: 200 OK (50ms)</text>
-  <text x="30" y="130" class="log-text log-info">[2025-12-31 05:50:40] INFO   | Backup completed: 580 MB</text>
-  <text x="30" y="150" class="log-text log-info">[2025-12-31 05:50:42] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="170" class="log-text log-info">[2025-12-31 05:50:44] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="190" class="log-text log-info">[2025-12-31 05:50:46] INFO   | Metric exported: cpu_usage=85%</text>
-  <text x="30" y="210" class="log-text log-info">[2025-12-31 05:50:48] INFO   | Pod user-service-2c4b3 started</text>
-  <text x="30" y="230" class="log-text log-debug">[2025-12-31 05:50:50] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="250" class="log-text log-info">[2025-12-31 05:50:52] INFO   | Backup completed: 805 MB</text>
-  <text x="30" y="270" class="log-text log-info">[2025-12-31 05:50:54] INFO   | Request processed: 200 OK (10ms)</text>
-  <text x="30" y="290" class="log-text log-info">[2025-12-31 05:50:56] INFO   | Request processed: 200 OK (47ms)</text>
-  <text x="30" y="310" class="log-text log-info">[2025-12-31 05:50:58] INFO   | Container started: user-service-1d5a6</text>
-  <text x="30" y="330" class="log-text log-info">[2025-12-31 05:51:00] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="350" class="log-text log-info">[2025-12-31 05:51:02] INFO   | Database query optimized (68ms→22ms)</text>
+  <text x="30" y="70" class="log-text log-warn">[2025-12-31 06:16:30] WARN   | High latency detected: auth-service</text>
+  <text x="30" y="90" class="log-text log-info">[2025-12-31 06:16:32] INFO   | Request processed: 200 OK (38ms)</text>
+  <text x="30" y="110" class="log-text log-info">[2025-12-31 06:16:34] INFO   | Database query optimized (56ms→12ms)</text>
+  <text x="30" y="130" class="log-text log-info">[2025-12-31 06:16:36] INFO   | Database query optimized (45ms→19ms)</text>
+  <text x="30" y="150" class="log-text log-info">[2025-12-31 06:16:38] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="170" class="log-text log-debug">[2025-12-31 06:16:40] DEBUG  | Rate limit check: 7008 req/s</text>
+  <text x="30" y="190" class="log-text log-info">[2025-12-31 06:16:42] INFO   | Database query optimized (76ms→15ms)</text>
+  <text x="30" y="210" class="log-text log-info">[2025-12-31 06:16:44] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="230" class="log-text log-debug">[2025-12-31 06:16:46] DEBUG  | Cache hit: user:1a7a2</text>
+  <text x="30" y="250" class="log-text log-debug">[2025-12-31 06:16:48] DEBUG  | Cache hit: user:8f9f4</text>
+  <text x="30" y="270" class="log-text log-info">[2025-12-31 06:16:50] INFO   | Auto-scaling triggered: +3 pods</text>
+  <text x="30" y="290" class="log-text log-debug">[2025-12-31 06:16:52] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="310" class="log-text log-debug">[2025-12-31 06:16:54] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="330" class="log-text log-info">[2025-12-31 06:16:56] INFO   | Request processed: 200 OK (37ms)</text>
+  <text x="30" y="350" class="log-text log-info">[2025-12-31 06:16:58] INFO   | Backup completed: 527 MB</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
