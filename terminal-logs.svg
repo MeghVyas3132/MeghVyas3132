@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">📟 LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2025-12-31 17:42:34] INFO   | Container started: payment-service-4d6d2</text>
-  <text x="30" y="90" class="log-text log-info">[2025-12-31 17:42:36] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="110" class="log-text log-debug">[2025-12-31 17:42:38] DEBUG  | Cache hit: user:5d7f2</text>
-  <text x="30" y="130" class="log-text log-info">[2025-12-31 17:42:40] INFO   | Container started: notification-svc-2f5d8</text>
-  <text x="30" y="150" class="log-text log-info">[2025-12-31 17:42:42] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="170" class="log-text log-info">[2025-12-31 17:42:44] INFO   | Request processed: 200 OK (34ms)</text>
-  <text x="30" y="190" class="log-text log-info">[2025-12-31 17:42:46] INFO   | Auto-scaling triggered: +1 pods</text>
-  <text x="30" y="210" class="log-text log-info">[2025-12-31 17:42:48] INFO   | Metric exported: cpu_usage=73%</text>
-  <text x="30" y="230" class="log-text log-info">[2025-12-31 17:42:50] INFO   | Container started: user-service-2f4d9</text>
-  <text x="30" y="250" class="log-text log-warn">[2025-12-31 17:42:52] WARN   | High latency detected: auth-service</text>
-  <text x="30" y="270" class="log-text log-info">[2025-12-31 17:42:54] INFO   | Database query optimized (59ms→14ms)</text>
-  <text x="30" y="290" class="log-text log-info">[2025-12-31 17:42:56] INFO   | Request processed: 200 OK (20ms)</text>
-  <text x="30" y="310" class="log-text log-info">[2025-12-31 17:42:58] INFO   | Deploy rollout: 36/47 pods updated</text>
-  <text x="30" y="330" class="log-text log-debug">[2025-12-31 17:43:00] DEBUG  | Cache hit: user:6b8a9</text>
-  <text x="30" y="350" class="log-text log-warn">[2025-12-31 17:43:02] WARN   | High latency detected: notification-svc</text>
+  <text x="30" y="70" class="log-text log-info">[2025-12-31 17:52:45] INFO   | Database query optimized (64ms→22ms)</text>
+  <text x="30" y="90" class="log-text log-info">[2025-12-31 17:52:47] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="110" class="log-text log-info">[2025-12-31 17:52:49] INFO   | Metric exported: cpu_usage=72%</text>
+  <text x="30" y="130" class="log-text log-warn">[2025-12-31 17:52:51] WARN   | High latency detected: notification-svc</text>
+  <text x="30" y="150" class="log-text log-debug">[2025-12-31 17:52:53] DEBUG  | Rate limit check: 5640 req/s</text>
+  <text x="30" y="170" class="log-text log-info">[2025-12-31 17:52:55] INFO   | Metric exported: cpu_usage=79%</text>
+  <text x="30" y="190" class="log-text log-info">[2025-12-31 17:52:57] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="210" class="log-text log-info">[2025-12-31 17:52:59] INFO   | Container started: user-service-9e1a7</text>
+  <text x="30" y="230" class="log-text log-info">[2025-12-31 17:53:01] INFO   | Auto-scaling triggered: +1 pods</text>
+  <text x="30" y="250" class="log-text log-info">[2025-12-31 17:53:03] INFO   | Metric exported: cpu_usage=92%</text>
+  <text x="30" y="270" class="log-text log-info">[2025-12-31 17:53:05] INFO   | Database query optimized (45ms→12ms)</text>
+  <text x="30" y="290" class="log-text log-info">[2025-12-31 17:53:07] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="310" class="log-text log-info">[2025-12-31 17:53:09] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="330" class="log-text log-debug">[2025-12-31 17:53:11] DEBUG  | Cache hit: user:4d6f6</text>
+  <text x="30" y="350" class="log-text log-info">[2025-12-31 17:53:13] INFO   | Database query optimized (87ms→13ms)</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
