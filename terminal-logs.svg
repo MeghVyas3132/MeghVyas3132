@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">📟 LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-01-02 15:46:42] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="90" class="log-text log-warn">[2026-01-02 15:46:44] WARN   | High latency detected: payment-service</text>
-  <text x="30" y="110" class="log-text log-info">[2026-01-02 15:46:46] INFO   | Backup completed: 902 MB</text>
-  <text x="30" y="130" class="log-text log-info">[2026-01-02 15:46:48] INFO   | Pod payment-service-9f1d6 started</text>
-  <text x="30" y="150" class="log-text log-info">[2026-01-02 15:46:50] INFO   | Database query optimized (66ms→22ms)</text>
-  <text x="30" y="170" class="log-text log-warn">[2026-01-02 15:46:52] WARN   | High latency detected: payment-service</text>
-  <text x="30" y="190" class="log-text log-info">[2026-01-02 15:46:54] INFO   | Pod auth-service-8a2a4 started</text>
-  <text x="30" y="210" class="log-text log-info">[2026-01-02 15:46:56] INFO   | Health check passed: auth-service</text>
-  <text x="30" y="230" class="log-text log-info">[2026-01-02 15:46:58] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="250" class="log-text log-warn">[2026-01-02 15:47:00] WARN   | High latency detected: notification-svc</text>
-  <text x="30" y="270" class="log-text log-warn">[2026-01-02 15:47:02] WARN   | High latency detected: api-gateway</text>
-  <text x="30" y="290" class="log-text log-info">[2026-01-02 15:47:04] INFO   | Backup completed: 612 MB</text>
-  <text x="30" y="310" class="log-text log-info">[2026-01-02 15:47:06] INFO   | Auto-scaling triggered: +3 pods</text>
-  <text x="30" y="330" class="log-text log-info">[2026-01-02 15:47:08] INFO   | Request processed: 200 OK (22ms)</text>
-  <text x="30" y="350" class="log-text log-info">[2026-01-02 15:47:10] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="70" class="log-text log-info">[2026-01-02 15:57:22] INFO   | Backup completed: 500 MB</text>
+  <text x="30" y="90" class="log-text log-info">[2026-01-02 15:57:24] INFO   | Database query optimized (80ms→13ms)</text>
+  <text x="30" y="110" class="log-text log-info">[2026-01-02 15:57:26] INFO   | Metric exported: cpu_usage=80%</text>
+  <text x="30" y="130" class="log-text log-info">[2026-01-02 15:57:28] INFO   | Backup completed: 594 MB</text>
+  <text x="30" y="150" class="log-text log-debug">[2026-01-02 15:57:30] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="170" class="log-text log-debug">[2026-01-02 15:57:32] DEBUG  | Cache hit: user:9d3f3</text>
+  <text x="30" y="190" class="log-text log-info">[2026-01-02 15:57:34] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="210" class="log-text log-info">[2026-01-02 15:57:36] INFO   | Backup completed: 569 MB</text>
+  <text x="30" y="230" class="log-text log-info">[2026-01-02 15:57:38] INFO   | Auto-scaling triggered: +2 pods</text>
+  <text x="30" y="250" class="log-text log-info">[2026-01-02 15:57:40] INFO   | Backup completed: 931 MB</text>
+  <text x="30" y="270" class="log-text log-info">[2026-01-02 15:57:42] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="290" class="log-text log-debug">[2026-01-02 15:57:44] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="310" class="log-text log-info">[2026-01-02 15:57:46] INFO   | Health check passed: user-service</text>
+  <text x="30" y="330" class="log-text log-info">[2026-01-02 15:57:48] INFO   | Request processed: 200 OK (29ms)</text>
+  <text x="30" y="350" class="log-text log-info">[2026-01-02 15:57:50] INFO   | Auto-scaling triggered: +3 pods</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
