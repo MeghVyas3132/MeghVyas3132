@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">📟 LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-01-02 16:33:17] INFO   | Metric exported: cpu_usage=76%</text>
-  <text x="30" y="90" class="log-text log-info">[2026-01-02 16:33:19] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="110" class="log-text log-info">[2026-01-02 16:33:21] INFO   | Deploy rollout: 31/47 pods updated</text>
-  <text x="30" y="130" class="log-text log-info">[2026-01-02 16:33:23] INFO   | Database query optimized (95ms→25ms)</text>
-  <text x="30" y="150" class="log-text log-info">[2026-01-02 16:33:25] INFO   | Health check passed: payment-service</text>
-  <text x="30" y="170" class="log-text log-info">[2026-01-02 16:33:27] INFO   | Deploy rollout: 22/47 pods updated</text>
-  <text x="30" y="190" class="log-text log-debug">[2026-01-02 16:33:29] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="210" class="log-text log-debug">[2026-01-02 16:33:31] DEBUG  | Rate limit check: 9656 req/s</text>
-  <text x="30" y="230" class="log-text log-info">[2026-01-02 16:33:33] INFO   | Request processed: 200 OK (25ms)</text>
-  <text x="30" y="250" class="log-text log-info">[2026-01-02 16:33:35] INFO   | Metric exported: cpu_usage=77%</text>
-  <text x="30" y="270" class="log-text log-info">[2026-01-02 16:33:37] INFO   | Health check passed: api-gateway</text>
-  <text x="30" y="290" class="log-text log-debug">[2026-01-02 16:33:39] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="310" class="log-text log-info">[2026-01-02 16:33:41] INFO   | Backup completed: 830 MB</text>
-  <text x="30" y="330" class="log-text log-info">[2026-01-02 16:33:43] INFO   | Deploy rollout: 33/47 pods updated</text>
-  <text x="30" y="350" class="log-text log-info">[2026-01-02 16:33:45] INFO   | Backup completed: 778 MB</text>
+  <text x="30" y="70" class="log-text log-info">[2026-01-02 16:53:18] INFO   | Deploy rollout: 39/47 pods updated</text>
+  <text x="30" y="90" class="log-text log-debug">[2026-01-02 16:53:20] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="110" class="log-text log-info">[2026-01-02 16:53:22] INFO   | Deploy rollout: 24/47 pods updated</text>
+  <text x="30" y="130" class="log-text log-info">[2026-01-02 16:53:24] INFO   | Database query optimized (96ms→13ms)</text>
+  <text x="30" y="150" class="log-text log-info">[2026-01-02 16:53:26] INFO   | Backup completed: 957 MB</text>
+  <text x="30" y="170" class="log-text log-info">[2026-01-02 16:53:28] INFO   | Auto-scaling triggered: +3 pods</text>
+  <text x="30" y="190" class="log-text log-info">[2026-01-02 16:53:30] INFO   | Container started: user-service-3f3c2</text>
+  <text x="30" y="210" class="log-text log-debug">[2026-01-02 16:53:32] DEBUG  | Rate limit check: 6405 req/s</text>
+  <text x="30" y="230" class="log-text log-info">[2026-01-02 16:53:34] INFO   | Metric exported: cpu_usage=86%</text>
+  <text x="30" y="250" class="log-text log-info">[2026-01-02 16:53:36] INFO   | Metric exported: cpu_usage=81%</text>
+  <text x="30" y="270" class="log-text log-info">[2026-01-02 16:53:38] INFO   | Backup completed: 883 MB</text>
+  <text x="30" y="290" class="log-text log-info">[2026-01-02 16:53:40] INFO   | Database query optimized (81ms→10ms)</text>
+  <text x="30" y="310" class="log-text log-warn">[2026-01-02 16:53:42] WARN   | High latency detected: api-gateway</text>
+  <text x="30" y="330" class="log-text log-info">[2026-01-02 16:53:44] INFO   | Metric exported: cpu_usage=94%</text>
+  <text x="30" y="350" class="log-text log-info">[2026-01-02 16:53:46] INFO   | Request processed: 200 OK (28ms)</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
