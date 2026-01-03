@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">📟 LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-01-02 23:58:22] INFO   | Deploy rollout: 26/47 pods updated</text>
-  <text x="30" y="90" class="log-text log-debug">[2026-01-02 23:58:24] DEBUG  | Rate limit check: 5476 req/s</text>
-  <text x="30" y="110" class="log-text log-info">[2026-01-02 23:58:26] INFO   | Pod notification-svc-2d9e1 started</text>
-  <text x="30" y="130" class="log-text log-warn">[2026-01-02 23:58:28] WARN   | High latency detected: payment-service</text>
-  <text x="30" y="150" class="log-text log-info">[2026-01-02 23:58:30] INFO   | Deploy rollout: 25/47 pods updated</text>
-  <text x="30" y="170" class="log-text log-debug">[2026-01-02 23:58:32] DEBUG  | Cache hit: user:9f9f9</text>
-  <text x="30" y="190" class="log-text log-info">[2026-01-02 23:58:34] INFO   | Container started: auth-service-6a5c6</text>
-  <text x="30" y="210" class="log-text log-info">[2026-01-02 23:58:36] INFO   | Database query optimized (50ms→14ms)</text>
-  <text x="30" y="230" class="log-text log-info">[2026-01-02 23:58:38] INFO   | Pod auth-service-7f9b9 started</text>
-  <text x="30" y="250" class="log-text log-debug">[2026-01-02 23:58:40] DEBUG  | Rate limit check: 8163 req/s</text>
-  <text x="30" y="270" class="log-text log-info">[2026-01-02 23:58:42] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="290" class="log-text log-info">[2026-01-02 23:58:44] INFO   | Request processed: 200 OK (21ms)</text>
-  <text x="30" y="310" class="log-text log-info">[2026-01-02 23:58:46] INFO   | Health check passed: notification-svc</text>
-  <text x="30" y="330" class="log-text log-info">[2026-01-02 23:58:48] INFO   | Metric exported: cpu_usage=76%</text>
-  <text x="30" y="350" class="log-text log-info">[2026-01-02 23:58:50] INFO   | Container started: auth-service-1b2e5</text>
+  <text x="30" y="70" class="log-text log-debug">[2026-01-03 02:09:55] DEBUG  | Rate limit check: 5233 req/s</text>
+  <text x="30" y="90" class="log-text log-info">[2026-01-03 02:09:57] INFO   | Request processed: 200 OK (14ms)</text>
+  <text x="30" y="110" class="log-text log-info">[2026-01-03 02:09:59] INFO   | Deploy rollout: 34/47 pods updated</text>
+  <text x="30" y="130" class="log-text log-debug">[2026-01-03 02:10:01] DEBUG  | Rate limit check: 5046 req/s</text>
+  <text x="30" y="150" class="log-text log-warn">[2026-01-03 02:10:03] WARN   | High latency detected: user-service</text>
+  <text x="30" y="170" class="log-text log-info">[2026-01-03 02:10:05] INFO   | Auto-scaling triggered: +3 pods</text>
+  <text x="30" y="190" class="log-text log-info">[2026-01-03 02:10:07] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="210" class="log-text log-info">[2026-01-03 02:10:09] INFO   | Pod notification-svc-3f5a6 started</text>
+  <text x="30" y="230" class="log-text log-info">[2026-01-03 02:10:11] INFO   | Request processed: 200 OK (22ms)</text>
+  <text x="30" y="250" class="log-text log-info">[2026-01-03 02:10:13] INFO   | Pod payment-service-5c4f2 started</text>
+  <text x="30" y="270" class="log-text log-debug">[2026-01-03 02:10:15] DEBUG  | Rate limit check: 7824 req/s</text>
+  <text x="30" y="290" class="log-text log-debug">[2026-01-03 02:10:17] DEBUG  | Cache hit: user:9e5b4</text>
+  <text x="30" y="310" class="log-text log-info">[2026-01-03 02:10:19] INFO   | Metric exported: cpu_usage=88%</text>
+  <text x="30" y="330" class="log-text log-info">[2026-01-03 02:10:21] INFO   | Health check passed: notification-svc</text>
+  <text x="30" y="350" class="log-text log-info">[2026-01-03 02:10:23] INFO   | SSL cert renewed: *.meghvyas.dev</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
