@@ -13,14 +13,14 @@ def generate_cicd_pipeline():
     
     current_time = datetime.utcnow().strftime("%H:%M:%S")
     
-    # Determine stage statuses based on progress
+    # Determine stage statuses based on progress (no emojis)
     stages = [
-        ("CODE", "✅", progress > 15),
-        ("TEST", "✅", progress > 30),
-        ("SCAN", "✅", progress > 45),
-        ("BUILD", "✅" if progress > 60 else "🔄", progress > 60),
-        ("DEPLOY", "🔄" if progress > 75 else "⏸️", progress > 75),
-        ("VERIFY", "⏸️", False)
+        ("CODE", "DONE", progress > 15),
+        ("TEST", "DONE", progress > 30),
+        ("SCAN", "DONE", progress > 45),
+        ("BUILD", "DONE" if progress > 60 else "RUNNING", progress > 60),
+        ("DEPLOY", "RUNNING" if progress > 75 else "PENDING", progress > 75),
+        ("VERIFY", "PENDING", False)
     ]
     
     svg = f'''<svg width="1200" height="280" xmlns="http://www.w3.org/2000/svg">
@@ -30,18 +30,17 @@ def generate_cicd_pipeline():
       <stop offset="100%" style="stop-color:#1a1f2e;stop-opacity:1" />
     </linearGradient>
     <style>
-      .title {{ font: bold 20px 'Courier New', monospace; fill: #58a6ff; }}
-      .label {{ font: 12px 'Courier New', monospace; fill: #8b949e; }}
-      .value {{ font: bold 14px 'Courier New', monospace; fill: #c9d1d9; }}
-      .stage {{ font: bold 11px 'Courier New', monospace; fill: #c9d1d9; }}
-      .status {{ font: 16px monospace; }}
+      .title {{ font: bold 22px 'Courier New', monospace; fill: #58a6ff; }}
+      .label {{ font: 14px 'Courier New', monospace; fill: #8b949e; }}
+      .value {{ font: bold 16px 'Courier New', monospace; fill: #c9d1d9; }}
+      .stage {{ font: bold 15px 'Courier New', monospace; fill: #c9d1d9; }}
+      .status {{ font: bold 12px 'Courier New', monospace; }}
+      .status-done {{ fill: #3fb950; }}
+      .status-running {{ fill: #f0883e; }}
+      .status-pending {{ fill: #8b949e; }}
       .border2 {{ fill: none; stroke: #58a6ff; stroke-width: 2; }}
       .panel2 {{ fill: rgba(13, 17, 23, 0.9); stroke: #30363d; stroke-width: 1; }}
       .stagebox {{ fill: #161b22; stroke: #30363d; stroke-width: 2; }}
-      @keyframes spin {{
-        from {{ transform: rotate(0deg); }}
-        to {{ transform: rotate(360deg); }}
-      }}
     </style>
   </defs>
   
@@ -49,7 +48,7 @@ def generate_cicd_pipeline():
   <rect x="5" y="5" width="1190" height="270" class="border2" rx="8"/>
   
   <!-- Header -->
-  <text x="20" y="35" class="title">🚀 CONTINUOUS DEPLOYMENT PIPELINE</text>
+  <text x="20" y="35" class="title">CONTINUOUS DEPLOYMENT PIPELINE</text>
   <text x="20" y="55" class="label">BUILD #{build_num} | branch: main | commit: a7f3c2d | status: DEPLOYING</text>
   
   <!-- Pipeline Stages -->
@@ -67,7 +66,7 @@ def generate_cicd_pipeline():
   
   <!-- Current Stage Info -->
   <rect x="20" y="220" width="1160" height="50" class="panel2" rx="5"/>
-  <text x="35" y="240" class="title">🔍 CURRENT STAGE: Deploying to prod-cluster-01</text>
+  <text x="35" y="240" class="title">CURRENT STAGE: Deploying to prod-cluster-01</text>
   <text x="35" y="258" class="label">&gt; Rolling update in progress... | Pods: {random.randint(10, 20)}/47 updated | Health checks: PASSING</text>
   
 </svg>'''
@@ -75,7 +74,7 @@ def generate_cicd_pipeline():
     with open('cicd-pipeline.svg', 'w') as f:
         f.write(svg)
     
-    print("✅ CI/CD Pipeline generated!")
+    print("CI/CD Pipeline generated!")
 
 def generate_stages(stages):
     x_start = 60
@@ -93,9 +92,17 @@ def generate_stages(stages):
         color = "#3fb950" if completed else "#30363d"
         stage_svgs.append(f'<rect x="{x}" y="{y}" width="{stage_width}" height="{stage_height}" class="stagebox" stroke="{color}"/>')
         
-        # Stage name and status
-        stage_svgs.append(f'<text x="{x + stage_width//2}" y="{y + 25}" class="stage" text-anchor="middle">{name}</text>')
-        stage_svgs.append(f'<text x="{x + stage_width//2}" y="{y + 42}" class="status" text-anchor="middle">{status}</text>')
+        # Stage name
+        stage_svgs.append(f'<text x="{x + stage_width//2}" y="{y + 22}" class="stage" text-anchor="middle">{name}</text>')
+        
+        # Status text with color
+        if status == "DONE":
+            status_class = "status status-done"
+        elif status == "RUNNING":
+            status_class = "status status-running"
+        else:
+            status_class = "status status-pending"
+        stage_svgs.append(f'<text x="{x + stage_width//2}" y="{y + 40}" class="{status_class}" text-anchor="middle">{status}</text>')
         
         # Arrow to next stage
         if i < len(stages) - 1:

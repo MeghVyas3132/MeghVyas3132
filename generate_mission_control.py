@@ -80,12 +80,12 @@ def generate_mission_control():
   
   <!-- Header -->
   <rect x="15" y="15" width="1170" height="50" class="panel" rx="5"/>
-  <text x="30" y="40" class="title">⚡ MISSION CONTROL - INFRASTRUCTURE COMMAND CENTER</text>
+  <text x="30" y="40" class="title">MISSION CONTROL - INFRASTRUCTURE COMMAND CENTER</text>
   <text x="30" y="58" class="subtitle">System Status: OPERATIONAL | Uptime: {uptime}% | Last Update: {current_time}</text>
   
   <!-- Left Panel: Deployment Status -->
   <rect x="15" y="75" width="380" height="250" class="panel" rx="5"/>
-  <text x="30" y="100" class="title">🎯 DEPLOYMENT STATUS</text>
+  <text x="30" y="100" class="title">DEPLOYMENT STATUS</text>
   
   <text x="30" y="130" class="label">prod-cluster-01</text>
   <circle cx="320" cy="126" r="6" fill="#00ff9f" class="pulse"/>
@@ -144,7 +144,7 @@ def generate_mission_control():
   
   <!-- Right Panel: Live Metrics -->
   <rect x="795" y="75" width="390" height="250" class="panel" rx="5"/>
-  <text x="810" y="100" class="title">📊 LIVE METRICS</text>
+  <text x="810" y="100" class="title">LIVE METRICS</text>
   
   <!-- CPU -->
   <text x="810" y="130" class="label">CPU Usage:</text>
@@ -177,7 +177,7 @@ def generate_mission_control():
   
   <!-- Bottom Panel: Microservices Status -->
   <rect x="15" y="335" width="1170" height="250" class="panel" rx="5"/>
-  <text x="30" y="360" class="title">🎯 ACTIVE MICROSERVICES</text>
+  <text x="30" y="360" class="title">ACTIVE MICROSERVICES</text>
   
   <!-- Service 1 -->
   <circle cx="45" cy="390" r="6" fill="#00ff9f"/>
@@ -205,22 +205,22 @@ def generate_mission_control():
   <text x="250" y="515" class="label">Degraded | Instances: 2 | Latency: 156ms</text>
   
   <!-- Right side stats -->
-  <text x="650" y="395" class="title">📈 COST OPTIMIZATION</text>
+  <text x="650" y="395" class="title">COST OPTIMIZATION</text>
   <text x="650" y="420" class="label">Current Spend: $847/mo</text>
   <text x="650" y="440" class="label">Optimized: -23% | Savings: $267/mo</text>
   
-  <text x="650" y="480" class="title">🔒 SECURITY POSTURE</text>
+  <text x="650" y="480" class="title">SECURITY POSTURE</text>
   <text x="650" y="505" class="label">Vulnerabilities: 0 Critical, 2 High, 12 Medium</text>
-  <text x="650" y="525" class="label">Last Scan: 2h ago | Compliance: SOC2 ✅ PCI-DSS ✅</text>
+  <text x="650" y="525" class="label">Last Scan: 2h ago | Compliance: SOC2 PASS PCI-DSS PASS</text>
   
   <!-- Alert Status -->
-  <text x="650" y="560" class="label">🔴 ALERTS: 0 | 🟡 WARNINGS: 3 | 🟢 HEALTHY: 98</text>
+  <text x="650" y="560" class="label">ALERTS: 0 | WARNINGS: 3 | HEALTHY: 98</text>
 </svg>'''
     
     with open('mission-control.svg', 'w') as f:
         f.write(svg)
     
-    print("✅ Mission Control dashboard generated!")
+    print("Mission Control dashboard generated!")
 
 if __name__ == "__main__":
     generate_mission_control()

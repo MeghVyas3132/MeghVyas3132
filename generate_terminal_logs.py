@@ -84,7 +84,7 @@ def generate_terminal_logs():
     with open('terminal-logs.svg', 'w') as f:
         f.write(svg)
     
-    print("✅ Terminal logs generated!")
+    print("Terminal logs generated!")
 
 def generate_log_lines(logs):
     y_start = 70

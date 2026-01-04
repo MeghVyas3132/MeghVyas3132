@@ -89,23 +89,23 @@ def fetch_github_stats():
     <rect width="495" height="3" fill="url(#grad2)" rx="10"/>
     
     <text x="20" y="35" font-family="Segoe UI, sans-serif" font-size="20" font-weight="bold" fill="#ff6b6b">
-        📊 GitHub Stats
+        GitHub Stats
     </text>
     
-    <text x="20" y="65" font-family="Segoe UI, sans-serif" font-size="14" fill="#aaa">⭐ Total Stars:</text>
+    <text x="20" y="65" font-family="Segoe UI, sans-serif" font-size="14" fill="#aaa">Total Stars:</text>
     <text x="140" y="65" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#fff">{total_stars}</text>
     
-    <text x="20" y="90" font-family="Segoe UI, sans-serif" font-size="14" fill="#aaa">📦 Public Repos:</text>
+    <text x="20" y="90" font-family="Segoe UI, sans-serif" font-size="14" fill="#aaa">Public Repos:</text>
     <text x="140" y="90" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#fff">{user_data['public_repos']}</text>
     
-    <text x="20" y="115" font-family="Segoe UI, sans-serif" font-size="14" fill="#aaa">🍴 Total Forks:</text>
+    <text x="20" y="115" font-family="Segoe UI, sans-serif" font-size="14" fill="#aaa">Total Forks:</text>
     <text x="140" y="115" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#fff">{total_forks}</text>
     
-    <text x="20" y="140" font-family="Segoe UI, sans-serif" font-size="14" fill="#aaa">👥 Followers:</text>
+    <text x="20" y="140" font-family="Segoe UI, sans-serif" font-size="14" fill="#aaa">Followers:</text>
     <text x="140" y="140" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#fff">{user_data['followers']}</text>
     
     <text x="250" y="35" font-family="Segoe UI, sans-serif" font-size="16" font-weight="bold" fill="#ff6b6b">
-        🔥 Top Languages
+        Top Languages
     </text>
     
     {lang_bars}
@@ -115,7 +115,7 @@ def fetch_github_stats():
     with open('stats.svg', 'w') as f:
         f.write(svg)
     
-    print("✅ Stats SVG generated successfully!")
+    print("Stats SVG generated successfully!")
 
 if __name__ == "__main__":
     fetch_github_stats()
