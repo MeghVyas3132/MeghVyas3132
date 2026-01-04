@@ -2,7 +2,7 @@ name: Update Profile Dashboards
 
 on:
   schedule:
-    - cron: "0 */2 * * *"  # Every 2 hours to avoid API rate limits
+    - cron: "*/15 * * * *"  # Every 15 minutes
   workflow_dispatch:
   push:
     branches:
