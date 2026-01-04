@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">📟 LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-01-04 19:10:09] INFO   | Container started: auth-service-8d8f5</text>
-  <text x="30" y="90" class="log-text log-info">[2026-01-04 19:10:11] INFO   | Request processed: 200 OK (35ms)</text>
-  <text x="30" y="110" class="log-text log-info">[2026-01-04 19:10:13] INFO   | Health check passed: auth-service</text>
-  <text x="30" y="130" class="log-text log-info">[2026-01-04 19:10:15] INFO   | Database query optimized (95ms→22ms)</text>
-  <text x="30" y="150" class="log-text log-debug">[2026-01-04 19:10:17] DEBUG  | Rate limit check: 8848 req/s</text>
-  <text x="30" y="170" class="log-text log-info">[2026-01-04 19:10:19] INFO   | Backup completed: 895 MB</text>
-  <text x="30" y="190" class="log-text log-info">[2026-01-04 19:10:21] INFO   | Database query optimized (92ms→15ms)</text>
-  <text x="30" y="210" class="log-text log-info">[2026-01-04 19:10:23] INFO   | Request processed: 200 OK (32ms)</text>
-  <text x="30" y="230" class="log-text log-debug">[2026-01-04 19:10:25] DEBUG  | Rate limit check: 7570 req/s</text>
-  <text x="30" y="250" class="log-text log-debug">[2026-01-04 19:10:27] DEBUG  | Rate limit check: 5009 req/s</text>
-  <text x="30" y="270" class="log-text log-info">[2026-01-04 19:10:29] INFO   | Container started: payment-service-4b6e2</text>
-  <text x="30" y="290" class="log-text log-info">[2026-01-04 19:10:31] INFO   | Container started: payment-service-5b6a3</text>
-  <text x="30" y="310" class="log-text log-info">[2026-01-04 19:10:33] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="330" class="log-text log-debug">[2026-01-04 19:10:35] DEBUG  | Cache hit: user:3c6c6</text>
-  <text x="30" y="350" class="log-text log-info">[2026-01-04 19:10:37] INFO   | Container started: payment-service-2c4c1</text>
+  <text x="30" y="70" class="log-text log-info">[2026-01-04 19:27:24] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="90" class="log-text log-info">[2026-01-04 19:27:26] INFO   | Metric exported: cpu_usage=87%</text>
+  <text x="30" y="110" class="log-text log-debug">[2026-01-04 19:27:28] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="130" class="log-text log-info">[2026-01-04 19:27:30] INFO   | Health check passed: api-gateway</text>
+  <text x="30" y="150" class="log-text log-debug">[2026-01-04 19:27:32] DEBUG  | Rate limit check: 8380 req/s</text>
+  <text x="30" y="170" class="log-text log-info">[2026-01-04 19:27:34] INFO   | Request processed: 200 OK (20ms)</text>
+  <text x="30" y="190" class="log-text log-info">[2026-01-04 19:27:36] INFO   | Health check passed: notification-svc</text>
+  <text x="30" y="210" class="log-text log-info">[2026-01-04 19:27:38] INFO   | Pod payment-service-3b3c8 started</text>
+  <text x="30" y="230" class="log-text log-info">[2026-01-04 19:27:40] INFO   | Health check passed: notification-svc</text>
+  <text x="30" y="250" class="log-text log-debug">[2026-01-04 19:27:42] DEBUG  | Rate limit check: 7423 req/s</text>
+  <text x="30" y="270" class="log-text log-info">[2026-01-04 19:27:44] INFO   | Backup completed: 703 MB</text>
+  <text x="30" y="290" class="log-text log-debug">[2026-01-04 19:27:46] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="310" class="log-text log-debug">[2026-01-04 19:27:48] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="330" class="log-text log-info">[2026-01-04 19:27:50] INFO   | Auto-scaling triggered: +1 pods</text>
+  <text x="30" y="350" class="log-text log-info">[2026-01-04 19:27:52] INFO   | Metric exported: cpu_usage=89%</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
