@@ -39,9 +39,13 @@ jobs:
       - name: Generate Terminal Logs
         run: python generate_terminal_logs.py
         
+      - name: Update timestamp
+        run: date > last_updated.txt
+        
       - name: Commit and Push Changes
         run: |
           git config --local user.email "megh.vyas@yahoo.com"
           git config --local user.name "Megh Vyas"
-          git add *.svg
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update dashboards [$(date +'%Y-%m-%d %H:%M:%S')]" && git push)
+          git add *.svg last_updated.txt
+          git commit -m "Update dashboards"
+          git push
