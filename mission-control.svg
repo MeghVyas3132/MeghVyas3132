@@ -39,12 +39,12 @@
   
   <!-- Header -->
   <rect x="15" y="15" width="1170" height="50" class="panel" rx="5"/>
-  <text x="30" y="40" class="title">⚡ MISSION CONTROL - INFRASTRUCTURE COMMAND CENTER</text>
-  <text x="30" y="58" class="subtitle">System Status: OPERATIONAL | Uptime: 99.97% | Last Update: 2026-01-04 22:22:02 UTC</text>
+  <text x="30" y="40" class="title">MISSION CONTROL - INFRASTRUCTURE COMMAND CENTER</text>
+  <text x="30" y="58" class="subtitle">System Status: OPERATIONAL | Uptime: 99.98% | Last Update: 2026-01-04 22:23:58 UTC</text>
   
   <!-- Left Panel: Deployment Status -->
   <rect x="15" y="75" width="380" height="250" class="panel" rx="5"/>
-  <text x="30" y="100" class="title">🎯 DEPLOYMENT STATUS</text>
+  <text x="30" y="100" class="title">DEPLOYMENT STATUS</text>
   
   <text x="30" y="130" class="label">prod-cluster-01</text>
   <circle cx="320" cy="126" r="6" fill="#00ff9f" class="pulse"/>
@@ -99,11 +99,11 @@
   <line x1="600" y1="210" x2="622" y2="235" stroke="#00b8ff" stroke-width="2"/>
   <line x1="690" y1="210" x2="712" y2="235" stroke="#00b8ff" stroke-width="2"/>
   
-  <text x="420" y="300" class="label">Traffic: 8322 req/s | Latency: 20ms</text>
+  <text x="420" y="300" class="label">Traffic: 8421 req/s | Latency: 33ms</text>
   
   <!-- Right Panel: Live Metrics -->
   <rect x="795" y="75" width="390" height="250" class="panel" rx="5"/>
-  <text x="810" y="100" class="title">📊 LIVE METRICS</text>
+  <text x="810" y="100" class="title">LIVE METRICS</text>
   
   <!-- CPU -->
   <text x="810" y="130" class="label">CPU Usage:</text>
@@ -114,29 +114,29 @@
   <!-- Memory -->
   <text x="810" y="160" class="label">Memory:</text>
   <rect x="920" y="148" width="240" height="16" fill="#1a1b3a" stroke="#00b8ff" stroke-width="1" rx="8"/>
-  <rect x="920" y="148" width="180" height="16" fill="url(#accentGrad)" rx="8"/>
-  <text x="1050" y="160" class="value">75%</text>
+  <rect x="920" y="148" width="158" height="16" fill="url(#accentGrad)" rx="8"/>
+  <text x="1050" y="160" class="value">66%</text>
   
   <!-- Network -->
   <text x="810" y="190" class="label">Network I/O:</text>
   <rect x="920" y="178" width="240" height="16" fill="#1a1b3a" stroke="#00b8ff" stroke-width="1" rx="8"/>
-  <rect x="920" y="178" width="81" height="16" fill="url(#accentGrad)" rx="8"/>
-  <text x="1050" y="190" class="value">34%</text>
+  <rect x="920" y="178" width="129" height="16" fill="url(#accentGrad)" rx="8"/>
+  <text x="1050" y="190" class="value">54%</text>
   
   <!-- Disk -->
   <text x="810" y="220" class="label">Disk IOPS:</text>
   <rect x="920" y="208" width="240" height="16" fill="#1a1b3a" stroke="#00b8ff" stroke-width="1" rx="8"/>
-  <rect x="920" y="208" width="153" height="16" fill="url(#accentGrad)" rx="8"/>
-  <text x="1050" y="220" class="value">64%</text>
+  <rect x="920" y="208" width="170" height="16" fill="url(#accentGrad)" rx="8"/>
+  <text x="1050" y="220" class="value">71%</text>
   
-  <text x="810" y="250" class="label">Requests/sec: 8322</text>
-  <text x="810" y="270" class="label">Avg Latency: 20ms</text>
-  <text x="810" y="290" class="label">Active Users: 11,647</text>
-  <text x="810" y="310" class="label">Cache Hit Rate: 97.1%</text>
+  <text x="810" y="250" class="label">Requests/sec: 8421</text>
+  <text x="810" y="270" class="label">Avg Latency: 33ms</text>
+  <text x="810" y="290" class="label">Active Users: 11,227</text>
+  <text x="810" y="310" class="label">Cache Hit Rate: 97.0%</text>
   
   <!-- Bottom Panel: Microservices Status -->
   <rect x="15" y="335" width="1170" height="250" class="panel" rx="5"/>
-  <text x="30" y="360" class="title">🎯 ACTIVE MICROSERVICES</text>
+  <text x="30" y="360" class="title">ACTIVE MICROSERVICES</text>
   
   <!-- Service 1 -->
   <circle cx="45" cy="390" r="6" fill="#00ff9f"/>
@@ -164,14 +164,14 @@
   <text x="250" y="515" class="label">Degraded | Instances: 2 | Latency: 156ms</text>
   
   <!-- Right side stats -->
-  <text x="650" y="395" class="title">📈 COST OPTIMIZATION</text>
+  <text x="650" y="395" class="title">COST OPTIMIZATION</text>
   <text x="650" y="420" class="label">Current Spend: $847/mo</text>
   <text x="650" y="440" class="label">Optimized: -23% | Savings: $267/mo</text>
   
-  <text x="650" y="480" class="title">🔒 SECURITY POSTURE</text>
+  <text x="650" y="480" class="title">SECURITY POSTURE</text>
   <text x="650" y="505" class="label">Vulnerabilities: 0 Critical, 2 High, 12 Medium</text>
-  <text x="650" y="525" class="label">Last Scan: 2h ago | Compliance: SOC2 ✅ PCI-DSS ✅</text>
+  <text x="650" y="525" class="label">Last Scan: 2h ago | Compliance: SOC2 PASS PCI-DSS PASS</text>
   
   <!-- Alert Status -->
-  <text x="650" y="560" class="label">🔴 ALERTS: 0 | 🟡 WARNINGS: 3 | 🟢 HEALTHY: 98</text>
+  <text x="650" y="560" class="label">ALERTS: 0 | WARNINGS: 3 | HEALTHY: 98</text>
 </svg>
