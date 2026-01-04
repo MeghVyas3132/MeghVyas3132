@@ -2,7 +2,7 @@ name: Update Profile Dashboards
 
 on:
   schedule:
-    - cron: "*/5 * * * *"  # Every 5 minutes for maximum freshness
+    - cron: "0 */2 * * *"  # Every 2 hours to avoid API rate limits
   workflow_dispatch:
   push:
     branches:
@@ -41,7 +41,7 @@ jobs:
         
       - name: Commit and Push Changes
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config --local user.email "megh.vyas@yahoo.com"
+          git config --local user.name "Megh Vyas"
           git add *.svg
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🔄 Update dashboards [$(date +'%Y-%m-%d %H:%M:%S')]" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update dashboards [$(date +'%Y-%m-%d %H:%M:%S')]" && git push)

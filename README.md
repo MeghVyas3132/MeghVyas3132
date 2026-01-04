@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Welcome%20to%20My%20Digital%20Realm&fontSize=42&fontAlignY=35&animation=twinkling&fontColor=fff"/>
+  <img width="100%" src="./header.svg" alt="NYC Skyline Header"/>
 </div>
 
 <div align="center">
@@ -226,7 +226,7 @@ hobbies: ["Coding", "Cloud Labs", "Tech Blogs", "Automation"]
 <br/>
 
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Let's%20Build%20Something%20Amazing!&fontSize=32&fontAlignY=70&animation=twinkling&fontColor=fff"/>
+  <img width="100%" src="./footer.svg" alt="NYC Skyline Footer"/>
 </div>
 
 ---
@@ -239,7 +239,7 @@ hobbies: ["Coding", "Cloud Labs", "Tech Blogs", "Automation"]
 ┌─────────────────────────────────────────────────────────────┐
 │  🔴 LIVE PRODUCTION ENVIRONMENT                             │
 │  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  │
-│  📊 Real-time metrics updated every 5 minutes               │
+│  📊 Real-time metrics updated every 2 hours                 │
 │  🚀 CI/CD pipelines actively monitored                      │
 │  📟 System logs streaming live                              │
 │  ☁️  Multi-cloud infrastructure (AWS | Azure | GCP)         │
