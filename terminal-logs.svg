@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">📟 LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-01-06 07:37:24] INFO   | Request processed: 200 OK (36ms)</text>
-  <text x="30" y="90" class="log-text log-info">[2026-01-06 07:37:26] INFO   | Metric exported: cpu_usage=84%</text>
-  <text x="30" y="110" class="log-text log-debug">[2026-01-06 07:37:28] DEBUG  | Cache hit: user:4c8d3</text>
-  <text x="30" y="130" class="log-text log-info">[2026-01-06 07:37:30] INFO   | Auto-scaling triggered: +2 pods</text>
-  <text x="30" y="150" class="log-text log-debug">[2026-01-06 07:37:32] DEBUG  | Rate limit check: 5247 req/s</text>
-  <text x="30" y="170" class="log-text log-info">[2026-01-06 07:37:34] INFO   | Request processed: 200 OK (29ms)</text>
-  <text x="30" y="190" class="log-text log-info">[2026-01-06 07:37:36] INFO   | Pod api-gateway-8e7a8 started</text>
-  <text x="30" y="210" class="log-text log-info">[2026-01-06 07:37:38] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="230" class="log-text log-info">[2026-01-06 07:37:40] INFO   | Backup completed: 691 MB</text>
-  <text x="30" y="250" class="log-text log-info">[2026-01-06 07:37:42] INFO   | Backup completed: 510 MB</text>
-  <text x="30" y="270" class="log-text log-warn">[2026-01-06 07:37:44] WARN   | High latency detected: api-gateway</text>
-  <text x="30" y="290" class="log-text log-info">[2026-01-06 07:37:46] INFO   | Request processed: 200 OK (33ms)</text>
-  <text x="30" y="310" class="log-text log-info">[2026-01-06 07:37:48] INFO   | Metric exported: cpu_usage=94%</text>
-  <text x="30" y="330" class="log-text log-debug">[2026-01-06 07:37:50] DEBUG  | Rate limit check: 9902 req/s</text>
-  <text x="30" y="350" class="log-text log-debug">[2026-01-06 07:37:52] DEBUG  | Cache hit: user:1c1a4</text>
+  <text x="30" y="70" class="log-text log-info">[2026-01-06 07:53:27] INFO   | Health check passed: notification-svc</text>
+  <text x="30" y="90" class="log-text log-debug">[2026-01-06 07:53:29] DEBUG  | Cache hit: user:7a6e5</text>
+  <text x="30" y="110" class="log-text log-info">[2026-01-06 07:53:31] INFO   | Container started: notification-svc-9c6e4</text>
+  <text x="30" y="130" class="log-text log-info">[2026-01-06 07:53:33] INFO   | Deploy rollout: 27/47 pods updated</text>
+  <text x="30" y="150" class="log-text log-info">[2026-01-06 07:53:35] INFO   | Metric exported: cpu_usage=93%</text>
+  <text x="30" y="170" class="log-text log-debug">[2026-01-06 07:53:37] DEBUG  | Cache hit: user:1e2d6</text>
+  <text x="30" y="190" class="log-text log-info">[2026-01-06 07:53:39] INFO   | Metric exported: cpu_usage=84%</text>
+  <text x="30" y="210" class="log-text log-info">[2026-01-06 07:53:41] INFO   | Backup completed: 746 MB</text>
+  <text x="30" y="230" class="log-text log-info">[2026-01-06 07:53:43] INFO   | Metric exported: cpu_usage=77%</text>
+  <text x="30" y="250" class="log-text log-info">[2026-01-06 07:53:45] INFO   | Database query optimized (47ms→17ms)</text>
+  <text x="30" y="270" class="log-text log-info">[2026-01-06 07:53:47] INFO   | Metric exported: cpu_usage=78%</text>
+  <text x="30" y="290" class="log-text log-info">[2026-01-06 07:53:49] INFO   | Pod api-gateway-5f2f4 started</text>
+  <text x="30" y="310" class="log-text log-debug">[2026-01-06 07:53:51] DEBUG  | Cache hit: user:1c3f3</text>
+  <text x="30" y="330" class="log-text log-debug">[2026-01-06 07:53:53] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="350" class="log-text log-info">[2026-01-06 07:53:55] INFO   | Request processed: 200 OK (41ms)</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
