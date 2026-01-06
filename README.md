@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Hey+there!+I'm+Megh+Vyas+%F0%9F%91%8B;DevOps+Engineer+%7C+Junior+SRE+%F0%9F%9A%80;Full+Stack+Developer+%7C+Backend+Focused+%F0%9F%92%BB;System+Architect+%7C+Solution+Architect+%E2%98%81%EF%B8%8F;Cloud+Architect+%7C+Infrastructure+Expert+%F0%9F%8C%90" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=FFFFFF&center=true&vCenter=true&width=940&lines=Hey+there!+I'm+Megh+Vyas+%F0%9F%91%8B;DevOps+Engineer+%7C+Junior+SRE+%F0%9F%9A%80;Full+Stack+Developer+%7C+Backend+Focused+%F0%9F%92%BB;System+Architect+%7C+Solution+Architect+%E2%98%81%EF%B8%8F;Cloud+Architect+%7C+Infrastructure+Expert+%F0%9F%8C%90" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -175,9 +175,7 @@ hobbies: ["Coding", "Cloud Labs", "Tech Blogs", "Automation"]
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  
-![](https://github-profile-trophy.vercel.app/?username=MeghVyas3132&theme=radical&no-frame=false&no-bg=false&margin-w=4&row=1)
-
+  <img width="100%" src="./trophies.svg" alt="GitHub Trophies"/>
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
@@ -186,40 +184,22 @@ hobbies: ["Coding", "Cloud Labs", "Tech Blogs", "Automation"]
 
 <div align="center">
   <img width="49%" src="./stats.svg" alt="GitHub Stats"/>
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=MeghVyas3132&theme=radical&hide_border=true" alt="GitHub Streak"/>
+  <img width="49%" src="./streak.svg" alt="GitHub Streak"/>
 </div>
 
 <div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=MeghVyas3132&theme=radical&hide_border=true&custom_title=Contribution%20Graph" alt="Contribution Graph"/>
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## 🐍 Contribution Snake:
-
-<div align="center">
-  
-![snake gif](https://raw.githubusercontent.com/MeghVyas3132/MeghVyas3132/output/github-snake-dark.svg)
-
+  <img width="100%" src="./contribution-graph.svg" alt="Contribution Graph"/>
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## 🔥 Top Contributed Repositories:
+## � Profile Stats:
 
 <div align="center">
   
-![](https://github-contributor-stats.vercel.app/api?username=MeghVyas3132&limit=5&theme=radical&combine_all_yearly_contributions=true&hide_border=true)
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<div align="center">
-  
-![](https://komarev.com/ghpvc/?username=MeghVyas3132&label=Profile%20Views&color=brightgreen&style=for-the-badge)
-![](https://img.shields.io/github/followers/MeghVyas3132?label=Followers&style=for-the-badge&color=blue)
-![](https://img.shields.io/github/stars/MeghVyas3132?label=Stars&style=for-the-badge&color=yellow)
+![](https://komarev.com/ghpvc/?username=MeghVyas3132&label=Profile%20Views&color=808080&style=for-the-badge)
+![](https://img.shields.io/github/followers/MeghVyas3132?label=Followers&style=for-the-badge&color=808080)
+![](https://img.shields.io/github/stars/MeghVyas3132?label=Stars&style=for-the-badge&color=808080)
 
 </div>
 

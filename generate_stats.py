@@ -41,18 +41,18 @@ def fetch_github_stats():
     sorted_languages = sorted(languages.items(), key=lambda x: x[1], reverse=True)[:5] if languages else []
     total_lang_repos = sum(count for _, count in sorted_languages) if sorted_languages else 1
     
-    # Language colors
+    # Language colors (monochrome)
     colors = {
-        'JavaScript': '#f7df1e',
-        'Python': '#3776ab',
-        'TypeScript': '#3178c6',
-        'Go': '#00add8',
-        'Java': '#b07219',
-        'HTML': '#e34c26',
-        'CSS': '#563d7c',
-        'Shell': '#89e051',
-        'C': '#555555',
-        'C++': '#f34b7d'
+        'JavaScript': '#e0e0e0',
+        'Python': '#b0b0b0',
+        'TypeScript': '#c8c8c8',
+        'Go': '#909090',
+        'Java': '#d0d0d0',
+        'HTML': '#a0a0a0',
+        'CSS': '#c0c0c0',
+        'Shell': '#b8b8b8',
+        'C': '#888888',
+        'C++': '#989898'
     }
     
     # Generate language bars
@@ -76,35 +76,35 @@ def fetch_github_stats():
     svg = f'''<svg width="495" height="195" xmlns="http://www.w3.org/2000/svg">
     <defs>
         <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" style="stop-color:#1a1b27;stop-opacity:1" />
-            <stop offset="100%" style="stop-color:#2d1b69;stop-opacity:1" />
+            <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
         </linearGradient>
         <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
-            <stop offset="100%" style="stop-color:#f06595;stop-opacity:1" />
+            <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#808080;stop-opacity:1" />
         </linearGradient>
     </defs>
     
     <rect width="495" height="195" fill="url(#grad1)" rx="10"/>
     <rect width="495" height="3" fill="url(#grad2)" rx="10"/>
     
-    <text x="20" y="35" font-family="Segoe UI, sans-serif" font-size="20" font-weight="bold" fill="#ff6b6b">
+    <text x="20" y="35" font-family="Segoe UI, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">
         GitHub Stats
     </text>
     
-    <text x="20" y="65" font-family="Segoe UI, sans-serif" font-size="14" fill="#aaa">Total Stars:</text>
+    <text x="20" y="65" font-family="Segoe UI, sans-serif" font-size="14" fill="#808080">Total Stars:</text>
     <text x="140" y="65" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#fff">{total_stars}</text>
     
-    <text x="20" y="90" font-family="Segoe UI, sans-serif" font-size="14" fill="#aaa">Public Repos:</text>
+    <text x="20" y="90" font-family="Segoe UI, sans-serif" font-size="14" fill="#808080">Public Repos:</text>
     <text x="140" y="90" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#fff">{user_data['public_repos']}</text>
     
-    <text x="20" y="115" font-family="Segoe UI, sans-serif" font-size="14" fill="#aaa">Total Forks:</text>
+    <text x="20" y="115" font-family="Segoe UI, sans-serif" font-size="14" fill="#808080">Total Forks:</text>
     <text x="140" y="115" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#fff">{total_forks}</text>
     
-    <text x="20" y="140" font-family="Segoe UI, sans-serif" font-size="14" fill="#aaa">Followers:</text>
+    <text x="20" y="140" font-family="Segoe UI, sans-serif" font-size="14" fill="#808080">Followers:</text>
     <text x="140" y="140" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#fff">{user_data['followers']}</text>
     
-    <text x="250" y="35" font-family="Segoe UI, sans-serif" font-size="16" font-weight="bold" fill="#ff6b6b">
+    <text x="250" y="35" font-family="Segoe UI, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">
         Top Languages
     </text>
     

@@ -50,14 +50,14 @@ def generate_terminal_logs():
     svg = f'''<svg width="1200" height="400" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .terminal-bg {{ fill: #0d1117; }}
-      .terminal-border {{ fill: none; stroke: #30363d; stroke-width: 2; }}
-      .terminal-title {{ font: bold 16px 'Courier New', monospace; fill: #58a6ff; }}
+      .terminal-bg {{ fill: #0a0a0a; }}
+      .terminal-border {{ fill: none; stroke: #404040; stroke-width: 2; }}
+      .terminal-title {{ font: bold 16px 'Courier New', monospace; fill: #ffffff; }}
       .log-text {{ font: 12px 'Courier New', monospace; }}
-      .log-info {{ fill: #3fb950; }}
-      .log-warn {{ fill: #d29922; }}
-      .log-debug {{ fill: #8b949e; }}
-      .cursor {{ fill: #58a6ff; }}
+      .log-info {{ fill: #fdba74; }}
+      .log-warn {{ fill: #fcd34d; }}
+      .log-debug {{ fill: #a8a29e; }}
+      .cursor {{ fill: #fdba74; }}
       @keyframes blink {{
         0%, 50% {{ opacity: 1; }}
         51%, 100% {{ opacity: 0; }}
@@ -70,8 +70,8 @@ def generate_terminal_logs():
   <rect x="5" y="5" width="1190" height="390" class="terminal-border" rx="8"/>
   
   <!-- Terminal Header -->
-  <rect x="15" y="15" width="1170" height="35" fill="#161b22" rx="5"/>
-  <text x="30" y="38" class="terminal-title">📟 LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
+  <rect x="15" y="15" width="1170" height="35" fill="#1a1a1a" rx="5"/>
+  <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
   {generate_log_lines(logs)}

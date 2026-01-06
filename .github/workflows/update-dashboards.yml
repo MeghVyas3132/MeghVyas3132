@@ -30,6 +30,19 @@ jobs:
       - name: Generate Stats SVG
         run: python generate_stats.py
         
+      - name: Generate Streak SVG
+        run: python generate_streak.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+      - name: Generate Contribution Graph
+        run: python generate_contribution_graph.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+      - name: Generate Trophies SVG
+        run: python generate_trophies.py
+        
       - name: Generate Mission Control Dashboard
         run: python generate_mission_control.py
         

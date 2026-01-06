@@ -26,21 +26,36 @@ def generate_cicd_pipeline():
     svg = f'''<svg width="1200" height="280" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0f1419;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#1a1f2e;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
     </linearGradient>
+    <filter id="greenGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#4ade80" flood-opacity="0.4"/>
+      <feComposite in2="blur" operator="in"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="yellowGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#facc15" flood-opacity="0.4"/>
+      <feComposite in2="blur" operator="in"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
     <style>
-      .title {{ font: bold 22px 'Courier New', monospace; fill: #58a6ff; }}
-      .label {{ font: 14px 'Courier New', monospace; fill: #8b949e; }}
-      .value {{ font: bold 16px 'Courier New', monospace; fill: #c9d1d9; }}
-      .stage {{ font: bold 15px 'Courier New', monospace; fill: #c9d1d9; }}
+      .title {{ font: bold 22px 'Courier New', monospace; fill: #ffffff; }}
+      .label {{ font: 14px 'Courier New', monospace; fill: #808080; }}
+      .value {{ font: bold 16px 'Courier New', monospace; fill: #e0e0e0; }}
+      .stage {{ font: bold 15px 'Courier New', monospace; fill: #e0e0e0; }}
       .status {{ font: bold 12px 'Courier New', monospace; }}
-      .status-done {{ fill: #3fb950; }}
-      .status-running {{ fill: #f0883e; }}
-      .status-pending {{ fill: #8b949e; }}
-      .border2 {{ fill: none; stroke: #58a6ff; stroke-width: 2; }}
-      .panel2 {{ fill: rgba(13, 17, 23, 0.9); stroke: #30363d; stroke-width: 1; }}
-      .stagebox {{ fill: #161b22; stroke: #30363d; stroke-width: 2; }}
+      .status-done {{ fill: #6ee7a0; }}
+      .status-running {{ fill: #fde68a; }}
+      .status-pending {{ fill: #606060; }}
+      .border2 {{ fill: none; stroke: #ffffff; stroke-width: 2; }}
+      .panel2 {{ fill: rgba(20, 20, 20, 0.9); stroke: #404040; stroke-width: 1; }}
+      .stagebox {{ fill: #1a1a1a; stroke: #404040; stroke-width: 2; }}
+      .stagebox-done {{ fill: #1a1a1a; stroke: #4ade80; stroke-width: 2; stroke-opacity: 0.5; }}
+      .stagebox-running {{ fill: #1a1a1a; stroke: #facc15; stroke-width: 2; stroke-opacity: 0.5; }}
+      .stagebox-pending {{ fill: #1a1a1a; stroke: #404040; stroke-width: 2; }}
     </style>
   </defs>
   
@@ -58,8 +73,8 @@ def generate_cicd_pipeline():
   
   <!-- Progress Bar -->
   <text x="20" y="185" class="label">Progress:</text>
-  <rect x="120" y="172" width="1050" height="20" fill="#161b22" stroke="#30363d" stroke-width="2" rx="10"/>
-  <rect x="120" y="172" width="{int(1050 * progress / 100)}" height="20" fill="#3fb950" rx="10"/>
+  <rect x="120" y="172" width="1050" height="20" fill="#1a1a1a" stroke="#404040" stroke-width="2" rx="10"/>
+  <rect x="120" y="172" width="{int(1050 * progress / 100)}" height="20" fill="#ffffff" rx="10"/>
   <text x="1100" y="187" class="value">{progress}%</text>
   
   <text x="120" y="210" class="label">ETA: {random.randint(1, 5)}m {random.randint(10, 59)}s remaining</text>
@@ -88,9 +103,18 @@ def generate_stages(stages):
     for i, (name, status, completed) in enumerate(stages):
         x = x_start + i * (stage_width + gap)
         
-        # Stage box
-        color = "#3fb950" if completed else "#30363d"
-        stage_svgs.append(f'<rect x="{x}" y="{y}" width="{stage_width}" height="{stage_height}" class="stagebox" stroke="{color}"/>')
+        # Stage box with colored glow based on status
+        if status == "DONE":
+            box_class = "stagebox-done"
+            glow_filter = 'filter="url(#greenGlow)"'
+        elif status == "RUNNING":
+            box_class = "stagebox-running"
+            glow_filter = 'filter="url(#yellowGlow)"'
+        else:
+            box_class = "stagebox-pending"
+            glow_filter = ''
+        
+        stage_svgs.append(f'<rect x="{x}" y="{y}" width="{stage_width}" height="{stage_height}" class="{box_class}" {glow_filter}/>')
         
         # Stage name
         stage_svgs.append(f'<text x="{x + stage_width//2}" y="{y + 22}" class="stage" text-anchor="middle">{name}</text>')
@@ -107,8 +131,8 @@ def generate_stages(stages):
         # Arrow to next stage
         if i < len(stages) - 1:
             arrow_x = x + stage_width + 5
-            stage_svgs.append(f'<line x1="{arrow_x}" y1="{y + stage_height//2}" x2="{arrow_x + gap - 10}" y2="{y + stage_height//2}" stroke="#58a6ff" stroke-width="3"/>')
-            stage_svgs.append(f'<polygon points="{arrow_x + gap - 10},{y + stage_height//2} {arrow_x + gap - 18},{y + stage_height//2 - 5} {arrow_x + gap - 18},{y + stage_height//2 + 5}" fill="#58a6ff"/>')
+            stage_svgs.append(f'<line x1="{arrow_x}" y1="{y + stage_height//2}" x2="{arrow_x + gap - 10}" y2="{y + stage_height//2}" stroke="#ffffff" stroke-width="3"/>')
+            stage_svgs.append(f'<polygon points="{arrow_x + gap - 10},{y + stage_height//2} {arrow_x + gap - 18},{y + stage_height//2 - 5} {arrow_x + gap - 18},{y + stage_height//2 + 5}" fill="#ffffff"/>')
     
     return '\n    '.join(stage_svgs)
 
