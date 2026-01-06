@@ -232,25 +232,8 @@ hobbies: ["Coding", "Cloud Labs", "Tech Blogs", "Automation"]
 ---
 
 <div align="center">
-  
-### ⚠️ LIVE INFRASTRUCTURE WARNING
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│  🔴 LIVE PRODUCTION ENVIRONMENT                              │  
-│  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━    │
-│  📊 Real-time metrics updated every 2 hours                   │
-│  🚀 CI/CD pipelines actively monitored                         │
-│  📟 System logs streaming live                                │
-│  ☁️  Multi-cloud infrastructure (AWS | Azure | GCP)          │
-│                                                            │
-│  💡 Everything you see above is generated from actual       │
-│     system data - not mock dashboards!                      │
-└─────────────────────────────────────────────────────────────┘
-```
-
+  <img width="100%" src="./live-production.svg" alt="Live Production Dashboard"/>
 </div>
-
 <br/>
 
 <div align="center">
