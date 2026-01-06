@@ -237,13 +237,13 @@ hobbies: ["Coding", "Cloud Labs", "Tech Blogs", "Automation"]
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│  🔴 LIVE PRODUCTION ENVIRONMENT                             │
-│  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  │
-│  📊 Real-time metrics updated every 2 hours                 │
-│  🚀 CI/CD pipelines actively monitored                      │
-│  📟 System logs streaming live                              │
-│  ☁️  Multi-cloud infrastructure (AWS | Azure | GCP)         │
-│                                                              │
+│  🔴 LIVE PRODUCTION ENVIRONMENT                              │  
+│  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━    │
+│  📊 Real-time metrics updated every 2 hours                   │
+│  🚀 CI/CD pipelines actively monitored                         │
+│  📟 System logs streaming live                                │
+│  ☁️  Multi-cloud infrastructure (AWS | Azure | GCP)          │
+│                                                            │
 │  💡 Everything you see above is generated from actual       │
 │     system data - not mock dashboards!                      │
 └─────────────────────────────────────────────────────────────┘
