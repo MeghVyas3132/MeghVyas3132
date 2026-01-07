@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-01-07 01:43:47] INFO   | Pod api-gateway-1c8d1 started</text>
-  <text x="30" y="90" class="log-text log-info">[2026-01-07 01:43:49] INFO   | Database query optimized (54ms→18ms)</text>
-  <text x="30" y="110" class="log-text log-debug">[2026-01-07 01:43:51] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="130" class="log-text log-info">[2026-01-07 01:43:53] INFO   | Health check passed: payment-service</text>
-  <text x="30" y="150" class="log-text log-info">[2026-01-07 01:43:55] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="170" class="log-text log-info">[2026-01-07 01:43:57] INFO   | Auto-scaling triggered: +2 pods</text>
-  <text x="30" y="190" class="log-text log-info">[2026-01-07 01:43:59] INFO   | Deploy rollout: 28/47 pods updated</text>
-  <text x="30" y="210" class="log-text log-info">[2026-01-07 01:44:01] INFO   | Request processed: 200 OK (43ms)</text>
-  <text x="30" y="230" class="log-text log-debug">[2026-01-07 01:44:03] DEBUG  | Cache hit: user:8c3e8</text>
-  <text x="30" y="250" class="log-text log-warn">[2026-01-07 01:44:05] WARN   | High latency detected: payment-service</text>
-  <text x="30" y="270" class="log-text log-info">[2026-01-07 01:44:07] INFO   | Health check passed: auth-service</text>
-  <text x="30" y="290" class="log-text log-info">[2026-01-07 01:44:09] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="310" class="log-text log-info">[2026-01-07 01:44:11] INFO   | Pod api-gateway-8d4a5 started</text>
-  <text x="30" y="330" class="log-text log-debug">[2026-01-07 01:44:13] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="350" class="log-text log-warn">[2026-01-07 01:44:15] WARN   | High latency detected: payment-service</text>
+  <text x="30" y="70" class="log-text log-debug">[2026-01-07 03:19:26] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="90" class="log-text log-info">[2026-01-07 03:19:28] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="110" class="log-text log-info">[2026-01-07 03:19:30] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="130" class="log-text log-debug">[2026-01-07 03:19:32] DEBUG  | Rate limit check: 7883 req/s</text>
+  <text x="30" y="150" class="log-text log-warn">[2026-01-07 03:19:34] WARN   | High latency detected: user-service</text>
+  <text x="30" y="170" class="log-text log-debug">[2026-01-07 03:19:36] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="190" class="log-text log-info">[2026-01-07 03:19:38] INFO   | Pod user-service-1d9b8 started</text>
+  <text x="30" y="210" class="log-text log-info">[2026-01-07 03:19:40] INFO   | Database query optimized (46ms→24ms)</text>
+  <text x="30" y="230" class="log-text log-info">[2026-01-07 03:19:42] INFO   | Database query optimized (67ms→10ms)</text>
+  <text x="30" y="250" class="log-text log-info">[2026-01-07 03:19:44] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="270" class="log-text log-debug">[2026-01-07 03:19:46] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="290" class="log-text log-warn">[2026-01-07 03:19:48] WARN   | High latency detected: user-service</text>
+  <text x="30" y="310" class="log-text log-info">[2026-01-07 03:19:50] INFO   | Metric exported: cpu_usage=89%</text>
+  <text x="30" y="330" class="log-text log-warn">[2026-01-07 03:19:52] WARN   | High latency detected: api-gateway</text>
+  <text x="30" y="350" class="log-text log-debug">[2026-01-07 03:19:54] DEBUG  | Rate limit check: 7434 req/s</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
