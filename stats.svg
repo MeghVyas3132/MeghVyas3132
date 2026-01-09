@@ -21,7 +21,7 @@
     <text x="140" y="65" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#fff">35</text>
     
     <text x="20" y="90" font-family="Segoe UI, sans-serif" font-size="14" fill="#808080">Public Repos:</text>
-    <text x="140" y="90" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#fff">30</text>
+    <text x="140" y="90" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#fff">31</text>
     
     <text x="20" y="115" font-family="Segoe UI, sans-serif" font-size="14" fill="#808080">Total Forks:</text>
     <text x="140" y="115" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#fff">1</text>
@@ -39,7 +39,7 @@
             TypeScript
         </text>
         <text x="460" y="65" font-family="Segoe UI, sans-serif" font-size="12" fill="#aaa" text-anchor="end">
-            33.3%
+            36.0%
         </text>
         
         <circle cx="260" cy="85" r="5" fill="#e0e0e0"/>
@@ -47,7 +47,7 @@
             JavaScript
         </text>
         <text x="460" y="90" font-family="Segoe UI, sans-serif" font-size="12" fill="#aaa" text-anchor="end">
-            29.2%
+            28.0%
         </text>
         
         <circle cx="260" cy="110" r="5" fill="#b0b0b0"/>
@@ -55,7 +55,7 @@
             Python
         </text>
         <text x="460" y="115" font-family="Segoe UI, sans-serif" font-size="12" fill="#aaa" text-anchor="end">
-            25.0%
+            24.0%
         </text>
         
         <circle cx="260" cy="135" r="5" fill="#a0a0a0"/>
@@ -63,7 +63,7 @@
             HTML
         </text>
         <text x="460" y="140" font-family="Segoe UI, sans-serif" font-size="12" fill="#aaa" text-anchor="end">
-            8.3%
+            8.0%
         </text>
         
         <circle cx="260" cy="160" r="5" fill="#ff6b6b"/>
@@ -71,7 +71,7 @@
             Dart
         </text>
         <text x="460" y="165" font-family="Segoe UI, sans-serif" font-size="12" fill="#aaa" text-anchor="end">
-            4.2%
+            4.0%
         </text>
         
 </svg>
