@@ -1,0 +1,64 @@
+name: Update Profile Dashboards
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"  # Every 15 minutes
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  update-dashboards:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+          
+      - name: Install Dependencies
+        run: pip install requests
+        
+      - name: Generate Stats SVG
+        run: python generate_stats.py
+        
+      - name: Generate Streak SVG
+        run: python generate_streak.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+      - name: Generate Contribution Graph
+        run: python generate_contribution_graph.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+      - name: Generate Trophies SVG
+        run: python generate_trophies.py
+        
+      - name: Generate Mission Control Dashboard
+        run: python generate_mission_control.py
+        
+      - name: Generate CI/CD Pipeline
+        run: python generate_cicd_pipeline.py
+        
+      - name: Generate Terminal Logs
+        run: python generate_terminal_logs.py
+        
+      - name: Update timestamp
+        run: date > last_updated.txt
+        
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "megh.vyas@yahoo.com"
+          git config --local user.name "Megh Vyas"
+          git add *.svg last_updated.txt
+          git commit -m "Update dashboards"
+          git push

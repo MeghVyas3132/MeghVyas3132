@@ -1,0 +1,57 @@
+<svg width="495" height="195" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#0a0a0a"/>
+            <stop offset="100%" style="stop-color:#1a1a1a"/>
+        </linearGradient>
+        <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#ffffff"/>
+            <stop offset="100%" style="stop-color:#606060"/>
+        </linearGradient>
+    </defs>
+    
+    <style>
+        .title { font-family: 'Segoe UI', sans-serif; font-size: 12px; fill: #808080; }
+        .value { font-family: 'Segoe UI', sans-serif; font-size: 28px; font-weight: bold; fill: #ffffff; }
+        .value-large { font-family: 'Segoe UI', sans-serif; font-size: 42px; font-weight: bold; fill: #ffffff; }
+        .label { font-family: 'Segoe UI', sans-serif; font-size: 10px; fill: #606060; }
+        .ring { fill: none; stroke-width: 5; }
+        .divider { stroke: #2a2a2a; stroke-width: 1; }
+    </style>
+    
+    <!-- Background -->
+    <rect width="495" height="195" fill="url(#bgGrad)" rx="10"/>
+    <rect width="495" height="3" fill="url(#accentGrad)" rx="10"/>
+    
+    <!-- Dividers -->
+    <line x1="165" y1="30" x2="165" y2="165" class="divider"/>
+    <line x1="330" y1="30" x2="330" y2="165" class="divider"/>
+    
+    <!-- Total Contributions (Left) -->
+    <g transform="translate(82.5, 97)">
+        <text class="value" text-anchor="middle" y="0">1253</text>
+        <text class="title" text-anchor="middle" y="25">Total Contributions</text>
+        <text class="label" text-anchor="middle" y="42">Jan 19, 2025 - Present</text>
+    </g>
+    
+    <!-- Current Streak (Center - with Ring) -->
+    <g transform="translate(247.5, 97)">
+        <!-- Outer ring background -->
+        <circle cx="0" cy="-10" r="38" class="ring" stroke="#1a1a1a"/>
+        <!-- Animated ring -->
+        <circle cx="0" cy="-10" r="38" class="ring" stroke="#ffffff" stroke-dasharray="238.76" stroke-dashoffset="71.62800000000001" stroke-linecap="round" transform="rotate(-90 0 -10)">
+            <animate attributeName="stroke-dashoffset" from="238.76" to="71.62800000000001" dur="1.5s" fill="freeze"/>
+        </circle>
+        <!-- Value inside ring -->
+        <text class="value-large" text-anchor="middle" y="5">21</text>
+        <text class="title" text-anchor="middle" y="50">Current Streak</text>
+        <text class="label" text-anchor="middle" y="65">Jan 04 - Jan 24</text>
+    </g>
+    
+    <!-- Longest Streak (Right) -->
+    <g transform="translate(412.5, 97)">
+        <text class="value" text-anchor="middle" y="0">21</text>
+        <text class="title" text-anchor="middle" y="25">Longest Streak</text>
+        <text class="label" text-anchor="middle" y="42">Jan 04 - Jan 24</text>
+    </g>
+</svg>

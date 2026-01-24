@@ -1,0 +1,226 @@
+import requests
+from datetime import datetime
+import random
+
+USERNAME = "MeghVyas3132"
+API_BASE = "https://api.github.com"
+
+def generate_mission_control():
+    # Fetch real data
+    try:
+        user_response = requests.get(f"{API_BASE}/users/{USERNAME}")
+        user_data = user_response.json()
+        
+        repos_response = requests.get(f"{API_BASE}/users/{USERNAME}/repos?per_page=100")
+        repos_data = repos_response.json()
+        
+        total_stars = sum(repo['stargazers_count'] for repo in repos_data)
+        total_forks = sum(repo['forks_count'] for repo in repos_data)
+        
+        # Generate realistic metrics
+        cpu = random.randint(65, 95)
+        mem = random.randint(55, 85)
+        net = random.randint(30, 60)
+        disk = random.randint(60, 90)
+        
+        req_per_sec = random.randint(7000, 9500)
+        latency = random.randint(15, 35)
+        uptime = round(99.90 + random.random() * 0.09, 2)
+        
+        active_users = random.randint(10000, 15000)
+        cache_hit = round(90 + random.random() * 8, 1)
+        
+    except:
+        # Fallback values
+        cpu, mem, net, disk = 82, 67, 45, 73
+        req_per_sec, latency, uptime = 8473, 23, 99.97
+        active_users, cache_hit = 12847, 94.3
+        total_stars, total_forks = 0, 0
+    
+    current_time = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
+    
+    svg = f'''<svg width="1200" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7dd3fc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#38bdf8;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .title {{ font: bold 22px 'Courier New', monospace; fill: #ffffff; }}
+      .subtitle {{ font: 14px 'Courier New', monospace; fill: #a0a0a0; }}
+      .label {{ font: 12px 'Courier New', monospace; fill: #808080; }}
+      .value {{ font: bold 14px 'Courier New', monospace; fill: #e0e0e0; }}
+      .status {{ font: bold 12px 'Courier New', monospace; }}
+      .border {{ fill: none; stroke: #ffffff; stroke-width: 2; }}
+      .panel {{ fill: rgba(20, 20, 20, 0.9); stroke: #404040; stroke-width: 1; }}
+      @keyframes pulse {{
+        0%, 100% {{ opacity: 1; }}
+        50% {{ opacity: 0.6; }}
+      }}
+      .pulse {{ animation: pulse 2s ease-in-out infinite; }}
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="600" fill="url(#bgGrad)"/>
+  
+  <!-- Border -->
+  <rect x="5" y="5" width="1190" height="590" class="border" rx="10"/>
+  
+  <!-- Header -->
+  <rect x="15" y="15" width="1170" height="50" class="panel" rx="5"/>
+  <text x="30" y="40" class="title">MISSION CONTROL - INFRASTRUCTURE COMMAND CENTER</text>
+  <text x="30" y="58" class="subtitle">System Status: OPERATIONAL | Uptime: {uptime}% | Last Update: {current_time}</text>
+  
+  <!-- Left Panel: Deployment Status -->
+  <rect x="15" y="75" width="380" height="250" class="panel" rx="5"/>
+  <text x="30" y="100" class="title">DEPLOYMENT STATUS</text>
+  
+  <text x="30" y="130" class="label">prod-cluster-01</text>
+  <circle cx="320" cy="126" r="6" fill="#4ade80" class="pulse"/>
+  <text x="30" y="148" class="value">├─ 47 pods running</text>
+  <text x="30" y="166" class="value">├─ 0 pods pending</text>
+  <text x="30" y="184" class="value">└─ 0 pods failed</text>
+  
+  <text x="30" y="210" class="label">stg-cluster-02</text>
+  <circle cx="320" cy="206" r="6" fill="#facc15"/>
+  <text x="30" y="228" class="value">├─ 23 pods running</text>
+  <text x="30" y="246" class="value">├─ 2 pods pending</text>
+  <text x="30" y="264" class="value">└─ 0 pods failed</text>
+  
+  <text x="30" y="290" class="label">dev-cluster-03</text>
+  <circle cx="320" cy="286" r="6" fill="#4ade80"/>
+  <text x="30" y="308" class="value">└─ 12 pods running</text>
+  
+  <!-- Center Panel: Cloud Topology -->
+  <rect x="405" y="75" width="380" height="250" class="panel" rx="5"/>
+  <text x="420" y="100" class="title">CLOUD TOPOLOGY</text>
+  
+  <!-- Load Balancer -->
+  <rect x="560" y="120" width="70" height="30" fill="#808080" rx="3"/>
+  <text x="575" y="140" style="font: bold 12px monospace; fill: #000;">LB</text>
+  
+  <!-- Kubernetes Clusters -->
+  <rect x="485" y="170" width="50" height="40" fill="#505050" rx="3"/>
+  <text x="495" y="193" style="font: bold 11px monospace; fill: #fff;">K8s</text>
+  
+  <rect x="575" y="170" width="50" height="40" fill="#505050" rx="3"/>
+  <text x="585" y="193" style="font: bold 11px monospace; fill: #fff;">K8s</text>
+  
+  <rect x="665" y="170" width="50" height="40" fill="#505050" rx="3"/>
+  <text x="675" y="193" style="font: bold 11px monospace; fill: #fff;">K8s</text>
+  
+  <!-- Databases -->
+  <rect x="510" y="235" width="45" height="35" fill="#404040" rx="3"/>
+  <text x="517" y="256" style="font: bold 10px monospace; fill: #fff;">DB</text>
+  
+  <rect x="600" y="235" width="45" height="35" fill="#404040" rx="3"/>
+  <text x="607" y="256" style="font: bold 10px monospace; fill: #fff;">DB</text>
+  
+  <rect x="690" y="235" width="45" height="35" fill="#404040" rx="3"/>
+  <text x="697" y="256" style="font: bold 10px monospace; fill: #fff;">DB</text>
+  
+  <!-- Connection lines -->
+  <line x1="595" y1="150" x2="510" y2="170" stroke="#ffffff" stroke-width="2"/>
+  <line x1="595" y1="150" x2="600" y2="170" stroke="#ffffff" stroke-width="2"/>
+  <line x1="595" y1="150" x2="690" y2="170" stroke="#ffffff" stroke-width="2"/>
+  
+  <line x1="510" y1="210" x2="532" y2="235" stroke="#808080" stroke-width="2"/>
+  <line x1="600" y1="210" x2="622" y2="235" stroke="#808080" stroke-width="2"/>
+  <line x1="690" y1="210" x2="712" y2="235" stroke="#808080" stroke-width="2"/>
+  
+  <text x="420" y="300" class="label">Traffic: {req_per_sec} req/s | Latency: {latency}ms</text>
+  
+  <!-- Right Panel: Live Metrics -->
+  <rect x="795" y="75" width="390" height="250" class="panel" rx="5"/>
+  <text x="810" y="100" class="title">LIVE METRICS</text>
+  
+  <!-- CPU -->
+  <text x="810" y="130" class="label">CPU Usage:</text>
+  <rect x="920" y="118" width="240" height="16" fill="#1a1a1a" stroke="#404040" stroke-width="1" rx="8"/>
+  <rect x="920" y="118" width="{int(240 * cpu / 100)}" height="16" fill="url(#accentGrad)" rx="8"/>
+  <text x="1050" y="130" class="value">{cpu}%</text>
+  
+  <!-- Memory -->
+  <text x="810" y="160" class="label">Memory:</text>
+  <rect x="920" y="148" width="240" height="16" fill="#1a1a1a" stroke="#404040" stroke-width="1" rx="8"/>
+  <rect x="920" y="148" width="{int(240 * mem / 100)}" height="16" fill="url(#accentGrad)" rx="8"/>
+  <text x="1050" y="160" class="value">{mem}%</text>
+  
+  <!-- Network -->
+  <text x="810" y="190" class="label">Network I/O:</text>
+  <rect x="920" y="178" width="240" height="16" fill="#1a1a1a" stroke="#404040" stroke-width="1" rx="8"/>
+  <rect x="920" y="178" width="{int(240 * net / 100)}" height="16" fill="url(#accentGrad)" rx="8"/>
+  <text x="1050" y="190" class="value">{net}%</text>
+  
+  <!-- Disk -->
+  <text x="810" y="220" class="label">Disk IOPS:</text>
+  <rect x="920" y="208" width="240" height="16" fill="#1a1a1a" stroke="#404040" stroke-width="1" rx="8"/>
+  <rect x="920" y="208" width="{int(240 * disk / 100)}" height="16" fill="url(#accentGrad)" rx="8"/>
+  <text x="1050" y="220" class="value">{disk}%</text>
+  
+  <text x="810" y="250" class="label">Requests/sec: {req_per_sec}</text>
+  <text x="810" y="270" class="label">Avg Latency: {latency}ms</text>
+  <text x="810" y="290" class="label">Active Users: {active_users:,}</text>
+  <text x="810" y="310" class="label">Cache Hit Rate: {cache_hit}%</text>
+  
+  <!-- Bottom Panel: Microservices Status -->
+  <rect x="15" y="335" width="1170" height="250" class="panel" rx="5"/>
+  <text x="30" y="360" class="title">ACTIVE MICROSERVICES</text>
+  
+  <!-- Service 1 -->
+  <circle cx="45" cy="390" r="6" fill="#4ade80"/>
+  <text x="60" y="395" class="value">auth-service</text>
+  <text x="250" y="395" class="label">Running | Instances: 3 | Latency: 12ms</text>
+  
+  <!-- Service 2 -->
+  <circle cx="45" cy="420" r="6" fill="#4ade80"/>
+  <text x="60" y="425" class="value">api-gateway</text>
+  <text x="250" y="425" class="label">Running | Instances: 5 | Latency: 18ms</text>
+  
+  <!-- Service 3 -->
+  <circle cx="45" cy="450" r="6" fill="#4ade80"/>
+  <text x="60" y="455" class="value">user-service</text>
+  <text x="250" y="455" class="label">Running | Instances: 4 | Latency: 15ms</text>
+  
+  <!-- Service 4 -->
+  <circle cx="45" cy="480" r="6" fill="#4ade80"/>
+  <text x="60" y="485" class="value">payment-service</text>
+  <text x="250" y="485" class="label">Running | Instances: 2 | Latency: 22ms</text>
+  
+  <!-- Service 5 -->
+  <circle cx="45" cy="510" r="6" fill="#facc15"/>
+  <text x="60" y="515" class="value">notification-svc</text>
+  <text x="250" y="515" class="label">Degraded | Instances: 2 | Latency: 156ms</text>
+  
+  <!-- Right side stats -->
+  <text x="650" y="395" class="title">COST OPTIMIZATION</text>
+  <text x="650" y="420" class="label">Current Spend: $847/mo</text>
+  <text x="650" y="440" class="label">Optimized: -23% | Savings: $267/mo</text>
+  
+  <text x="650" y="480" class="title">SECURITY POSTURE</text>
+  <text x="650" y="505" class="label">Vulnerabilities: 0 Critical, 2 High, 12 Medium</text>
+  <text x="650" y="525" class="label">Last Scan: 2h ago | Compliance: SOC2 PASS PCI-DSS PASS</text>
+  
+  <!-- Alert Status -->
+  <text x="650" y="560" class="label">ALERTS: 0 | WARNINGS: 3 | HEALTHY: 98</text>
+</svg>'''
+    
+    with open('mission-control.svg', 'w') as f:
+        f.write(svg)
+    
+    print("Mission Control dashboard generated!")
+
+if __name__ == "__main__":
+    generate_mission_control()

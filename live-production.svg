@@ -1,0 +1,162 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#141414;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a0a0a;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.2">
+        <animate attributeName="stop-opacity" values="0.2;0.6;0.2" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" style="stop-color:#ffffff;stop-opacity:0.8">
+        <animate attributeName="stop-opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.2">
+        <animate attributeName="stop-opacity" values="0.2;0.6;0.2" dur="3s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="strongGlow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Particle animations -->
+    <circle id="particle" r="3" fill="#ffffff" opacity="0.3">
+      <animate attributeName="cy" values="500;0" dur="20s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="4s" repeatCount="indefinite"/>
+    </circle>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bgGradient)"/>
+  
+  <!-- Animated particles -->
+  <use href="#particle" x="100" cy="500">
+    <animate attributeName="cy" values="500;0;500" dur="20s" repeatCount="indefinite"/>
+  </use>
+  <use href="#particle" x="300" cy="500">
+    <animate attributeName="cy" values="500;0;500" dur="25s" repeatCount="indefinite"/>
+  </use>
+  <use href="#particle" x="500" cy="500">
+    <animate attributeName="cy" values="500;0;500" dur="18s" repeatCount="indefinite"/>
+  </use>
+  <use href="#particle" x="700" cy="500">
+    <animate attributeName="cy" values="500;0;500" dur="22s" repeatCount="indefinite"/>
+  </use>
+  
+  <!-- Main container with glowing border -->
+  <rect x="30" y="30" width="740" height="440" rx="15" 
+        fill="rgba(15,15,15,0.95)" 
+        stroke="url(#borderGlow)" 
+        stroke-width="3"
+        filter="url(#strongGlow)"/>
+  
+  <!-- Corner decorations -->
+  <path d="M 45 45 L 45 65 M 45 45 L 65 45" stroke="#ffffff" stroke-width="2" fill="none"/>
+  <path d="M 755 45 L 755 65 M 755 45 L 735 45" stroke="#ffffff" stroke-width="2" fill="none"/>
+  <path d="M 45 455 L 45 435 M 45 455 L 65 455" stroke="#ffffff" stroke-width="2" fill="none"/>
+  <path d="M 755 455 L 755 435 M 755 455 L 735 455" stroke="#ffffff" stroke-width="2" fill="none"/>
+  
+  <!-- Pulsing live indicator -->
+  <circle cx="70" cy="70" r="8" fill="#86efac" filter="url(#glow)">
+    <animate attributeName="r" values="8;11;8" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.7;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Title -->
+  <text x="95" y="77" font-family="'Courier New', monospace" font-size="24" 
+        font-weight="bold" fill="#ffffff" letter-spacing="3" filter="url(#glow)">
+    LIVE PRODUCTION ENVIRONMENT
+  </text>
+  
+  <!-- Animated divider line -->
+  <line x1="60" y1="105" x2="740" y2="105" stroke="url(#borderGlow)" stroke-width="2">
+    <animate attributeName="stroke-dasharray" values="0,680;680,0;0,680" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" values="680;0;-680" dur="3s" repeatCount="indefinite"/>
+  </line>
+  
+  <!-- Metric items with scan effect backgrounds -->
+  <g id="metric1">
+    <rect x="60" y="130" width="680" height="50" rx="8" fill="rgba(255,255,255,0.03)" stroke="#404040" stroke-width="2"/>
+    <rect x="60" y="130" width="680" height="50" rx="8" fill="url(#borderGlow)" opacity="0.1">
+      <animate attributeName="x" values="-680;740" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <text x="85" y="162" font-family="'Courier New', monospace" font-size="14" fill="#e0e0e0" letter-spacing="1">
+      Real-time metrics updated every 15 minutes
+    </text>
+    <rect x="620" y="145" width="100" height="20" rx="10" fill="rgba(134,239,172,0.1)" stroke="#86efac"/>
+    <text x="642" y="159" font-family="'Courier New', monospace" font-size="10" 
+          fill="#86efac" font-weight="bold" letter-spacing="1">STREAMING</text>
+  </g>
+  
+  <g id="metric2">
+    <rect x="60" y="195" width="680" height="50" rx="8" fill="rgba(255,255,255,0.03)" stroke="#404040" stroke-width="2"/>
+    <rect x="60" y="195" width="680" height="50" rx="8" fill="url(#borderGlow)" opacity="0.1">
+      <animate attributeName="x" values="-680;740" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="85" y="227" font-family="'Courier New', monospace" font-size="14" fill="#e0e0e0" letter-spacing="1">
+      CI/CD pipelines actively monitored
+    </text>
+    <rect x="640" y="210" width="80" height="20" rx="10" fill="rgba(134,239,172,0.1)" stroke="#86efac"/>
+    <text x="657" y="224" font-family="'Courier New', monospace" font-size="10" 
+          fill="#86efac" font-weight="bold" letter-spacing="1">ONLINE</text>
+  </g>
+  
+  <g id="metric3">
+    <rect x="60" y="260" width="680" height="50" rx="8" fill="rgba(255,255,255,0.03)" stroke="#404040" stroke-width="2"/>
+    <rect x="60" y="260" width="680" height="50" rx="8" fill="url(#borderGlow)" opacity="0.1">
+      <animate attributeName="x" values="-680;740" dur="3s" begin="1s" repeatCount="indefinite"/>
+    </rect>
+    <text x="85" y="292" font-family="'Courier New', monospace" font-size="14" fill="#e0e0e0" letter-spacing="1">
+      System logs streaming live
+    </text>
+    <rect x="645" y="275" width="75" height="20" rx="10" fill="rgba(134,239,172,0.1)" stroke="#86efac"/>
+    <text x="662" y="289" font-family="'Courier New', monospace" font-size="10" 
+          fill="#86efac" font-weight="bold" letter-spacing="1">ACTIVE</text>
+  </g>
+  
+  <g id="metric4">
+    <rect x="60" y="325" width="680" height="50" rx="8" fill="rgba(255,255,255,0.03)" stroke="#404040" stroke-width="2"/>
+    <rect x="60" y="325" width="680" height="50" rx="8" fill="url(#borderGlow)" opacity="0.1">
+      <animate attributeName="x" values="-680;740" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="85" y="357" font-family="'Courier New', monospace" font-size="14" fill="#e0e0e0" letter-spacing="1">
+      Multi-cloud infrastructure (AWS | Azure | GCP)
+    </text>
+    <rect x="630" y="340" width="90" height="20" rx="10" fill="rgba(134,239,172,0.1)" stroke="#86efac"/>
+    <text x="644" y="354" font-family="'Courier New', monospace" font-size="10" 
+          fill="#86efac" font-weight="bold" letter-spacing="1">DEPLOYED</text>
+  </g>
+  
+  <!-- Footer info box -->
+  <rect x="60" y="395" width="680" height="60" rx="10" 
+        fill="rgba(255,255,255,0.05)" 
+        stroke="rgba(255,255,255,0.2)" 
+        stroke-width="1"/>
+  
+  <text x="85" y="420" font-family="'Courier New', monospace" font-size="12" fill="#a0a0a0">
+    Everything you see above is generated from
+  </text>
+  <text x="470" y="420" font-family="'Courier New', monospace" font-size="12" 
+        fill="#ffffff" font-weight="bold" filter="url(#glow)">actual system data</text>
+  
+  <text x="85" y="440" font-family="'Courier New', monospace" font-size="12" fill="#a0a0a0">
+    not mock dashboards! Live data flows
+  </text>
+  <text x="355" y="440" font-family="'Courier New', monospace" font-size="12" 
+        fill="#ffffff" font-weight="bold" filter="url(#glow)">24/7/365</text>
+</svg>

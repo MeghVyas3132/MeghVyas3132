@@ -1,0 +1,272 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150">
+  <defs>
+    <!-- Monochrome Sky (inverted for footer) -->
+    <linearGradient id="skyF" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3c3c3c"/>
+      <stop offset="5%" stop-color="#323232"/>
+      <stop offset="20%" stop-color="#282828"/>
+      <stop offset="40%" stop-color="#1e1e1e"/>
+      <stop offset="60%" stop-color="#141414"/>
+      <stop offset="80%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    
+    <!-- Horizon Ambient Glow -->
+    <radialGradient id="ambientGlowF" cx="50%" cy="-20%" r="80%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#808080" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#404040" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Building Gradients -->
+    <linearGradient id="bldgFarF" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d0d0d"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <linearGradient id="bldgMidF" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#121212"/>
+      <stop offset="100%" stop-color="#262626"/>
+    </linearGradient>
+    <linearGradient id="bldgNearF" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#333333"/>
+    </linearGradient>
+    
+    <!-- Glass shine -->
+    <linearGradient id="glassF" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
+    
+    <!-- Filters -->
+    <filter id="starGlowF" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="beaconGlowF" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5"/>
+    </filter>
+    <filter id="lightGlowF" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2"/>
+    </filter>
+    <filter id="windowGlowF" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1"/>
+    </filter>
+    
+    <!-- Rounded clip -->
+    <clipPath id="roundClipF">
+      <rect x="0" y="0" width="1200" height="150" rx="14" ry="14"/>
+    </clipPath>
+    
+    <style>
+      @keyframes flyR {
+        0% { transform: translate(1350px, 0) scale(-1, 1); }
+        20% { transform: translate(1050px, 2px) scale(-1, 1); }
+        40% { transform: translate(750px, -2px) scale(-1, 1); }
+        60% { transform: translate(450px, 3px) scale(-1, 1); }
+        80% { transform: translate(150px, -2px) scale(-1, 1); }
+        100% { transform: translate(-130px, 0) scale(-1, 1); }
+      }
+      @keyframes twinkleF {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 1; }
+      }
+      @keyframes beaconF {
+        0%, 42%, 100% { opacity: 0.15; }
+        45%, 55% { opacity: 1; }
+      }
+      @keyframes strobeF {
+        0%, 88%, 100% { opacity: 0; }
+        90%, 95% { opacity: 1; }
+      }
+      @keyframes navPulseF {
+        0%, 100% { opacity: 0.5; }
+        50% { opacity: 1; }
+      }
+      .aircraftF { animation: flyR 45s linear infinite; }
+      .starF { animation: twinkleF 4s ease-in-out infinite; }
+      .beaconF { animation: beaconF 2.8s ease-in-out infinite; }
+      .strobeF { animation: strobeF 1s linear infinite; }
+      .navF { animation: navPulseF 1.5s ease-in-out infinite; }
+    </style>
+  </defs>
+  
+  <g clip-path="url(#roundClipF)">
+    
+    <!-- Sky -->
+    <rect width="1200" height="150" fill="url(#skyF)"/>
+    
+    <!-- Ambient glow -->
+    <rect width="1200" height="150" fill="url(#ambientGlowF)"/>
+    
+    <!-- Stars -->
+    <g fill="#ffffff">
+      <circle cx="55" cy="95" r="1.0" class="starF" filter="url(#starGlowF)" style="animation-delay:0.2s"/>
+      <circle cx="145" cy="115" r="0.7" class="starF" filter="url(#starGlowF)" style="animation-delay:0.9s"/>
+      <circle cx="250" cy="105" r="1.1" class="starF" filter="url(#starGlowF)" style="animation-delay:1.6s"/>
+      <circle cx="360" cy="125" r="0.6" class="starF" filter="url(#starGlowF)" style="animation-delay:0.4s"/>
+      <circle cx="475" cy="110" r="0.9" class="starF" filter="url(#starGlowF)" style="animation-delay:2.2s"/>
+      <circle cx="580" cy="130" r="0.75" class="starF" filter="url(#starGlowF)" style="animation-delay:1.1s"/>
+      <circle cx="690" cy="100" r="1.15" class="starF" filter="url(#starGlowF)" style="animation-delay:0.6s"/>
+      <circle cx="800" cy="120" r="0.65" class="starF" filter="url(#starGlowF)" style="animation-delay:1.8s"/>
+      <circle cx="905" cy="108" r="1.0" class="starF" filter="url(#starGlowF)" style="animation-delay:0.3s"/>
+      <circle cx="1015" cy="128" r="0.8" class="starF" filter="url(#starGlowF)" style="animation-delay:2.5s"/>
+      <circle cx="1120" cy="115" r="0.95" class="starF" filter="url(#starGlowF)" style="animation-delay:1.4s"/>
+    </g>
+    
+    <!-- FAR BUILDINGS -->
+    <g fill="url(#bldgFarF)" opacity="0.5">
+      <rect x="0" y="0" width="30" height="42"/>
+      <rect x="34" y="0" width="26" height="50"/>
+      <rect x="64" y="0" width="28" height="45"/>
+      <rect x="96" y="0" width="24" height="48"/>
+      <rect x="780" y="0" width="26" height="45"/>
+      <rect x="810" y="0" width="30" height="50"/>
+      <rect x="844" y="0" width="24" height="42"/>
+      <rect x="872" y="0" width="28" height="48"/>
+      <rect x="904" y="0" width="26" height="45"/>
+      <rect x="934" y="0" width="30" height="50"/>
+      <rect x="968" y="0" width="24" height="42"/>
+      <rect x="996" y="0" width="28" height="48"/>
+      <rect x="1028" y="0" width="26" height="45"/>
+      <rect x="1058" y="0" width="30" height="50"/>
+      <rect x="1092" y="0" width="24" height="42"/>
+      <rect x="1120" y="0" width="28" height="48"/>
+      <rect x="1152" y="0" width="26" height="45"/>
+      <rect x="1182" y="0" width="18" height="40"/>
+    </g>
+    
+    <!-- MID BUILDINGS -->
+    <g fill="url(#bldgMidF)" opacity="0.75">
+      <rect x="5" y="0" width="42" height="60"/>
+      <rect x="52" y="0" width="38" height="72"/>
+      <rect x="95" y="0" width="34" height="65"/>
+      
+      <!-- Tower with spire -->
+      <rect x="138" y="0" width="52" height="95"/>
+      <rect x="150" y="95" width="28" height="18"/>
+      <polygon points="164,113 156,113 164,132 172,113"/>
+      
+      <rect x="198" y="0" width="40" height="68"/>
+      <rect x="244" y="0" width="36" height="75"/>
+      
+      <!-- Tall central tower -->
+      <rect x="288" y="0" width="50" height="110"/>
+      <polygon points="313,110 293,110 313,135 333,110"/>
+      
+      <rect x="345" y="0" width="38" height="70"/>
+      <rect x="390" y="0" width="42" height="78"/>
+      
+      <!-- Art deco style -->
+      <rect x="440" y="0" width="48" height="92"/>
+      <polygon points="464,92 445,92 453,108 475,108 483,92"/>
+      <polygon points="464,108 456,108 464,122 472,108"/>
+      
+      <rect x="496" y="0" width="36" height="65"/>
+      <rect x="538" y="0" width="40" height="72"/>
+      <rect x="584" y="0" width="46" height="85"/>
+      <rect x="636" y="0" width="38" height="68"/>
+      <rect x="680" y="0" width="50" height="90"/>
+      <rect x="736" y="0" width="36" height="72"/>
+    </g>
+    
+    <!-- Glass on mid -->
+    <g fill="url(#glassF)">
+      <rect x="138" y="0" width="52" height="95"/>
+      <rect x="288" y="0" width="50" height="110"/>
+      <rect x="440" y="0" width="48" height="92"/>
+      <rect x="584" y="0" width="46" height="85"/>
+      <rect x="680" y="0" width="50" height="90"/>
+    </g>
+    
+    <!-- NEAR BUILDINGS -->
+    <g fill="url(#bldgNearF)">
+      <rect x="0" y="0" width="50" height="52"/>
+      <rect x="55" y="0" width="52" height="62"/>
+      <rect x="1050" y="0" width="50" height="58"/>
+      <rect x="1105" y="0" width="46" height="65"/>
+      <rect x="1156" y="0" width="44" height="55"/>
+    </g>
+    
+    <!-- Glass on near -->
+    <g fill="url(#glassF)">
+      <rect x="0" y="0" width="50" height="52"/>
+      <rect x="55" y="0" width="52" height="62"/>
+      <rect x="1050" y="0" width="50" height="58"/>
+      <rect x="1105" y="0" width="46" height="65"/>
+    </g>
+    
+    <!-- BEACONS (white) -->
+    <g>
+      <circle cx="164" cy="128" r="4" fill="#ffffff" opacity="0.4" class="beaconF" filter="url(#beaconGlowF)"/>
+      <circle cx="164" cy="128" r="2" fill="#ffffff" class="beaconF"/>
+      
+      <circle cx="313" cy="131" r="3.5" fill="#ffffff" opacity="0.4" class="beaconF" style="animation-delay:1.2s" filter="url(#beaconGlowF)"/>
+      <circle cx="313" cy="131" r="1.8" fill="#ffffff" class="beaconF" style="animation-delay:1.2s"/>
+      
+      <circle cx="464" cy="118" r="3" fill="#ffffff" opacity="0.35" class="beaconF" style="animation-delay:0.6s" filter="url(#beaconGlowF)"/>
+      <circle cx="464" cy="118" r="1.5" fill="#ffffff" class="beaconF" style="animation-delay:0.6s"/>
+      
+      <circle cx="705" cy="86" r="2.5" fill="#ffffff" opacity="0.35" class="beaconF" style="animation-delay:1.8s" filter="url(#beaconGlowF)"/>
+      <circle cx="705" cy="86" r="1.2" fill="#ffffff" class="beaconF" style="animation-delay:1.8s"/>
+    </g>
+    
+    <!-- WINDOW LIGHTS -->
+    <g fill="#fef3c7" filter="url(#windowGlowF)">
+      <rect x="148" y="15" width="3" height="5" opacity="0.6"/>
+      <rect x="162" y="25" width="3" height="5" opacity="0.4"/>
+      <rect x="175" y="18" width="3" height="5" opacity="0.65"/>
+      <rect x="152" y="50" width="3" height="5" opacity="0.35"/>
+      <rect x="168" y="60" width="3" height="5" opacity="0.5"/>
+      
+      <rect x="298" y="15" width="3" height="5" opacity="0.5"/>
+      <rect x="315" y="28" width="3" height="5" opacity="0.4"/>
+      <rect x="328" y="20" width="3" height="5" opacity="0.6"/>
+      <rect x="302" y="55" width="3" height="5" opacity="0.3"/>
+      <rect x="320" y="68" width="3" height="5" opacity="0.45"/>
+      
+      <rect x="450" y="18" width="3" height="5" opacity="0.45"/>
+      <rect x="465" y="30" width="3" height="5" opacity="0.55"/>
+      <rect x="478" y="22" width="3" height="5" opacity="0.35"/>
+      <rect x="455" y="55" width="3" height="5" opacity="0.4"/>
+      
+      <rect x="65" y="18" width="3" height="5" opacity="0.4"/>
+      <rect x="82" y="28" width="3" height="5" opacity="0.3"/>
+      
+      <rect x="594" y="20" width="3" height="5" opacity="0.4"/>
+      <rect x="612" y="35" width="3" height="5" opacity="0.5"/>
+      
+      <rect x="692" y="15" width="3" height="5" opacity="0.45"/>
+      <rect x="708" y="28" width="3" height="5" opacity="0.35"/>
+      <rect x="722" y="20" width="3" height="5" opacity="0.55"/>
+      
+      <rect x="1060" y="18" width="3" height="5" opacity="0.4"/>
+      <rect x="1078" y="28" width="3" height="5" opacity="0.3"/>
+      
+      <rect x="1118" y="15" width="3" height="5" opacity="0.4"/>
+      <rect x="1135" y="25" width="3" height="5" opacity="0.45"/>
+    </g>
+    
+    <!-- AIRCRAFT (reversed) -->
+    <g class="aircraftF">
+      <ellipse cx="35" cy="72" rx="26" ry="5.5" fill="#b0b0b0"/>
+      <ellipse cx="35" cy="71" rx="24" ry="4" fill="#c8c8c8"/>
+      <ellipse cx="62" cy="72" rx="8" ry="4" fill="#a0a0a0"/>
+      <ellipse cx="58" cy="70.5" rx="5" ry="2.2" fill="#1a1a1a" opacity="0.9"/>
+      <path d="M26,72 L44,72 L50,60 L20,60 Z" fill="#909090"/>
+      <path d="M26,72 L44,72 L50,84 L20,84 Z" fill="#888888"/>
+      <path d="M8,72 L14,72 L16,62 L6,62 Z" fill="#a0a0a0"/>
+      <path d="M9,68 L13,68 L11,56 Z" fill="#b0b0b0"/>
+      <ellipse cx="4" cy="72" rx="5" ry="3" fill="#ffffff" opacity="0.2" filter="url(#lightGlowF)"/>
+      <circle cx="20" cy="60" r="2.5" fill="#ffffff" class="navF" filter="url(#lightGlowF)"/>
+      <circle cx="50" cy="60" r="2.5" fill="#ffffff" class="navF" style="animation-delay:0.5s" filter="url(#lightGlowF)"/>
+      <circle cx="11" cy="56" r="2" fill="#ffffff" class="strobeF" filter="url(#starGlowF)"/>
+      <circle cx="35" cy="66" r="1.8" fill="#ffffff" class="beaconF" filter="url(#lightGlowF)"/>
+    </g>
+    
+  </g>
+  
+  <!-- Border -->
+  <rect x="0.5" y="0.5" width="1199" height="149" rx="14" ry="14" fill="none" stroke="#404040" stroke-width="1" opacity="0.5"/>
+</svg>
