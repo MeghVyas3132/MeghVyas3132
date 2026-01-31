@@ -39,7 +39,7 @@
   
   <!-- Header -->
   <text x="20" y="35" class="title">CONTINUOUS DEPLOYMENT PIPELINE</text>
-  <text x="20" y="55" class="label">BUILD #1836 | branch: main | commit: a7f3c2d | status: DEPLOYING</text>
+  <text x="20" y="55" class="label">BUILD #1892 | branch: main | commit: a7f3c2d | status: DEPLOYING</text>
   
   <!-- Pipeline Stages -->
   <g id="pipeline">
@@ -63,9 +63,9 @@
     <text x="710" y="140" class="status status-done" text-anchor="middle">DONE</text>
     <line x1="795" y1="125" x2="815" y2="125" stroke="#ffffff" stroke-width="3"/>
     <polygon points="815,125 807,120 807,130" fill="#ffffff"/>
-    <rect x="820" y="100" width="160" height="50" class="stagebox-pending" />
+    <rect x="820" y="100" width="160" height="50" class="stagebox-running" filter="url(#yellowGlow)"/>
     <text x="900" y="122" class="stage" text-anchor="middle">DEPLOY</text>
-    <text x="900" y="140" class="status status-pending" text-anchor="middle">PENDING</text>
+    <text x="900" y="140" class="status status-running" text-anchor="middle">RUNNING</text>
     <line x1="985" y1="125" x2="1005" y2="125" stroke="#ffffff" stroke-width="3"/>
     <polygon points="1005,125 997,120 997,130" fill="#ffffff"/>
     <rect x="1010" y="100" width="160" height="50" class="stagebox-pending" />
@@ -76,10 +76,10 @@
   <!-- Progress Bar -->
   <text x="20" y="185" class="label">Progress:</text>
   <rect x="120" y="172" width="1050" height="20" fill="#1a1a1a" stroke="#404040" stroke-width="2" rx="10"/>
-  <rect x="120" y="172" width="787" height="20" fill="#ffffff" rx="10"/>
-  <text x="1100" y="187" class="value">75%</text>
+  <rect x="120" y="172" width="861" height="20" fill="#ffffff" rx="10"/>
+  <text x="1100" y="187" class="value">82%</text>
   
-  <text x="120" y="210" class="label">ETA: 4m 38s remaining</text>
+  <text x="120" y="210" class="label">ETA: 4m 40s remaining</text>
   
   <!-- Current Stage Info -->
   <rect x="20" y="220" width="1160" height="50" class="panel2" rx="5"/>
