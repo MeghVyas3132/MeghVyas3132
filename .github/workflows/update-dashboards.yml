@@ -1,16 +1,13 @@
 name: Update Profile Dashboards
-
 on:
   schedule:
-    - cron: "*/15 * * * *"  # Every 15 minutes
+    - cron: "*/5 * * * *"  # Every 5 minutes
   workflow_dispatch:
   push:
     branches:
       - main
-
 permissions:
   contents: write
-
 jobs:
   update-dashboards:
     runs-on: ubuntu-latest
@@ -60,5 +57,5 @@ jobs:
           git config --local user.email "megh.vyas@yahoo.com"
           git config --local user.name "Megh Vyas"
           git add *.svg last_updated.txt
-          git commit -m "Update dashboards"
+          git commit -m "Update dashboards" || echo "No changes to commit"
           git push
