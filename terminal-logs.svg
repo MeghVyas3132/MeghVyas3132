@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-02-02 12:43:16] INFO   | Request processed: 200 OK (33ms)</text>
-  <text x="30" y="90" class="log-text log-info">[2026-02-02 12:43:18] INFO   | Deploy rollout: 22/47 pods updated</text>
-  <text x="30" y="110" class="log-text log-info">[2026-02-02 12:43:20] INFO   | Request processed: 200 OK (41ms)</text>
-  <text x="30" y="130" class="log-text log-debug">[2026-02-02 12:43:22] DEBUG  | Cache hit: user:7d5f9</text>
-  <text x="30" y="150" class="log-text log-info">[2026-02-02 12:43:24] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="170" class="log-text log-debug">[2026-02-02 12:43:26] DEBUG  | Cache hit: user:2b8b1</text>
-  <text x="30" y="190" class="log-text log-info">[2026-02-02 12:43:28] INFO   | Database query optimized (60ms→20ms)</text>
-  <text x="30" y="210" class="log-text log-info">[2026-02-02 12:43:30] INFO   | Database query optimized (48ms→24ms)</text>
-  <text x="30" y="230" class="log-text log-info">[2026-02-02 12:43:32] INFO   | Request processed: 200 OK (22ms)</text>
-  <text x="30" y="250" class="log-text log-info">[2026-02-02 12:43:34] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="270" class="log-text log-info">[2026-02-02 12:43:36] INFO   | Metric exported: cpu_usage=76%</text>
-  <text x="30" y="290" class="log-text log-info">[2026-02-02 12:43:38] INFO   | Request processed: 200 OK (24ms)</text>
-  <text x="30" y="310" class="log-text log-debug">[2026-02-02 12:43:40] DEBUG  | Rate limit check: 6099 req/s</text>
-  <text x="30" y="330" class="log-text log-info">[2026-02-02 12:43:42] INFO   | Auto-scaling triggered: +1 pods</text>
-  <text x="30" y="350" class="log-text log-info">[2026-02-02 12:43:44] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="70" class="log-text log-debug">[2026-02-02 13:49:31] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="90" class="log-text log-info">[2026-02-02 13:49:33] INFO   | Metric exported: cpu_usage=79%</text>
+  <text x="30" y="110" class="log-text log-info">[2026-02-02 13:49:35] INFO   | Deploy rollout: 37/47 pods updated</text>
+  <text x="30" y="130" class="log-text log-info">[2026-02-02 13:49:37] INFO   | Auto-scaling triggered: +3 pods</text>
+  <text x="30" y="150" class="log-text log-info">[2026-02-02 13:49:39] INFO   | Request processed: 200 OK (42ms)</text>
+  <text x="30" y="170" class="log-text log-debug">[2026-02-02 13:49:41] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="190" class="log-text log-info">[2026-02-02 13:49:43] INFO   | Metric exported: cpu_usage=92%</text>
+  <text x="30" y="210" class="log-text log-info">[2026-02-02 13:49:45] INFO   | Request processed: 200 OK (28ms)</text>
+  <text x="30" y="230" class="log-text log-info">[2026-02-02 13:49:47] INFO   | Metric exported: cpu_usage=76%</text>
+  <text x="30" y="250" class="log-text log-info">[2026-02-02 13:49:49] INFO   | Container started: user-service-5c1e8</text>
+  <text x="30" y="270" class="log-text log-debug">[2026-02-02 13:49:51] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="290" class="log-text log-info">[2026-02-02 13:49:53] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="310" class="log-text log-info">[2026-02-02 13:49:55] INFO   | Database query optimized (59ms→11ms)</text>
+  <text x="30" y="330" class="log-text log-info">[2026-02-02 13:49:57] INFO   | Pod auth-service-3b8f1 started</text>
+  <text x="30" y="350" class="log-text log-info">[2026-02-02 13:49:59] INFO   | SSL cert renewed: *.meghvyas.dev</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
