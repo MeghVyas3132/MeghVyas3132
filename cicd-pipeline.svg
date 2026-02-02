@@ -79,11 +79,11 @@
   <rect x="120" y="172" width="861" height="20" fill="#ffffff" rx="10"/>
   <text x="1100" y="187" class="value">82%</text>
   
-  <text x="120" y="210" class="label">ETA: 4m 14s remaining</text>
+  <text x="120" y="210" class="label">ETA: 5m 28s remaining</text>
   
   <!-- Current Stage Info -->
   <rect x="20" y="220" width="1160" height="50" class="panel2" rx="5"/>
   <text x="35" y="240" class="title">CURRENT STAGE: Deploying to prod-cluster-01</text>
-  <text x="35" y="258" class="label">&gt; Rolling update in progress... | Pods: 20/47 updated | Health checks: PASSING</text>
+  <text x="35" y="258" class="label">&gt; Rolling update in progress... | Pods: 15/47 updated | Health checks: PASSING</text>
   
 </svg>
