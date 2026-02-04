@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-debug">[2026-02-04 11:39:49] DEBUG  | Rate limit check: 7047 req/s</text>
-  <text x="30" y="90" class="log-text log-info">[2026-02-04 11:39:51] INFO   | Pod notification-svc-7f3c5 started</text>
-  <text x="30" y="110" class="log-text log-info">[2026-02-04 11:39:53] INFO   | Pod payment-service-3e4c2 started</text>
-  <text x="30" y="130" class="log-text log-info">[2026-02-04 11:39:55] INFO   | Auto-scaling triggered: +1 pods</text>
-  <text x="30" y="150" class="log-text log-debug">[2026-02-04 11:39:57] DEBUG  | Rate limit check: 8795 req/s</text>
-  <text x="30" y="170" class="log-text log-warn">[2026-02-04 11:39:59] WARN   | High latency detected: user-service</text>
-  <text x="30" y="190" class="log-text log-warn">[2026-02-04 11:40:01] WARN   | High latency detected: payment-service</text>
-  <text x="30" y="210" class="log-text log-info">[2026-02-04 11:40:03] INFO   | Request processed: 200 OK (14ms)</text>
-  <text x="30" y="230" class="log-text log-debug">[2026-02-04 11:40:05] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="250" class="log-text log-info">[2026-02-04 11:40:07] INFO   | Container started: notification-svc-1d8b4</text>
-  <text x="30" y="270" class="log-text log-info">[2026-02-04 11:40:09] INFO   | Backup completed: 695 MB</text>
-  <text x="30" y="290" class="log-text log-warn">[2026-02-04 11:40:11] WARN   | High latency detected: payment-service</text>
-  <text x="30" y="310" class="log-text log-warn">[2026-02-04 11:40:13] WARN   | High latency detected: user-service</text>
-  <text x="30" y="330" class="log-text log-debug">[2026-02-04 11:40:15] DEBUG  | Cache hit: user:4c1e1</text>
-  <text x="30" y="350" class="log-text log-info">[2026-02-04 11:40:17] INFO   | Deploy rollout: 28/47 pods updated</text>
+  <text x="30" y="70" class="log-text log-info">[2026-02-04 12:00:39] INFO   | Request processed: 200 OK (50ms)</text>
+  <text x="30" y="90" class="log-text log-debug">[2026-02-04 12:00:41] DEBUG  | Rate limit check: 8539 req/s</text>
+  <text x="30" y="110" class="log-text log-info">[2026-02-04 12:00:43] INFO   | Backup completed: 786 MB</text>
+  <text x="30" y="130" class="log-text log-info">[2026-02-04 12:00:45] INFO   | Metric exported: cpu_usage=71%</text>
+  <text x="30" y="150" class="log-text log-info">[2026-02-04 12:00:47] INFO   | Deploy rollout: 36/47 pods updated</text>
+  <text x="30" y="170" class="log-text log-debug">[2026-02-04 12:00:49] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="190" class="log-text log-info">[2026-02-04 12:00:51] INFO   | Auto-scaling triggered: +2 pods</text>
+  <text x="30" y="210" class="log-text log-debug">[2026-02-04 12:00:53] DEBUG  | Cache hit: user:5f3c6</text>
+  <text x="30" y="230" class="log-text log-debug">[2026-02-04 12:00:55] DEBUG  | Rate limit check: 9501 req/s</text>
+  <text x="30" y="250" class="log-text log-info">[2026-02-04 12:00:57] INFO   | Deploy rollout: 30/47 pods updated</text>
+  <text x="30" y="270" class="log-text log-info">[2026-02-04 12:00:59] INFO   | Metric exported: cpu_usage=88%</text>
+  <text x="30" y="290" class="log-text log-info">[2026-02-04 12:01:01] INFO   | Database query optimized (67ms→18ms)</text>
+  <text x="30" y="310" class="log-text log-debug">[2026-02-04 12:01:03] DEBUG  | Rate limit check: 8014 req/s</text>
+  <text x="30" y="330" class="log-text log-info">[2026-02-04 12:01:05] INFO   | Deploy rollout: 40/47 pods updated</text>
+  <text x="30" y="350" class="log-text log-info">[2026-02-04 12:01:07] INFO   | Container started: notification-svc-2d3b7</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
