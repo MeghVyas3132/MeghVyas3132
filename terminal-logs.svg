@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-02-03 23:44:53] INFO   | Database query optimized (97ms→14ms)</text>
-  <text x="30" y="90" class="log-text log-info">[2026-02-03 23:44:55] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="110" class="log-text log-info">[2026-02-03 23:44:57] INFO   | Deploy rollout: 27/47 pods updated</text>
-  <text x="30" y="130" class="log-text log-debug">[2026-02-03 23:44:59] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="150" class="log-text log-warn">[2026-02-03 23:45:01] WARN   | High latency detected: payment-service</text>
-  <text x="30" y="170" class="log-text log-warn">[2026-02-03 23:45:03] WARN   | High latency detected: api-gateway</text>
-  <text x="30" y="190" class="log-text log-info">[2026-02-03 23:45:05] INFO   | Health check passed: notification-svc</text>
-  <text x="30" y="210" class="log-text log-debug">[2026-02-03 23:45:07] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="230" class="log-text log-debug">[2026-02-03 23:45:09] DEBUG  | Cache hit: user:9c8d1</text>
-  <text x="30" y="250" class="log-text log-info">[2026-02-03 23:45:11] INFO   | Metric exported: cpu_usage=84%</text>
-  <text x="30" y="270" class="log-text log-debug">[2026-02-03 23:45:13] DEBUG  | Rate limit check: 6523 req/s</text>
-  <text x="30" y="290" class="log-text log-info">[2026-02-03 23:45:15] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="310" class="log-text log-debug">[2026-02-03 23:45:17] DEBUG  | Rate limit check: 5388 req/s</text>
-  <text x="30" y="330" class="log-text log-info">[2026-02-03 23:45:19] INFO   | Auto-scaling triggered: +3 pods</text>
-  <text x="30" y="350" class="log-text log-info">[2026-02-03 23:45:21] INFO   | Database query optimized (60ms→15ms)</text>
+  <text x="30" y="70" class="log-text log-warn">[2026-02-03 23:59:32] WARN   | High latency detected: user-service</text>
+  <text x="30" y="90" class="log-text log-info">[2026-02-03 23:59:34] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="110" class="log-text log-debug">[2026-02-03 23:59:36] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="130" class="log-text log-info">[2026-02-03 23:59:38] INFO   | Database query optimized (42ms→25ms)</text>
+  <text x="30" y="150" class="log-text log-warn">[2026-02-03 23:59:40] WARN   | High latency detected: api-gateway</text>
+  <text x="30" y="170" class="log-text log-debug">[2026-02-03 23:59:42] DEBUG  | Cache hit: user:9d8b1</text>
+  <text x="30" y="190" class="log-text log-info">[2026-02-03 23:59:44] INFO   | Metric exported: cpu_usage=78%</text>
+  <text x="30" y="210" class="log-text log-info">[2026-02-03 23:59:46] INFO   | Auto-scaling triggered: +1 pods</text>
+  <text x="30" y="230" class="log-text log-info">[2026-02-03 23:59:48] INFO   | Deploy rollout: 36/47 pods updated</text>
+  <text x="30" y="250" class="log-text log-info">[2026-02-03 23:59:50] INFO   | Auto-scaling triggered: +3 pods</text>
+  <text x="30" y="270" class="log-text log-info">[2026-02-03 23:59:52] INFO   | Metric exported: cpu_usage=83%</text>
+  <text x="30" y="290" class="log-text log-info">[2026-02-03 23:59:54] INFO   | Metric exported: cpu_usage=76%</text>
+  <text x="30" y="310" class="log-text log-info">[2026-02-03 23:59:56] INFO   | Backup completed: 964 MB</text>
+  <text x="30" y="330" class="log-text log-info">[2026-02-03 23:59:58] INFO   | Database query optimized (72ms→23ms)</text>
+  <text x="30" y="350" class="log-text log-info">[2026-02-04 00:00:00] INFO   | Container started: auth-service-1c8d8</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
