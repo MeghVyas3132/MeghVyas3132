@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-02-04 15:00:15] INFO   | Database query optimized (52ms→12ms)</text>
-  <text x="30" y="90" class="log-text log-info">[2026-02-04 15:00:17] INFO   | Request processed: 200 OK (20ms)</text>
-  <text x="30" y="110" class="log-text log-debug">[2026-02-04 15:00:19] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="130" class="log-text log-info">[2026-02-04 15:00:21] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="150" class="log-text log-info">[2026-02-04 15:00:23] INFO   | Deploy rollout: 40/47 pods updated</text>
-  <text x="30" y="170" class="log-text log-info">[2026-02-04 15:00:25] INFO   | Deploy rollout: 25/47 pods updated</text>
-  <text x="30" y="190" class="log-text log-info">[2026-02-04 15:00:27] INFO   | Request processed: 200 OK (42ms)</text>
-  <text x="30" y="210" class="log-text log-info">[2026-02-04 15:00:29] INFO   | Deploy rollout: 20/47 pods updated</text>
-  <text x="30" y="230" class="log-text log-info">[2026-02-04 15:00:31] INFO   | Database query optimized (62ms→14ms)</text>
-  <text x="30" y="250" class="log-text log-info">[2026-02-04 15:00:33] INFO   | Container started: payment-service-7e4c9</text>
-  <text x="30" y="270" class="log-text log-debug">[2026-02-04 15:00:35] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="290" class="log-text log-debug">[2026-02-04 15:00:37] DEBUG  | Rate limit check: 5487 req/s</text>
-  <text x="30" y="310" class="log-text log-debug">[2026-02-04 15:00:39] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="330" class="log-text log-info">[2026-02-04 15:00:41] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="350" class="log-text log-info">[2026-02-04 15:00:43] INFO   | Container started: notification-svc-7e9d7</text>
+  <text x="30" y="70" class="log-text log-info">[2026-02-04 15:54:36] INFO   | Container started: auth-service-8e8d8</text>
+  <text x="30" y="90" class="log-text log-info">[2026-02-04 15:54:38] INFO   | Database query optimized (86ms→18ms)</text>
+  <text x="30" y="110" class="log-text log-info">[2026-02-04 15:54:40] INFO   | Request processed: 200 OK (46ms)</text>
+  <text x="30" y="130" class="log-text log-warn">[2026-02-04 15:54:42] WARN   | High latency detected: user-service</text>
+  <text x="30" y="150" class="log-text log-debug">[2026-02-04 15:54:44] DEBUG  | Cache hit: user:6c7f9</text>
+  <text x="30" y="170" class="log-text log-info">[2026-02-04 15:54:46] INFO   | Metric exported: cpu_usage=71%</text>
+  <text x="30" y="190" class="log-text log-debug">[2026-02-04 15:54:48] DEBUG  | Cache hit: user:4f9d7</text>
+  <text x="30" y="210" class="log-text log-info">[2026-02-04 15:54:50] INFO   | Metric exported: cpu_usage=92%</text>
+  <text x="30" y="230" class="log-text log-info">[2026-02-04 15:54:52] INFO   | Request processed: 200 OK (32ms)</text>
+  <text x="30" y="250" class="log-text log-info">[2026-02-04 15:54:54] INFO   | Metric exported: cpu_usage=74%</text>
+  <text x="30" y="270" class="log-text log-info">[2026-02-04 15:54:56] INFO   | Auto-scaling triggered: +1 pods</text>
+  <text x="30" y="290" class="log-text log-info">[2026-02-04 15:54:58] INFO   | Database query optimized (69ms→10ms)</text>
+  <text x="30" y="310" class="log-text log-info">[2026-02-04 15:55:00] INFO   | Auto-scaling triggered: +1 pods</text>
+  <text x="30" y="330" class="log-text log-debug">[2026-02-04 15:55:02] DEBUG  | Cache hit: user:4e5b9</text>
+  <text x="30" y="350" class="log-text log-info">[2026-02-04 15:55:04] INFO   | Database query optimized (78ms→19ms)</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
