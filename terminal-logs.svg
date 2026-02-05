@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-warn">[2026-02-05 09:47:45] WARN   | High latency detected: api-gateway</text>
-  <text x="30" y="90" class="log-text log-info">[2026-02-05 09:47:47] INFO   | Metric exported: cpu_usage=95%</text>
-  <text x="30" y="110" class="log-text log-info">[2026-02-05 09:47:49] INFO   | Pod notification-svc-2f5f8 started</text>
-  <text x="30" y="130" class="log-text log-info">[2026-02-05 09:47:51] INFO   | Metric exported: cpu_usage=81%</text>
-  <text x="30" y="150" class="log-text log-info">[2026-02-05 09:47:53] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="170" class="log-text log-info">[2026-02-05 09:47:55] INFO   | Database query optimized (78ms→25ms)</text>
-  <text x="30" y="190" class="log-text log-warn">[2026-02-05 09:47:57] WARN   | High latency detected: auth-service</text>
-  <text x="30" y="210" class="log-text log-info">[2026-02-05 09:47:59] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="230" class="log-text log-info">[2026-02-05 09:48:01] INFO   | Deploy rollout: 25/47 pods updated</text>
-  <text x="30" y="250" class="log-text log-info">[2026-02-05 09:48:03] INFO   | Container started: payment-service-4c5a7</text>
-  <text x="30" y="270" class="log-text log-info">[2026-02-05 09:48:05] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="290" class="log-text log-info">[2026-02-05 09:48:07] INFO   | Metric exported: cpu_usage=70%</text>
-  <text x="30" y="310" class="log-text log-debug">[2026-02-05 09:48:09] DEBUG  | Cache hit: user:4e5e6</text>
-  <text x="30" y="330" class="log-text log-info">[2026-02-05 09:48:11] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="350" class="log-text log-info">[2026-02-05 09:48:13] INFO   | Auto-scaling triggered: +2 pods</text>
+  <text x="30" y="70" class="log-text log-debug">[2026-02-05 10:27:40] DEBUG  | Cache hit: user:9d8c6</text>
+  <text x="30" y="90" class="log-text log-debug">[2026-02-05 10:27:42] DEBUG  | Cache hit: user:8f3f1</text>
+  <text x="30" y="110" class="log-text log-info">[2026-02-05 10:27:44] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="130" class="log-text log-debug">[2026-02-05 10:27:46] DEBUG  | Cache hit: user:6b3a3</text>
+  <text x="30" y="150" class="log-text log-info">[2026-02-05 10:27:48] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="170" class="log-text log-info">[2026-02-05 10:27:50] INFO   | Pod notification-svc-3d3c5 started</text>
+  <text x="30" y="190" class="log-text log-info">[2026-02-05 10:27:52] INFO   | Database query optimized (85ms→15ms)</text>
+  <text x="30" y="210" class="log-text log-warn">[2026-02-05 10:27:54] WARN   | High latency detected: api-gateway</text>
+  <text x="30" y="230" class="log-text log-debug">[2026-02-05 10:27:56] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="250" class="log-text log-warn">[2026-02-05 10:27:58] WARN   | High latency detected: user-service</text>
+  <text x="30" y="270" class="log-text log-info">[2026-02-05 10:28:00] INFO   | Database query optimized (42ms→11ms)</text>
+  <text x="30" y="290" class="log-text log-info">[2026-02-05 10:28:02] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="310" class="log-text log-info">[2026-02-05 10:28:04] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="330" class="log-text log-info">[2026-02-05 10:28:06] INFO   | Database query optimized (63ms→12ms)</text>
+  <text x="30" y="350" class="log-text log-debug">[2026-02-05 10:28:08] DEBUG  | Rate limit check: 6462 req/s</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
