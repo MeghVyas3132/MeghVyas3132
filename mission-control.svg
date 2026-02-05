@@ -40,7 +40,7 @@
   <!-- Header -->
   <rect x="15" y="15" width="1170" height="50" class="panel" rx="5"/>
   <text x="30" y="40" class="title">MISSION CONTROL - INFRASTRUCTURE COMMAND CENTER</text>
-  <text x="30" y="58" class="subtitle">System Status: OPERATIONAL | Uptime: 99.94% | Last Update: 2026-02-05 23:02:47 UTC</text>
+  <text x="30" y="58" class="subtitle">System Status: OPERATIONAL | Uptime: 99.93% | Last Update: 2026-02-05 23:34:44 UTC</text>
   
   <!-- Left Panel: Deployment Status -->
   <rect x="15" y="75" width="380" height="250" class="panel" rx="5"/>
@@ -99,7 +99,7 @@
   <line x1="600" y1="210" x2="622" y2="235" stroke="#808080" stroke-width="2"/>
   <line x1="690" y1="210" x2="712" y2="235" stroke="#808080" stroke-width="2"/>
   
-  <text x="420" y="300" class="label">Traffic: 7215 req/s | Latency: 31ms</text>
+  <text x="420" y="300" class="label">Traffic: 7432 req/s | Latency: 34ms</text>
   
   <!-- Right Panel: Live Metrics -->
   <rect x="795" y="75" width="390" height="250" class="panel" rx="5"/>
@@ -108,31 +108,31 @@
   <!-- CPU -->
   <text x="810" y="130" class="label">CPU Usage:</text>
   <rect x="920" y="118" width="240" height="16" fill="#1a1a1a" stroke="#404040" stroke-width="1" rx="8"/>
-  <rect x="920" y="118" width="201" height="16" fill="url(#accentGrad)" rx="8"/>
-  <text x="1050" y="130" class="value">84%</text>
+  <rect x="920" y="118" width="208" height="16" fill="url(#accentGrad)" rx="8"/>
+  <text x="1050" y="130" class="value">87%</text>
   
   <!-- Memory -->
   <text x="810" y="160" class="label">Memory:</text>
   <rect x="920" y="148" width="240" height="16" fill="#1a1a1a" stroke="#404040" stroke-width="1" rx="8"/>
-  <rect x="920" y="148" width="158" height="16" fill="url(#accentGrad)" rx="8"/>
-  <text x="1050" y="160" class="value">66%</text>
+  <rect x="920" y="148" width="182" height="16" fill="url(#accentGrad)" rx="8"/>
+  <text x="1050" y="160" class="value">76%</text>
   
   <!-- Network -->
   <text x="810" y="190" class="label">Network I/O:</text>
   <rect x="920" y="178" width="240" height="16" fill="#1a1a1a" stroke="#404040" stroke-width="1" rx="8"/>
-  <rect x="920" y="178" width="144" height="16" fill="url(#accentGrad)" rx="8"/>
-  <text x="1050" y="190" class="value">60%</text>
+  <rect x="920" y="178" width="129" height="16" fill="url(#accentGrad)" rx="8"/>
+  <text x="1050" y="190" class="value">54%</text>
   
   <!-- Disk -->
   <text x="810" y="220" class="label">Disk IOPS:</text>
   <rect x="920" y="208" width="240" height="16" fill="#1a1a1a" stroke="#404040" stroke-width="1" rx="8"/>
-  <rect x="920" y="208" width="163" height="16" fill="url(#accentGrad)" rx="8"/>
-  <text x="1050" y="220" class="value">68%</text>
+  <rect x="920" y="208" width="192" height="16" fill="url(#accentGrad)" rx="8"/>
+  <text x="1050" y="220" class="value">80%</text>
   
-  <text x="810" y="250" class="label">Requests/sec: 7215</text>
-  <text x="810" y="270" class="label">Avg Latency: 31ms</text>
-  <text x="810" y="290" class="label">Active Users: 10,929</text>
-  <text x="810" y="310" class="label">Cache Hit Rate: 92.1%</text>
+  <text x="810" y="250" class="label">Requests/sec: 7432</text>
+  <text x="810" y="270" class="label">Avg Latency: 34ms</text>
+  <text x="810" y="290" class="label">Active Users: 10,930</text>
+  <text x="810" y="310" class="label">Cache Hit Rate: 93.6%</text>
   
   <!-- Bottom Panel: Microservices Status -->
   <rect x="15" y="335" width="1170" height="250" class="panel" rx="5"/>
