@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-warn">[2026-02-07 13:50:48] WARN   | High latency detected: payment-service</text>
-  <text x="30" y="90" class="log-text log-debug">[2026-02-07 13:50:50] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="110" class="log-text log-warn">[2026-02-07 13:50:52] WARN   | High latency detected: payment-service</text>
-  <text x="30" y="130" class="log-text log-debug">[2026-02-07 13:50:54] DEBUG  | Rate limit check: 8788 req/s</text>
-  <text x="30" y="150" class="log-text log-info">[2026-02-07 13:50:56] INFO   | Backup completed: 511 MB</text>
-  <text x="30" y="170" class="log-text log-info">[2026-02-07 13:50:58] INFO   | Database query optimized (47ms→18ms)</text>
-  <text x="30" y="190" class="log-text log-warn">[2026-02-07 13:51:00] WARN   | High latency detected: user-service</text>
-  <text x="30" y="210" class="log-text log-info">[2026-02-07 13:51:02] INFO   | Health check passed: user-service</text>
-  <text x="30" y="230" class="log-text log-debug">[2026-02-07 13:51:04] DEBUG  | Cache hit: user:5d1e5</text>
-  <text x="30" y="250" class="log-text log-info">[2026-02-07 13:51:06] INFO   | Backup completed: 972 MB</text>
-  <text x="30" y="270" class="log-text log-warn">[2026-02-07 13:51:08] WARN   | High latency detected: notification-svc</text>
-  <text x="30" y="290" class="log-text log-info">[2026-02-07 13:51:10] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="310" class="log-text log-info">[2026-02-07 13:51:12] INFO   | Container started: user-service-2c9b4</text>
-  <text x="30" y="330" class="log-text log-info">[2026-02-07 13:51:14] INFO   | Request processed: 200 OK (31ms)</text>
-  <text x="30" y="350" class="log-text log-info">[2026-02-07 13:51:16] INFO   | Database query optimized (71ms→15ms)</text>
+  <text x="30" y="70" class="log-text log-info">[2026-02-07 14:13:49] INFO   | Backup completed: 529 MB</text>
+  <text x="30" y="90" class="log-text log-info">[2026-02-07 14:13:51] INFO   | Pod payment-service-4a5c5 started</text>
+  <text x="30" y="110" class="log-text log-info">[2026-02-07 14:13:53] INFO   | Container started: api-gateway-3e7e7</text>
+  <text x="30" y="130" class="log-text log-info">[2026-02-07 14:13:55] INFO   | Container started: payment-service-4f4d5</text>
+  <text x="30" y="150" class="log-text log-info">[2026-02-07 14:13:57] INFO   | Container started: payment-service-2f1f8</text>
+  <text x="30" y="170" class="log-text log-info">[2026-02-07 14:13:59] INFO   | Container started: payment-service-3d8f7</text>
+  <text x="30" y="190" class="log-text log-info">[2026-02-07 14:14:01] INFO   | Auto-scaling triggered: +3 pods</text>
+  <text x="30" y="210" class="log-text log-info">[2026-02-07 14:14:03] INFO   | Container started: payment-service-8f6b7</text>
+  <text x="30" y="230" class="log-text log-info">[2026-02-07 14:14:05] INFO   | Auto-scaling triggered: +1 pods</text>
+  <text x="30" y="250" class="log-text log-info">[2026-02-07 14:14:07] INFO   | Metric exported: cpu_usage=79%</text>
+  <text x="30" y="270" class="log-text log-info">[2026-02-07 14:14:09] INFO   | Auto-scaling triggered: +2 pods</text>
+  <text x="30" y="290" class="log-text log-info">[2026-02-07 14:14:11] INFO   | Backup completed: 989 MB</text>
+  <text x="30" y="310" class="log-text log-info">[2026-02-07 14:14:13] INFO   | Health check passed: payment-service</text>
+  <text x="30" y="330" class="log-text log-debug">[2026-02-07 14:14:15] DEBUG  | Rate limit check: 5739 req/s</text>
+  <text x="30" y="350" class="log-text log-info">[2026-02-07 14:14:17] INFO   | Load balancer: distributing traffic</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
