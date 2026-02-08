@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-02-08 10:31:24] INFO   | Deploy rollout: 35/47 pods updated</text>
-  <text x="30" y="90" class="log-text log-info">[2026-02-08 10:31:26] INFO   | Request processed: 200 OK (35ms)</text>
-  <text x="30" y="110" class="log-text log-info">[2026-02-08 10:31:28] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="130" class="log-text log-warn">[2026-02-08 10:31:30] WARN   | High latency detected: user-service</text>
-  <text x="30" y="150" class="log-text log-info">[2026-02-08 10:31:32] INFO   | Pod api-gateway-3c7c4 started</text>
-  <text x="30" y="170" class="log-text log-debug">[2026-02-08 10:31:34] DEBUG  | Cache hit: user:8a7f6</text>
-  <text x="30" y="190" class="log-text log-info">[2026-02-08 10:31:36] INFO   | Metric exported: cpu_usage=71%</text>
-  <text x="30" y="210" class="log-text log-info">[2026-02-08 10:31:38] INFO   | Pod auth-service-8c5b4 started</text>
-  <text x="30" y="230" class="log-text log-info">[2026-02-08 10:31:40] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="250" class="log-text log-info">[2026-02-08 10:31:42] INFO   | Request processed: 200 OK (12ms)</text>
-  <text x="30" y="270" class="log-text log-debug">[2026-02-08 10:31:44] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="290" class="log-text log-info">[2026-02-08 10:31:46] INFO   | Backup completed: 517 MB</text>
-  <text x="30" y="310" class="log-text log-debug">[2026-02-08 10:31:48] DEBUG  | Cache hit: user:7c5d1</text>
-  <text x="30" y="330" class="log-text log-info">[2026-02-08 10:31:50] INFO   | Pod payment-service-9e7c7 started</text>
-  <text x="30" y="350" class="log-text log-warn">[2026-02-08 10:31:52] WARN   | High latency detected: api-gateway</text>
+  <text x="30" y="70" class="log-text log-debug">[2026-02-08 10:57:08] DEBUG  | Rate limit check: 7296 req/s</text>
+  <text x="30" y="90" class="log-text log-info">[2026-02-08 10:57:10] INFO   | Deploy rollout: 27/47 pods updated</text>
+  <text x="30" y="110" class="log-text log-info">[2026-02-08 10:57:12] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="130" class="log-text log-warn">[2026-02-08 10:57:14] WARN   | High latency detected: auth-service</text>
+  <text x="30" y="150" class="log-text log-info">[2026-02-08 10:57:16] INFO   | Backup completed: 510 MB</text>
+  <text x="30" y="170" class="log-text log-warn">[2026-02-08 10:57:18] WARN   | High latency detected: payment-service</text>
+  <text x="30" y="190" class="log-text log-info">[2026-02-08 10:57:20] INFO   | Health check passed: notification-svc</text>
+  <text x="30" y="210" class="log-text log-info">[2026-02-08 10:57:22] INFO   | Container started: auth-service-4d8e7</text>
+  <text x="30" y="230" class="log-text log-info">[2026-02-08 10:57:24] INFO   | Request processed: 200 OK (48ms)</text>
+  <text x="30" y="250" class="log-text log-info">[2026-02-08 10:57:26] INFO   | Auto-scaling triggered: +3 pods</text>
+  <text x="30" y="270" class="log-text log-info">[2026-02-08 10:57:28] INFO   | Pod api-gateway-5f1f5 started</text>
+  <text x="30" y="290" class="log-text log-info">[2026-02-08 10:57:30] INFO   | Backup completed: 670 MB</text>
+  <text x="30" y="310" class="log-text log-debug">[2026-02-08 10:57:32] DEBUG  | Rate limit check: 5437 req/s</text>
+  <text x="30" y="330" class="log-text log-info">[2026-02-08 10:57:34] INFO   | Pod user-service-4b2d4 started</text>
+  <text x="30" y="350" class="log-text log-info">[2026-02-08 10:57:36] INFO   | Deploy rollout: 38/47 pods updated</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
