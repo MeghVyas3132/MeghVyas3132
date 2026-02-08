@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-02-08 21:59:55] INFO   | Database query optimized (46ms→23ms)</text>
-  <text x="30" y="90" class="log-text log-info">[2026-02-08 21:59:57] INFO   | Deploy rollout: 39/47 pods updated</text>
-  <text x="30" y="110" class="log-text log-debug">[2026-02-08 21:59:59] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="130" class="log-text log-debug">[2026-02-08 22:00:01] DEBUG  | Cache hit: user:6e1a6</text>
-  <text x="30" y="150" class="log-text log-info">[2026-02-08 22:00:03] INFO   | Container started: user-service-3f4d2</text>
-  <text x="30" y="170" class="log-text log-info">[2026-02-08 22:00:05] INFO   | Metric exported: cpu_usage=75%</text>
-  <text x="30" y="190" class="log-text log-info">[2026-02-08 22:00:07] INFO   | Database query optimized (97ms→23ms)</text>
-  <text x="30" y="210" class="log-text log-info">[2026-02-08 22:00:09] INFO   | Database query optimized (92ms→17ms)</text>
-  <text x="30" y="230" class="log-text log-info">[2026-02-08 22:00:11] INFO   | Deploy rollout: 33/47 pods updated</text>
-  <text x="30" y="250" class="log-text log-debug">[2026-02-08 22:00:13] DEBUG  | Cache hit: user:1b7f7</text>
-  <text x="30" y="270" class="log-text log-info">[2026-02-08 22:00:15] INFO   | Container started: payment-service-9a5a6</text>
-  <text x="30" y="290" class="log-text log-info">[2026-02-08 22:00:17] INFO   | Request processed: 200 OK (45ms)</text>
-  <text x="30" y="310" class="log-text log-info">[2026-02-08 22:00:19] INFO   | Database query optimized (50ms→12ms)</text>
-  <text x="30" y="330" class="log-text log-info">[2026-02-08 22:00:21] INFO   | Health check passed: payment-service</text>
-  <text x="30" y="350" class="log-text log-warn">[2026-02-08 22:00:23] WARN   | High latency detected: payment-service</text>
+  <text x="30" y="70" class="log-text log-info">[2026-02-08 22:37:41] INFO   | Container started: payment-service-8d7b3</text>
+  <text x="30" y="90" class="log-text log-info">[2026-02-08 22:37:43] INFO   | Auto-scaling triggered: +3 pods</text>
+  <text x="30" y="110" class="log-text log-info">[2026-02-08 22:37:45] INFO   | Backup completed: 834 MB</text>
+  <text x="30" y="130" class="log-text log-warn">[2026-02-08 22:37:47] WARN   | High latency detected: payment-service</text>
+  <text x="30" y="150" class="log-text log-info">[2026-02-08 22:37:49] INFO   | Pod user-service-8b1a7 started</text>
+  <text x="30" y="170" class="log-text log-info">[2026-02-08 22:37:51] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="190" class="log-text log-info">[2026-02-08 22:37:53] INFO   | Deploy rollout: 21/47 pods updated</text>
+  <text x="30" y="210" class="log-text log-info">[2026-02-08 22:37:55] INFO   | Database query optimized (75ms→22ms)</text>
+  <text x="30" y="230" class="log-text log-debug">[2026-02-08 22:37:57] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="250" class="log-text log-info">[2026-02-08 22:37:59] INFO   | Health check passed: notification-svc</text>
+  <text x="30" y="270" class="log-text log-debug">[2026-02-08 22:38:01] DEBUG  | Rate limit check: 8130 req/s</text>
+  <text x="30" y="290" class="log-text log-debug">[2026-02-08 22:38:03] DEBUG  | Cache hit: user:8c4c8</text>
+  <text x="30" y="310" class="log-text log-warn">[2026-02-08 22:38:05] WARN   | High latency detected: auth-service</text>
+  <text x="30" y="330" class="log-text log-debug">[2026-02-08 22:38:07] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="350" class="log-text log-warn">[2026-02-08 22:38:09] WARN   | High latency detected: user-service</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
