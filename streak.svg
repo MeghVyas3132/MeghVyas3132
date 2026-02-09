@@ -29,7 +29,7 @@
     
     <!-- Total Contributions (Left) -->
     <g transform="translate(82.5, 97)">
-        <text class="value" text-anchor="middle" y="0">1959</text>
+        <text class="value" text-anchor="middle" y="0">1964</text>
         <text class="title" text-anchor="middle" y="25">Total Contributions</text>
         <text class="label" text-anchor="middle" y="42">Feb 09, 2025 - Present</text>
     </g>
@@ -39,19 +39,19 @@
         <!-- Outer ring background -->
         <circle cx="0" cy="-10" r="38" class="ring" stroke="#1a1a1a"/>
         <!-- Animated ring -->
-        <circle cx="0" cy="-10" r="38" class="ring" stroke="#ffffff" stroke-dasharray="238.76" stroke-dashoffset="127.33866666666665" stroke-linecap="round" transform="rotate(-90 0 -10)">
-            <animate attributeName="stroke-dashoffset" from="238.76" to="127.33866666666665" dur="1.5s" fill="freeze"/>
+        <circle cx="0" cy="-10" r="38" class="ring" stroke="#ffffff" stroke-dasharray="238.76" stroke-dashoffset="0.0" stroke-linecap="round" transform="rotate(-90 0 -10)">
+            <animate attributeName="stroke-dashoffset" from="238.76" to="0.0" dur="1.5s" fill="freeze"/>
         </circle>
         <!-- Value inside ring -->
-        <text class="value-large" text-anchor="middle" y="5">14</text>
+        <text class="value-large" text-anchor="middle" y="5">37</text>
         <text class="title" text-anchor="middle" y="50">Current Streak</text>
-        <text class="label" text-anchor="middle" y="65">Jan 27 - Feb 09</text>
+        <text class="label" text-anchor="middle" y="65">Jan 04 - Feb 09</text>
     </g>
     
     <!-- Longest Streak (Right) -->
     <g transform="translate(412.5, 97)">
-        <text class="value" text-anchor="middle" y="0">22</text>
+        <text class="value" text-anchor="middle" y="0">37</text>
         <text class="title" text-anchor="middle" y="25">Longest Streak</text>
-        <text class="label" text-anchor="middle" y="42">Jan 04 - Jan 25</text>
+        <text class="label" text-anchor="middle" y="42">Jan 04 - Feb 09</text>
     </g>
 </svg>
