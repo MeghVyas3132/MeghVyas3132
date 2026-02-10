@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-02-10 22:33:16] INFO   | Metric exported: cpu_usage=91%</text>
-  <text x="30" y="90" class="log-text log-warn">[2026-02-10 22:33:18] WARN   | High latency detected: auth-service</text>
-  <text x="30" y="110" class="log-text log-debug">[2026-02-10 22:33:20] DEBUG  | Cache hit: user:5d6a6</text>
-  <text x="30" y="130" class="log-text log-info">[2026-02-10 22:33:22] INFO   | Container started: user-service-4b9f2</text>
-  <text x="30" y="150" class="log-text log-debug">[2026-02-10 22:33:24] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="170" class="log-text log-debug">[2026-02-10 22:33:26] DEBUG  | Cache hit: user:6a6c4</text>
-  <text x="30" y="190" class="log-text log-info">[2026-02-10 22:33:28] INFO   | Container started: auth-service-5c7f5</text>
-  <text x="30" y="210" class="log-text log-debug">[2026-02-10 22:33:30] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="230" class="log-text log-debug">[2026-02-10 22:33:32] DEBUG  | Rate limit check: 7543 req/s</text>
-  <text x="30" y="250" class="log-text log-info">[2026-02-10 22:33:34] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="270" class="log-text log-warn">[2026-02-10 22:33:36] WARN   | High latency detected: user-service</text>
-  <text x="30" y="290" class="log-text log-info">[2026-02-10 22:33:38] INFO   | Deploy rollout: 35/47 pods updated</text>
-  <text x="30" y="310" class="log-text log-info">[2026-02-10 22:33:40] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="330" class="log-text log-info">[2026-02-10 22:33:42] INFO   | Backup completed: 911 MB</text>
-  <text x="30" y="350" class="log-text log-debug">[2026-02-10 22:33:44] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="70" class="log-text log-debug">[2026-02-10 23:21:37] DEBUG  | Cache hit: user:8c2f2</text>
+  <text x="30" y="90" class="log-text log-debug">[2026-02-10 23:21:39] DEBUG  | Rate limit check: 7258 req/s</text>
+  <text x="30" y="110" class="log-text log-info">[2026-02-10 23:21:41] INFO   | Backup completed: 607 MB</text>
+  <text x="30" y="130" class="log-text log-info">[2026-02-10 23:21:43] INFO   | Backup completed: 586 MB</text>
+  <text x="30" y="150" class="log-text log-debug">[2026-02-10 23:21:45] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="170" class="log-text log-info">[2026-02-10 23:21:47] INFO   | Deploy rollout: 30/47 pods updated</text>
+  <text x="30" y="190" class="log-text log-info">[2026-02-10 23:21:49] INFO   | Auto-scaling triggered: +1 pods</text>
+  <text x="30" y="210" class="log-text log-info">[2026-02-10 23:21:51] INFO   | Container started: user-service-9b8c3</text>
+  <text x="30" y="230" class="log-text log-info">[2026-02-10 23:21:53] INFO   | Database query optimized (80ms→16ms)</text>
+  <text x="30" y="250" class="log-text log-info">[2026-02-10 23:21:55] INFO   | Backup completed: 676 MB</text>
+  <text x="30" y="270" class="log-text log-info">[2026-02-10 23:21:57] INFO   | Container started: user-service-9d3e6</text>
+  <text x="30" y="290" class="log-text log-debug">[2026-02-10 23:21:59] DEBUG  | Cache hit: user:4e5b7</text>
+  <text x="30" y="310" class="log-text log-info">[2026-02-10 23:22:01] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="330" class="log-text log-info">[2026-02-10 23:22:03] INFO   | Auto-scaling triggered: +3 pods</text>
+  <text x="30" y="350" class="log-text log-info">[2026-02-10 23:22:05] INFO   | Deploy rollout: 28/47 pods updated</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
