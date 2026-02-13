@@ -13,56 +13,22 @@
     
     <g transform="translate(10, 10)" opacity="1">
         <!-- Trophy base -->
-        <rect x="0" y="0" width="110" height="120" rx="8" fill="#0a0a0a" stroke="#909090" stroke-width="1"/>
+        <rect x="0" y="0" width="110" height="120" rx="8" fill="#0a0a0a" stroke="#707070" stroke-width="1"/>
         
         <!-- Trophy icon area -->
-        <circle cx="55" cy="45" r="28" fill="none" stroke="#b0b0b0" stroke-width="2"/>
+        <circle cx="55" cy="45" r="28" fill="none" stroke="#909090" stroke-width="2"/>
         
         <!-- Icon -->
         <text x="55" y="52" text-anchor="middle" font-size="24">⭐</text>
         
         <!-- Title -->
-        <text x="55" y="90" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" fill="#b0b0b0" font-weight="bold">Stars</text>
+        <text x="55" y="90" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" fill="#909090" font-weight="bold">Stars</text>
         
         <!-- Rank badge -->
-        <rect x="40" y="100" width="30" height="14" rx="3" fill="#909090"/>
-        <text x="55" y="111" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="9" fill="#0a0a0a" font-weight="bold">AA</text>
+        <rect x="40" y="100" width="30" height="14" rx="3" fill="#707070"/>
+        <text x="55" y="111" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="9" fill="#0a0a0a" font-weight="bold">A</text>
     </g>
     <g transform="translate(130, 10)" opacity="1">
-        <!-- Trophy base -->
-        <rect x="0" y="0" width="110" height="120" rx="8" fill="#0a0a0a" stroke="#b0b0b0" stroke-width="1"/>
-        
-        <!-- Trophy icon area -->
-        <circle cx="55" cy="45" r="28" fill="none" stroke="#d0d0d0" stroke-width="2"/>
-        
-        <!-- Icon -->
-        <text x="55" y="52" text-anchor="middle" font-size="24">📝</text>
-        
-        <!-- Title -->
-        <text x="55" y="90" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" fill="#d0d0d0" font-weight="bold">Commits</text>
-        
-        <!-- Rank badge -->
-        <rect x="40" y="100" width="30" height="14" rx="3" fill="#b0b0b0"/>
-        <text x="55" y="111" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="9" fill="#0a0a0a" font-weight="bold">AAA</text>
-    </g>
-    <g transform="translate(250, 10)" opacity="1">
-        <!-- Trophy base -->
-        <rect x="0" y="0" width="110" height="120" rx="8" fill="#0a0a0a" stroke="#b0b0b0" stroke-width="1"/>
-        
-        <!-- Trophy icon area -->
-        <circle cx="55" cy="45" r="28" fill="none" stroke="#d0d0d0" stroke-width="2"/>
-        
-        <!-- Icon -->
-        <text x="55" y="52" text-anchor="middle" font-size="24">👥</text>
-        
-        <!-- Title -->
-        <text x="55" y="90" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" fill="#d0d0d0" font-weight="bold">Followers</text>
-        
-        <!-- Rank badge -->
-        <rect x="40" y="100" width="30" height="14" rx="3" fill="#b0b0b0"/>
-        <text x="55" y="111" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="9" fill="#0a0a0a" font-weight="bold">AAA</text>
-    </g>
-    <g transform="translate(370, 10)" opacity="1">
         <!-- Trophy base -->
         <rect x="0" y="0" width="110" height="120" rx="8" fill="#0a0a0a" stroke="#707070" stroke-width="1"/>
         
@@ -70,16 +36,16 @@
         <circle cx="55" cy="45" r="28" fill="none" stroke="#909090" stroke-width="2"/>
         
         <!-- Icon -->
-        <text x="55" y="52" text-anchor="middle" font-size="24">📁</text>
+        <text x="55" y="52" text-anchor="middle" font-size="24">📝</text>
         
         <!-- Title -->
-        <text x="55" y="90" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" fill="#909090" font-weight="bold">Repos</text>
+        <text x="55" y="90" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" fill="#909090" font-weight="bold">Commits</text>
         
         <!-- Rank badge -->
         <rect x="40" y="100" width="30" height="14" rx="3" fill="#707070"/>
         <text x="55" y="111" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="9" fill="#0a0a0a" font-weight="bold">A</text>
     </g>
-    <g transform="translate(490, 10)" opacity="1">
+    <g transform="translate(250, 10)" opacity="1">
         <!-- Trophy base -->
         <rect x="0" y="0" width="110" height="120" rx="8" fill="#0a0a0a" stroke="#909090" stroke-width="1"/>
         
@@ -87,14 +53,48 @@
         <circle cx="55" cy="45" r="28" fill="none" stroke="#b0b0b0" stroke-width="2"/>
         
         <!-- Icon -->
-        <text x="55" y="52" text-anchor="middle" font-size="24">🔱</text>
+        <text x="55" y="52" text-anchor="middle" font-size="24">👥</text>
         
         <!-- Title -->
-        <text x="55" y="90" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" fill="#b0b0b0" font-weight="bold">Forks</text>
+        <text x="55" y="90" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" fill="#b0b0b0" font-weight="bold">Followers</text>
         
         <!-- Rank badge -->
         <rect x="40" y="100" width="30" height="14" rx="3" fill="#909090"/>
         <text x="55" y="111" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="9" fill="#0a0a0a" font-weight="bold">AA</text>
+    </g>
+    <g transform="translate(370, 10)" opacity="1">
+        <!-- Trophy base -->
+        <rect x="0" y="0" width="110" height="120" rx="8" fill="#0a0a0a" stroke="#b0b0b0" stroke-width="1"/>
+        
+        <!-- Trophy icon area -->
+        <circle cx="55" cy="45" r="28" fill="none" stroke="#d0d0d0" stroke-width="2"/>
+        
+        <!-- Icon -->
+        <text x="55" y="52" text-anchor="middle" font-size="24">📁</text>
+        
+        <!-- Title -->
+        <text x="55" y="90" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" fill="#d0d0d0" font-weight="bold">Repos</text>
+        
+        <!-- Rank badge -->
+        <rect x="40" y="100" width="30" height="14" rx="3" fill="#b0b0b0"/>
+        <text x="55" y="111" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="9" fill="#0a0a0a" font-weight="bold">AAA</text>
+    </g>
+    <g transform="translate(490, 10)" opacity="0.3">
+        <!-- Trophy base -->
+        <rect x="0" y="0" width="110" height="120" rx="8" fill="#0a0a0a" stroke="#202020" stroke-width="1"/>
+        
+        <!-- Trophy icon area -->
+        <circle cx="55" cy="45" r="28" fill="none" stroke="#303030" stroke-width="2"/>
+        
+        <!-- Icon -->
+        <text x="55" y="52" text-anchor="middle" font-size="24">🔱</text>
+        
+        <!-- Title -->
+        <text x="55" y="90" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" fill="#303030" font-weight="bold">Forks</text>
+        
+        <!-- Rank badge -->
+        <rect x="40" y="100" width="30" height="14" rx="3" fill="#202020"/>
+        <text x="55" y="111" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="9" fill="#0a0a0a" font-weight="bold">-</text>
     </g>
     <g transform="translate(610, 10)" opacity="1">
         <!-- Trophy base -->
