@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-debug">[2026-02-13 15:22:54] DEBUG  | Cache hit: user:1e5d5</text>
-  <text x="30" y="90" class="log-text log-info">[2026-02-13 15:22:56] INFO   | Request processed: 200 OK (30ms)</text>
-  <text x="30" y="110" class="log-text log-info">[2026-02-13 15:22:58] INFO   | Database query optimized (63ms→21ms)</text>
-  <text x="30" y="130" class="log-text log-info">[2026-02-13 15:23:00] INFO   | Auto-scaling triggered: +2 pods</text>
-  <text x="30" y="150" class="log-text log-info">[2026-02-13 15:23:02] INFO   | Backup completed: 949 MB</text>
-  <text x="30" y="170" class="log-text log-info">[2026-02-13 15:23:04] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="190" class="log-text log-debug">[2026-02-13 15:23:06] DEBUG  | Rate limit check: 9344 req/s</text>
-  <text x="30" y="210" class="log-text log-info">[2026-02-13 15:23:08] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="230" class="log-text log-debug">[2026-02-13 15:23:10] DEBUG  | Cache hit: user:3f4f4</text>
-  <text x="30" y="250" class="log-text log-info">[2026-02-13 15:23:12] INFO   | Backup completed: 791 MB</text>
-  <text x="30" y="270" class="log-text log-debug">[2026-02-13 15:23:14] DEBUG  | Cache hit: user:2c1b4</text>
-  <text x="30" y="290" class="log-text log-info">[2026-02-13 15:23:16] INFO   | Auto-scaling triggered: +3 pods</text>
-  <text x="30" y="310" class="log-text log-info">[2026-02-13 15:23:18] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="330" class="log-text log-info">[2026-02-13 15:23:20] INFO   | Deploy rollout: 39/47 pods updated</text>
-  <text x="30" y="350" class="log-text log-info">[2026-02-13 15:23:22] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="70" class="log-text log-info">[2026-02-13 16:04:35] INFO   | Request processed: 200 OK (44ms)</text>
+  <text x="30" y="90" class="log-text log-info">[2026-02-13 16:04:37] INFO   | Deploy rollout: 31/47 pods updated</text>
+  <text x="30" y="110" class="log-text log-info">[2026-02-13 16:04:39] INFO   | Health check passed: auth-service</text>
+  <text x="30" y="130" class="log-text log-info">[2026-02-13 16:04:41] INFO   | Health check passed: user-service</text>
+  <text x="30" y="150" class="log-text log-info">[2026-02-13 16:04:43] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="170" class="log-text log-info">[2026-02-13 16:04:45] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="190" class="log-text log-info">[2026-02-13 16:04:47] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="210" class="log-text log-debug">[2026-02-13 16:04:49] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="230" class="log-text log-info">[2026-02-13 16:04:51] INFO   | Database query optimized (97ms→15ms)</text>
+  <text x="30" y="250" class="log-text log-info">[2026-02-13 16:04:53] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="270" class="log-text log-debug">[2026-02-13 16:04:55] DEBUG  | Cache hit: user:3c6d4</text>
+  <text x="30" y="290" class="log-text log-info">[2026-02-13 16:04:57] INFO   | Auto-scaling triggered: +1 pods</text>
+  <text x="30" y="310" class="log-text log-info">[2026-02-13 16:04:59] INFO   | Auto-scaling triggered: +2 pods</text>
+  <text x="30" y="330" class="log-text log-info">[2026-02-13 16:05:01] INFO   | Auto-scaling triggered: +3 pods</text>
+  <text x="30" y="350" class="log-text log-debug">[2026-02-13 16:05:03] DEBUG  | Rate limit check: 7689 req/s</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
