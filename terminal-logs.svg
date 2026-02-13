@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-02-13 08:25:07] INFO   | Backup completed: 933 MB</text>
-  <text x="30" y="90" class="log-text log-debug">[2026-02-13 08:25:09] DEBUG  | Rate limit check: 7670 req/s</text>
-  <text x="30" y="110" class="log-text log-info">[2026-02-13 08:25:11] INFO   | Health check passed: user-service</text>
-  <text x="30" y="130" class="log-text log-info">[2026-02-13 08:25:13] INFO   | Health check passed: user-service</text>
-  <text x="30" y="150" class="log-text log-info">[2026-02-13 08:25:15] INFO   | Container started: notification-svc-5f6f8</text>
-  <text x="30" y="170" class="log-text log-debug">[2026-02-13 08:25:17] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="190" class="log-text log-info">[2026-02-13 08:25:19] INFO   | Metric exported: cpu_usage=70%</text>
-  <text x="30" y="210" class="log-text log-warn">[2026-02-13 08:25:21] WARN   | High latency detected: payment-service</text>
-  <text x="30" y="230" class="log-text log-info">[2026-02-13 08:25:23] INFO   | Database query optimized (54ms→11ms)</text>
-  <text x="30" y="250" class="log-text log-debug">[2026-02-13 08:25:25] DEBUG  | Rate limit check: 8628 req/s</text>
-  <text x="30" y="270" class="log-text log-debug">[2026-02-13 08:25:27] DEBUG  | Cache hit: user:4a2f7</text>
-  <text x="30" y="290" class="log-text log-debug">[2026-02-13 08:25:29] DEBUG  | Rate limit check: 9092 req/s</text>
-  <text x="30" y="310" class="log-text log-warn">[2026-02-13 08:25:31] WARN   | High latency detected: api-gateway</text>
-  <text x="30" y="330" class="log-text log-info">[2026-02-13 08:25:33] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="350" class="log-text log-debug">[2026-02-13 08:25:35] DEBUG  | Cache hit: user:5d9e6</text>
+  <text x="30" y="70" class="log-text log-warn">[2026-02-13 09:08:26] WARN   | High latency detected: payment-service</text>
+  <text x="30" y="90" class="log-text log-debug">[2026-02-13 09:08:28] DEBUG  | Rate limit check: 6899 req/s</text>
+  <text x="30" y="110" class="log-text log-debug">[2026-02-13 09:08:30] DEBUG  | Rate limit check: 5557 req/s</text>
+  <text x="30" y="130" class="log-text log-info">[2026-02-13 09:08:32] INFO   | Backup completed: 739 MB</text>
+  <text x="30" y="150" class="log-text log-info">[2026-02-13 09:08:34] INFO   | Deploy rollout: 39/47 pods updated</text>
+  <text x="30" y="170" class="log-text log-debug">[2026-02-13 09:08:36] DEBUG  | Rate limit check: 9172 req/s</text>
+  <text x="30" y="190" class="log-text log-info">[2026-02-13 09:08:38] INFO   | Pod api-gateway-1f1d4 started</text>
+  <text x="30" y="210" class="log-text log-info">[2026-02-13 09:08:40] INFO   | Metric exported: cpu_usage=88%</text>
+  <text x="30" y="230" class="log-text log-debug">[2026-02-13 09:08:42] DEBUG  | Cache hit: user:9b1e8</text>
+  <text x="30" y="250" class="log-text log-debug">[2026-02-13 09:08:44] DEBUG  | Cache hit: user:2e5a4</text>
+  <text x="30" y="270" class="log-text log-info">[2026-02-13 09:08:46] INFO   | Deploy rollout: 23/47 pods updated</text>
+  <text x="30" y="290" class="log-text log-debug">[2026-02-13 09:08:48] DEBUG  | Rate limit check: 8594 req/s</text>
+  <text x="30" y="310" class="log-text log-info">[2026-02-13 09:08:50] INFO   | Request processed: 200 OK (12ms)</text>
+  <text x="30" y="330" class="log-text log-info">[2026-02-13 09:08:52] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="350" class="log-text log-info">[2026-02-13 09:08:54] INFO   | Request processed: 200 OK (21ms)</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
