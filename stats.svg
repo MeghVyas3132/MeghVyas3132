@@ -18,20 +18,60 @@
     </text>
     
     <text x="20" y="65" font-family="Segoe UI, sans-serif" font-size="14" fill="#808080">Total Stars:</text>
-    <text x="140" y="65" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#fff">25</text>
+    <text x="140" y="65" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#fff">17</text>
     
     <text x="20" y="90" font-family="Segoe UI, sans-serif" font-size="14" fill="#808080">Public Repos:</text>
-    <text x="140" y="90" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#fff">15</text>
+    <text x="140" y="90" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#fff">36</text>
     
     <text x="20" y="115" font-family="Segoe UI, sans-serif" font-size="14" fill="#808080">Total Forks:</text>
-    <text x="140" y="115" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#fff">10</text>
+    <text x="140" y="115" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#fff">0</text>
     
     <text x="20" y="140" font-family="Segoe UI, sans-serif" font-size="14" fill="#808080">Followers:</text>
-    <text x="140" y="140" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#fff">50</text>
+    <text x="140" y="140" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#fff">28</text>
     
     <text x="250" y="35" font-family="Segoe UI, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">
         Top Languages
     </text>
     
     
+        <circle cx="260" cy="60" r="5" fill="#c8c8c8"/>
+        <text x="275" y="65" font-family="Segoe UI, sans-serif" font-size="12" fill="#fff">
+            TypeScript
+        </text>
+        <text x="460" y="65" font-family="Segoe UI, sans-serif" font-size="12" fill="#aaa" text-anchor="end">
+            43.3%
+        </text>
+        
+        <circle cx="260" cy="85" r="5" fill="#b0b0b0"/>
+        <text x="275" y="90" font-family="Segoe UI, sans-serif" font-size="12" fill="#fff">
+            Python
+        </text>
+        <text x="460" y="90" font-family="Segoe UI, sans-serif" font-size="12" fill="#aaa" text-anchor="end">
+            23.3%
+        </text>
+        
+        <circle cx="260" cy="110" r="5" fill="#e0e0e0"/>
+        <text x="275" y="115" font-family="Segoe UI, sans-serif" font-size="12" fill="#fff">
+            JavaScript
+        </text>
+        <text x="460" y="115" font-family="Segoe UI, sans-serif" font-size="12" fill="#aaa" text-anchor="end">
+            23.3%
+        </text>
+        
+        <circle cx="260" cy="135" r="5" fill="#a0a0a0"/>
+        <text x="275" y="140" font-family="Segoe UI, sans-serif" font-size="12" fill="#fff">
+            HTML
+        </text>
+        <text x="460" y="140" font-family="Segoe UI, sans-serif" font-size="12" fill="#aaa" text-anchor="end">
+            6.7%
+        </text>
+        
+        <circle cx="260" cy="160" r="5" fill="#ff6b6b"/>
+        <text x="275" y="165" font-family="Segoe UI, sans-serif" font-size="12" fill="#fff">
+            Dart
+        </text>
+        <text x="460" y="165" font-family="Segoe UI, sans-serif" font-size="12" fill="#aaa" text-anchor="end">
+            3.3%
+        </text>
+        
 </svg>
