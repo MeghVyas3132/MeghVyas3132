@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-debug">[2026-02-15 15:32:27] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="90" class="log-text log-debug">[2026-02-15 15:32:29] DEBUG  | Cache hit: user:3b5e8</text>
-  <text x="30" y="110" class="log-text log-info">[2026-02-15 15:32:31] INFO   | Health check passed: notification-svc</text>
-  <text x="30" y="130" class="log-text log-info">[2026-02-15 15:32:33] INFO   | Backup completed: 618 MB</text>
-  <text x="30" y="150" class="log-text log-info">[2026-02-15 15:32:35] INFO   | Health check passed: api-gateway</text>
-  <text x="30" y="170" class="log-text log-info">[2026-02-15 15:32:37] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="190" class="log-text log-info">[2026-02-15 15:32:39] INFO   | Pod auth-service-5d7f2 started</text>
-  <text x="30" y="210" class="log-text log-debug">[2026-02-15 15:32:41] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="230" class="log-text log-info">[2026-02-15 15:32:43] INFO   | Health check passed: payment-service</text>
-  <text x="30" y="250" class="log-text log-info">[2026-02-15 15:32:45] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="270" class="log-text log-debug">[2026-02-15 15:32:47] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="290" class="log-text log-debug">[2026-02-15 15:32:49] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="310" class="log-text log-debug">[2026-02-15 15:32:51] DEBUG  | Rate limit check: 8684 req/s</text>
-  <text x="30" y="330" class="log-text log-info">[2026-02-15 15:32:53] INFO   | Pod api-gateway-6f5e4 started</text>
-  <text x="30" y="350" class="log-text log-info">[2026-02-15 15:32:55] INFO   | Health check passed: payment-service</text>
+  <text x="30" y="70" class="log-text log-info">[2026-02-15 15:52:12] INFO   | Pod user-service-7e2f5 started</text>
+  <text x="30" y="90" class="log-text log-info">[2026-02-15 15:52:14] INFO   | Auto-scaling triggered: +1 pods</text>
+  <text x="30" y="110" class="log-text log-info">[2026-02-15 15:52:16] INFO   | Container started: auth-service-7c7d5</text>
+  <text x="30" y="130" class="log-text log-info">[2026-02-15 15:52:18] INFO   | Health check passed: payment-service</text>
+  <text x="30" y="150" class="log-text log-warn">[2026-02-15 15:52:20] WARN   | High latency detected: notification-svc</text>
+  <text x="30" y="170" class="log-text log-info">[2026-02-15 15:52:22] INFO   | Backup completed: 675 MB</text>
+  <text x="30" y="190" class="log-text log-info">[2026-02-15 15:52:24] INFO   | Auto-scaling triggered: +3 pods</text>
+  <text x="30" y="210" class="log-text log-info">[2026-02-15 15:52:26] INFO   | Auto-scaling triggered: +2 pods</text>
+  <text x="30" y="230" class="log-text log-debug">[2026-02-15 15:52:28] DEBUG  | Rate limit check: 7547 req/s</text>
+  <text x="30" y="250" class="log-text log-debug">[2026-02-15 15:52:30] DEBUG  | Rate limit check: 7913 req/s</text>
+  <text x="30" y="270" class="log-text log-info">[2026-02-15 15:52:32] INFO   | Backup completed: 727 MB</text>
+  <text x="30" y="290" class="log-text log-info">[2026-02-15 15:52:34] INFO   | Pod user-service-7a4b5 started</text>
+  <text x="30" y="310" class="log-text log-info">[2026-02-15 15:52:36] INFO   | Pod payment-service-7f3c5 started</text>
+  <text x="30" y="330" class="log-text log-warn">[2026-02-15 15:52:38] WARN   | High latency detected: payment-service</text>
+  <text x="30" y="350" class="log-text log-info">[2026-02-15 15:52:40] INFO   | Container started: user-service-3e7b2</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
