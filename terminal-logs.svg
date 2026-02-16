@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-02-16 21:01:43] INFO   | Auto-scaling triggered: +2 pods</text>
-  <text x="30" y="90" class="log-text log-info">[2026-02-16 21:01:45] INFO   | Deploy rollout: 36/47 pods updated</text>
-  <text x="30" y="110" class="log-text log-info">[2026-02-16 21:01:47] INFO   | Backup completed: 537 MB</text>
-  <text x="30" y="130" class="log-text log-debug">[2026-02-16 21:01:49] DEBUG  | Cache hit: user:8f2c4</text>
-  <text x="30" y="150" class="log-text log-info">[2026-02-16 21:01:51] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="170" class="log-text log-warn">[2026-02-16 21:01:53] WARN   | High latency detected: user-service</text>
-  <text x="30" y="190" class="log-text log-info">[2026-02-16 21:01:55] INFO   | Auto-scaling triggered: +2 pods</text>
-  <text x="30" y="210" class="log-text log-info">[2026-02-16 21:01:57] INFO   | Container started: notification-svc-2a5f3</text>
-  <text x="30" y="230" class="log-text log-info">[2026-02-16 21:01:59] INFO   | Pod notification-svc-5b4f4 started</text>
-  <text x="30" y="250" class="log-text log-info">[2026-02-16 21:02:01] INFO   | Health check passed: notification-svc</text>
-  <text x="30" y="270" class="log-text log-debug">[2026-02-16 21:02:03] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="290" class="log-text log-info">[2026-02-16 21:02:05] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="310" class="log-text log-info">[2026-02-16 21:02:07] INFO   | Database query optimized (75ms→22ms)</text>
-  <text x="30" y="330" class="log-text log-debug">[2026-02-16 21:02:09] DEBUG  | Rate limit check: 8566 req/s</text>
-  <text x="30" y="350" class="log-text log-info">[2026-02-16 21:02:11] INFO   | Request processed: 200 OK (34ms)</text>
+  <text x="30" y="70" class="log-text log-info">[2026-02-16 21:38:46] INFO   | Health check passed: payment-service</text>
+  <text x="30" y="90" class="log-text log-debug">[2026-02-16 21:38:48] DEBUG  | Cache hit: user:2f5d7</text>
+  <text x="30" y="110" class="log-text log-info">[2026-02-16 21:38:50] INFO   | Auto-scaling triggered: +1 pods</text>
+  <text x="30" y="130" class="log-text log-debug">[2026-02-16 21:38:52] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="150" class="log-text log-info">[2026-02-16 21:38:54] INFO   | Request processed: 200 OK (43ms)</text>
+  <text x="30" y="170" class="log-text log-info">[2026-02-16 21:38:56] INFO   | Deploy rollout: 21/47 pods updated</text>
+  <text x="30" y="190" class="log-text log-info">[2026-02-16 21:38:58] INFO   | Backup completed: 697 MB</text>
+  <text x="30" y="210" class="log-text log-info">[2026-02-16 21:39:00] INFO   | Pod user-service-2e9a1 started</text>
+  <text x="30" y="230" class="log-text log-info">[2026-02-16 21:39:02] INFO   | Container started: api-gateway-4d6b9</text>
+  <text x="30" y="250" class="log-text log-debug">[2026-02-16 21:39:04] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="270" class="log-text log-warn">[2026-02-16 21:39:06] WARN   | High latency detected: notification-svc</text>
+  <text x="30" y="290" class="log-text log-info">[2026-02-16 21:39:08] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="310" class="log-text log-info">[2026-02-16 21:39:10] INFO   | Metric exported: cpu_usage=76%</text>
+  <text x="30" y="330" class="log-text log-info">[2026-02-16 21:39:12] INFO   | Health check passed: notification-svc</text>
+  <text x="30" y="350" class="log-text log-info">[2026-02-16 21:39:14] INFO   | SSL cert renewed: *.meghvyas.dev</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
