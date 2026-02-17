@@ -29,9 +29,9 @@
     
     <!-- Total Contributions (Left) -->
     <g transform="translate(82.5, 97)">
-        <text class="value" text-anchor="middle" y="0">0</text>
+        <text class="value" text-anchor="middle" y="0">2757</text>
         <text class="title" text-anchor="middle" y="25">Total Contributions</text>
-        <text class="label" text-anchor="middle" y="42">N/A - Present</text>
+        <text class="label" text-anchor="middle" y="42">Feb 16, 2025 - Present</text>
     </g>
     
     <!-- Current Streak (Center - with Ring) -->
@@ -39,19 +39,19 @@
         <!-- Outer ring background -->
         <circle cx="0" cy="-10" r="38" class="ring" stroke="#1a1a1a"/>
         <!-- Animated ring -->
-        <circle cx="0" cy="-10" r="38" class="ring" stroke="#ffffff" stroke-dasharray="238.76" stroke-dashoffset="238.76" stroke-linecap="round" transform="rotate(-90 0 -10)">
-            <animate attributeName="stroke-dashoffset" from="238.76" to="238.76" dur="1.5s" fill="freeze"/>
+        <circle cx="0" cy="-10" r="38" class="ring" stroke="#ffffff" stroke-dasharray="238.76" stroke-dashoffset="0.0" stroke-linecap="round" transform="rotate(-90 0 -10)">
+            <animate attributeName="stroke-dashoffset" from="238.76" to="0.0" dur="1.5s" fill="freeze"/>
         </circle>
         <!-- Value inside ring -->
-        <text class="value-large" text-anchor="middle" y="5">0</text>
+        <text class="value-large" text-anchor="middle" y="5">45</text>
         <text class="title" text-anchor="middle" y="50">Current Streak</text>
-        <text class="label" text-anchor="middle" y="65">N/A</text>
+        <text class="label" text-anchor="middle" y="65">Jan 04 - Feb 17</text>
     </g>
     
     <!-- Longest Streak (Right) -->
     <g transform="translate(412.5, 97)">
-        <text class="value" text-anchor="middle" y="0">0</text>
+        <text class="value" text-anchor="middle" y="0">45</text>
         <text class="title" text-anchor="middle" y="25">Longest Streak</text>
-        <text class="label" text-anchor="middle" y="42">N/A</text>
+        <text class="label" text-anchor="middle" y="42">Jan 04 - Feb 17</text>
     </g>
 </svg>
