@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-02-19 09:09:11] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="90" class="log-text log-info">[2026-02-19 09:09:13] INFO   | Database query optimized (58ms→21ms)</text>
-  <text x="30" y="110" class="log-text log-debug">[2026-02-19 09:09:15] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="130" class="log-text log-info">[2026-02-19 09:09:17] INFO   | Backup completed: 735 MB</text>
-  <text x="30" y="150" class="log-text log-info">[2026-02-19 09:09:19] INFO   | Metric exported: cpu_usage=70%</text>
-  <text x="30" y="170" class="log-text log-info">[2026-02-19 09:09:21] INFO   | Health check passed: api-gateway</text>
-  <text x="30" y="190" class="log-text log-info">[2026-02-19 09:09:23] INFO   | Container started: notification-svc-8e1c8</text>
-  <text x="30" y="210" class="log-text log-info">[2026-02-19 09:09:25] INFO   | Metric exported: cpu_usage=86%</text>
-  <text x="30" y="230" class="log-text log-info">[2026-02-19 09:09:27] INFO   | Pod payment-service-3a7f2 started</text>
-  <text x="30" y="250" class="log-text log-info">[2026-02-19 09:09:29] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="270" class="log-text log-info">[2026-02-19 09:09:31] INFO   | Container started: payment-service-1a2e6</text>
-  <text x="30" y="290" class="log-text log-info">[2026-02-19 09:09:33] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="310" class="log-text log-info">[2026-02-19 09:09:35] INFO   | Container started: user-service-2d5f3</text>
-  <text x="30" y="330" class="log-text log-info">[2026-02-19 09:09:37] INFO   | Request processed: 200 OK (32ms)</text>
-  <text x="30" y="350" class="log-text log-info">[2026-02-19 09:09:39] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="70" class="log-text log-info">[2026-02-19 10:04:33] INFO   | Container started: api-gateway-5a5e2</text>
+  <text x="30" y="90" class="log-text log-info">[2026-02-19 10:04:35] INFO   | Request processed: 200 OK (35ms)</text>
+  <text x="30" y="110" class="log-text log-info">[2026-02-19 10:04:37] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="130" class="log-text log-debug">[2026-02-19 10:04:39] DEBUG  | Cache hit: user:8e4d2</text>
+  <text x="30" y="150" class="log-text log-debug">[2026-02-19 10:04:41] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="170" class="log-text log-info">[2026-02-19 10:04:43] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="190" class="log-text log-debug">[2026-02-19 10:04:45] DEBUG  | Rate limit check: 8267 req/s</text>
+  <text x="30" y="210" class="log-text log-info">[2026-02-19 10:04:47] INFO   | Deploy rollout: 36/47 pods updated</text>
+  <text x="30" y="230" class="log-text log-debug">[2026-02-19 10:04:49] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="250" class="log-text log-info">[2026-02-19 10:04:51] INFO   | Deploy rollout: 24/47 pods updated</text>
+  <text x="30" y="270" class="log-text log-debug">[2026-02-19 10:04:53] DEBUG  | Rate limit check: 8964 req/s</text>
+  <text x="30" y="290" class="log-text log-info">[2026-02-19 10:04:55] INFO   | Pod notification-svc-3f8d4 started</text>
+  <text x="30" y="310" class="log-text log-info">[2026-02-19 10:04:57] INFO   | Backup completed: 849 MB</text>
+  <text x="30" y="330" class="log-text log-info">[2026-02-19 10:04:59] INFO   | Container started: api-gateway-8e1f9</text>
+  <text x="30" y="350" class="log-text log-info">[2026-02-19 10:05:01] INFO   | Auto-scaling triggered: +1 pods</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
