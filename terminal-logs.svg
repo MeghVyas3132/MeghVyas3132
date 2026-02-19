@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-02-19 15:28:54] INFO   | Health check passed: api-gateway</text>
-  <text x="30" y="90" class="log-text log-debug">[2026-02-19 15:28:56] DEBUG  | Cache hit: user:6f2f4</text>
-  <text x="30" y="110" class="log-text log-info">[2026-02-19 15:28:58] INFO   | Metric exported: cpu_usage=86%</text>
-  <text x="30" y="130" class="log-text log-info">[2026-02-19 15:29:00] INFO   | Pod api-gateway-8f4a9 started</text>
-  <text x="30" y="150" class="log-text log-debug">[2026-02-19 15:29:02] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="170" class="log-text log-info">[2026-02-19 15:29:04] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="190" class="log-text log-debug">[2026-02-19 15:29:06] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="210" class="log-text log-info">[2026-02-19 15:29:08] INFO   | Metric exported: cpu_usage=71%</text>
-  <text x="30" y="230" class="log-text log-debug">[2026-02-19 15:29:10] DEBUG  | Rate limit check: 6561 req/s</text>
-  <text x="30" y="250" class="log-text log-info">[2026-02-19 15:29:12] INFO   | Metric exported: cpu_usage=83%</text>
-  <text x="30" y="270" class="log-text log-info">[2026-02-19 15:29:14] INFO   | Backup completed: 733 MB</text>
-  <text x="30" y="290" class="log-text log-info">[2026-02-19 15:29:16] INFO   | Backup completed: 577 MB</text>
-  <text x="30" y="310" class="log-text log-debug">[2026-02-19 15:29:18] DEBUG  | Rate limit check: 8495 req/s</text>
-  <text x="30" y="330" class="log-text log-info">[2026-02-19 15:29:20] INFO   | Database query optimized (64ms→16ms)</text>
-  <text x="30" y="350" class="log-text log-debug">[2026-02-19 15:29:22] DEBUG  | Rate limit check: 7863 req/s</text>
+  <text x="30" y="70" class="log-text log-info">[2026-02-19 16:28:24] INFO   | Backup completed: 859 MB</text>
+  <text x="30" y="90" class="log-text log-debug">[2026-02-19 16:28:26] DEBUG  | Rate limit check: 6696 req/s</text>
+  <text x="30" y="110" class="log-text log-debug">[2026-02-19 16:28:28] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="130" class="log-text log-debug">[2026-02-19 16:28:30] DEBUG  | Cache hit: user:7d3a1</text>
+  <text x="30" y="150" class="log-text log-info">[2026-02-19 16:28:32] INFO   | Health check passed: payment-service</text>
+  <text x="30" y="170" class="log-text log-info">[2026-02-19 16:28:34] INFO   | Deploy rollout: 35/47 pods updated</text>
+  <text x="30" y="190" class="log-text log-info">[2026-02-19 16:28:36] INFO   | Metric exported: cpu_usage=76%</text>
+  <text x="30" y="210" class="log-text log-info">[2026-02-19 16:28:38] INFO   | Deploy rollout: 29/47 pods updated</text>
+  <text x="30" y="230" class="log-text log-info">[2026-02-19 16:28:40] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="250" class="log-text log-debug">[2026-02-19 16:28:42] DEBUG  | Rate limit check: 5767 req/s</text>
+  <text x="30" y="270" class="log-text log-info">[2026-02-19 16:28:44] INFO   | Auto-scaling triggered: +3 pods</text>
+  <text x="30" y="290" class="log-text log-info">[2026-02-19 16:28:46] INFO   | Auto-scaling triggered: +1 pods</text>
+  <text x="30" y="310" class="log-text log-info">[2026-02-19 16:28:48] INFO   | Pod user-service-6f8b9 started</text>
+  <text x="30" y="330" class="log-text log-info">[2026-02-19 16:28:50] INFO   | Container started: user-service-1c9f8</text>
+  <text x="30" y="350" class="log-text log-info">[2026-02-19 16:28:52] INFO   | Backup completed: 906 MB</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
