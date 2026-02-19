@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-02-19 12:29:39] INFO   | Container started: api-gateway-9d5c7</text>
-  <text x="30" y="90" class="log-text log-info">[2026-02-19 12:29:41] INFO   | Request processed: 200 OK (40ms)</text>
-  <text x="30" y="110" class="log-text log-info">[2026-02-19 12:29:43] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="130" class="log-text log-info">[2026-02-19 12:29:45] INFO   | Container started: api-gateway-9c2f1</text>
-  <text x="30" y="150" class="log-text log-warn">[2026-02-19 12:29:47] WARN   | High latency detected: notification-svc</text>
-  <text x="30" y="170" class="log-text log-info">[2026-02-19 12:29:49] INFO   | Container started: api-gateway-4d8b3</text>
-  <text x="30" y="190" class="log-text log-info">[2026-02-19 12:29:51] INFO   | Pod payment-service-7f9a4 started</text>
-  <text x="30" y="210" class="log-text log-info">[2026-02-19 12:29:53] INFO   | Auto-scaling triggered: +3 pods</text>
-  <text x="30" y="230" class="log-text log-info">[2026-02-19 12:29:55] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="250" class="log-text log-info">[2026-02-19 12:29:57] INFO   | Health check passed: api-gateway</text>
-  <text x="30" y="270" class="log-text log-info">[2026-02-19 12:29:59] INFO   | Metric exported: cpu_usage=75%</text>
-  <text x="30" y="290" class="log-text log-debug">[2026-02-19 12:30:01] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="310" class="log-text log-debug">[2026-02-19 12:30:03] DEBUG  | Rate limit check: 5577 req/s</text>
-  <text x="30" y="330" class="log-text log-debug">[2026-02-19 12:30:05] DEBUG  | Rate limit check: 8049 req/s</text>
-  <text x="30" y="350" class="log-text log-info">[2026-02-19 12:30:07] INFO   | Container started: user-service-1f2d3</text>
+  <text x="30" y="70" class="log-text log-info">[2026-02-19 13:49:34] INFO   | Pod notification-svc-2d4c9 started</text>
+  <text x="30" y="90" class="log-text log-warn">[2026-02-19 13:49:36] WARN   | High latency detected: api-gateway</text>
+  <text x="30" y="110" class="log-text log-debug">[2026-02-19 13:49:38] DEBUG  | Rate limit check: 8127 req/s</text>
+  <text x="30" y="130" class="log-text log-info">[2026-02-19 13:49:40] INFO   | Health check passed: user-service</text>
+  <text x="30" y="150" class="log-text log-info">[2026-02-19 13:49:42] INFO   | Backup completed: 753 MB</text>
+  <text x="30" y="170" class="log-text log-debug">[2026-02-19 13:49:44] DEBUG  | Rate limit check: 8687 req/s</text>
+  <text x="30" y="190" class="log-text log-info">[2026-02-19 13:49:46] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="210" class="log-text log-info">[2026-02-19 13:49:48] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="230" class="log-text log-info">[2026-02-19 13:49:50] INFO   | Auto-scaling triggered: +3 pods</text>
+  <text x="30" y="250" class="log-text log-info">[2026-02-19 13:49:52] INFO   | Deploy rollout: 26/47 pods updated</text>
+  <text x="30" y="270" class="log-text log-info">[2026-02-19 13:49:54] INFO   | Container started: user-service-8d7e7</text>
+  <text x="30" y="290" class="log-text log-debug">[2026-02-19 13:49:56] DEBUG  | Cache hit: user:8e2f2</text>
+  <text x="30" y="310" class="log-text log-info">[2026-02-19 13:49:58] INFO   | Auto-scaling triggered: +3 pods</text>
+  <text x="30" y="330" class="log-text log-debug">[2026-02-19 13:50:00] DEBUG  | Cache hit: user:7a2b9</text>
+  <text x="30" y="350" class="log-text log-info">[2026-02-19 13:50:02] INFO   | SSL cert renewed: *.meghvyas.dev</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
