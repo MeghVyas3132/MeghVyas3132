@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-warn">[2026-02-20 21:41:31] WARN   | High latency detected: auth-service</text>
-  <text x="30" y="90" class="log-text log-warn">[2026-02-20 21:41:33] WARN   | High latency detected: notification-svc</text>
-  <text x="30" y="110" class="log-text log-info">[2026-02-20 21:41:35] INFO   | Deploy rollout: 21/47 pods updated</text>
-  <text x="30" y="130" class="log-text log-debug">[2026-02-20 21:41:37] DEBUG  | Rate limit check: 5382 req/s</text>
-  <text x="30" y="150" class="log-text log-warn">[2026-02-20 21:41:39] WARN   | High latency detected: notification-svc</text>
-  <text x="30" y="170" class="log-text log-debug">[2026-02-20 21:41:41] DEBUG  | Rate limit check: 9315 req/s</text>
-  <text x="30" y="190" class="log-text log-debug">[2026-02-20 21:41:43] DEBUG  | Cache hit: user:9e7d3</text>
-  <text x="30" y="210" class="log-text log-warn">[2026-02-20 21:41:45] WARN   | High latency detected: auth-service</text>
-  <text x="30" y="230" class="log-text log-info">[2026-02-20 21:41:47] INFO   | Backup completed: 877 MB</text>
-  <text x="30" y="250" class="log-text log-info">[2026-02-20 21:41:49] INFO   | Request processed: 200 OK (50ms)</text>
-  <text x="30" y="270" class="log-text log-info">[2026-02-20 21:41:51] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="290" class="log-text log-debug">[2026-02-20 21:41:53] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="310" class="log-text log-info">[2026-02-20 21:41:55] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="330" class="log-text log-warn">[2026-02-20 21:41:57] WARN   | High latency detected: api-gateway</text>
-  <text x="30" y="350" class="log-text log-warn">[2026-02-20 21:41:59] WARN   | High latency detected: user-service</text>
+  <text x="30" y="70" class="log-text log-warn">[2026-02-20 21:56:46] WARN   | High latency detected: payment-service</text>
+  <text x="30" y="90" class="log-text log-debug">[2026-02-20 21:56:48] DEBUG  | Rate limit check: 8744 req/s</text>
+  <text x="30" y="110" class="log-text log-info">[2026-02-20 21:56:50] INFO   | Container started: payment-service-9c4c7</text>
+  <text x="30" y="130" class="log-text log-info">[2026-02-20 21:56:52] INFO   | Auto-scaling triggered: +3 pods</text>
+  <text x="30" y="150" class="log-text log-info">[2026-02-20 21:56:54] INFO   | Deploy rollout: 26/47 pods updated</text>
+  <text x="30" y="170" class="log-text log-debug">[2026-02-20 21:56:56] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="190" class="log-text log-debug">[2026-02-20 21:56:58] DEBUG  | Rate limit check: 6153 req/s</text>
+  <text x="30" y="210" class="log-text log-info">[2026-02-20 21:57:00] INFO   | Deploy rollout: 28/47 pods updated</text>
+  <text x="30" y="230" class="log-text log-info">[2026-02-20 21:57:02] INFO   | Database query optimized (62ms→25ms)</text>
+  <text x="30" y="250" class="log-text log-info">[2026-02-20 21:57:04] INFO   | Database query optimized (85ms→22ms)</text>
+  <text x="30" y="270" class="log-text log-info">[2026-02-20 21:57:06] INFO   | Request processed: 200 OK (45ms)</text>
+  <text x="30" y="290" class="log-text log-info">[2026-02-20 21:57:08] INFO   | Health check passed: payment-service</text>
+  <text x="30" y="310" class="log-text log-debug">[2026-02-20 21:57:10] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="330" class="log-text log-info">[2026-02-20 21:57:12] INFO   | Database query optimized (62ms→10ms)</text>
+  <text x="30" y="350" class="log-text log-info">[2026-02-20 21:57:14] INFO   | Load balancer: distributing traffic</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
