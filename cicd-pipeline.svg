@@ -39,7 +39,7 @@
   
   <!-- Header -->
   <text x="20" y="35" class="title">CONTINUOUS DEPLOYMENT PIPELINE</text>
-  <text x="20" y="55" class="label">BUILD #1831 | branch: main | commit: a7f3c2d | status: DEPLOYING</text>
+  <text x="20" y="55" class="label">BUILD #1806 | branch: main | commit: a7f3c2d | status: DEPLOYING</text>
   
   <!-- Pipeline Stages -->
   <g id="pipeline">
@@ -63,9 +63,9 @@
     <text x="710" y="140" class="status status-done" text-anchor="middle">DONE</text>
     <line x1="795" y1="125" x2="815" y2="125" stroke="#ffffff" stroke-width="3"/>
     <polygon points="815,125 807,120 807,130" fill="#ffffff"/>
-    <rect x="820" y="100" width="160" height="50" class="stagebox-running" filter="url(#yellowGlow)"/>
+    <rect x="820" y="100" width="160" height="50" class="stagebox-pending" />
     <text x="900" y="122" class="stage" text-anchor="middle">DEPLOY</text>
-    <text x="900" y="140" class="status status-running" text-anchor="middle">RUNNING</text>
+    <text x="900" y="140" class="status status-pending" text-anchor="middle">PENDING</text>
     <line x1="985" y1="125" x2="1005" y2="125" stroke="#ffffff" stroke-width="3"/>
     <polygon points="1005,125 997,120 997,130" fill="#ffffff"/>
     <rect x="1010" y="100" width="160" height="50" class="stagebox-pending" />
@@ -76,14 +76,14 @@
   <!-- Progress Bar -->
   <text x="20" y="185" class="label">Progress:</text>
   <rect x="120" y="172" width="1050" height="20" fill="#1a1a1a" stroke="#404040" stroke-width="2" rx="10"/>
-  <rect x="120" y="172" width="955" height="20" fill="#ffffff" rx="10"/>
-  <text x="1100" y="187" class="value">91%</text>
+  <rect x="120" y="172" width="724" height="20" fill="#ffffff" rx="10"/>
+  <text x="1100" y="187" class="value">69%</text>
   
-  <text x="120" y="210" class="label">ETA: 1m 30s remaining</text>
+  <text x="120" y="210" class="label">ETA: 4m 32s remaining</text>
   
   <!-- Current Stage Info -->
   <rect x="20" y="220" width="1160" height="50" class="panel2" rx="5"/>
   <text x="35" y="240" class="title">CURRENT STAGE: Deploying to prod-cluster-01</text>
-  <text x="35" y="258" class="label">&gt; Rolling update in progress... | Pods: 12/47 updated | Health checks: PASSING</text>
+  <text x="35" y="258" class="label">&gt; Rolling update in progress... | Pods: 20/47 updated | Health checks: PASSING</text>
   
 </svg>
