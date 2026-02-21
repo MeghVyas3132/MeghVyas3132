@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-debug">[2026-02-21 19:32:21] DEBUG  | Rate limit check: 5168 req/s</text>
-  <text x="30" y="90" class="log-text log-debug">[2026-02-21 19:32:23] DEBUG  | Cache hit: user:4e4d1</text>
-  <text x="30" y="110" class="log-text log-debug">[2026-02-21 19:32:25] DEBUG  | Rate limit check: 8636 req/s</text>
-  <text x="30" y="130" class="log-text log-warn">[2026-02-21 19:32:27] WARN   | High latency detected: auth-service</text>
-  <text x="30" y="150" class="log-text log-info">[2026-02-21 19:32:29] INFO   | Container started: auth-service-5d9e2</text>
-  <text x="30" y="170" class="log-text log-info">[2026-02-21 19:32:31] INFO   | Deploy rollout: 38/47 pods updated</text>
-  <text x="30" y="190" class="log-text log-debug">[2026-02-21 19:32:33] DEBUG  | Cache hit: user:7b6e1</text>
-  <text x="30" y="210" class="log-text log-info">[2026-02-21 19:32:35] INFO   | Auto-scaling triggered: +1 pods</text>
-  <text x="30" y="230" class="log-text log-info">[2026-02-21 19:32:37] INFO   | Metric exported: cpu_usage=71%</text>
-  <text x="30" y="250" class="log-text log-info">[2026-02-21 19:32:39] INFO   | Deploy rollout: 29/47 pods updated</text>
-  <text x="30" y="270" class="log-text log-debug">[2026-02-21 19:32:41] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="290" class="log-text log-info">[2026-02-21 19:32:43] INFO   | Health check passed: auth-service</text>
-  <text x="30" y="310" class="log-text log-info">[2026-02-21 19:32:45] INFO   | Deploy rollout: 32/47 pods updated</text>
-  <text x="30" y="330" class="log-text log-info">[2026-02-21 19:32:47] INFO   | Deploy rollout: 40/47 pods updated</text>
-  <text x="30" y="350" class="log-text log-debug">[2026-02-21 19:32:49] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="70" class="log-text log-debug">[2026-02-21 19:49:20] DEBUG  | Cache hit: user:5b6a8</text>
+  <text x="30" y="90" class="log-text log-info">[2026-02-21 19:49:22] INFO   | Request processed: 200 OK (31ms)</text>
+  <text x="30" y="110" class="log-text log-info">[2026-02-21 19:49:24] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="130" class="log-text log-info">[2026-02-21 19:49:26] INFO   | Container started: notification-svc-1b3a6</text>
+  <text x="30" y="150" class="log-text log-info">[2026-02-21 19:49:28] INFO   | Metric exported: cpu_usage=81%</text>
+  <text x="30" y="170" class="log-text log-info">[2026-02-21 19:49:30] INFO   | Metric exported: cpu_usage=90%</text>
+  <text x="30" y="190" class="log-text log-info">[2026-02-21 19:49:32] INFO   | Container started: user-service-6f3f6</text>
+  <text x="30" y="210" class="log-text log-info">[2026-02-21 19:49:34] INFO   | Request processed: 200 OK (15ms)</text>
+  <text x="30" y="230" class="log-text log-info">[2026-02-21 19:49:36] INFO   | Request processed: 200 OK (15ms)</text>
+  <text x="30" y="250" class="log-text log-info">[2026-02-21 19:49:38] INFO   | Database query optimized (68ms→10ms)</text>
+  <text x="30" y="270" class="log-text log-info">[2026-02-21 19:49:40] INFO   | Pod payment-service-8c2c3 started</text>
+  <text x="30" y="290" class="log-text log-debug">[2026-02-21 19:49:42] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="310" class="log-text log-info">[2026-02-21 19:49:44] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="330" class="log-text log-debug">[2026-02-21 19:49:46] DEBUG  | Rate limit check: 8556 req/s</text>
+  <text x="30" y="350" class="log-text log-warn">[2026-02-21 19:49:48] WARN   | High latency detected: notification-svc</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
