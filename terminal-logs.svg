@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-02-22 07:02:31] INFO   | Backup completed: 859 MB</text>
-  <text x="30" y="90" class="log-text log-warn">[2026-02-22 07:02:33] WARN   | High latency detected: payment-service</text>
-  <text x="30" y="110" class="log-text log-info">[2026-02-22 07:02:35] INFO   | Pod notification-svc-8a5f6 started</text>
-  <text x="30" y="130" class="log-text log-info">[2026-02-22 07:02:37] INFO   | Auto-scaling triggered: +2 pods</text>
-  <text x="30" y="150" class="log-text log-info">[2026-02-22 07:02:39] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="170" class="log-text log-info">[2026-02-22 07:02:41] INFO   | Backup completed: 558 MB</text>
-  <text x="30" y="190" class="log-text log-info">[2026-02-22 07:02:43] INFO   | Deploy rollout: 37/47 pods updated</text>
-  <text x="30" y="210" class="log-text log-info">[2026-02-22 07:02:45] INFO   | Pod api-gateway-3f2f1 started</text>
-  <text x="30" y="230" class="log-text log-info">[2026-02-22 07:02:47] INFO   | Pod user-service-7e2a1 started</text>
-  <text x="30" y="250" class="log-text log-info">[2026-02-22 07:02:49] INFO   | Container started: notification-svc-6d8a2</text>
-  <text x="30" y="270" class="log-text log-info">[2026-02-22 07:02:51] INFO   | Request processed: 200 OK (45ms)</text>
-  <text x="30" y="290" class="log-text log-info">[2026-02-22 07:02:53] INFO   | Database query optimized (84ms→25ms)</text>
-  <text x="30" y="310" class="log-text log-info">[2026-02-22 07:02:55] INFO   | Auto-scaling triggered: +3 pods</text>
-  <text x="30" y="330" class="log-text log-info">[2026-02-22 07:02:57] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="350" class="log-text log-info">[2026-02-22 07:02:59] INFO   | Metric exported: cpu_usage=75%</text>
+  <text x="30" y="70" class="log-text log-info">[2026-02-22 07:43:41] INFO   | Container started: notification-svc-7b3e3</text>
+  <text x="30" y="90" class="log-text log-info">[2026-02-22 07:43:43] INFO   | Metric exported: cpu_usage=82%</text>
+  <text x="30" y="110" class="log-text log-info">[2026-02-22 07:43:45] INFO   | Container started: notification-svc-6d2d9</text>
+  <text x="30" y="130" class="log-text log-info">[2026-02-22 07:43:47] INFO   | Request processed: 200 OK (11ms)</text>
+  <text x="30" y="150" class="log-text log-info">[2026-02-22 07:43:49] INFO   | Request processed: 200 OK (25ms)</text>
+  <text x="30" y="170" class="log-text log-debug">[2026-02-22 07:43:51] DEBUG  | Cache hit: user:5c8f5</text>
+  <text x="30" y="190" class="log-text log-info">[2026-02-22 07:43:53] INFO   | Database query optimized (80ms→25ms)</text>
+  <text x="30" y="210" class="log-text log-info">[2026-02-22 07:43:55] INFO   | Health check passed: user-service</text>
+  <text x="30" y="230" class="log-text log-info">[2026-02-22 07:43:57] INFO   | Container started: auth-service-5e9d8</text>
+  <text x="30" y="250" class="log-text log-warn">[2026-02-22 07:43:59] WARN   | High latency detected: notification-svc</text>
+  <text x="30" y="270" class="log-text log-debug">[2026-02-22 07:44:01] DEBUG  | Rate limit check: 6147 req/s</text>
+  <text x="30" y="290" class="log-text log-info">[2026-02-22 07:44:03] INFO   | Container started: api-gateway-2e6c2</text>
+  <text x="30" y="310" class="log-text log-info">[2026-02-22 07:44:05] INFO   | Database query optimized (84ms→17ms)</text>
+  <text x="30" y="330" class="log-text log-debug">[2026-02-22 07:44:07] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="350" class="log-text log-info">[2026-02-22 07:44:09] INFO   | Health check passed: api-gateway</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
