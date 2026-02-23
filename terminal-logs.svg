@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-debug">[2026-02-23 15:59:55] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="90" class="log-text log-debug">[2026-02-23 15:59:57] DEBUG  | Rate limit check: 6024 req/s</text>
-  <text x="30" y="110" class="log-text log-info">[2026-02-23 15:59:59] INFO   | Container started: payment-service-5c9d3</text>
-  <text x="30" y="130" class="log-text log-info">[2026-02-23 16:00:01] INFO   | Container started: notification-svc-5a5d2</text>
-  <text x="30" y="150" class="log-text log-info">[2026-02-23 16:00:03] INFO   | Auto-scaling triggered: +1 pods</text>
-  <text x="30" y="170" class="log-text log-info">[2026-02-23 16:00:05] INFO   | Pod payment-service-7d3f8 started</text>
-  <text x="30" y="190" class="log-text log-info">[2026-02-23 16:00:07] INFO   | Pod user-service-6f4c2 started</text>
-  <text x="30" y="210" class="log-text log-info">[2026-02-23 16:00:09] INFO   | Backup completed: 606 MB</text>
-  <text x="30" y="230" class="log-text log-info">[2026-02-23 16:00:11] INFO   | Backup completed: 728 MB</text>
-  <text x="30" y="250" class="log-text log-debug">[2026-02-23 16:00:13] DEBUG  | Rate limit check: 5066 req/s</text>
-  <text x="30" y="270" class="log-text log-info">[2026-02-23 16:00:15] INFO   | Auto-scaling triggered: +1 pods</text>
-  <text x="30" y="290" class="log-text log-info">[2026-02-23 16:00:17] INFO   | Health check passed: user-service</text>
-  <text x="30" y="310" class="log-text log-info">[2026-02-23 16:00:19] INFO   | Deploy rollout: 34/47 pods updated</text>
-  <text x="30" y="330" class="log-text log-warn">[2026-02-23 16:00:21] WARN   | High latency detected: payment-service</text>
-  <text x="30" y="350" class="log-text log-info">[2026-02-23 16:00:23] INFO   | Backup completed: 705 MB</text>
+  <text x="30" y="70" class="log-text log-debug">[2026-02-23 17:10:24] DEBUG  | Rate limit check: 8619 req/s</text>
+  <text x="30" y="90" class="log-text log-info">[2026-02-23 17:10:26] INFO   | Metric exported: cpu_usage=76%</text>
+  <text x="30" y="110" class="log-text log-info">[2026-02-23 17:10:28] INFO   | Request processed: 200 OK (48ms)</text>
+  <text x="30" y="130" class="log-text log-info">[2026-02-23 17:10:30] INFO   | Request processed: 200 OK (50ms)</text>
+  <text x="30" y="150" class="log-text log-info">[2026-02-23 17:10:32] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="170" class="log-text log-info">[2026-02-23 17:10:34] INFO   | Health check passed: notification-svc</text>
+  <text x="30" y="190" class="log-text log-info">[2026-02-23 17:10:36] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="210" class="log-text log-debug">[2026-02-23 17:10:38] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="230" class="log-text log-debug">[2026-02-23 17:10:40] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="250" class="log-text log-debug">[2026-02-23 17:10:42] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="270" class="log-text log-info">[2026-02-23 17:10:44] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="290" class="log-text log-debug">[2026-02-23 17:10:46] DEBUG  | Rate limit check: 9438 req/s</text>
+  <text x="30" y="310" class="log-text log-info">[2026-02-23 17:10:48] INFO   | Health check passed: api-gateway</text>
+  <text x="30" y="330" class="log-text log-info">[2026-02-23 17:10:50] INFO   | Database query optimized (67ms→19ms)</text>
+  <text x="30" y="350" class="log-text log-debug">[2026-02-23 17:10:52] DEBUG  | Circuit breaker: CLOSED</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
