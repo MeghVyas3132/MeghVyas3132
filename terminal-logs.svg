@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-02-28 11:46:57] INFO   | Backup completed: 759 MB</text>
-  <text x="30" y="90" class="log-text log-debug">[2026-02-28 11:46:59] DEBUG  | Cache hit: user:9f7a3</text>
-  <text x="30" y="110" class="log-text log-debug">[2026-02-28 11:47:01] DEBUG  | Cache hit: user:9b9b9</text>
-  <text x="30" y="130" class="log-text log-debug">[2026-02-28 11:47:03] DEBUG  | Cache hit: user:8b4a1</text>
-  <text x="30" y="150" class="log-text log-debug">[2026-02-28 11:47:05] DEBUG  | Cache hit: user:9d9f7</text>
-  <text x="30" y="170" class="log-text log-info">[2026-02-28 11:47:07] INFO   | Backup completed: 775 MB</text>
-  <text x="30" y="190" class="log-text log-debug">[2026-02-28 11:47:09] DEBUG  | Cache hit: user:6c9c8</text>
-  <text x="30" y="210" class="log-text log-info">[2026-02-28 11:47:11] INFO   | Backup completed: 515 MB</text>
-  <text x="30" y="230" class="log-text log-info">[2026-02-28 11:47:13] INFO   | Deploy rollout: 34/47 pods updated</text>
-  <text x="30" y="250" class="log-text log-warn">[2026-02-28 11:47:15] WARN   | High latency detected: auth-service</text>
-  <text x="30" y="270" class="log-text log-debug">[2026-02-28 11:47:17] DEBUG  | Rate limit check: 9762 req/s</text>
-  <text x="30" y="290" class="log-text log-info">[2026-02-28 11:47:19] INFO   | Container started: payment-service-6f1f1</text>
-  <text x="30" y="310" class="log-text log-info">[2026-02-28 11:47:21] INFO   | Metric exported: cpu_usage=79%</text>
-  <text x="30" y="330" class="log-text log-debug">[2026-02-28 11:47:23] DEBUG  | Rate limit check: 8631 req/s</text>
-  <text x="30" y="350" class="log-text log-info">[2026-02-28 11:47:25] INFO   | Backup completed: 550 MB</text>
+  <text x="30" y="70" class="log-text log-info">[2026-02-28 11:56:30] INFO   | Auto-scaling triggered: +2 pods</text>
+  <text x="30" y="90" class="log-text log-info">[2026-02-28 11:56:32] INFO   | Metric exported: cpu_usage=92%</text>
+  <text x="30" y="110" class="log-text log-info">[2026-02-28 11:56:34] INFO   | Metric exported: cpu_usage=73%</text>
+  <text x="30" y="130" class="log-text log-debug">[2026-02-28 11:56:36] DEBUG  | Rate limit check: 7533 req/s</text>
+  <text x="30" y="150" class="log-text log-info">[2026-02-28 11:56:38] INFO   | Auto-scaling triggered: +2 pods</text>
+  <text x="30" y="170" class="log-text log-info">[2026-02-28 11:56:40] INFO   | Auto-scaling triggered: +3 pods</text>
+  <text x="30" y="190" class="log-text log-info">[2026-02-28 11:56:42] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="210" class="log-text log-info">[2026-02-28 11:56:44] INFO   | Pod payment-service-8e7b8 started</text>
+  <text x="30" y="230" class="log-text log-info">[2026-02-28 11:56:46] INFO   | Request processed: 200 OK (38ms)</text>
+  <text x="30" y="250" class="log-text log-debug">[2026-02-28 11:56:48] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="270" class="log-text log-info">[2026-02-28 11:56:50] INFO   | Metric exported: cpu_usage=92%</text>
+  <text x="30" y="290" class="log-text log-debug">[2026-02-28 11:56:52] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="310" class="log-text log-info">[2026-02-28 11:56:54] INFO   | Backup completed: 982 MB</text>
+  <text x="30" y="330" class="log-text log-info">[2026-02-28 11:56:56] INFO   | Auto-scaling triggered: +3 pods</text>
+  <text x="30" y="350" class="log-text log-debug">[2026-02-28 11:56:58] DEBUG  | Cache hit: user:4d6a7</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
