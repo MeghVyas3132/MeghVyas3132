@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-03-01 19:46:34] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="90" class="log-text log-info">[2026-03-01 19:46:36] INFO   | Pod auth-service-4f1d8 started</text>
-  <text x="30" y="110" class="log-text log-info">[2026-03-01 19:46:38] INFO   | Auto-scaling triggered: +3 pods</text>
-  <text x="30" y="130" class="log-text log-info">[2026-03-01 19:46:40] INFO   | Pod auth-service-4c8e3 started</text>
-  <text x="30" y="150" class="log-text log-info">[2026-03-01 19:46:42] INFO   | Backup completed: 881 MB</text>
-  <text x="30" y="170" class="log-text log-info">[2026-03-01 19:46:44] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="190" class="log-text log-debug">[2026-03-01 19:46:46] DEBUG  | Rate limit check: 9509 req/s</text>
-  <text x="30" y="210" class="log-text log-info">[2026-03-01 19:46:48] INFO   | Health check passed: payment-service</text>
-  <text x="30" y="230" class="log-text log-debug">[2026-03-01 19:46:50] DEBUG  | Cache hit: user:5c7f4</text>
-  <text x="30" y="250" class="log-text log-info">[2026-03-01 19:46:52] INFO   | Backup completed: 656 MB</text>
-  <text x="30" y="270" class="log-text log-info">[2026-03-01 19:46:54] INFO   | Metric exported: cpu_usage=89%</text>
-  <text x="30" y="290" class="log-text log-info">[2026-03-01 19:46:56] INFO   | Backup completed: 828 MB</text>
-  <text x="30" y="310" class="log-text log-info">[2026-03-01 19:46:58] INFO   | Container started: user-service-6c9f9</text>
-  <text x="30" y="330" class="log-text log-debug">[2026-03-01 19:47:00] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="350" class="log-text log-debug">[2026-03-01 19:47:02] DEBUG  | Rate limit check: 6729 req/s</text>
+  <text x="30" y="70" class="log-text log-info">[2026-03-01 19:56:42] INFO   | Backup completed: 823 MB</text>
+  <text x="30" y="90" class="log-text log-info">[2026-03-01 19:56:44] INFO   | Metric exported: cpu_usage=86%</text>
+  <text x="30" y="110" class="log-text log-info">[2026-03-01 19:56:46] INFO   | Request processed: 200 OK (19ms)</text>
+  <text x="30" y="130" class="log-text log-debug">[2026-03-01 19:56:48] DEBUG  | Rate limit check: 8417 req/s</text>
+  <text x="30" y="150" class="log-text log-debug">[2026-03-01 19:56:50] DEBUG  | Rate limit check: 8652 req/s</text>
+  <text x="30" y="170" class="log-text log-info">[2026-03-01 19:56:52] INFO   | Container started: auth-service-1b7f8</text>
+  <text x="30" y="190" class="log-text log-info">[2026-03-01 19:56:54] INFO   | Health check passed: user-service</text>
+  <text x="30" y="210" class="log-text log-warn">[2026-03-01 19:56:56] WARN   | High latency detected: user-service</text>
+  <text x="30" y="230" class="log-text log-info">[2026-03-01 19:56:58] INFO   | Deploy rollout: 37/47 pods updated</text>
+  <text x="30" y="250" class="log-text log-debug">[2026-03-01 19:57:00] DEBUG  | Cache hit: user:2a9b7</text>
+  <text x="30" y="270" class="log-text log-info">[2026-03-01 19:57:02] INFO   | Container started: auth-service-7e6d6</text>
+  <text x="30" y="290" class="log-text log-debug">[2026-03-01 19:57:04] DEBUG  | Rate limit check: 9367 req/s</text>
+  <text x="30" y="310" class="log-text log-info">[2026-03-01 19:57:06] INFO   | Auto-scaling triggered: +2 pods</text>
+  <text x="30" y="330" class="log-text log-debug">[2026-03-01 19:57:08] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="350" class="log-text log-info">[2026-03-01 19:57:10] INFO   | Deploy rollout: 30/47 pods updated</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
