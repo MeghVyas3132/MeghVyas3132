@@ -29,7 +29,7 @@
     
     <!-- Total Contributions (Left) -->
     <g transform="translate(82.5, 97)">
-        <text class="value" text-anchor="middle" y="0">3232</text>
+        <text class="value" text-anchor="middle" y="0">3233</text>
         <text class="title" text-anchor="middle" y="25">Total Contributions</text>
         <text class="label" text-anchor="middle" y="42">Mar 02, 2025 - Present</text>
     </g>
