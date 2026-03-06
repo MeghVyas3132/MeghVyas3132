@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-03-06 00:57:01] INFO   | Request processed: 200 OK (10ms)</text>
-  <text x="30" y="90" class="log-text log-info">[2026-03-06 00:57:03] INFO   | Health check passed: user-service</text>
-  <text x="30" y="110" class="log-text log-debug">[2026-03-06 00:57:05] DEBUG  | Rate limit check: 5325 req/s</text>
-  <text x="30" y="130" class="log-text log-info">[2026-03-06 00:57:07] INFO   | Auto-scaling triggered: +3 pods</text>
-  <text x="30" y="150" class="log-text log-info">[2026-03-06 00:57:09] INFO   | Container started: notification-svc-1a4a4</text>
-  <text x="30" y="170" class="log-text log-warn">[2026-03-06 00:57:11] WARN   | High latency detected: payment-service</text>
-  <text x="30" y="190" class="log-text log-info">[2026-03-06 00:57:13] INFO   | Request processed: 200 OK (17ms)</text>
-  <text x="30" y="210" class="log-text log-info">[2026-03-06 00:57:15] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="230" class="log-text log-debug">[2026-03-06 00:57:17] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="250" class="log-text log-info">[2026-03-06 00:57:19] INFO   | Metric exported: cpu_usage=75%</text>
-  <text x="30" y="270" class="log-text log-info">[2026-03-06 00:57:21] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="290" class="log-text log-info">[2026-03-06 00:57:23] INFO   | Request processed: 200 OK (32ms)</text>
-  <text x="30" y="310" class="log-text log-info">[2026-03-06 00:57:25] INFO   | Deploy rollout: 22/47 pods updated</text>
-  <text x="30" y="330" class="log-text log-info">[2026-03-06 00:57:27] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="350" class="log-text log-info">[2026-03-06 00:57:29] INFO   | Backup completed: 668 MB</text>
+  <text x="30" y="70" class="log-text log-info">[2026-03-06 03:27:08] INFO   | Container started: notification-svc-9c7b1</text>
+  <text x="30" y="90" class="log-text log-info">[2026-03-06 03:27:10] INFO   | Deploy rollout: 40/47 pods updated</text>
+  <text x="30" y="110" class="log-text log-info">[2026-03-06 03:27:12] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="130" class="log-text log-info">[2026-03-06 03:27:14] INFO   | Metric exported: cpu_usage=79%</text>
+  <text x="30" y="150" class="log-text log-info">[2026-03-06 03:27:16] INFO   | Deploy rollout: 36/47 pods updated</text>
+  <text x="30" y="170" class="log-text log-info">[2026-03-06 03:27:18] INFO   | Auto-scaling triggered: +1 pods</text>
+  <text x="30" y="190" class="log-text log-info">[2026-03-06 03:27:20] INFO   | Pod notification-svc-9a6a7 started</text>
+  <text x="30" y="210" class="log-text log-info">[2026-03-06 03:27:22] INFO   | Metric exported: cpu_usage=94%</text>
+  <text x="30" y="230" class="log-text log-info">[2026-03-06 03:27:24] INFO   | Pod payment-service-7d9f9 started</text>
+  <text x="30" y="250" class="log-text log-warn">[2026-03-06 03:27:26] WARN   | High latency detected: auth-service</text>
+  <text x="30" y="270" class="log-text log-info">[2026-03-06 03:27:28] INFO   | Health check passed: notification-svc</text>
+  <text x="30" y="290" class="log-text log-info">[2026-03-06 03:27:30] INFO   | Container started: user-service-6c1f5</text>
+  <text x="30" y="310" class="log-text log-info">[2026-03-06 03:27:32] INFO   | Container started: auth-service-8c6d2</text>
+  <text x="30" y="330" class="log-text log-info">[2026-03-06 03:27:34] INFO   | Database query optimized (73ms→10ms)</text>
+  <text x="30" y="350" class="log-text log-warn">[2026-03-06 03:27:36] WARN   | High latency detected: payment-service</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
