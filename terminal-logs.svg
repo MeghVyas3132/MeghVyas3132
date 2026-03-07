@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-03-07 14:44:10] INFO   | Database query optimized (82ms→23ms)</text>
-  <text x="30" y="90" class="log-text log-info">[2026-03-07 14:44:12] INFO   | Database query optimized (60ms→24ms)</text>
-  <text x="30" y="110" class="log-text log-info">[2026-03-07 14:44:14] INFO   | Pod api-gateway-1b3c7 started</text>
-  <text x="30" y="130" class="log-text log-debug">[2026-03-07 14:44:16] DEBUG  | Cache hit: user:7e8b1</text>
-  <text x="30" y="150" class="log-text log-info">[2026-03-07 14:44:18] INFO   | Metric exported: cpu_usage=91%</text>
-  <text x="30" y="170" class="log-text log-info">[2026-03-07 14:44:20] INFO   | Health check passed: payment-service</text>
-  <text x="30" y="190" class="log-text log-info">[2026-03-07 14:44:22] INFO   | Backup completed: 633 MB</text>
-  <text x="30" y="210" class="log-text log-debug">[2026-03-07 14:44:24] DEBUG  | Cache hit: user:3b2c6</text>
-  <text x="30" y="230" class="log-text log-debug">[2026-03-07 14:44:26] DEBUG  | Cache hit: user:8b5f9</text>
-  <text x="30" y="250" class="log-text log-info">[2026-03-07 14:44:28] INFO   | Deploy rollout: 27/47 pods updated</text>
-  <text x="30" y="270" class="log-text log-info">[2026-03-07 14:44:30] INFO   | Request processed: 200 OK (23ms)</text>
-  <text x="30" y="290" class="log-text log-info">[2026-03-07 14:44:32] INFO   | Request processed: 200 OK (49ms)</text>
-  <text x="30" y="310" class="log-text log-warn">[2026-03-07 14:44:34] WARN   | High latency detected: api-gateway</text>
-  <text x="30" y="330" class="log-text log-info">[2026-03-07 14:44:36] INFO   | Deploy rollout: 36/47 pods updated</text>
-  <text x="30" y="350" class="log-text log-info">[2026-03-07 14:44:38] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="70" class="log-text log-info">[2026-03-07 14:58:11] INFO   | Metric exported: cpu_usage=91%</text>
+  <text x="30" y="90" class="log-text log-info">[2026-03-07 14:58:13] INFO   | Database query optimized (99ms→21ms)</text>
+  <text x="30" y="110" class="log-text log-debug">[2026-03-07 14:58:15] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="130" class="log-text log-info">[2026-03-07 14:58:17] INFO   | Deploy rollout: 29/47 pods updated</text>
+  <text x="30" y="150" class="log-text log-debug">[2026-03-07 14:58:19] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="170" class="log-text log-debug">[2026-03-07 14:58:21] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="190" class="log-text log-debug">[2026-03-07 14:58:23] DEBUG  | Rate limit check: 8377 req/s</text>
+  <text x="30" y="210" class="log-text log-info">[2026-03-07 14:58:25] INFO   | Database query optimized (99ms→17ms)</text>
+  <text x="30" y="230" class="log-text log-info">[2026-03-07 14:58:27] INFO   | Request processed: 200 OK (45ms)</text>
+  <text x="30" y="250" class="log-text log-info">[2026-03-07 14:58:29] INFO   | Auto-scaling triggered: +3 pods</text>
+  <text x="30" y="270" class="log-text log-info">[2026-03-07 14:58:31] INFO   | Request processed: 200 OK (43ms)</text>
+  <text x="30" y="290" class="log-text log-debug">[2026-03-07 14:58:33] DEBUG  | Rate limit check: 7865 req/s</text>
+  <text x="30" y="310" class="log-text log-debug">[2026-03-07 14:58:35] DEBUG  | Rate limit check: 6209 req/s</text>
+  <text x="30" y="330" class="log-text log-debug">[2026-03-07 14:58:37] DEBUG  | Rate limit check: 6281 req/s</text>
+  <text x="30" y="350" class="log-text log-info">[2026-03-07 14:58:39] INFO   | Backup completed: 766 MB</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
