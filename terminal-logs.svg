@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-03-09 19:07:58] INFO   | Deploy rollout: 25/47 pods updated</text>
-  <text x="30" y="90" class="log-text log-info">[2026-03-09 19:08:00] INFO   | Backup completed: 943 MB</text>
-  <text x="30" y="110" class="log-text log-info">[2026-03-09 19:08:02] INFO   | Auto-scaling triggered: +1 pods</text>
-  <text x="30" y="130" class="log-text log-info">[2026-03-09 19:08:04] INFO   | Metric exported: cpu_usage=79%</text>
-  <text x="30" y="150" class="log-text log-info">[2026-03-09 19:08:06] INFO   | Request processed: 200 OK (45ms)</text>
-  <text x="30" y="170" class="log-text log-info">[2026-03-09 19:08:08] INFO   | Auto-scaling triggered: +3 pods</text>
-  <text x="30" y="190" class="log-text log-info">[2026-03-09 19:08:10] INFO   | Health check passed: notification-svc</text>
-  <text x="30" y="210" class="log-text log-debug">[2026-03-09 19:08:12] DEBUG  | Rate limit check: 5280 req/s</text>
-  <text x="30" y="230" class="log-text log-debug">[2026-03-09 19:08:14] DEBUG  | Rate limit check: 8504 req/s</text>
-  <text x="30" y="250" class="log-text log-info">[2026-03-09 19:08:16] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="270" class="log-text log-info">[2026-03-09 19:08:18] INFO   | Deploy rollout: 23/47 pods updated</text>
-  <text x="30" y="290" class="log-text log-info">[2026-03-09 19:08:20] INFO   | Request processed: 200 OK (31ms)</text>
-  <text x="30" y="310" class="log-text log-info">[2026-03-09 19:08:22] INFO   | Auto-scaling triggered: +3 pods</text>
-  <text x="30" y="330" class="log-text log-debug">[2026-03-09 19:08:24] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="350" class="log-text log-info">[2026-03-09 19:08:26] INFO   | Request processed: 200 OK (37ms)</text>
+  <text x="30" y="70" class="log-text log-info">[2026-03-09 19:49:40] INFO   | Metric exported: cpu_usage=88%</text>
+  <text x="30" y="90" class="log-text log-info">[2026-03-09 19:49:42] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="110" class="log-text log-info">[2026-03-09 19:49:44] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="130" class="log-text log-debug">[2026-03-09 19:49:46] DEBUG  | Rate limit check: 7280 req/s</text>
+  <text x="30" y="150" class="log-text log-debug">[2026-03-09 19:49:48] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="170" class="log-text log-info">[2026-03-09 19:49:50] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="190" class="log-text log-info">[2026-03-09 19:49:52] INFO   | Request processed: 200 OK (32ms)</text>
+  <text x="30" y="210" class="log-text log-info">[2026-03-09 19:49:54] INFO   | Metric exported: cpu_usage=75%</text>
+  <text x="30" y="230" class="log-text log-info">[2026-03-09 19:49:56] INFO   | Container started: auth-service-4a4c7</text>
+  <text x="30" y="250" class="log-text log-debug">[2026-03-09 19:49:58] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="270" class="log-text log-info">[2026-03-09 19:50:00] INFO   | Database query optimized (66ms→10ms)</text>
+  <text x="30" y="290" class="log-text log-info">[2026-03-09 19:50:02] INFO   | Health check passed: auth-service</text>
+  <text x="30" y="310" class="log-text log-debug">[2026-03-09 19:50:04] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="330" class="log-text log-info">[2026-03-09 19:50:06] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="350" class="log-text log-info">[2026-03-09 19:50:08] INFO   | Pod notification-svc-2f3a9 started</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
