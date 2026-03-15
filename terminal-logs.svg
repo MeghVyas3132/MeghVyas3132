@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-03-15 05:42:15] INFO   | Health check passed: user-service</text>
-  <text x="30" y="90" class="log-text log-info">[2026-03-15 05:42:17] INFO   | Backup completed: 677 MB</text>
-  <text x="30" y="110" class="log-text log-debug">[2026-03-15 05:42:19] DEBUG  | Cache hit: user:3d6b2</text>
-  <text x="30" y="130" class="log-text log-debug">[2026-03-15 05:42:21] DEBUG  | Rate limit check: 5110 req/s</text>
-  <text x="30" y="150" class="log-text log-info">[2026-03-15 05:42:23] INFO   | Backup completed: 779 MB</text>
-  <text x="30" y="170" class="log-text log-info">[2026-03-15 05:42:25] INFO   | Deploy rollout: 26/47 pods updated</text>
-  <text x="30" y="190" class="log-text log-debug">[2026-03-15 05:42:27] DEBUG  | Cache hit: user:8e6a1</text>
-  <text x="30" y="210" class="log-text log-info">[2026-03-15 05:42:29] INFO   | Backup completed: 643 MB</text>
-  <text x="30" y="230" class="log-text log-info">[2026-03-15 05:42:31] INFO   | Metric exported: cpu_usage=92%</text>
-  <text x="30" y="250" class="log-text log-debug">[2026-03-15 05:42:33] DEBUG  | Cache hit: user:6a5b3</text>
-  <text x="30" y="270" class="log-text log-info">[2026-03-15 05:42:35] INFO   | Auto-scaling triggered: +3 pods</text>
-  <text x="30" y="290" class="log-text log-info">[2026-03-15 05:42:37] INFO   | Metric exported: cpu_usage=80%</text>
-  <text x="30" y="310" class="log-text log-info">[2026-03-15 05:42:39] INFO   | Deploy rollout: 36/47 pods updated</text>
-  <text x="30" y="330" class="log-text log-info">[2026-03-15 05:42:41] INFO   | Metric exported: cpu_usage=75%</text>
-  <text x="30" y="350" class="log-text log-info">[2026-03-15 05:42:43] INFO   | Container started: auth-service-7d2a1</text>
+  <text x="30" y="70" class="log-text log-info">[2026-03-15 06:38:23] INFO   | Backup completed: 778 MB</text>
+  <text x="30" y="90" class="log-text log-info">[2026-03-15 06:38:25] INFO   | Database query optimized (48ms→22ms)</text>
+  <text x="30" y="110" class="log-text log-info">[2026-03-15 06:38:27] INFO   | Metric exported: cpu_usage=92%</text>
+  <text x="30" y="130" class="log-text log-info">[2026-03-15 06:38:29] INFO   | Container started: user-service-4e9f1</text>
+  <text x="30" y="150" class="log-text log-warn">[2026-03-15 06:38:31] WARN   | High latency detected: user-service</text>
+  <text x="30" y="170" class="log-text log-info">[2026-03-15 06:38:33] INFO   | Health check passed: api-gateway</text>
+  <text x="30" y="190" class="log-text log-info">[2026-03-15 06:38:35] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="210" class="log-text log-warn">[2026-03-15 06:38:37] WARN   | High latency detected: notification-svc</text>
+  <text x="30" y="230" class="log-text log-info">[2026-03-15 06:38:39] INFO   | Health check passed: user-service</text>
+  <text x="30" y="250" class="log-text log-info">[2026-03-15 06:38:41] INFO   | Backup completed: 548 MB</text>
+  <text x="30" y="270" class="log-text log-info">[2026-03-15 06:38:43] INFO   | Health check passed: notification-svc</text>
+  <text x="30" y="290" class="log-text log-info">[2026-03-15 06:38:45] INFO   | Container started: user-service-8c9f8</text>
+  <text x="30" y="310" class="log-text log-info">[2026-03-15 06:38:47] INFO   | Backup completed: 977 MB</text>
+  <text x="30" y="330" class="log-text log-info">[2026-03-15 06:38:49] INFO   | Pod payment-service-2a5a7 started</text>
+  <text x="30" y="350" class="log-text log-debug">[2026-03-15 06:38:51] DEBUG  | Circuit breaker: CLOSED</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
