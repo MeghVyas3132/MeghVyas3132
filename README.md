@@ -78,7 +78,7 @@
 ## &nbsp;〔 Tech Arsenal 〕
 
 <details open>
-<summary><h3>&nbsp;&nbsp;⌨️&nbsp; Programming &amp; Scripting</h3></summary>
+<summary><h3>&nbsp;&nbsp;&nbsp; Programming &amp; Scripting</h3></summary>
 <br/>
 <div align="center">
 
@@ -88,7 +88,7 @@
 </details>
 
 <details open>
-<summary><h3>&nbsp;&nbsp;🤖&nbsp; AI / ML &amp; LLM</h3></summary>
+<summary><h3>&nbsp;&nbsp;&nbsp; AI / ML &amp; LLM</h3></summary>
 <br/>
 <div align="center">
 
@@ -102,7 +102,7 @@
 </details>
 
 <details open>
-<summary><h3>&nbsp;&nbsp;🧠&nbsp; RAG &amp; Vector Databases</h3></summary>
+<summary><h3>&nbsp;&nbsp;&nbsp; RAG &amp; Vector Databases</h3></summary>
 <br/>
 <div align="center">
 
@@ -112,7 +112,7 @@
 </details>
 
 <details open>
-<summary><h3>&nbsp;&nbsp;🔌&nbsp; Backend &amp; APIs</h3></summary>
+<summary><h3>&nbsp;&nbsp;&nbsp; Backend &amp; APIs</h3></summary>
 <br/>
 <div align="center">
 
@@ -126,7 +126,7 @@
 </details>
 
 <details open>
-<summary><h3>&nbsp;&nbsp;🗄️&nbsp; Databases</h3></summary>
+<summary><h3>&nbsp;&nbsp;&nbsp; Databases</h3></summary>
 <br/>
 <div align="center">
 
@@ -136,7 +136,7 @@
 </details>
 
 <details open>
-<summary><h3>&nbsp;&nbsp;☁️&nbsp; Cloud &amp; Infrastructure</h3></summary>
+<summary><h3>&nbsp;&nbsp;&nbsp; Cloud &amp; Infrastructure</h3></summary>
 <br/>
 <div align="center">
 
@@ -150,7 +150,7 @@
 </details>
 
 <details open>
-<summary><h3>&nbsp;&nbsp;⚙️&nbsp; DevOps &amp; CI/CD</h3></summary>
+<summary><h3>&nbsp;&nbsp;&nbsp; DevOps &amp; CI/CD</h3></summary>
 <br/>
 <div align="center">
 
@@ -168,7 +168,7 @@
 </details>
 
 <details open>
-<summary><h3>&nbsp;&nbsp;📡&nbsp; Observability</h3></summary>
+<summary><h3>&nbsp;&nbsp;&nbsp; Observability</h3></summary>
 <br/>
 <div align="center">
 
@@ -178,7 +178,7 @@
 </details>
 
 <details open>
-<summary><h3>&nbsp;&nbsp;🔐&nbsp; Security &amp; Auth</h3></summary>
+<summary><h3>&nbsp;&nbsp;&nbsp; Security &amp; Auth</h3></summary>
 <br/>
 <div align="center">
 
@@ -188,7 +188,7 @@
 </details>
 
 <details open>
-<summary><h3>&nbsp;&nbsp;🛠️&nbsp; Tools &amp; Collaboration</h3></summary>
+<summary><h3>&nbsp;&nbsp;&nbsp; Tools &amp; Collaboration</h3></summary>
 <br/>
 <div align="center">
 
@@ -225,15 +225,7 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=MeghVyas3132&label=Profile+Views&color=FFDAB9&style=for-the-badge&labelColor=1a1a1a)&nbsp;&nbsp;![Followers](https://img.shields.io/github/followers/MeghVyas3132?label=Followers&style=for-the-badge&color=FFB366&labelColor=1a1a1a&logoColor=FFDAB9)&nbsp;&nbsp;![Stars](https://img.shields.io/github/stars/MeghVyas3132?label=Stars&style=for-the-badge&color=FFC999&labelColor=1a1a1a)
 
 </div>
-
-<br/><br/>
-
-<div align="center">
-  <img width="100%" src="./footer.svg" alt="Footer"/>
-</div>
-
-<br/>
-
+<br><br>
 ---
 
 <div align="center">
