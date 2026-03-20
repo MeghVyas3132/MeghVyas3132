@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-warn">[2026-03-20 19:31:36] WARN   | High latency detected: api-gateway</text>
-  <text x="30" y="90" class="log-text log-info">[2026-03-20 19:31:38] INFO   | Health check passed: auth-service</text>
-  <text x="30" y="110" class="log-text log-info">[2026-03-20 19:31:40] INFO   | Backup completed: 945 MB</text>
-  <text x="30" y="130" class="log-text log-info">[2026-03-20 19:31:42] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="150" class="log-text log-warn">[2026-03-20 19:31:44] WARN   | High latency detected: notification-svc</text>
-  <text x="30" y="170" class="log-text log-info">[2026-03-20 19:31:46] INFO   | Metric exported: cpu_usage=76%</text>
-  <text x="30" y="190" class="log-text log-info">[2026-03-20 19:31:48] INFO   | Request processed: 200 OK (11ms)</text>
-  <text x="30" y="210" class="log-text log-info">[2026-03-20 19:31:50] INFO   | Metric exported: cpu_usage=85%</text>
-  <text x="30" y="230" class="log-text log-debug">[2026-03-20 19:31:52] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="250" class="log-text log-info">[2026-03-20 19:31:54] INFO   | Health check passed: api-gateway</text>
-  <text x="30" y="270" class="log-text log-info">[2026-03-20 19:31:56] INFO   | Request processed: 200 OK (33ms)</text>
-  <text x="30" y="290" class="log-text log-warn">[2026-03-20 19:31:58] WARN   | High latency detected: api-gateway</text>
-  <text x="30" y="310" class="log-text log-info">[2026-03-20 19:32:00] INFO   | Auto-scaling triggered: +1 pods</text>
-  <text x="30" y="330" class="log-text log-warn">[2026-03-20 19:32:02] WARN   | High latency detected: api-gateway</text>
-  <text x="30" y="350" class="log-text log-debug">[2026-03-20 19:32:04] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="70" class="log-text log-debug">[2026-03-20 19:58:37] DEBUG  | Rate limit check: 8680 req/s</text>
+  <text x="30" y="90" class="log-text log-info">[2026-03-20 19:58:39] INFO   | Container started: auth-service-6a4f2</text>
+  <text x="30" y="110" class="log-text log-info">[2026-03-20 19:58:41] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="130" class="log-text log-debug">[2026-03-20 19:58:43] DEBUG  | Rate limit check: 5343 req/s</text>
+  <text x="30" y="150" class="log-text log-debug">[2026-03-20 19:58:45] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="170" class="log-text log-debug">[2026-03-20 19:58:47] DEBUG  | Rate limit check: 6316 req/s</text>
+  <text x="30" y="190" class="log-text log-info">[2026-03-20 19:58:49] INFO   | Pod auth-service-2f8b5 started</text>
+  <text x="30" y="210" class="log-text log-info">[2026-03-20 19:58:51] INFO   | Request processed: 200 OK (21ms)</text>
+  <text x="30" y="230" class="log-text log-info">[2026-03-20 19:58:53] INFO   | Container started: notification-svc-1d3d9</text>
+  <text x="30" y="250" class="log-text log-info">[2026-03-20 19:58:55] INFO   | Request processed: 200 OK (11ms)</text>
+  <text x="30" y="270" class="log-text log-info">[2026-03-20 19:58:57] INFO   | Auto-scaling triggered: +2 pods</text>
+  <text x="30" y="290" class="log-text log-info">[2026-03-20 19:58:59] INFO   | Deploy rollout: 21/47 pods updated</text>
+  <text x="30" y="310" class="log-text log-info">[2026-03-20 19:59:01] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="330" class="log-text log-info">[2026-03-20 19:59:03] INFO   | Health check passed: auth-service</text>
+  <text x="30" y="350" class="log-text log-info">[2026-03-20 19:59:05] INFO   | Load balancer: distributing traffic</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
