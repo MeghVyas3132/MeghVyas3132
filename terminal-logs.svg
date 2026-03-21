@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-03-21 20:44:15] INFO   | Request processed: 200 OK (46ms)</text>
-  <text x="30" y="90" class="log-text log-debug">[2026-03-21 20:44:17] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="110" class="log-text log-debug">[2026-03-21 20:44:19] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="130" class="log-text log-debug">[2026-03-21 20:44:21] DEBUG  | Cache hit: user:7f6c9</text>
-  <text x="30" y="150" class="log-text log-info">[2026-03-21 20:44:23] INFO   | Deploy rollout: 39/47 pods updated</text>
-  <text x="30" y="170" class="log-text log-debug">[2026-03-21 20:44:25] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="190" class="log-text log-info">[2026-03-21 20:44:27] INFO   | Metric exported: cpu_usage=91%</text>
-  <text x="30" y="210" class="log-text log-info">[2026-03-21 20:44:29] INFO   | Request processed: 200 OK (20ms)</text>
-  <text x="30" y="230" class="log-text log-debug">[2026-03-21 20:44:31] DEBUG  | Rate limit check: 8879 req/s</text>
-  <text x="30" y="250" class="log-text log-debug">[2026-03-21 20:44:33] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="270" class="log-text log-debug">[2026-03-21 20:44:35] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="290" class="log-text log-info">[2026-03-21 20:44:37] INFO   | Database query optimized (45ms→21ms)</text>
-  <text x="30" y="310" class="log-text log-info">[2026-03-21 20:44:39] INFO   | Health check passed: api-gateway</text>
-  <text x="30" y="330" class="log-text log-debug">[2026-03-21 20:44:41] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="350" class="log-text log-debug">[2026-03-21 20:44:43] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="70" class="log-text log-info">[2026-03-21 21:01:09] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="90" class="log-text log-debug">[2026-03-21 21:01:11] DEBUG  | Rate limit check: 9105 req/s</text>
+  <text x="30" y="110" class="log-text log-info">[2026-03-21 21:01:13] INFO   | Metric exported: cpu_usage=75%</text>
+  <text x="30" y="130" class="log-text log-info">[2026-03-21 21:01:15] INFO   | Pod payment-service-7f6e9 started</text>
+  <text x="30" y="150" class="log-text log-info">[2026-03-21 21:01:17] INFO   | Container started: user-service-9e2d8</text>
+  <text x="30" y="170" class="log-text log-info">[2026-03-21 21:01:19] INFO   | Request processed: 200 OK (24ms)</text>
+  <text x="30" y="190" class="log-text log-info">[2026-03-21 21:01:21] INFO   | Health check passed: auth-service</text>
+  <text x="30" y="210" class="log-text log-debug">[2026-03-21 21:01:23] DEBUG  | Cache hit: user:5b3e8</text>
+  <text x="30" y="230" class="log-text log-debug">[2026-03-21 21:01:25] DEBUG  | Cache hit: user:6f1b4</text>
+  <text x="30" y="250" class="log-text log-info">[2026-03-21 21:01:27] INFO   | Container started: payment-service-5c9b7</text>
+  <text x="30" y="270" class="log-text log-info">[2026-03-21 21:01:29] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="290" class="log-text log-info">[2026-03-21 21:01:31] INFO   | Container started: api-gateway-3e9f4</text>
+  <text x="30" y="310" class="log-text log-info">[2026-03-21 21:01:33] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="330" class="log-text log-info">[2026-03-21 21:01:35] INFO   | Backup completed: 705 MB</text>
+  <text x="30" y="350" class="log-text log-info">[2026-03-21 21:01:37] INFO   | Auto-scaling triggered: +3 pods</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
