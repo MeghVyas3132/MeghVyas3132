@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-03-23 16:30:35] INFO   | Request processed: 200 OK (34ms)</text>
-  <text x="30" y="90" class="log-text log-info">[2026-03-23 16:30:37] INFO   | Request processed: 200 OK (35ms)</text>
-  <text x="30" y="110" class="log-text log-debug">[2026-03-23 16:30:39] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="130" class="log-text log-info">[2026-03-23 16:30:41] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="150" class="log-text log-info">[2026-03-23 16:30:43] INFO   | Database query optimized (55ms→13ms)</text>
-  <text x="30" y="170" class="log-text log-info">[2026-03-23 16:30:45] INFO   | Metric exported: cpu_usage=74%</text>
-  <text x="30" y="190" class="log-text log-info">[2026-03-23 16:30:47] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="210" class="log-text log-warn">[2026-03-23 16:30:49] WARN   | High latency detected: auth-service</text>
-  <text x="30" y="230" class="log-text log-info">[2026-03-23 16:30:51] INFO   | Database query optimized (79ms→21ms)</text>
-  <text x="30" y="250" class="log-text log-info">[2026-03-23 16:30:53] INFO   | Deploy rollout: 38/47 pods updated</text>
-  <text x="30" y="270" class="log-text log-info">[2026-03-23 16:30:55] INFO   | Auto-scaling triggered: +3 pods</text>
-  <text x="30" y="290" class="log-text log-info">[2026-03-23 16:30:57] INFO   | Health check passed: notification-svc</text>
-  <text x="30" y="310" class="log-text log-info">[2026-03-23 16:30:59] INFO   | Request processed: 200 OK (49ms)</text>
-  <text x="30" y="330" class="log-text log-info">[2026-03-23 16:31:01] INFO   | Request processed: 200 OK (44ms)</text>
-  <text x="30" y="350" class="log-text log-info">[2026-03-23 16:31:03] INFO   | Container started: api-gateway-1f7a1</text>
+  <text x="30" y="70" class="log-text log-info">[2026-03-23 17:28:06] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="90" class="log-text log-info">[2026-03-23 17:28:08] INFO   | Request processed: 200 OK (40ms)</text>
+  <text x="30" y="110" class="log-text log-info">[2026-03-23 17:28:10] INFO   | Backup completed: 982 MB</text>
+  <text x="30" y="130" class="log-text log-info">[2026-03-23 17:28:12] INFO   | Health check passed: payment-service</text>
+  <text x="30" y="150" class="log-text log-info">[2026-03-23 17:28:14] INFO   | Pod api-gateway-4f7b9 started</text>
+  <text x="30" y="170" class="log-text log-info">[2026-03-23 17:28:16] INFO   | Container started: notification-svc-7a4d8</text>
+  <text x="30" y="190" class="log-text log-info">[2026-03-23 17:28:18] INFO   | Backup completed: 667 MB</text>
+  <text x="30" y="210" class="log-text log-info">[2026-03-23 17:28:20] INFO   | Pod auth-service-2e5e9 started</text>
+  <text x="30" y="230" class="log-text log-info">[2026-03-23 17:28:22] INFO   | Request processed: 200 OK (32ms)</text>
+  <text x="30" y="250" class="log-text log-info">[2026-03-23 17:28:24] INFO   | Backup completed: 707 MB</text>
+  <text x="30" y="270" class="log-text log-info">[2026-03-23 17:28:26] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="290" class="log-text log-info">[2026-03-23 17:28:28] INFO   | Pod user-service-7a2c4 started</text>
+  <text x="30" y="310" class="log-text log-info">[2026-03-23 17:28:30] INFO   | Deploy rollout: 35/47 pods updated</text>
+  <text x="30" y="330" class="log-text log-info">[2026-03-23 17:28:32] INFO   | Database query optimized (76ms→13ms)</text>
+  <text x="30" y="350" class="log-text log-info">[2026-03-23 17:28:34] INFO   | Container started: payment-service-2e9a2</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
