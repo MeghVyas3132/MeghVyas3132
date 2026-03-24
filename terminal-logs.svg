@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-03-24 05:43:53] INFO   | Pod auth-service-9c6f5 started</text>
-  <text x="30" y="90" class="log-text log-info">[2026-03-24 05:43:55] INFO   | Metric exported: cpu_usage=84%</text>
-  <text x="30" y="110" class="log-text log-info">[2026-03-24 05:43:57] INFO   | Request processed: 200 OK (42ms)</text>
-  <text x="30" y="130" class="log-text log-info">[2026-03-24 05:43:59] INFO   | Request processed: 200 OK (41ms)</text>
-  <text x="30" y="150" class="log-text log-info">[2026-03-24 05:44:01] INFO   | Health check passed: api-gateway</text>
-  <text x="30" y="170" class="log-text log-debug">[2026-03-24 05:44:03] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="190" class="log-text log-info">[2026-03-24 05:44:05] INFO   | Request processed: 200 OK (33ms)</text>
-  <text x="30" y="210" class="log-text log-info">[2026-03-24 05:44:07] INFO   | Health check passed: payment-service</text>
-  <text x="30" y="230" class="log-text log-debug">[2026-03-24 05:44:09] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="250" class="log-text log-debug">[2026-03-24 05:44:11] DEBUG  | Cache hit: user:7e6a7</text>
-  <text x="30" y="270" class="log-text log-info">[2026-03-24 05:44:13] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="290" class="log-text log-debug">[2026-03-24 05:44:15] DEBUG  | Cache hit: user:4a6b1</text>
-  <text x="30" y="310" class="log-text log-info">[2026-03-24 05:44:17] INFO   | Metric exported: cpu_usage=72%</text>
-  <text x="30" y="330" class="log-text log-info">[2026-03-24 05:44:19] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="350" class="log-text log-debug">[2026-03-24 05:44:21] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="70" class="log-text log-debug">[2026-03-24 06:44:06] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="90" class="log-text log-warn">[2026-03-24 06:44:08] WARN   | High latency detected: notification-svc</text>
+  <text x="30" y="110" class="log-text log-debug">[2026-03-24 06:44:10] DEBUG  | Cache hit: user:7c7f8</text>
+  <text x="30" y="130" class="log-text log-info">[2026-03-24 06:44:12] INFO   | Request processed: 200 OK (50ms)</text>
+  <text x="30" y="150" class="log-text log-debug">[2026-03-24 06:44:14] DEBUG  | Cache hit: user:7d6e2</text>
+  <text x="30" y="170" class="log-text log-debug">[2026-03-24 06:44:16] DEBUG  | Rate limit check: 8886 req/s</text>
+  <text x="30" y="190" class="log-text log-info">[2026-03-24 06:44:18] INFO   | Deploy rollout: 35/47 pods updated</text>
+  <text x="30" y="210" class="log-text log-debug">[2026-03-24 06:44:20] DEBUG  | Rate limit check: 9101 req/s</text>
+  <text x="30" y="230" class="log-text log-info">[2026-03-24 06:44:22] INFO   | Request processed: 200 OK (49ms)</text>
+  <text x="30" y="250" class="log-text log-info">[2026-03-24 06:44:24] INFO   | Health check passed: auth-service</text>
+  <text x="30" y="270" class="log-text log-info">[2026-03-24 06:44:26] INFO   | Pod user-service-9c5e6 started</text>
+  <text x="30" y="290" class="log-text log-info">[2026-03-24 06:44:28] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="310" class="log-text log-info">[2026-03-24 06:44:30] INFO   | Deploy rollout: 32/47 pods updated</text>
+  <text x="30" y="330" class="log-text log-info">[2026-03-24 06:44:32] INFO   | Metric exported: cpu_usage=73%</text>
+  <text x="30" y="350" class="log-text log-info">[2026-03-24 06:44:34] INFO   | Health check passed: notification-svc</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
