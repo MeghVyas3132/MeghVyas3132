@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-04-02 00:58:50] INFO   | Auto-scaling triggered: +1 pods</text>
-  <text x="30" y="90" class="log-text log-info">[2026-04-02 00:58:52] INFO   | Backup completed: 540 MB</text>
-  <text x="30" y="110" class="log-text log-info">[2026-04-02 00:58:54] INFO   | Container started: auth-service-5b5f5</text>
-  <text x="30" y="130" class="log-text log-info">[2026-04-02 00:58:56] INFO   | Container started: user-service-2e2a8</text>
-  <text x="30" y="150" class="log-text log-info">[2026-04-02 00:58:58] INFO   | Container started: payment-service-7b4d2</text>
-  <text x="30" y="170" class="log-text log-info">[2026-04-02 00:59:00] INFO   | Health check passed: user-service</text>
-  <text x="30" y="190" class="log-text log-info">[2026-04-02 00:59:02] INFO   | Database query optimized (86ms→20ms)</text>
-  <text x="30" y="210" class="log-text log-info">[2026-04-02 00:59:04] INFO   | Database query optimized (45ms→23ms)</text>
-  <text x="30" y="230" class="log-text log-info">[2026-04-02 00:59:06] INFO   | Backup completed: 788 MB</text>
-  <text x="30" y="250" class="log-text log-info">[2026-04-02 00:59:08] INFO   | Backup completed: 909 MB</text>
-  <text x="30" y="270" class="log-text log-info">[2026-04-02 00:59:10] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="290" class="log-text log-info">[2026-04-02 00:59:12] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="310" class="log-text log-info">[2026-04-02 00:59:14] INFO   | Deploy rollout: 37/47 pods updated</text>
-  <text x="30" y="330" class="log-text log-debug">[2026-04-02 00:59:16] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="350" class="log-text log-debug">[2026-04-02 00:59:18] DEBUG  | Rate limit check: 6059 req/s</text>
+  <text x="30" y="70" class="log-text log-debug">[2026-04-02 03:47:20] DEBUG  | Cache hit: user:2e6f7</text>
+  <text x="30" y="90" class="log-text log-info">[2026-04-02 03:47:22] INFO   | Backup completed: 735 MB</text>
+  <text x="30" y="110" class="log-text log-info">[2026-04-02 03:47:24] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="130" class="log-text log-info">[2026-04-02 03:47:26] INFO   | Auto-scaling triggered: +3 pods</text>
+  <text x="30" y="150" class="log-text log-info">[2026-04-02 03:47:28] INFO   | Auto-scaling triggered: +1 pods</text>
+  <text x="30" y="170" class="log-text log-debug">[2026-04-02 03:47:30] DEBUG  | Cache hit: user:2b3c2</text>
+  <text x="30" y="190" class="log-text log-info">[2026-04-02 03:47:32] INFO   | Pod payment-service-2c3b4 started</text>
+  <text x="30" y="210" class="log-text log-info">[2026-04-02 03:47:34] INFO   | Auto-scaling triggered: +1 pods</text>
+  <text x="30" y="230" class="log-text log-info">[2026-04-02 03:47:36] INFO   | Backup completed: 535 MB</text>
+  <text x="30" y="250" class="log-text log-info">[2026-04-02 03:47:38] INFO   | Backup completed: 614 MB</text>
+  <text x="30" y="270" class="log-text log-info">[2026-04-02 03:47:40] INFO   | Database query optimized (53ms→10ms)</text>
+  <text x="30" y="290" class="log-text log-info">[2026-04-02 03:47:42] INFO   | Pod notification-svc-2a9a2 started</text>
+  <text x="30" y="310" class="log-text log-info">[2026-04-02 03:47:44] INFO   | Metric exported: cpu_usage=76%</text>
+  <text x="30" y="330" class="log-text log-info">[2026-04-02 03:47:46] INFO   | Database query optimized (93ms→24ms)</text>
+  <text x="30" y="350" class="log-text log-info">[2026-04-02 03:47:48] INFO   | Pod user-service-8b3a3 started</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
