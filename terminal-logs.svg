@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-debug">[2026-04-06 16:25:14] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="90" class="log-text log-info">[2026-04-06 16:25:16] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="110" class="log-text log-debug">[2026-04-06 16:25:18] DEBUG  | Rate limit check: 5897 req/s</text>
-  <text x="30" y="130" class="log-text log-info">[2026-04-06 16:25:20] INFO   | Auto-scaling triggered: +2 pods</text>
-  <text x="30" y="150" class="log-text log-debug">[2026-04-06 16:25:22] DEBUG  | Rate limit check: 7823 req/s</text>
-  <text x="30" y="170" class="log-text log-info">[2026-04-06 16:25:24] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="190" class="log-text log-info">[2026-04-06 16:25:26] INFO   | Metric exported: cpu_usage=75%</text>
-  <text x="30" y="210" class="log-text log-info">[2026-04-06 16:25:28] INFO   | Health check passed: api-gateway</text>
-  <text x="30" y="230" class="log-text log-info">[2026-04-06 16:25:30] INFO   | Container started: notification-svc-8d1b7</text>
-  <text x="30" y="250" class="log-text log-info">[2026-04-06 16:25:32] INFO   | Deploy rollout: 34/47 pods updated</text>
-  <text x="30" y="270" class="log-text log-info">[2026-04-06 16:25:34] INFO   | Backup completed: 749 MB</text>
-  <text x="30" y="290" class="log-text log-info">[2026-04-06 16:25:36] INFO   | Deploy rollout: 29/47 pods updated</text>
-  <text x="30" y="310" class="log-text log-info">[2026-04-06 16:25:38] INFO   | Request processed: 200 OK (40ms)</text>
-  <text x="30" y="330" class="log-text log-debug">[2026-04-06 16:25:40] DEBUG  | Rate limit check: 7625 req/s</text>
-  <text x="30" y="350" class="log-text log-info">[2026-04-06 16:25:42] INFO   | Backup completed: 739 MB</text>
+  <text x="30" y="70" class="log-text log-info">[2026-04-06 17:12:13] INFO   | Health check passed: payment-service</text>
+  <text x="30" y="90" class="log-text log-info">[2026-04-06 17:12:15] INFO   | Deploy rollout: 21/47 pods updated</text>
+  <text x="30" y="110" class="log-text log-info">[2026-04-06 17:12:17] INFO   | Metric exported: cpu_usage=76%</text>
+  <text x="30" y="130" class="log-text log-debug">[2026-04-06 17:12:19] DEBUG  | Rate limit check: 9886 req/s</text>
+  <text x="30" y="150" class="log-text log-info">[2026-04-06 17:12:21] INFO   | Backup completed: 654 MB</text>
+  <text x="30" y="170" class="log-text log-debug">[2026-04-06 17:12:23] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="190" class="log-text log-info">[2026-04-06 17:12:25] INFO   | Deploy rollout: 22/47 pods updated</text>
+  <text x="30" y="210" class="log-text log-info">[2026-04-06 17:12:27] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="230" class="log-text log-debug">[2026-04-06 17:12:29] DEBUG  | Rate limit check: 8996 req/s</text>
+  <text x="30" y="250" class="log-text log-info">[2026-04-06 17:12:31] INFO   | Metric exported: cpu_usage=95%</text>
+  <text x="30" y="270" class="log-text log-debug">[2026-04-06 17:12:33] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="290" class="log-text log-info">[2026-04-06 17:12:35] INFO   | Pod user-service-2f7b1 started</text>
+  <text x="30" y="310" class="log-text log-info">[2026-04-06 17:12:37] INFO   | Health check passed: api-gateway</text>
+  <text x="30" y="330" class="log-text log-info">[2026-04-06 17:12:39] INFO   | Backup completed: 849 MB</text>
+  <text x="30" y="350" class="log-text log-debug">[2026-04-06 17:12:41] DEBUG  | Circuit breaker: CLOSED</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
