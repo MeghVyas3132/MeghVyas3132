@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-04-09 11:40:22] INFO   | Request processed: 200 OK (13ms)</text>
-  <text x="30" y="90" class="log-text log-info">[2026-04-09 11:40:24] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="110" class="log-text log-info">[2026-04-09 11:40:26] INFO   | Request processed: 200 OK (33ms)</text>
-  <text x="30" y="130" class="log-text log-info">[2026-04-09 11:40:28] INFO   | Health check passed: payment-service</text>
-  <text x="30" y="150" class="log-text log-info">[2026-04-09 11:40:30] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="170" class="log-text log-info">[2026-04-09 11:40:32] INFO   | Deploy rollout: 24/47 pods updated</text>
-  <text x="30" y="190" class="log-text log-info">[2026-04-09 11:40:34] INFO   | Deploy rollout: 31/47 pods updated</text>
-  <text x="30" y="210" class="log-text log-info">[2026-04-09 11:40:36] INFO   | Backup completed: 505 MB</text>
-  <text x="30" y="230" class="log-text log-info">[2026-04-09 11:40:38] INFO   | Auto-scaling triggered: +2 pods</text>
-  <text x="30" y="250" class="log-text log-info">[2026-04-09 11:40:40] INFO   | Backup completed: 573 MB</text>
-  <text x="30" y="270" class="log-text log-info">[2026-04-09 11:40:42] INFO   | Metric exported: cpu_usage=85%</text>
-  <text x="30" y="290" class="log-text log-info">[2026-04-09 11:40:44] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="310" class="log-text log-info">[2026-04-09 11:40:46] INFO   | Health check passed: user-service</text>
-  <text x="30" y="330" class="log-text log-info">[2026-04-09 11:40:48] INFO   | Metric exported: cpu_usage=81%</text>
-  <text x="30" y="350" class="log-text log-info">[2026-04-09 11:40:50] INFO   | Backup completed: 711 MB</text>
+  <text x="30" y="70" class="log-text log-debug">[2026-04-09 12:45:51] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="90" class="log-text log-info">[2026-04-09 12:45:53] INFO   | Metric exported: cpu_usage=77%</text>
+  <text x="30" y="110" class="log-text log-info">[2026-04-09 12:45:55] INFO   | Backup completed: 581 MB</text>
+  <text x="30" y="130" class="log-text log-info">[2026-04-09 12:45:57] INFO   | Metric exported: cpu_usage=84%</text>
+  <text x="30" y="150" class="log-text log-info">[2026-04-09 12:45:59] INFO   | Deploy rollout: 32/47 pods updated</text>
+  <text x="30" y="170" class="log-text log-info">[2026-04-09 12:46:01] INFO   | Health check passed: notification-svc</text>
+  <text x="30" y="190" class="log-text log-info">[2026-04-09 12:46:03] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="210" class="log-text log-info">[2026-04-09 12:46:05] INFO   | Request processed: 200 OK (45ms)</text>
+  <text x="30" y="230" class="log-text log-info">[2026-04-09 12:46:07] INFO   | Metric exported: cpu_usage=80%</text>
+  <text x="30" y="250" class="log-text log-info">[2026-04-09 12:46:09] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="270" class="log-text log-info">[2026-04-09 12:46:11] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="290" class="log-text log-info">[2026-04-09 12:46:13] INFO   | Pod notification-svc-4a2e5 started</text>
+  <text x="30" y="310" class="log-text log-info">[2026-04-09 12:46:15] INFO   | Auto-scaling triggered: +3 pods</text>
+  <text x="30" y="330" class="log-text log-info">[2026-04-09 12:46:17] INFO   | Auto-scaling triggered: +3 pods</text>
+  <text x="30" y="350" class="log-text log-info">[2026-04-09 12:46:19] INFO   | Database query optimized (67ms→10ms)</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
