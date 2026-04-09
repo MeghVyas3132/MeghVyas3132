@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-04-09 22:54:57] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="90" class="log-text log-warn">[2026-04-09 22:54:59] WARN   | High latency detected: user-service</text>
-  <text x="30" y="110" class="log-text log-info">[2026-04-09 22:55:01] INFO   | Auto-scaling triggered: +1 pods</text>
-  <text x="30" y="130" class="log-text log-info">[2026-04-09 22:55:03] INFO   | Container started: notification-svc-9d1b2</text>
-  <text x="30" y="150" class="log-text log-debug">[2026-04-09 22:55:05] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="170" class="log-text log-debug">[2026-04-09 22:55:07] DEBUG  | Rate limit check: 6249 req/s</text>
-  <text x="30" y="190" class="log-text log-info">[2026-04-09 22:55:09] INFO   | Pod api-gateway-2a5f7 started</text>
-  <text x="30" y="210" class="log-text log-info">[2026-04-09 22:55:11] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="230" class="log-text log-warn">[2026-04-09 22:55:13] WARN   | High latency detected: auth-service</text>
-  <text x="30" y="250" class="log-text log-info">[2026-04-09 22:55:15] INFO   | Auto-scaling triggered: +1 pods</text>
-  <text x="30" y="270" class="log-text log-warn">[2026-04-09 22:55:17] WARN   | High latency detected: api-gateway</text>
-  <text x="30" y="290" class="log-text log-warn">[2026-04-09 22:55:19] WARN   | High latency detected: api-gateway</text>
-  <text x="30" y="310" class="log-text log-info">[2026-04-09 22:55:21] INFO   | Request processed: 200 OK (25ms)</text>
-  <text x="30" y="330" class="log-text log-warn">[2026-04-09 22:55:23] WARN   | High latency detected: auth-service</text>
-  <text x="30" y="350" class="log-text log-info">[2026-04-09 22:55:25] INFO   | Auto-scaling triggered: +2 pods</text>
+  <text x="30" y="70" class="log-text log-info">[2026-04-09 23:35:14] INFO   | Deploy rollout: 23/47 pods updated</text>
+  <text x="30" y="90" class="log-text log-info">[2026-04-09 23:35:16] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="110" class="log-text log-debug">[2026-04-09 23:35:18] DEBUG  | Rate limit check: 9186 req/s</text>
+  <text x="30" y="130" class="log-text log-debug">[2026-04-09 23:35:20] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="150" class="log-text log-info">[2026-04-09 23:35:22] INFO   | Pod user-service-9f6f9 started</text>
+  <text x="30" y="170" class="log-text log-info">[2026-04-09 23:35:24] INFO   | Auto-scaling triggered: +1 pods</text>
+  <text x="30" y="190" class="log-text log-info">[2026-04-09 23:35:26] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="210" class="log-text log-warn">[2026-04-09 23:35:28] WARN   | High latency detected: user-service</text>
+  <text x="30" y="230" class="log-text log-warn">[2026-04-09 23:35:30] WARN   | High latency detected: auth-service</text>
+  <text x="30" y="250" class="log-text log-info">[2026-04-09 23:35:32] INFO   | Metric exported: cpu_usage=76%</text>
+  <text x="30" y="270" class="log-text log-info">[2026-04-09 23:35:34] INFO   | Deploy rollout: 39/47 pods updated</text>
+  <text x="30" y="290" class="log-text log-info">[2026-04-09 23:35:36] INFO   | Deploy rollout: 21/47 pods updated</text>
+  <text x="30" y="310" class="log-text log-info">[2026-04-09 23:35:38] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="330" class="log-text log-warn">[2026-04-09 23:35:40] WARN   | High latency detected: api-gateway</text>
+  <text x="30" y="350" class="log-text log-info">[2026-04-09 23:35:42] INFO   | Metric exported: cpu_usage=74%</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
