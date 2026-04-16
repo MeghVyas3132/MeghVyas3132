@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-04-16 17:38:52] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="90" class="log-text log-info">[2026-04-16 17:38:54] INFO   | Health check passed: api-gateway</text>
-  <text x="30" y="110" class="log-text log-info">[2026-04-16 17:38:56] INFO   | Container started: auth-service-6c8e3</text>
-  <text x="30" y="130" class="log-text log-info">[2026-04-16 17:38:58] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="150" class="log-text log-info">[2026-04-16 17:39:00] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="170" class="log-text log-debug">[2026-04-16 17:39:02] DEBUG  | Cache hit: user:4d6d1</text>
-  <text x="30" y="190" class="log-text log-info">[2026-04-16 17:39:04] INFO   | Request processed: 200 OK (50ms)</text>
-  <text x="30" y="210" class="log-text log-info">[2026-04-16 17:39:06] INFO   | Auto-scaling triggered: +2 pods</text>
-  <text x="30" y="230" class="log-text log-debug">[2026-04-16 17:39:08] DEBUG  | Rate limit check: 6504 req/s</text>
-  <text x="30" y="250" class="log-text log-info">[2026-04-16 17:39:10] INFO   | Backup completed: 953 MB</text>
-  <text x="30" y="270" class="log-text log-info">[2026-04-16 17:39:12] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="290" class="log-text log-info">[2026-04-16 17:39:14] INFO   | Auto-scaling triggered: +3 pods</text>
-  <text x="30" y="310" class="log-text log-info">[2026-04-16 17:39:16] INFO   | Request processed: 200 OK (44ms)</text>
-  <text x="30" y="330" class="log-text log-info">[2026-04-16 17:39:18] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="350" class="log-text log-info">[2026-04-16 17:39:20] INFO   | Backup completed: 566 MB</text>
+  <text x="30" y="70" class="log-text log-info">[2026-04-16 18:46:38] INFO   | Database query optimized (41ms→16ms)</text>
+  <text x="30" y="90" class="log-text log-info">[2026-04-16 18:46:40] INFO   | Deploy rollout: 35/47 pods updated</text>
+  <text x="30" y="110" class="log-text log-info">[2026-04-16 18:46:42] INFO   | Request processed: 200 OK (50ms)</text>
+  <text x="30" y="130" class="log-text log-info">[2026-04-16 18:46:44] INFO   | Auto-scaling triggered: +3 pods</text>
+  <text x="30" y="150" class="log-text log-info">[2026-04-16 18:46:46] INFO   | Deploy rollout: 35/47 pods updated</text>
+  <text x="30" y="170" class="log-text log-info">[2026-04-16 18:46:48] INFO   | Pod api-gateway-5a5f8 started</text>
+  <text x="30" y="190" class="log-text log-debug">[2026-04-16 18:46:50] DEBUG  | Cache hit: user:5e9a8</text>
+  <text x="30" y="210" class="log-text log-debug">[2026-04-16 18:46:52] DEBUG  | Cache hit: user:2f9a1</text>
+  <text x="30" y="230" class="log-text log-info">[2026-04-16 18:46:54] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="250" class="log-text log-info">[2026-04-16 18:46:56] INFO   | Container started: notification-svc-9b7e5</text>
+  <text x="30" y="270" class="log-text log-info">[2026-04-16 18:46:58] INFO   | Health check passed: payment-service</text>
+  <text x="30" y="290" class="log-text log-info">[2026-04-16 18:47:00] INFO   | Backup completed: 546 MB</text>
+  <text x="30" y="310" class="log-text log-info">[2026-04-16 18:47:02] INFO   | Metric exported: cpu_usage=79%</text>
+  <text x="30" y="330" class="log-text log-debug">[2026-04-16 18:47:04] DEBUG  | Rate limit check: 6157 req/s</text>
+  <text x="30" y="350" class="log-text log-info">[2026-04-16 18:47:06] INFO   | SSL cert renewed: *.meghvyas.dev</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
