@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-04-21 22:58:06] INFO   | Database query optimized (68ms→23ms)</text>
-  <text x="30" y="90" class="log-text log-info">[2026-04-21 22:58:08] INFO   | Request processed: 200 OK (10ms)</text>
-  <text x="30" y="110" class="log-text log-info">[2026-04-21 22:58:10] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="130" class="log-text log-info">[2026-04-21 22:58:12] INFO   | Metric exported: cpu_usage=93%</text>
-  <text x="30" y="150" class="log-text log-info">[2026-04-21 22:58:14] INFO   | Request processed: 200 OK (25ms)</text>
-  <text x="30" y="170" class="log-text log-info">[2026-04-21 22:58:16] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="190" class="log-text log-info">[2026-04-21 22:58:18] INFO   | Request processed: 200 OK (49ms)</text>
-  <text x="30" y="210" class="log-text log-info">[2026-04-21 22:58:20] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="230" class="log-text log-info">[2026-04-21 22:58:22] INFO   | Container started: auth-service-6a1d5</text>
-  <text x="30" y="250" class="log-text log-info">[2026-04-21 22:58:24] INFO   | Container started: payment-service-9a5b9</text>
-  <text x="30" y="270" class="log-text log-info">[2026-04-21 22:58:26] INFO   | Auto-scaling triggered: +1 pods</text>
-  <text x="30" y="290" class="log-text log-info">[2026-04-21 22:58:28] INFO   | Auto-scaling triggered: +1 pods</text>
-  <text x="30" y="310" class="log-text log-info">[2026-04-21 22:58:30] INFO   | Backup completed: 912 MB</text>
-  <text x="30" y="330" class="log-text log-debug">[2026-04-21 22:58:32] DEBUG  | Rate limit check: 6442 req/s</text>
-  <text x="30" y="350" class="log-text log-info">[2026-04-21 22:58:34] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="70" class="log-text log-debug">[2026-04-21 23:40:45] DEBUG  | Rate limit check: 6902 req/s</text>
+  <text x="30" y="90" class="log-text log-info">[2026-04-21 23:40:47] INFO   | Metric exported: cpu_usage=93%</text>
+  <text x="30" y="110" class="log-text log-debug">[2026-04-21 23:40:49] DEBUG  | Rate limit check: 5696 req/s</text>
+  <text x="30" y="130" class="log-text log-info">[2026-04-21 23:40:51] INFO   | Backup completed: 674 MB</text>
+  <text x="30" y="150" class="log-text log-info">[2026-04-21 23:40:53] INFO   | Container started: payment-service-8a6f3</text>
+  <text x="30" y="170" class="log-text log-warn">[2026-04-21 23:40:55] WARN   | High latency detected: payment-service</text>
+  <text x="30" y="190" class="log-text log-warn">[2026-04-21 23:40:57] WARN   | High latency detected: auth-service</text>
+  <text x="30" y="210" class="log-text log-debug">[2026-04-21 23:40:59] DEBUG  | Rate limit check: 8428 req/s</text>
+  <text x="30" y="230" class="log-text log-info">[2026-04-21 23:41:01] INFO   | Metric exported: cpu_usage=93%</text>
+  <text x="30" y="250" class="log-text log-debug">[2026-04-21 23:41:03] DEBUG  | Cache hit: user:1c3c5</text>
+  <text x="30" y="270" class="log-text log-info">[2026-04-21 23:41:05] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="290" class="log-text log-info">[2026-04-21 23:41:07] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="310" class="log-text log-info">[2026-04-21 23:41:09] INFO   | Backup completed: 602 MB</text>
+  <text x="30" y="330" class="log-text log-info">[2026-04-21 23:41:11] INFO   | Health check passed: api-gateway</text>
+  <text x="30" y="350" class="log-text log-info">[2026-04-21 23:41:13] INFO   | Health check passed: user-service</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
