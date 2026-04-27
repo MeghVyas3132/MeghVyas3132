@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-debug">[2026-04-27 12:58:47] DEBUG  | Cache hit: user:2f3f7</text>
-  <text x="30" y="90" class="log-text log-info">[2026-04-27 12:58:49] INFO   | Health check passed: api-gateway</text>
-  <text x="30" y="110" class="log-text log-debug">[2026-04-27 12:58:51] DEBUG  | Cache hit: user:1b1f9</text>
-  <text x="30" y="130" class="log-text log-debug">[2026-04-27 12:58:53] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="150" class="log-text log-debug">[2026-04-27 12:58:55] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="170" class="log-text log-info">[2026-04-27 12:58:57] INFO   | Backup completed: 574 MB</text>
-  <text x="30" y="190" class="log-text log-debug">[2026-04-27 12:58:59] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="210" class="log-text log-info">[2026-04-27 12:59:01] INFO   | Deploy rollout: 32/47 pods updated</text>
-  <text x="30" y="230" class="log-text log-debug">[2026-04-27 12:59:03] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="250" class="log-text log-debug">[2026-04-27 12:59:05] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="270" class="log-text log-warn">[2026-04-27 12:59:07] WARN   | High latency detected: payment-service</text>
-  <text x="30" y="290" class="log-text log-info">[2026-04-27 12:59:09] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="310" class="log-text log-warn">[2026-04-27 12:59:11] WARN   | High latency detected: auth-service</text>
-  <text x="30" y="330" class="log-text log-info">[2026-04-27 12:59:13] INFO   | Metric exported: cpu_usage=70%</text>
-  <text x="30" y="350" class="log-text log-warn">[2026-04-27 12:59:15] WARN   | High latency detected: payment-service</text>
+  <text x="30" y="70" class="log-text log-debug">[2026-04-27 15:10:40] DEBUG  | Cache hit: user:2a8a1</text>
+  <text x="30" y="90" class="log-text log-info">[2026-04-27 15:10:42] INFO   | Request processed: 200 OK (18ms)</text>
+  <text x="30" y="110" class="log-text log-warn">[2026-04-27 15:10:44] WARN   | High latency detected: auth-service</text>
+  <text x="30" y="130" class="log-text log-info">[2026-04-27 15:10:46] INFO   | Deploy rollout: 23/47 pods updated</text>
+  <text x="30" y="150" class="log-text log-info">[2026-04-27 15:10:48] INFO   | Deploy rollout: 21/47 pods updated</text>
+  <text x="30" y="170" class="log-text log-warn">[2026-04-27 15:10:50] WARN   | High latency detected: auth-service</text>
+  <text x="30" y="190" class="log-text log-info">[2026-04-27 15:10:52] INFO   | Pod user-service-5b8b8 started</text>
+  <text x="30" y="210" class="log-text log-info">[2026-04-27 15:10:54] INFO   | Metric exported: cpu_usage=80%</text>
+  <text x="30" y="230" class="log-text log-warn">[2026-04-27 15:10:56] WARN   | High latency detected: payment-service</text>
+  <text x="30" y="250" class="log-text log-info">[2026-04-27 15:10:58] INFO   | Deploy rollout: 36/47 pods updated</text>
+  <text x="30" y="270" class="log-text log-warn">[2026-04-27 15:11:00] WARN   | High latency detected: api-gateway</text>
+  <text x="30" y="290" class="log-text log-info">[2026-04-27 15:11:02] INFO   | Health check passed: payment-service</text>
+  <text x="30" y="310" class="log-text log-debug">[2026-04-27 15:11:04] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="330" class="log-text log-debug">[2026-04-27 15:11:06] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="350" class="log-text log-info">[2026-04-27 15:11:08] INFO   | Pod notification-svc-8b6f6 started</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
