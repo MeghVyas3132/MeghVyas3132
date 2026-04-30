@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-04-30 16:45:35] INFO   | Backup completed: 684 MB</text>
-  <text x="30" y="90" class="log-text log-info">[2026-04-30 16:45:37] INFO   | Container started: notification-svc-7e2f2</text>
-  <text x="30" y="110" class="log-text log-debug">[2026-04-30 16:45:39] DEBUG  | Cache hit: user:9b4d4</text>
-  <text x="30" y="130" class="log-text log-debug">[2026-04-30 16:45:41] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="150" class="log-text log-info">[2026-04-30 16:45:43] INFO   | Metric exported: cpu_usage=85%</text>
-  <text x="30" y="170" class="log-text log-info">[2026-04-30 16:45:45] INFO   | Request processed: 200 OK (36ms)</text>
-  <text x="30" y="190" class="log-text log-debug">[2026-04-30 16:45:47] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="210" class="log-text log-debug">[2026-04-30 16:45:49] DEBUG  | Rate limit check: 5387 req/s</text>
-  <text x="30" y="230" class="log-text log-info">[2026-04-30 16:45:51] INFO   | Container started: auth-service-7f6d2</text>
-  <text x="30" y="250" class="log-text log-info">[2026-04-30 16:45:53] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="270" class="log-text log-info">[2026-04-30 16:45:55] INFO   | Backup completed: 562 MB</text>
-  <text x="30" y="290" class="log-text log-info">[2026-04-30 16:45:57] INFO   | Metric exported: cpu_usage=93%</text>
-  <text x="30" y="310" class="log-text log-info">[2026-04-30 16:45:59] INFO   | Metric exported: cpu_usage=83%</text>
-  <text x="30" y="330" class="log-text log-info">[2026-04-30 16:46:01] INFO   | Container started: auth-service-4f7e4</text>
-  <text x="30" y="350" class="log-text log-info">[2026-04-30 16:46:03] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="70" class="log-text log-info">[2026-04-30 17:58:39] INFO   | Request processed: 200 OK (26ms)</text>
+  <text x="30" y="90" class="log-text log-info">[2026-04-30 17:58:41] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="110" class="log-text log-info">[2026-04-30 17:58:43] INFO   | Auto-scaling triggered: +3 pods</text>
+  <text x="30" y="130" class="log-text log-info">[2026-04-30 17:58:45] INFO   | Metric exported: cpu_usage=73%</text>
+  <text x="30" y="150" class="log-text log-info">[2026-04-30 17:58:47] INFO   | Metric exported: cpu_usage=70%</text>
+  <text x="30" y="170" class="log-text log-info">[2026-04-30 17:58:49] INFO   | Deploy rollout: 26/47 pods updated</text>
+  <text x="30" y="190" class="log-text log-debug">[2026-04-30 17:58:51] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="210" class="log-text log-info">[2026-04-30 17:58:53] INFO   | Request processed: 200 OK (32ms)</text>
+  <text x="30" y="230" class="log-text log-info">[2026-04-30 17:58:55] INFO   | Metric exported: cpu_usage=92%</text>
+  <text x="30" y="250" class="log-text log-info">[2026-04-30 17:58:57] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="270" class="log-text log-info">[2026-04-30 17:58:59] INFO   | Container started: notification-svc-3f9c7</text>
+  <text x="30" y="290" class="log-text log-info">[2026-04-30 17:59:01] INFO   | Health check passed: payment-service</text>
+  <text x="30" y="310" class="log-text log-info">[2026-04-30 17:59:03] INFO   | Health check passed: payment-service</text>
+  <text x="30" y="330" class="log-text log-info">[2026-04-30 17:59:05] INFO   | Metric exported: cpu_usage=86%</text>
+  <text x="30" y="350" class="log-text log-info">[2026-04-30 17:59:07] INFO   | Deploy rollout: 33/47 pods updated</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
