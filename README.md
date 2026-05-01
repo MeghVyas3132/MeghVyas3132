@@ -9,11 +9,6 @@
 </div>
 
 <br/>
-
-<div align="center">
-  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHNnNGY1eXpsenZtc2w3dzVhdnhweWg2Y2VkNjkyNWg2dzZzNTZxbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1BgqtRVZH0w9OFefkf/giphy.gif" width="260"/>
-</div>
-
 <br/>
 
 <div align="center">
@@ -204,7 +199,6 @@
 <br/>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=MeghVyas3132&show_icons=true&hide_border=true&title_color=FFDAB9&icon_color=FFB366&text_color=FFC999&bg_color=0d0d0d&border_radius=10&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
   <img width="49%" src="https://streak-stats.demolab.com?user=MeghVyas3132&hide_border=true&stroke=FFDAB9&ring=FFDAB9&fire=FFB366&currStreakLabel=FFDAB9&sideLabels=FFC999&dates=aaaaaa&background=0d0d0d&currStreakNum=FFDAB9&sideNums=FFC999&border_radius=10" alt="GitHub Streak"/>
 </div>
 
