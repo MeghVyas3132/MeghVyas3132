@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-05-05 10:16:17] INFO   | Auto-scaling triggered: +1 pods</text>
-  <text x="30" y="90" class="log-text log-info">[2026-05-05 10:16:19] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="110" class="log-text log-debug">[2026-05-05 10:16:21] DEBUG  | Rate limit check: 8801 req/s</text>
-  <text x="30" y="130" class="log-text log-debug">[2026-05-05 10:16:23] DEBUG  | Cache hit: user:6c2e4</text>
-  <text x="30" y="150" class="log-text log-debug">[2026-05-05 10:16:25] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="170" class="log-text log-debug">[2026-05-05 10:16:27] DEBUG  | Rate limit check: 8509 req/s</text>
-  <text x="30" y="190" class="log-text log-info">[2026-05-05 10:16:29] INFO   | Auto-scaling triggered: +1 pods</text>
-  <text x="30" y="210" class="log-text log-info">[2026-05-05 10:16:31] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="230" class="log-text log-info">[2026-05-05 10:16:33] INFO   | Container started: user-service-7a6a2</text>
-  <text x="30" y="250" class="log-text log-warn">[2026-05-05 10:16:35] WARN   | High latency detected: payment-service</text>
-  <text x="30" y="270" class="log-text log-info">[2026-05-05 10:16:37] INFO   | Deploy rollout: 34/47 pods updated</text>
-  <text x="30" y="290" class="log-text log-warn">[2026-05-05 10:16:39] WARN   | High latency detected: api-gateway</text>
-  <text x="30" y="310" class="log-text log-debug">[2026-05-05 10:16:41] DEBUG  | Cache hit: user:2c4c4</text>
-  <text x="30" y="330" class="log-text log-info">[2026-05-05 10:16:43] INFO   | Container started: payment-service-3f7f6</text>
-  <text x="30" y="350" class="log-text log-info">[2026-05-05 10:16:45] INFO   | Health check passed: payment-service</text>
+  <text x="30" y="70" class="log-text log-info">[2026-05-05 11:40:54] INFO   | Pod user-service-9f8f8 started</text>
+  <text x="30" y="90" class="log-text log-info">[2026-05-05 11:40:56] INFO   | Deploy rollout: 22/47 pods updated</text>
+  <text x="30" y="110" class="log-text log-debug">[2026-05-05 11:40:58] DEBUG  | Cache hit: user:8a3a4</text>
+  <text x="30" y="130" class="log-text log-debug">[2026-05-05 11:41:00] DEBUG  | Cache hit: user:6b4e4</text>
+  <text x="30" y="150" class="log-text log-debug">[2026-05-05 11:41:02] DEBUG  | Cache hit: user:8d5d1</text>
+  <text x="30" y="170" class="log-text log-info">[2026-05-05 11:41:04] INFO   | Container started: payment-service-5e3f5</text>
+  <text x="30" y="190" class="log-text log-info">[2026-05-05 11:41:06] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="210" class="log-text log-info">[2026-05-05 11:41:08] INFO   | Metric exported: cpu_usage=76%</text>
+  <text x="30" y="230" class="log-text log-info">[2026-05-05 11:41:10] INFO   | Metric exported: cpu_usage=77%</text>
+  <text x="30" y="250" class="log-text log-info">[2026-05-05 11:41:12] INFO   | Pod payment-service-4d7b6 started</text>
+  <text x="30" y="270" class="log-text log-info">[2026-05-05 11:41:14] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="290" class="log-text log-warn">[2026-05-05 11:41:16] WARN   | High latency detected: auth-service</text>
+  <text x="30" y="310" class="log-text log-warn">[2026-05-05 11:41:18] WARN   | High latency detected: payment-service</text>
+  <text x="30" y="330" class="log-text log-info">[2026-05-05 11:41:20] INFO   | Database query optimized (45ms→14ms)</text>
+  <text x="30" y="350" class="log-text log-debug">[2026-05-05 11:41:22] DEBUG  | Cache hit: user:5c6c4</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
