@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-debug">[2026-05-07 11:58:32] DEBUG  | Cache hit: user:2a1c4</text>
-  <text x="30" y="90" class="log-text log-info">[2026-05-07 11:58:34] INFO   | Backup completed: 505 MB</text>
-  <text x="30" y="110" class="log-text log-info">[2026-05-07 11:58:36] INFO   | Deploy rollout: 28/47 pods updated</text>
-  <text x="30" y="130" class="log-text log-info">[2026-05-07 11:58:38] INFO   | Pod auth-service-2c3a4 started</text>
-  <text x="30" y="150" class="log-text log-info">[2026-05-07 11:58:40] INFO   | Deploy rollout: 24/47 pods updated</text>
-  <text x="30" y="170" class="log-text log-debug">[2026-05-07 11:58:42] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="190" class="log-text log-info">[2026-05-07 11:58:44] INFO   | Deploy rollout: 28/47 pods updated</text>
-  <text x="30" y="210" class="log-text log-warn">[2026-05-07 11:58:46] WARN   | High latency detected: api-gateway</text>
-  <text x="30" y="230" class="log-text log-info">[2026-05-07 11:58:48] INFO   | Auto-scaling triggered: +1 pods</text>
-  <text x="30" y="250" class="log-text log-debug">[2026-05-07 11:58:50] DEBUG  | Rate limit check: 9326 req/s</text>
-  <text x="30" y="270" class="log-text log-info">[2026-05-07 11:58:52] INFO   | Backup completed: 564 MB</text>
-  <text x="30" y="290" class="log-text log-info">[2026-05-07 11:58:54] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="310" class="log-text log-info">[2026-05-07 11:58:56] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="330" class="log-text log-info">[2026-05-07 11:58:58] INFO   | Metric exported: cpu_usage=73%</text>
-  <text x="30" y="350" class="log-text log-debug">[2026-05-07 11:59:00] DEBUG  | Rate limit check: 8478 req/s</text>
+  <text x="30" y="70" class="log-text log-info">[2026-05-07 14:33:43] INFO   | Metric exported: cpu_usage=77%</text>
+  <text x="30" y="90" class="log-text log-info">[2026-05-07 14:33:45] INFO   | Health check passed: auth-service</text>
+  <text x="30" y="110" class="log-text log-info">[2026-05-07 14:33:47] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="130" class="log-text log-info">[2026-05-07 14:33:49] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="150" class="log-text log-info">[2026-05-07 14:33:51] INFO   | Health check passed: user-service</text>
+  <text x="30" y="170" class="log-text log-info">[2026-05-07 14:33:53] INFO   | Health check passed: auth-service</text>
+  <text x="30" y="190" class="log-text log-debug">[2026-05-07 14:33:55] DEBUG  | Rate limit check: 6904 req/s</text>
+  <text x="30" y="210" class="log-text log-warn">[2026-05-07 14:33:57] WARN   | High latency detected: auth-service</text>
+  <text x="30" y="230" class="log-text log-info">[2026-05-07 14:33:59] INFO   | Request processed: 200 OK (33ms)</text>
+  <text x="30" y="250" class="log-text log-debug">[2026-05-07 14:34:01] DEBUG  | Cache hit: user:8a1d3</text>
+  <text x="30" y="270" class="log-text log-debug">[2026-05-07 14:34:03] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="290" class="log-text log-info">[2026-05-07 14:34:05] INFO   | Health check passed: auth-service</text>
+  <text x="30" y="310" class="log-text log-info">[2026-05-07 14:34:07] INFO   | Health check passed: auth-service</text>
+  <text x="30" y="330" class="log-text log-debug">[2026-05-07 14:34:09] DEBUG  | Cache hit: user:4f6a1</text>
+  <text x="30" y="350" class="log-text log-info">[2026-05-07 14:34:11] INFO   | Request processed: 200 OK (44ms)</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
