@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-warn">[2026-05-11 18:21:55] WARN   | High latency detected: api-gateway</text>
-  <text x="30" y="90" class="log-text log-info">[2026-05-11 18:21:57] INFO   | Pod user-service-7e4c5 started</text>
-  <text x="30" y="110" class="log-text log-debug">[2026-05-11 18:21:59] DEBUG  | Cache hit: user:2e1d8</text>
-  <text x="30" y="130" class="log-text log-info">[2026-05-11 18:22:01] INFO   | Request processed: 200 OK (32ms)</text>
-  <text x="30" y="150" class="log-text log-debug">[2026-05-11 18:22:03] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="170" class="log-text log-info">[2026-05-11 18:22:05] INFO   | Backup completed: 938 MB</text>
-  <text x="30" y="190" class="log-text log-debug">[2026-05-11 18:22:07] DEBUG  | Rate limit check: 9812 req/s</text>
-  <text x="30" y="210" class="log-text log-info">[2026-05-11 18:22:09] INFO   | Health check passed: auth-service</text>
-  <text x="30" y="230" class="log-text log-debug">[2026-05-11 18:22:11] DEBUG  | Rate limit check: 5782 req/s</text>
-  <text x="30" y="250" class="log-text log-info">[2026-05-11 18:22:13] INFO   | Auto-scaling triggered: +2 pods</text>
-  <text x="30" y="270" class="log-text log-info">[2026-05-11 18:22:15] INFO   | Metric exported: cpu_usage=72%</text>
-  <text x="30" y="290" class="log-text log-info">[2026-05-11 18:22:17] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="310" class="log-text log-warn">[2026-05-11 18:22:19] WARN   | High latency detected: user-service</text>
-  <text x="30" y="330" class="log-text log-info">[2026-05-11 18:22:21] INFO   | Container started: notification-svc-5e8d8</text>
-  <text x="30" y="350" class="log-text log-info">[2026-05-11 18:22:23] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="70" class="log-text log-info">[2026-05-11 20:10:06] INFO   | Metric exported: cpu_usage=76%</text>
+  <text x="30" y="90" class="log-text log-info">[2026-05-11 20:10:08] INFO   | Backup completed: 526 MB</text>
+  <text x="30" y="110" class="log-text log-info">[2026-05-11 20:10:10] INFO   | Pod user-service-9b3c2 started</text>
+  <text x="30" y="130" class="log-text log-info">[2026-05-11 20:10:12] INFO   | Pod notification-svc-3c8d8 started</text>
+  <text x="30" y="150" class="log-text log-info">[2026-05-11 20:10:14] INFO   | Backup completed: 809 MB</text>
+  <text x="30" y="170" class="log-text log-info">[2026-05-11 20:10:16] INFO   | Request processed: 200 OK (45ms)</text>
+  <text x="30" y="190" class="log-text log-info">[2026-05-11 20:10:18] INFO   | Deploy rollout: 31/47 pods updated</text>
+  <text x="30" y="210" class="log-text log-info">[2026-05-11 20:10:20] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="230" class="log-text log-debug">[2026-05-11 20:10:22] DEBUG  | Rate limit check: 8722 req/s</text>
+  <text x="30" y="250" class="log-text log-info">[2026-05-11 20:10:24] INFO   | Metric exported: cpu_usage=78%</text>
+  <text x="30" y="270" class="log-text log-debug">[2026-05-11 20:10:26] DEBUG  | Rate limit check: 7906 req/s</text>
+  <text x="30" y="290" class="log-text log-warn">[2026-05-11 20:10:28] WARN   | High latency detected: notification-svc</text>
+  <text x="30" y="310" class="log-text log-warn">[2026-05-11 20:10:30] WARN   | High latency detected: notification-svc</text>
+  <text x="30" y="330" class="log-text log-info">[2026-05-11 20:10:32] INFO   | Auto-scaling triggered: +2 pods</text>
+  <text x="30" y="350" class="log-text log-debug">[2026-05-11 20:10:34] DEBUG  | Rate limit check: 9727 req/s</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
