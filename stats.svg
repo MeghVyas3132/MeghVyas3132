@@ -18,7 +18,7 @@
     </text>
     
     <text x="20" y="65" font-family="Segoe UI, sans-serif" font-size="14" fill="#808080">Total Stars:</text>
-    <text x="140" y="65" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#fff">18</text>
+    <text x="140" y="65" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#fff">19</text>
     
     <text x="20" y="90" font-family="Segoe UI, sans-serif" font-size="14" fill="#808080">Public Repos:</text>
     <text x="140" y="90" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#fff">50</text>
@@ -47,7 +47,7 @@
             TypeScript
         </text>
         <text x="460" y="90" font-family="Segoe UI, sans-serif" font-size="12" fill="#aaa" text-anchor="end">
-            33.3%
+            31.0%
         </text>
         
         <circle cx="260" cy="110" r="5" fill="#e0e0e0"/>
@@ -55,7 +55,7 @@
             JavaScript
         </text>
         <text x="460" y="115" font-family="Segoe UI, sans-serif" font-size="12" fill="#aaa" text-anchor="end">
-            16.7%
+            19.0%
         </text>
         
         <circle cx="260" cy="135" r="5" fill="#ff6b6b"/>
