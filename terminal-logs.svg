@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-debug">[2026-05-28 19:27:34] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="90" class="log-text log-info">[2026-05-28 19:27:36] INFO   | Metric exported: cpu_usage=89%</text>
-  <text x="30" y="110" class="log-text log-debug">[2026-05-28 19:27:38] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="130" class="log-text log-info">[2026-05-28 19:27:40] INFO   | Health check passed: payment-service</text>
-  <text x="30" y="150" class="log-text log-debug">[2026-05-28 19:27:42] DEBUG  | Rate limit check: 5811 req/s</text>
-  <text x="30" y="170" class="log-text log-info">[2026-05-28 19:27:44] INFO   | Request processed: 200 OK (45ms)</text>
-  <text x="30" y="190" class="log-text log-info">[2026-05-28 19:27:46] INFO   | Metric exported: cpu_usage=76%</text>
-  <text x="30" y="210" class="log-text log-info">[2026-05-28 19:27:48] INFO   | Metric exported: cpu_usage=75%</text>
-  <text x="30" y="230" class="log-text log-info">[2026-05-28 19:27:50] INFO   | Container started: notification-svc-1f6d4</text>
-  <text x="30" y="250" class="log-text log-info">[2026-05-28 19:27:52] INFO   | Backup completed: 710 MB</text>
-  <text x="30" y="270" class="log-text log-debug">[2026-05-28 19:27:54] DEBUG  | Rate limit check: 8958 req/s</text>
-  <text x="30" y="290" class="log-text log-debug">[2026-05-28 19:27:56] DEBUG  | Rate limit check: 5632 req/s</text>
-  <text x="30" y="310" class="log-text log-warn">[2026-05-28 19:27:58] WARN   | High latency detected: auth-service</text>
-  <text x="30" y="330" class="log-text log-warn">[2026-05-28 19:28:00] WARN   | High latency detected: notification-svc</text>
-  <text x="30" y="350" class="log-text log-debug">[2026-05-28 19:28:02] DEBUG  | Cache hit: user:5b2a2</text>
+  <text x="30" y="70" class="log-text log-info">[2026-05-28 21:31:16] INFO   | Request processed: 200 OK (31ms)</text>
+  <text x="30" y="90" class="log-text log-info">[2026-05-28 21:31:18] INFO   | Backup completed: 626 MB</text>
+  <text x="30" y="110" class="log-text log-debug">[2026-05-28 21:31:20] DEBUG  | Cache hit: user:4f7c4</text>
+  <text x="30" y="130" class="log-text log-info">[2026-05-28 21:31:22] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="150" class="log-text log-info">[2026-05-28 21:31:24] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="170" class="log-text log-info">[2026-05-28 21:31:26] INFO   | Deploy rollout: 38/47 pods updated</text>
+  <text x="30" y="190" class="log-text log-info">[2026-05-28 21:31:28] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="210" class="log-text log-info">[2026-05-28 21:31:30] INFO   | Request processed: 200 OK (41ms)</text>
+  <text x="30" y="230" class="log-text log-info">[2026-05-28 21:31:32] INFO   | Deploy rollout: 37/47 pods updated</text>
+  <text x="30" y="250" class="log-text log-info">[2026-05-28 21:31:34] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="270" class="log-text log-info">[2026-05-28 21:31:36] INFO   | Pod payment-service-4b1b9 started</text>
+  <text x="30" y="290" class="log-text log-info">[2026-05-28 21:31:38] INFO   | Health check passed: payment-service</text>
+  <text x="30" y="310" class="log-text log-info">[2026-05-28 21:31:40] INFO   | Deploy rollout: 22/47 pods updated</text>
+  <text x="30" y="330" class="log-text log-info">[2026-05-28 21:31:42] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="350" class="log-text log-info">[2026-05-28 21:31:44] INFO   | Database query optimized (67ms→23ms)</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
