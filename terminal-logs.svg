@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-06-02 20:18:31] INFO   | Container started: auth-service-8e3f1</text>
-  <text x="30" y="90" class="log-text log-debug">[2026-06-02 20:18:33] DEBUG  | Cache hit: user:6c9d6</text>
-  <text x="30" y="110" class="log-text log-info">[2026-06-02 20:18:35] INFO   | Auto-scaling triggered: +3 pods</text>
-  <text x="30" y="130" class="log-text log-warn">[2026-06-02 20:18:37] WARN   | High latency detected: user-service</text>
-  <text x="30" y="150" class="log-text log-debug">[2026-06-02 20:18:39] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="170" class="log-text log-warn">[2026-06-02 20:18:41] WARN   | High latency detected: auth-service</text>
-  <text x="30" y="190" class="log-text log-info">[2026-06-02 20:18:43] INFO   | Health check passed: payment-service</text>
-  <text x="30" y="210" class="log-text log-info">[2026-06-02 20:18:45] INFO   | Request processed: 200 OK (38ms)</text>
-  <text x="30" y="230" class="log-text log-info">[2026-06-02 20:18:47] INFO   | Health check passed: api-gateway</text>
-  <text x="30" y="250" class="log-text log-debug">[2026-06-02 20:18:49] DEBUG  | Rate limit check: 9685 req/s</text>
-  <text x="30" y="270" class="log-text log-info">[2026-06-02 20:18:51] INFO   | Database query optimized (41ms→14ms)</text>
-  <text x="30" y="290" class="log-text log-debug">[2026-06-02 20:18:53] DEBUG  | Rate limit check: 5154 req/s</text>
-  <text x="30" y="310" class="log-text log-debug">[2026-06-02 20:18:55] DEBUG  | Rate limit check: 5715 req/s</text>
-  <text x="30" y="330" class="log-text log-info">[2026-06-02 20:18:57] INFO   | Request processed: 200 OK (26ms)</text>
-  <text x="30" y="350" class="log-text log-debug">[2026-06-02 20:18:59] DEBUG  | Rate limit check: 6433 req/s</text>
+  <text x="30" y="70" class="log-text log-info">[2026-06-02 22:30:22] INFO   | Health check passed: user-service</text>
+  <text x="30" y="90" class="log-text log-debug">[2026-06-02 22:30:24] DEBUG  | Rate limit check: 8256 req/s</text>
+  <text x="30" y="110" class="log-text log-info">[2026-06-02 22:30:26] INFO   | Request processed: 200 OK (44ms)</text>
+  <text x="30" y="130" class="log-text log-info">[2026-06-02 22:30:28] INFO   | Metric exported: cpu_usage=90%</text>
+  <text x="30" y="150" class="log-text log-info">[2026-06-02 22:30:30] INFO   | Request processed: 200 OK (39ms)</text>
+  <text x="30" y="170" class="log-text log-info">[2026-06-02 22:30:32] INFO   | Pod auth-service-1a2e4 started</text>
+  <text x="30" y="190" class="log-text log-info">[2026-06-02 22:30:34] INFO   | Metric exported: cpu_usage=79%</text>
+  <text x="30" y="210" class="log-text log-info">[2026-06-02 22:30:36] INFO   | Backup completed: 677 MB</text>
+  <text x="30" y="230" class="log-text log-info">[2026-06-02 22:30:38] INFO   | Metric exported: cpu_usage=82%</text>
+  <text x="30" y="250" class="log-text log-info">[2026-06-02 22:30:40] INFO   | Deploy rollout: 22/47 pods updated</text>
+  <text x="30" y="270" class="log-text log-info">[2026-06-02 22:30:42] INFO   | Health check passed: user-service</text>
+  <text x="30" y="290" class="log-text log-info">[2026-06-02 22:30:44] INFO   | Metric exported: cpu_usage=91%</text>
+  <text x="30" y="310" class="log-text log-info">[2026-06-02 22:30:46] INFO   | Pod api-gateway-2a2f9 started</text>
+  <text x="30" y="330" class="log-text log-warn">[2026-06-02 22:30:48] WARN   | High latency detected: notification-svc</text>
+  <text x="30" y="350" class="log-text log-info">[2026-06-02 22:30:50] INFO   | Auto-scaling triggered: +1 pods</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
