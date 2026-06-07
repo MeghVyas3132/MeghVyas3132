@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-06-07 20:12:53] INFO   | Auto-scaling triggered: +2 pods</text>
-  <text x="30" y="90" class="log-text log-debug">[2026-06-07 20:12:55] DEBUG  | Rate limit check: 7815 req/s</text>
-  <text x="30" y="110" class="log-text log-info">[2026-06-07 20:12:57] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="130" class="log-text log-info">[2026-06-07 20:12:59] INFO   | Database query optimized (61ms→14ms)</text>
-  <text x="30" y="150" class="log-text log-info">[2026-06-07 20:13:01] INFO   | Health check passed: user-service</text>
-  <text x="30" y="170" class="log-text log-info">[2026-06-07 20:13:03] INFO   | Pod auth-service-1b1a5 started</text>
-  <text x="30" y="190" class="log-text log-debug">[2026-06-07 20:13:05] DEBUG  | Rate limit check: 5959 req/s</text>
-  <text x="30" y="210" class="log-text log-info">[2026-06-07 20:13:07] INFO   | Metric exported: cpu_usage=78%</text>
-  <text x="30" y="230" class="log-text log-info">[2026-06-07 20:13:09] INFO   | Request processed: 200 OK (45ms)</text>
-  <text x="30" y="250" class="log-text log-info">[2026-06-07 20:13:11] INFO   | Auto-scaling triggered: +3 pods</text>
-  <text x="30" y="270" class="log-text log-info">[2026-06-07 20:13:13] INFO   | Metric exported: cpu_usage=85%</text>
-  <text x="30" y="290" class="log-text log-debug">[2026-06-07 20:13:15] DEBUG  | Cache hit: user:4a6c6</text>
-  <text x="30" y="310" class="log-text log-info">[2026-06-07 20:13:17] INFO   | Request processed: 200 OK (12ms)</text>
-  <text x="30" y="330" class="log-text log-info">[2026-06-07 20:13:19] INFO   | Metric exported: cpu_usage=77%</text>
-  <text x="30" y="350" class="log-text log-info">[2026-06-07 20:13:21] INFO   | Pod auth-service-4c9e1 started</text>
+  <text x="30" y="70" class="log-text log-debug">[2026-06-07 21:36:17] DEBUG  | Cache hit: user:2e4e9</text>
+  <text x="30" y="90" class="log-text log-debug">[2026-06-07 21:36:19] DEBUG  | Rate limit check: 8583 req/s</text>
+  <text x="30" y="110" class="log-text log-debug">[2026-06-07 21:36:21] DEBUG  | Cache hit: user:5a9b3</text>
+  <text x="30" y="130" class="log-text log-info">[2026-06-07 21:36:23] INFO   | Backup completed: 843 MB</text>
+  <text x="30" y="150" class="log-text log-info">[2026-06-07 21:36:25] INFO   | Container started: auth-service-4f3f8</text>
+  <text x="30" y="170" class="log-text log-debug">[2026-06-07 21:36:27] DEBUG  | Cache hit: user:1c1d2</text>
+  <text x="30" y="190" class="log-text log-info">[2026-06-07 21:36:29] INFO   | Metric exported: cpu_usage=73%</text>
+  <text x="30" y="210" class="log-text log-info">[2026-06-07 21:36:31] INFO   | Metric exported: cpu_usage=75%</text>
+  <text x="30" y="230" class="log-text log-info">[2026-06-07 21:36:33] INFO   | Backup completed: 603 MB</text>
+  <text x="30" y="250" class="log-text log-info">[2026-06-07 21:36:35] INFO   | Request processed: 200 OK (27ms)</text>
+  <text x="30" y="270" class="log-text log-info">[2026-06-07 21:36:37] INFO   | Container started: notification-svc-5f7c6</text>
+  <text x="30" y="290" class="log-text log-debug">[2026-06-07 21:36:39] DEBUG  | Rate limit check: 9524 req/s</text>
+  <text x="30" y="310" class="log-text log-info">[2026-06-07 21:36:41] INFO   | Request processed: 200 OK (24ms)</text>
+  <text x="30" y="330" class="log-text log-info">[2026-06-07 21:36:43] INFO   | Request processed: 200 OK (34ms)</text>
+  <text x="30" y="350" class="log-text log-info">[2026-06-07 21:36:45] INFO   | Health check passed: notification-svc</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
