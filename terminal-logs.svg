@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-06-17 12:55:22] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="90" class="log-text log-debug">[2026-06-17 12:55:24] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="110" class="log-text log-info">[2026-06-17 12:55:26] INFO   | Auto-scaling triggered: +2 pods</text>
-  <text x="30" y="130" class="log-text log-info">[2026-06-17 12:55:28] INFO   | Pod auth-service-5a5e3 started</text>
-  <text x="30" y="150" class="log-text log-debug">[2026-06-17 12:55:30] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="170" class="log-text log-info">[2026-06-17 12:55:32] INFO   | Database query optimized (45ms→21ms)</text>
-  <text x="30" y="190" class="log-text log-info">[2026-06-17 12:55:34] INFO   | Backup completed: 627 MB</text>
-  <text x="30" y="210" class="log-text log-info">[2026-06-17 12:55:36] INFO   | Pod auth-service-9d4c9 started</text>
-  <text x="30" y="230" class="log-text log-debug">[2026-06-17 12:55:38] DEBUG  | Rate limit check: 7564 req/s</text>
-  <text x="30" y="250" class="log-text log-info">[2026-06-17 12:55:40] INFO   | Pod auth-service-8b5c7 started</text>
-  <text x="30" y="270" class="log-text log-info">[2026-06-17 12:55:42] INFO   | Auto-scaling triggered: +1 pods</text>
-  <text x="30" y="290" class="log-text log-debug">[2026-06-17 12:55:44] DEBUG  | Cache hit: user:6c3c7</text>
-  <text x="30" y="310" class="log-text log-info">[2026-06-17 12:55:46] INFO   | Auto-scaling triggered: +3 pods</text>
-  <text x="30" y="330" class="log-text log-info">[2026-06-17 12:55:48] INFO   | Pod api-gateway-6d1c1 started</text>
-  <text x="30" y="350" class="log-text log-info">[2026-06-17 12:55:50] INFO   | Pod api-gateway-3c8a7 started</text>
+  <text x="30" y="70" class="log-text log-debug">[2026-06-17 16:37:04] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="90" class="log-text log-info">[2026-06-17 16:37:06] INFO   | Pod payment-service-9e3b9 started</text>
+  <text x="30" y="110" class="log-text log-info">[2026-06-17 16:37:08] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="130" class="log-text log-info">[2026-06-17 16:37:10] INFO   | Metric exported: cpu_usage=79%</text>
+  <text x="30" y="150" class="log-text log-debug">[2026-06-17 16:37:12] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="170" class="log-text log-info">[2026-06-17 16:37:14] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="190" class="log-text log-info">[2026-06-17 16:37:16] INFO   | Deploy rollout: 29/47 pods updated</text>
+  <text x="30" y="210" class="log-text log-info">[2026-06-17 16:37:18] INFO   | Auto-scaling triggered: +1 pods</text>
+  <text x="30" y="230" class="log-text log-info">[2026-06-17 16:37:20] INFO   | Request processed: 200 OK (21ms)</text>
+  <text x="30" y="250" class="log-text log-info">[2026-06-17 16:37:22] INFO   | Database query optimized (61ms→17ms)</text>
+  <text x="30" y="270" class="log-text log-info">[2026-06-17 16:37:24] INFO   | Pod auth-service-9a6d8 started</text>
+  <text x="30" y="290" class="log-text log-info">[2026-06-17 16:37:26] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="310" class="log-text log-info">[2026-06-17 16:37:28] INFO   | Auto-scaling triggered: +2 pods</text>
+  <text x="30" y="330" class="log-text log-info">[2026-06-17 16:37:30] INFO   | Health check passed: payment-service</text>
+  <text x="30" y="350" class="log-text log-info">[2026-06-17 16:37:32] INFO   | Auto-scaling triggered: +1 pods</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
