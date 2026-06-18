@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-06-18 18:31:31] INFO   | Container started: notification-svc-2f3d4</text>
-  <text x="30" y="90" class="log-text log-info">[2026-06-18 18:31:33] INFO   | Deploy rollout: 25/47 pods updated</text>
-  <text x="30" y="110" class="log-text log-info">[2026-06-18 18:31:35] INFO   | Container started: payment-service-6b8f1</text>
-  <text x="30" y="130" class="log-text log-info">[2026-06-18 18:31:37] INFO   | Container started: auth-service-4a2c2</text>
-  <text x="30" y="150" class="log-text log-info">[2026-06-18 18:31:39] INFO   | Auto-scaling triggered: +2 pods</text>
-  <text x="30" y="170" class="log-text log-info">[2026-06-18 18:31:41] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="190" class="log-text log-info">[2026-06-18 18:31:43] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="210" class="log-text log-info">[2026-06-18 18:31:45] INFO   | Container started: user-service-2f6c3</text>
-  <text x="30" y="230" class="log-text log-info">[2026-06-18 18:31:47] INFO   | Health check passed: user-service</text>
-  <text x="30" y="250" class="log-text log-info">[2026-06-18 18:31:49] INFO   | Backup completed: 898 MB</text>
-  <text x="30" y="270" class="log-text log-info">[2026-06-18 18:31:51] INFO   | Container started: payment-service-1e7d6</text>
-  <text x="30" y="290" class="log-text log-info">[2026-06-18 18:31:53] INFO   | Request processed: 200 OK (31ms)</text>
-  <text x="30" y="310" class="log-text log-info">[2026-06-18 18:31:55] INFO   | Backup completed: 587 MB</text>
-  <text x="30" y="330" class="log-text log-debug">[2026-06-18 18:31:57] DEBUG  | Rate limit check: 5798 req/s</text>
-  <text x="30" y="350" class="log-text log-warn">[2026-06-18 18:31:59] WARN   | High latency detected: user-service</text>
+  <text x="30" y="70" class="log-text log-info">[2026-06-18 21:05:28] INFO   | Container started: api-gateway-9b1b1</text>
+  <text x="30" y="90" class="log-text log-debug">[2026-06-18 21:05:30] DEBUG  | Cache hit: user:3c7c2</text>
+  <text x="30" y="110" class="log-text log-warn">[2026-06-18 21:05:32] WARN   | High latency detected: payment-service</text>
+  <text x="30" y="130" class="log-text log-info">[2026-06-18 21:05:34] INFO   | Pod notification-svc-4d6b7 started</text>
+  <text x="30" y="150" class="log-text log-info">[2026-06-18 21:05:36] INFO   | Backup completed: 526 MB</text>
+  <text x="30" y="170" class="log-text log-info">[2026-06-18 21:05:38] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="190" class="log-text log-info">[2026-06-18 21:05:40] INFO   | Database query optimized (50ms→25ms)</text>
+  <text x="30" y="210" class="log-text log-debug">[2026-06-18 21:05:42] DEBUG  | Cache hit: user:2e9f2</text>
+  <text x="30" y="230" class="log-text log-info">[2026-06-18 21:05:44] INFO   | Request processed: 200 OK (23ms)</text>
+  <text x="30" y="250" class="log-text log-warn">[2026-06-18 21:05:46] WARN   | High latency detected: notification-svc</text>
+  <text x="30" y="270" class="log-text log-info">[2026-06-18 21:05:48] INFO   | Container started: notification-svc-6a7b1</text>
+  <text x="30" y="290" class="log-text log-debug">[2026-06-18 21:05:50] DEBUG  | Rate limit check: 6917 req/s</text>
+  <text x="30" y="310" class="log-text log-debug">[2026-06-18 21:05:52] DEBUG  | Cache hit: user:4d3c5</text>
+  <text x="30" y="330" class="log-text log-debug">[2026-06-18 21:05:54] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="350" class="log-text log-warn">[2026-06-18 21:05:56] WARN   | High latency detected: auth-service</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
