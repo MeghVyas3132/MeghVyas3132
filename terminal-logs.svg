@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-06-18 16:02:50] INFO   | Deploy rollout: 20/47 pods updated</text>
-  <text x="30" y="90" class="log-text log-warn">[2026-06-18 16:02:52] WARN   | High latency detected: api-gateway</text>
-  <text x="30" y="110" class="log-text log-info">[2026-06-18 16:02:54] INFO   | Pod notification-svc-4e9a6 started</text>
-  <text x="30" y="130" class="log-text log-info">[2026-06-18 16:02:56] INFO   | Request processed: 200 OK (35ms)</text>
-  <text x="30" y="150" class="log-text log-info">[2026-06-18 16:02:58] INFO   | Backup completed: 812 MB</text>
-  <text x="30" y="170" class="log-text log-info">[2026-06-18 16:03:00] INFO   | Deploy rollout: 26/47 pods updated</text>
-  <text x="30" y="190" class="log-text log-info">[2026-06-18 16:03:02] INFO   | Database query optimized (50ms→14ms)</text>
-  <text x="30" y="210" class="log-text log-debug">[2026-06-18 16:03:04] DEBUG  | Rate limit check: 5333 req/s</text>
-  <text x="30" y="230" class="log-text log-info">[2026-06-18 16:03:06] INFO   | Auto-scaling triggered: +2 pods</text>
-  <text x="30" y="250" class="log-text log-info">[2026-06-18 16:03:08] INFO   | Pod user-service-2d6e7 started</text>
-  <text x="30" y="270" class="log-text log-debug">[2026-06-18 16:03:10] DEBUG  | Rate limit check: 7453 req/s</text>
-  <text x="30" y="290" class="log-text log-info">[2026-06-18 16:03:12] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="310" class="log-text log-info">[2026-06-18 16:03:14] INFO   | Health check passed: api-gateway</text>
-  <text x="30" y="330" class="log-text log-info">[2026-06-18 16:03:16] INFO   | Metric exported: cpu_usage=88%</text>
-  <text x="30" y="350" class="log-text log-debug">[2026-06-18 16:03:18] DEBUG  | Rate limit check: 9310 req/s</text>
+  <text x="30" y="70" class="log-text log-info">[2026-06-18 18:31:31] INFO   | Container started: notification-svc-2f3d4</text>
+  <text x="30" y="90" class="log-text log-info">[2026-06-18 18:31:33] INFO   | Deploy rollout: 25/47 pods updated</text>
+  <text x="30" y="110" class="log-text log-info">[2026-06-18 18:31:35] INFO   | Container started: payment-service-6b8f1</text>
+  <text x="30" y="130" class="log-text log-info">[2026-06-18 18:31:37] INFO   | Container started: auth-service-4a2c2</text>
+  <text x="30" y="150" class="log-text log-info">[2026-06-18 18:31:39] INFO   | Auto-scaling triggered: +2 pods</text>
+  <text x="30" y="170" class="log-text log-info">[2026-06-18 18:31:41] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="190" class="log-text log-info">[2026-06-18 18:31:43] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="210" class="log-text log-info">[2026-06-18 18:31:45] INFO   | Container started: user-service-2f6c3</text>
+  <text x="30" y="230" class="log-text log-info">[2026-06-18 18:31:47] INFO   | Health check passed: user-service</text>
+  <text x="30" y="250" class="log-text log-info">[2026-06-18 18:31:49] INFO   | Backup completed: 898 MB</text>
+  <text x="30" y="270" class="log-text log-info">[2026-06-18 18:31:51] INFO   | Container started: payment-service-1e7d6</text>
+  <text x="30" y="290" class="log-text log-info">[2026-06-18 18:31:53] INFO   | Request processed: 200 OK (31ms)</text>
+  <text x="30" y="310" class="log-text log-info">[2026-06-18 18:31:55] INFO   | Backup completed: 587 MB</text>
+  <text x="30" y="330" class="log-text log-debug">[2026-06-18 18:31:57] DEBUG  | Rate limit check: 5798 req/s</text>
+  <text x="30" y="350" class="log-text log-warn">[2026-06-18 18:31:59] WARN   | High latency detected: user-service</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
