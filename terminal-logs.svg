@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-06-21 10:37:50] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="90" class="log-text log-info">[2026-06-21 10:37:52] INFO   | Request processed: 200 OK (46ms)</text>
-  <text x="30" y="110" class="log-text log-info">[2026-06-21 10:37:54] INFO   | Database query optimized (48ms→10ms)</text>
-  <text x="30" y="130" class="log-text log-info">[2026-06-21 10:37:56] INFO   | Metric exported: cpu_usage=74%</text>
-  <text x="30" y="150" class="log-text log-info">[2026-06-21 10:37:58] INFO   | Deploy rollout: 27/47 pods updated</text>
-  <text x="30" y="170" class="log-text log-info">[2026-06-21 10:38:00] INFO   | Metric exported: cpu_usage=74%</text>
-  <text x="30" y="190" class="log-text log-info">[2026-06-21 10:38:02] INFO   | Pod user-service-1d4e3 started</text>
-  <text x="30" y="210" class="log-text log-info">[2026-06-21 10:38:04] INFO   | Request processed: 200 OK (14ms)</text>
-  <text x="30" y="230" class="log-text log-info">[2026-06-21 10:38:06] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="250" class="log-text log-debug">[2026-06-21 10:38:08] DEBUG  | Cache hit: user:2f4c8</text>
-  <text x="30" y="270" class="log-text log-info">[2026-06-21 10:38:10] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="290" class="log-text log-debug">[2026-06-21 10:38:12] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="310" class="log-text log-info">[2026-06-21 10:38:14] INFO   | Database query optimized (61ms→22ms)</text>
-  <text x="30" y="330" class="log-text log-debug">[2026-06-21 10:38:16] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="350" class="log-text log-debug">[2026-06-21 10:38:18] DEBUG  | Cache hit: user:9b3a4</text>
+  <text x="30" y="70" class="log-text log-info">[2026-06-21 12:27:40] INFO   | Pod payment-service-9f3f6 started</text>
+  <text x="30" y="90" class="log-text log-info">[2026-06-21 12:27:42] INFO   | Pod notification-svc-1b7f2 started</text>
+  <text x="30" y="110" class="log-text log-info">[2026-06-21 12:27:44] INFO   | Backup completed: 787 MB</text>
+  <text x="30" y="130" class="log-text log-info">[2026-06-21 12:27:46] INFO   | Backup completed: 960 MB</text>
+  <text x="30" y="150" class="log-text log-info">[2026-06-21 12:27:48] INFO   | Container started: user-service-3c5c2</text>
+  <text x="30" y="170" class="log-text log-info">[2026-06-21 12:27:50] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="190" class="log-text log-debug">[2026-06-21 12:27:52] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="210" class="log-text log-info">[2026-06-21 12:27:54] INFO   | Request processed: 200 OK (29ms)</text>
+  <text x="30" y="230" class="log-text log-info">[2026-06-21 12:27:56] INFO   | Metric exported: cpu_usage=93%</text>
+  <text x="30" y="250" class="log-text log-debug">[2026-06-21 12:27:58] DEBUG  | Cache hit: user:6a4f1</text>
+  <text x="30" y="270" class="log-text log-info">[2026-06-21 12:28:00] INFO   | Request processed: 200 OK (11ms)</text>
+  <text x="30" y="290" class="log-text log-info">[2026-06-21 12:28:02] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="310" class="log-text log-info">[2026-06-21 12:28:04] INFO   | Pod payment-service-4b2e3 started</text>
+  <text x="30" y="330" class="log-text log-info">[2026-06-21 12:28:06] INFO   | Container started: user-service-2a2f9</text>
+  <text x="30" y="350" class="log-text log-info">[2026-06-21 12:28:08] INFO   | Load balancer: distributing traffic</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
