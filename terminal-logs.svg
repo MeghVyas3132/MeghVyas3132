@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-06-25 01:35:46] INFO   | Auto-scaling triggered: +1 pods</text>
-  <text x="30" y="90" class="log-text log-debug">[2026-06-25 01:35:48] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="110" class="log-text log-info">[2026-06-25 01:35:50] INFO   | Request processed: 200 OK (16ms)</text>
-  <text x="30" y="130" class="log-text log-info">[2026-06-25 01:35:52] INFO   | Database query optimized (44ms→14ms)</text>
-  <text x="30" y="150" class="log-text log-info">[2026-06-25 01:35:54] INFO   | Deploy rollout: 24/47 pods updated</text>
-  <text x="30" y="170" class="log-text log-info">[2026-06-25 01:35:56] INFO   | Deploy rollout: 39/47 pods updated</text>
-  <text x="30" y="190" class="log-text log-info">[2026-06-25 01:35:58] INFO   | Database query optimized (77ms→14ms)</text>
-  <text x="30" y="210" class="log-text log-info">[2026-06-25 01:36:00] INFO   | Metric exported: cpu_usage=70%</text>
-  <text x="30" y="230" class="log-text log-info">[2026-06-25 01:36:02] INFO   | Container started: notification-svc-2c9b1</text>
-  <text x="30" y="250" class="log-text log-warn">[2026-06-25 01:36:04] WARN   | High latency detected: api-gateway</text>
-  <text x="30" y="270" class="log-text log-info">[2026-06-25 01:36:06] INFO   | Database query optimized (66ms→14ms)</text>
-  <text x="30" y="290" class="log-text log-info">[2026-06-25 01:36:08] INFO   | Database query optimized (100ms→13ms)</text>
-  <text x="30" y="310" class="log-text log-info">[2026-06-25 01:36:10] INFO   | Metric exported: cpu_usage=81%</text>
-  <text x="30" y="330" class="log-text log-debug">[2026-06-25 01:36:12] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="350" class="log-text log-info">[2026-06-25 01:36:14] INFO   | Database query optimized (55ms→21ms)</text>
+  <text x="30" y="70" class="log-text log-info">[2026-06-25 05:48:57] INFO   | Container started: user-service-4f2e9</text>
+  <text x="30" y="90" class="log-text log-info">[2026-06-25 05:48:59] INFO   | Container started: api-gateway-2d4a6</text>
+  <text x="30" y="110" class="log-text log-debug">[2026-06-25 05:49:01] DEBUG  | Rate limit check: 6612 req/s</text>
+  <text x="30" y="130" class="log-text log-debug">[2026-06-25 05:49:03] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="150" class="log-text log-info">[2026-06-25 05:49:05] INFO   | Pod payment-service-5a8f9 started</text>
+  <text x="30" y="170" class="log-text log-info">[2026-06-25 05:49:07] INFO   | Health check passed: api-gateway</text>
+  <text x="30" y="190" class="log-text log-info">[2026-06-25 05:49:09] INFO   | Database query optimized (78ms→15ms)</text>
+  <text x="30" y="210" class="log-text log-info">[2026-06-25 05:49:11] INFO   | Backup completed: 584 MB</text>
+  <text x="30" y="230" class="log-text log-debug">[2026-06-25 05:49:13] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="250" class="log-text log-info">[2026-06-25 05:49:15] INFO   | Health check passed: user-service</text>
+  <text x="30" y="270" class="log-text log-warn">[2026-06-25 05:49:17] WARN   | High latency detected: user-service</text>
+  <text x="30" y="290" class="log-text log-debug">[2026-06-25 05:49:19] DEBUG  | Rate limit check: 5743 req/s</text>
+  <text x="30" y="310" class="log-text log-info">[2026-06-25 05:49:21] INFO   | Request processed: 200 OK (34ms)</text>
+  <text x="30" y="330" class="log-text log-warn">[2026-06-25 05:49:23] WARN   | High latency detected: api-gateway</text>
+  <text x="30" y="350" class="log-text log-warn">[2026-06-25 05:49:25] WARN   | High latency detected: auth-service</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
