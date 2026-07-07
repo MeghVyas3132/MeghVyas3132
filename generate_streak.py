@@ -144,68 +144,69 @@ def generate_streak_svg():
     except:
         first_display = first_date
     
-    svg = f'''<svg width="495" height="195" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-        <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" style="stop-color:#0a0a0a"/>
-            <stop offset="100%" style="stop-color:#1a1a1a"/>
-        </linearGradient>
-        <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" style="stop-color:#ffffff"/>
-            <stop offset="100%" style="stop-color:#606060"/>
-        </linearGradient>
-    </defs>
-    
+    # Risograph palette (matches portfolio megh.tech + README assets)
+    PAPER, P_EDGE = "#f7e7c8", "#e6c78f"
+    FLAME, INK = "#e8451c", "#16305e"
+    INK_D, INK_S, INK_F = "#0d2148", "#45568a", "#8794b4"
+
+    C = 213.63  # 2*pi*34
+    frac = min(current_streak, 30) / 30.0
+    offset = C * (1 - frac)
+
+    svg = f'''<svg width="600" height="210" viewBox="0 0 600 210" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="fl" cx="92%" cy="8%" r="70%">
+      <stop offset="0%" stop-color="{FLAME}" stop-opacity="0.16"/>
+      <stop offset="60%" stop-color="{FLAME}" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="in" cx="4%" cy="96%" r="72%">
+      <stop offset="0%" stop-color="{INK}" stop-opacity="0.12"/>
+      <stop offset="64%" stop-color="{INK}" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="gr"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="n"/><feColorMatrix in="n" type="saturate" values="0"/></filter>
     <style>
-        .title {{ font-family: 'Segoe UI', sans-serif; font-size: 12px; fill: #808080; }}
-        .value {{ font-family: 'Segoe UI', sans-serif; font-size: 28px; font-weight: bold; fill: #ffffff; }}
-        .value-large {{ font-family: 'Segoe UI', sans-serif; font-size: 42px; font-weight: bold; fill: #ffffff; }}
-        .label {{ font-family: 'Segoe UI', sans-serif; font-size: 10px; fill: #606060; }}
-        .ring {{ fill: none; stroke-width: 5; }}
-        .divider {{ stroke: #2a2a2a; stroke-width: 1; }}
+      text{{font-family:'SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace}}
+      .val{{fill:{INK_D};font-size:28px;font-weight:600}}
+      .big{{fill:{FLAME};font-size:38px;font-weight:600}}
+      .ttl{{fill:{INK_S};font-size:11.5px;letter-spacing:1.4px}}
+      .lab{{fill:{INK_F};font-size:10px}}
     </style>
-    
-    <!-- Background -->
-    <rect width="495" height="195" fill="url(#bgGrad)" rx="10"/>
-    <rect width="495" height="3" fill="url(#accentGrad)" rx="10"/>
-    
-    <!-- Dividers -->
-    <line x1="165" y1="30" x2="165" y2="165" class="divider"/>
-    <line x1="330" y1="30" x2="330" y2="165" class="divider"/>
-    
-    <!-- Total Contributions (Left) -->
-    <g transform="translate(82.5, 97)">
-        <text class="value" text-anchor="middle" y="0">{total}</text>
-        <text class="title" text-anchor="middle" y="25">Total Contributions</text>
-        <text class="label" text-anchor="middle" y="42">{first_display} - Present</text>
-    </g>
-    
-    <!-- Current Streak (Center - with Ring) -->
-    <g transform="translate(247.5, 97)">
-        <!-- Outer ring background -->
-        <circle cx="0" cy="-10" r="38" class="ring" stroke="#1a1a1a"/>
-        <!-- Animated ring -->
-        <circle cx="0" cy="-10" r="38" class="ring" stroke="#ffffff" stroke-dasharray="238.76" stroke-dashoffset="{238.76 - (min(current_streak, 30) / 30 * 238.76)}" stroke-linecap="round" transform="rotate(-90 0 -10)">
-            <animate attributeName="stroke-dashoffset" from="238.76" to="{238.76 - (min(current_streak, 30) / 30 * 238.76)}" dur="1.5s" fill="freeze"/>
-        </circle>
-        <!-- Value inside ring -->
-        <text class="value-large" text-anchor="middle" y="5">{current_streak}</text>
-        <text class="title" text-anchor="middle" y="50">Current Streak</text>
-        <text class="label" text-anchor="middle" y="65">{current_range}</text>
-    </g>
-    
-    <!-- Longest Streak (Right) -->
-    <g transform="translate(412.5, 97)">
-        <text class="value" text-anchor="middle" y="0">{longest_streak}</text>
-        <text class="title" text-anchor="middle" y="25">Longest Streak</text>
-        <text class="label" text-anchor="middle" y="42">{longest_range}</text>
-    </g>
+  </defs>
+  <rect x="0" y="0" width="600" height="210" rx="18" fill="{PAPER}"/>
+  <rect x="0" y="0" width="600" height="210" rx="18" fill="url(#fl)"/>
+  <rect x="0" y="0" width="600" height="210" rx="18" fill="url(#in)"/>
+  <rect x="0" y="0" width="600" height="210" rx="18" filter="url(#gr)" opacity="0.22" style="mix-blend-mode:multiply"/>
+  <rect x="0.75" y="0.75" width="598.5" height="208.5" rx="17.5" fill="none" stroke="{INK}" stroke-opacity="0.14" stroke-width="1.5"/>
+
+  <line x1="200" y1="40" x2="200" y2="170" stroke="{INK}" stroke-opacity="0.12" stroke-width="1.5"/>
+  <line x1="400" y1="40" x2="400" y2="170" stroke="{INK}" stroke-opacity="0.12" stroke-width="1.5"/>
+
+  <g transform="translate(100,104)">
+    <text class="val" text-anchor="middle" y="0">{total}</text>
+    <text class="ttl" text-anchor="middle" y="30">TOTAL CONTRIBUTIONS</text>
+    <text class="lab" text-anchor="middle" y="48">{first_display} — Present</text>
+  </g>
+
+  <g transform="translate(300,100)">
+    <circle cx="0" cy="-8" r="34" fill="none" stroke="{P_EDGE}" stroke-width="5"/>
+    <circle cx="0" cy="-8" r="34" fill="none" stroke="{FLAME}" stroke-width="5" stroke-linecap="round"
+            stroke-dasharray="{C:.2f}" stroke-dashoffset="{offset:.2f}" transform="rotate(-90 0 -8)"/>
+    <text class="big" text-anchor="middle" y="4">{current_streak}</text>
+    <text class="ttl" text-anchor="middle" y="46" fill="{INK}">CURRENT STREAK</text>
+    <text class="lab" text-anchor="middle" y="63">{current_range}</text>
+  </g>
+
+  <g transform="translate(500,104)">
+    <text class="val" text-anchor="middle" y="0">{longest_streak}</text>
+    <text class="ttl" text-anchor="middle" y="30">LONGEST STREAK</text>
+    <text class="lab" text-anchor="middle" y="48">{longest_range}</text>
+  </g>
 </svg>'''
-    
+
     with open('streak.svg', 'w') as f:
         f.write(svg)
-    
-    print("Streak SVG generated!")
+
+    print("Streak SVG generated (riso).")
 
 if __name__ == "__main__":
     generate_streak_svg()

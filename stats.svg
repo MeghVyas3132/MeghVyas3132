@@ -1,37 +1,68 @@
-<svg width="495" height="195" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
-            <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
-        </linearGradient>
-        <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
-            <stop offset="100%" style="stop-color:#808080;stop-opacity:1" />
-        </linearGradient>
-    </defs>
-    
-    <rect width="495" height="195" fill="url(#grad1)" rx="10"/>
-    <rect width="495" height="3" fill="url(#grad2)" rx="10"/>
-    
-    <text x="20" y="35" font-family="Segoe UI, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">
-        GitHub Stats
-    </text>
-    
-    <text x="20" y="65" font-family="Segoe UI, sans-serif" font-size="14" fill="#808080">Total Stars:</text>
-    <text x="140" y="65" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#fff">25</text>
-    
-    <text x="20" y="90" font-family="Segoe UI, sans-serif" font-size="14" fill="#808080">Public Repos:</text>
-    <text x="140" y="90" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#fff">15</text>
-    
-    <text x="20" y="115" font-family="Segoe UI, sans-serif" font-size="14" fill="#808080">Total Forks:</text>
-    <text x="140" y="115" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#fff">10</text>
-    
-    <text x="20" y="140" font-family="Segoe UI, sans-serif" font-size="14" fill="#808080">Followers:</text>
-    <text x="140" y="140" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#fff">50</text>
-    
-    <text x="250" y="35" font-family="Segoe UI, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">
-        Top Languages
-    </text>
-    
-    
+<svg width="600" height="210" viewBox="0 0 600 210" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="fl" cx="92%" cy="8%" r="70%">
+      <stop offset="0%" stop-color="#e8451c" stop-opacity="0.16"/>
+      <stop offset="60%" stop-color="#e8451c" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="in" cx="4%" cy="96%" r="72%">
+      <stop offset="0%" stop-color="#16305e" stop-opacity="0.12"/>
+      <stop offset="64%" stop-color="#16305e" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="gr"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="n"/><feColorMatrix in="n" type="saturate" values="0"/></filter>
+    <style>
+      text{font-family:'SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+      .eb{fill:#e8451c;font-size:13px;letter-spacing:2.4px;font-weight:600}
+      .lab{fill:#45568a;font-size:13.5px}
+      .num{fill:#0d2148;font-size:21px;font-weight:600}
+      .lang{fill:#16305e;font-size:12.5px}
+      .pct{fill:#8794b4;font-size:11px}
+      .head{fill:#8794b4;font-size:12px;letter-spacing:2px}
+    </style>
+  </defs>
+  <rect x="0" y="0" width="600" height="210" rx="18" fill="#f7e7c8"/>
+  <rect x="0" y="0" width="600" height="210" rx="18" fill="url(#fl)"/>
+  <rect x="0" y="0" width="600" height="210" rx="18" fill="url(#in)"/>
+  <rect x="0" y="0" width="600" height="210" rx="18" filter="url(#gr)" opacity="0.22" style="mix-blend-mode:multiply"/>
+  <rect x="0.75" y="0.75" width="598.5" height="208.5" rx="17.5" fill="none" stroke="#16305e" stroke-opacity="0.14" stroke-width="1.5"/>
+  <g transform="translate(28,30)" fill="none" stroke="#e8451c" stroke-width="1.7" stroke-linecap="round">
+    <g transform="scale(0.72)">
+      <path d="M12 2.5 L12 21.5 M3.77 7.25 L20.23 16.75 M20.23 7.25 L3.77 16.75 M12 2.5 l-1.9 2 M12 2.5 l1.9 2 M12 21.5 l-1.9 -2 M12 21.5 l1.9 -2 M20.23 7.25 l-2.7 -0.3 M20.23 7.25 l-0.3 2.7 M3.77 16.75 l2.7 0.3 M3.77 16.75 l0.3 -2.7 M3.77 7.25 l2.7 -0.3 M3.77 7.25 l0.3 2.7 M20.23 16.75 l-2.7 0.3 M20.23 16.75 l-0.3 -2.7"/>
+    </g>
+  </g>
+  <text class="eb" x="48" y="42">GITHUB · STATS</text>
+  <text class="head" x="320" y="60">TOP LANGUAGES</text>
+  
+      <circle cx="30" cy="78" r="3" fill="#e8451c"/>
+      <text class="lab" x="44" y="84">Total stars</text>
+      <text class="num" x="250" y="84" text-anchor="end">35</text>
+      <circle cx="30" cy="111" r="3" fill="#e8451c"/>
+      <text class="lab" x="44" y="117">Public repos</text>
+      <text class="num" x="250" y="117" text-anchor="end">32</text>
+      <circle cx="30" cy="144" r="3" fill="#e8451c"/>
+      <text class="lab" x="44" y="150">Total forks</text>
+      <text class="num" x="250" y="150" text-anchor="end">2</text>
+      <circle cx="30" cy="177" r="3" fill="#e8451c"/>
+      <text class="lab" x="44" y="183">Followers</text>
+      <text class="num" x="250" y="183" text-anchor="end">37</text>
+  
+      <text class="lang" x="320" y="80">TypeScript</text>
+      <text class="pct" x="560" y="80" text-anchor="end">36%</text>
+      <rect x="320" y="86" width="168" height="4" rx="2" fill="#e6c78f"/>
+      <rect x="320" y="86" width="60.5" height="4" rx="2" fill="#e8451c"/>
+      <text class="lang" x="320" y="106">Python</text>
+      <text class="pct" x="560" y="106" text-anchor="end">24%</text>
+      <rect x="320" y="112" width="168" height="4" rx="2" fill="#e6c78f"/>
+      <rect x="320" y="112" width="40.3" height="4" rx="2" fill="#16305e"/>
+      <text class="lang" x="320" y="132">JavaScript</text>
+      <text class="pct" x="560" y="132" text-anchor="end">20%</text>
+      <rect x="320" y="138" width="168" height="4" rx="2" fill="#e6c78f"/>
+      <rect x="320" y="138" width="33.6" height="4" rx="2" fill="#c8390f"/>
+      <text class="lang" x="320" y="158">Go</text>
+      <text class="pct" x="560" y="158" text-anchor="end">12%</text>
+      <rect x="320" y="164" width="168" height="4" rx="2" fill="#e6c78f"/>
+      <rect x="320" y="164" width="20.2" height="4" rx="2" fill="#45568a"/>
+      <text class="lang" x="320" y="184">HTML</text>
+      <text class="pct" x="560" y="184" text-anchor="end">8%</text>
+      <rect x="320" y="190" width="168" height="4" rx="2" fill="#e6c78f"/>
+      <rect x="320" y="190" width="13.4" height="4" rx="2" fill="#f5411a"/>
 </svg>
