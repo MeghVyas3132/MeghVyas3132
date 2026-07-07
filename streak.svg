@@ -27,23 +27,23 @@
   <line x1="400" y1="40" x2="400" y2="170" stroke="#16305e" stroke-opacity="0.12" stroke-width="1.5"/>
 
   <g transform="translate(100,104)">
-    <text class="val" text-anchor="middle" y="0">0</text>
+    <text class="val" text-anchor="middle" y="0">7360</text>
     <text class="ttl" text-anchor="middle" y="30">TOTAL CONTRIBUTIONS</text>
-    <text class="lab" text-anchor="middle" y="48">N/A — Present</text>
+    <text class="lab" text-anchor="middle" y="48">Jul 06, 2025 — Present</text>
   </g>
 
   <g transform="translate(300,100)">
     <circle cx="0" cy="-8" r="34" fill="none" stroke="#e6c78f" stroke-width="5"/>
     <circle cx="0" cy="-8" r="34" fill="none" stroke="#e8451c" stroke-width="5" stroke-linecap="round"
-            stroke-dasharray="213.63" stroke-dashoffset="213.63" transform="rotate(-90 0 -8)"/>
-    <text class="big" text-anchor="middle" y="4">0</text>
+            stroke-dasharray="213.63" stroke-dashoffset="0.00" transform="rotate(-90 0 -8)"/>
+    <text class="big" text-anchor="middle" y="4">185</text>
     <text class="ttl" text-anchor="middle" y="46" fill="#16305e">CURRENT STREAK</text>
-    <text class="lab" text-anchor="middle" y="63">N/A</text>
+    <text class="lab" text-anchor="middle" y="63">Jan 04 - Jul 07</text>
   </g>
 
   <g transform="translate(500,104)">
-    <text class="val" text-anchor="middle" y="0">0</text>
+    <text class="val" text-anchor="middle" y="0">185</text>
     <text class="ttl" text-anchor="middle" y="30">LONGEST STREAK</text>
-    <text class="lab" text-anchor="middle" y="48">N/A</text>
+    <text class="lab" text-anchor="middle" y="48">Jan 04 - Jul 07</text>
   </g>
 </svg>
