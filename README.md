@@ -41,7 +41,7 @@
 <img src="./assets/contact.svg" width="100%" alt="Contact — let's build something that stays up. megh.vyas@yahoo.com, Bengaluru, India." />
 
 <p align="center">
-  <a href="https://github.com/MeghVyas3132"><img src="./assets/btn_github.svg" alt="GitHub — @MeghVyas3132" height="52" /></a>&nbsp;
+  <a href="https://megh.tech"><img src="./assets/btn_portfolio.svg" alt="Portfolio — megh.tech" height="52" /></a>&nbsp;
   <a href="https://www.linkedin.com/in/meghvyas3132"><img src="./assets/btn_linkedin.svg" alt="LinkedIn — meghvyas3132" height="52" /></a>&nbsp;
   <a href="https://instagram.com/megh.3132"><img src="./assets/btn_instagram.svg" alt="Instagram — @megh.3132" height="52" /></a>&nbsp;
   <a href="mailto:megh.vyas@yahoo.com"><img src="./assets/btn_email.svg" alt="Email — megh.vyas@yahoo.com" height="52" /></a>

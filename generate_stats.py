@@ -84,11 +84,11 @@ def fetch_github_stats():
       .head{{fill:{INK_F};font-size:12px;letter-spacing:2px}}
     </style>
   </defs>
-  <rect x="0" y="0" width="600" height="210" rx="18" fill="{PAPER}"/>
-  <rect x="0" y="0" width="600" height="210" rx="18" fill="url(#fl)"/>
-  <rect x="0" y="0" width="600" height="210" rx="18" fill="url(#in)"/>
-  <rect x="0" y="0" width="600" height="210" rx="18" filter="url(#gr)" opacity="0.22" style="mix-blend-mode:multiply"/>
-  <rect x="0.75" y="0.75" width="598.5" height="208.5" rx="17.5" fill="none" stroke="{INK}" stroke-opacity="0.14" stroke-width="1.5"/>
+  <rect x="0" y="0" width="600" height="210" rx="0" fill="{PAPER}"/>
+  <rect x="0" y="0" width="600" height="210" rx="0" fill="url(#fl)"/>
+  <rect x="0" y="0" width="600" height="210" rx="0" fill="url(#in)"/>
+  <rect x="0" y="0" width="600" height="210" rx="0" filter="url(#gr)" opacity="0.22" style="mix-blend-mode:multiply"/>
+  <rect x="0.75" y="0.75" width="598.5" height="208.5" rx="0" fill="none" stroke="{INK}" stroke-opacity="0.14" stroke-width="1.5"/>
   <g transform="translate(28,30)" fill="none" stroke="{FLAME}" stroke-width="1.7" stroke-linecap="round">
     <g transform="scale(0.72)">
       <path d="M12 2.5 L12 21.5 M3.77 7.25 L20.23 16.75 M20.23 7.25 L3.77 16.75 M12 2.5 l-1.9 2 M12 2.5 l1.9 2 M12 21.5 l-1.9 -2 M12 21.5 l1.9 -2 M20.23 7.25 l-2.7 -0.3 M20.23 7.25 l-0.3 2.7 M3.77 16.75 l2.7 0.3 M3.77 16.75 l0.3 -2.7 M3.77 7.25 l2.7 -0.3 M3.77 7.25 l0.3 2.7 M20.23 16.75 l-2.7 0.3 M20.23 16.75 l-0.3 -2.7"/>

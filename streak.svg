@@ -12,16 +12,16 @@
     <style>
       text{font-family:'SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
       .val{fill:#0d2148;font-size:28px;font-weight:600}
-      .big{fill:#e8451c;font-size:38px;font-weight:600}
+      .big{fill:#e8451c;font-size:32px;font-weight:600}
       .ttl{fill:#45568a;font-size:11.5px;letter-spacing:1.4px}
       .lab{fill:#8794b4;font-size:10px}
     </style>
   </defs>
-  <rect x="0" y="0" width="600" height="210" rx="18" fill="#f7e7c8"/>
-  <rect x="0" y="0" width="600" height="210" rx="18" fill="url(#fl)"/>
-  <rect x="0" y="0" width="600" height="210" rx="18" fill="url(#in)"/>
-  <rect x="0" y="0" width="600" height="210" rx="18" filter="url(#gr)" opacity="0.22" style="mix-blend-mode:multiply"/>
-  <rect x="0.75" y="0.75" width="598.5" height="208.5" rx="17.5" fill="none" stroke="#16305e" stroke-opacity="0.14" stroke-width="1.5"/>
+  <rect x="0" y="0" width="600" height="210" rx="0" fill="#f7e7c8"/>
+  <rect x="0" y="0" width="600" height="210" rx="0" fill="url(#fl)"/>
+  <rect x="0" y="0" width="600" height="210" rx="0" fill="url(#in)"/>
+  <rect x="0" y="0" width="600" height="210" rx="0" filter="url(#gr)" opacity="0.22" style="mix-blend-mode:multiply"/>
+  <rect x="0.75" y="0.75" width="598.5" height="208.5" rx="0" fill="none" stroke="#16305e" stroke-opacity="0.14" stroke-width="1.5"/>
 
   <line x1="200" y1="40" x2="200" y2="170" stroke="#16305e" stroke-opacity="0.12" stroke-width="1.5"/>
   <line x1="400" y1="40" x2="400" y2="170" stroke="#16305e" stroke-opacity="0.12" stroke-width="1.5"/>
@@ -33,12 +33,12 @@
   </g>
 
   <g transform="translate(300,100)">
-    <circle cx="0" cy="-8" r="34" fill="none" stroke="#e6c78f" stroke-width="5"/>
-    <circle cx="0" cy="-8" r="34" fill="none" stroke="#e8451c" stroke-width="5" stroke-linecap="round"
-            stroke-dasharray="213.63" stroke-dashoffset="0.00" transform="rotate(-90 0 -8)"/>
-    <text class="big" text-anchor="middle" y="4">185</text>
-    <text class="ttl" text-anchor="middle" y="46" fill="#16305e">CURRENT STREAK</text>
-    <text class="lab" text-anchor="middle" y="63">Jan 04 - Jul 07</text>
+    <circle cx="0" cy="-10" r="42" fill="none" stroke="#e6c78f" stroke-width="5"/>
+    <circle cx="0" cy="-10" r="42" fill="none" stroke="#e8451c" stroke-width="5" stroke-linecap="round"
+            stroke-dasharray="263.89" stroke-dashoffset="0.00" transform="rotate(-90 0 -10)"/>
+    <text class="big" text-anchor="middle" y="1">185</text>
+    <text class="ttl" text-anchor="middle" y="54" fill="#16305e">CURRENT STREAK</text>
+    <text class="lab" text-anchor="middle" y="70">Jan 04 - Jul 07</text>
   </g>
 
   <g transform="translate(500,104)">

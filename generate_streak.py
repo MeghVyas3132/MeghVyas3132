@@ -149,7 +149,7 @@ def generate_streak_svg():
     FLAME, INK = "#e8451c", "#16305e"
     INK_D, INK_S, INK_F = "#0d2148", "#45568a", "#8794b4"
 
-    C = 213.63  # 2*pi*34
+    C = 263.89  # 2*pi*42
     frac = min(current_streak, 30) / 30.0
     offset = C * (1 - frac)
 
@@ -167,16 +167,16 @@ def generate_streak_svg():
     <style>
       text{{font-family:'SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace}}
       .val{{fill:{INK_D};font-size:28px;font-weight:600}}
-      .big{{fill:{FLAME};font-size:38px;font-weight:600}}
+      .big{{fill:{FLAME};font-size:32px;font-weight:600}}
       .ttl{{fill:{INK_S};font-size:11.5px;letter-spacing:1.4px}}
       .lab{{fill:{INK_F};font-size:10px}}
     </style>
   </defs>
-  <rect x="0" y="0" width="600" height="210" rx="18" fill="{PAPER}"/>
-  <rect x="0" y="0" width="600" height="210" rx="18" fill="url(#fl)"/>
-  <rect x="0" y="0" width="600" height="210" rx="18" fill="url(#in)"/>
-  <rect x="0" y="0" width="600" height="210" rx="18" filter="url(#gr)" opacity="0.22" style="mix-blend-mode:multiply"/>
-  <rect x="0.75" y="0.75" width="598.5" height="208.5" rx="17.5" fill="none" stroke="{INK}" stroke-opacity="0.14" stroke-width="1.5"/>
+  <rect x="0" y="0" width="600" height="210" rx="0" fill="{PAPER}"/>
+  <rect x="0" y="0" width="600" height="210" rx="0" fill="url(#fl)"/>
+  <rect x="0" y="0" width="600" height="210" rx="0" fill="url(#in)"/>
+  <rect x="0" y="0" width="600" height="210" rx="0" filter="url(#gr)" opacity="0.22" style="mix-blend-mode:multiply"/>
+  <rect x="0.75" y="0.75" width="598.5" height="208.5" rx="0" fill="none" stroke="{INK}" stroke-opacity="0.14" stroke-width="1.5"/>
 
   <line x1="200" y1="40" x2="200" y2="170" stroke="{INK}" stroke-opacity="0.12" stroke-width="1.5"/>
   <line x1="400" y1="40" x2="400" y2="170" stroke="{INK}" stroke-opacity="0.12" stroke-width="1.5"/>
@@ -188,12 +188,12 @@ def generate_streak_svg():
   </g>
 
   <g transform="translate(300,100)">
-    <circle cx="0" cy="-8" r="34" fill="none" stroke="{P_EDGE}" stroke-width="5"/>
-    <circle cx="0" cy="-8" r="34" fill="none" stroke="{FLAME}" stroke-width="5" stroke-linecap="round"
-            stroke-dasharray="{C:.2f}" stroke-dashoffset="{offset:.2f}" transform="rotate(-90 0 -8)"/>
-    <text class="big" text-anchor="middle" y="4">{current_streak}</text>
-    <text class="ttl" text-anchor="middle" y="46" fill="{INK}">CURRENT STREAK</text>
-    <text class="lab" text-anchor="middle" y="63">{current_range}</text>
+    <circle cx="0" cy="-10" r="42" fill="none" stroke="{P_EDGE}" stroke-width="5"/>
+    <circle cx="0" cy="-10" r="42" fill="none" stroke="{FLAME}" stroke-width="5" stroke-linecap="round"
+            stroke-dasharray="{C:.2f}" stroke-dashoffset="{offset:.2f}" transform="rotate(-90 0 -10)"/>
+    <text class="big" text-anchor="middle" y="1">{current_streak}</text>
+    <text class="ttl" text-anchor="middle" y="54" fill="{INK}">CURRENT STREAK</text>
+    <text class="lab" text-anchor="middle" y="70">{current_range}</text>
   </g>
 
   <g transform="translate(500,104)">
