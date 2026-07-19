@@ -37,7 +37,7 @@
       <text class="num" x="250" y="84" text-anchor="end">19</text>
       <circle cx="30" cy="111" r="3" fill="#e8451c"/>
       <text class="lab" x="44" y="117">Public repos</text>
-      <text class="num" x="250" y="117" text-anchor="end">47</text>
+      <text class="num" x="250" y="117" text-anchor="end">48</text>
       <circle cx="30" cy="144" r="3" fill="#e8451c"/>
       <text class="lab" x="44" y="150">Total forks</text>
       <text class="num" x="250" y="150" text-anchor="end">0</text>
