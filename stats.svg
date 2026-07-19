@@ -46,23 +46,23 @@
       <text class="num" x="250" y="183" text-anchor="end">28</text>
   
       <text class="lang" x="320" y="80">TypeScript</text>
-      <text class="pct" x="560" y="80" text-anchor="end">36%</text>
+      <text class="pct" x="560" y="80" text-anchor="end">38%</text>
       <rect x="320" y="86" width="168" height="4" rx="2" fill="#e6c78f"/>
-      <rect x="320" y="86" width="60.3" height="4" rx="2" fill="#e8451c"/>
+      <rect x="320" y="86" width="63.0" height="4" rx="2" fill="#e8451c"/>
       <text class="lang" x="320" y="106">Python</text>
-      <text class="pct" x="560" y="106" text-anchor="end">36%</text>
+      <text class="pct" x="560" y="106" text-anchor="end">35%</text>
       <rect x="320" y="112" width="168" height="4" rx="2" fill="#e6c78f"/>
-      <rect x="320" y="112" width="60.3" height="4" rx="2" fill="#16305e"/>
+      <rect x="320" y="112" width="58.8" height="4" rx="2" fill="#16305e"/>
       <text class="lang" x="320" y="132">JavaScript</text>
-      <text class="pct" x="560" y="132" text-anchor="end">21%</text>
+      <text class="pct" x="560" y="132" text-anchor="end">20%</text>
       <rect x="320" y="138" width="168" height="4" rx="2" fill="#e6c78f"/>
-      <rect x="320" y="138" width="34.5" height="4" rx="2" fill="#c8390f"/>
+      <rect x="320" y="138" width="33.6" height="4" rx="2" fill="#c8390f"/>
       <text class="lang" x="320" y="158">Jupyter Notebook</text>
       <text class="pct" x="560" y="158" text-anchor="end">5%</text>
       <rect x="320" y="164" width="168" height="4" rx="2" fill="#e6c78f"/>
-      <rect x="320" y="164" width="8.6" height="4" rx="2" fill="#45568a"/>
+      <rect x="320" y="164" width="8.4" height="4" rx="2" fill="#45568a"/>
       <text class="lang" x="320" y="184">HTML</text>
-      <text class="pct" x="560" y="184" text-anchor="end">3%</text>
+      <text class="pct" x="560" y="184" text-anchor="end">2%</text>
       <rect x="320" y="190" width="168" height="4" rx="2" fill="#e6c78f"/>
-      <rect x="320" y="190" width="4.3" height="4" rx="2" fill="#f5411a"/>
+      <rect x="320" y="190" width="4.2" height="4" rx="2" fill="#f5411a"/>
 </svg>
