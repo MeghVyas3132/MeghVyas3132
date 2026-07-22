@@ -27,7 +27,7 @@
   <line x1="400" y1="40" x2="400" y2="170" stroke="#16305e" stroke-opacity="0.12" stroke-width="1.5"/>
 
   <g transform="translate(100,104)">
-    <text class="val" text-anchor="middle" y="0">7595</text>
+    <text class="val" text-anchor="middle" y="0">7596</text>
     <text class="ttl" text-anchor="middle" y="30">TOTAL CONTRIBUTIONS</text>
     <text class="lab" text-anchor="middle" y="48">Jul 20, 2025 — Present</text>
   </g>
