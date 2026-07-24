@@ -43,7 +43,7 @@
       <text class="num" x="250" y="150" text-anchor="end">0</text>
       <circle cx="30" cy="177" r="3" fill="#e8451c"/>
       <text class="lab" x="44" y="183">Followers</text>
-      <text class="num" x="250" y="183" text-anchor="end">29</text>
+      <text class="num" x="250" y="183" text-anchor="end">28</text>
   
       <text class="lang" x="320" y="80">TypeScript</text>
       <text class="pct" x="560" y="80" text-anchor="end">38%</text>
