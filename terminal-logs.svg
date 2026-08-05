@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-08-05 06:08:57] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="90" class="log-text log-info">[2026-08-05 06:08:59] INFO   | Backup completed: 547 MB</text>
-  <text x="30" y="110" class="log-text log-info">[2026-08-05 06:09:01] INFO   | Auto-scaling triggered: +1 pods</text>
-  <text x="30" y="130" class="log-text log-info">[2026-08-05 06:09:03] INFO   | Auto-scaling triggered: +1 pods</text>
-  <text x="30" y="150" class="log-text log-debug">[2026-08-05 06:09:05] DEBUG  | Cache hit: user:4e9e8</text>
-  <text x="30" y="170" class="log-text log-info">[2026-08-05 06:09:07] INFO   | Deploy rollout: 23/47 pods updated</text>
-  <text x="30" y="190" class="log-text log-info">[2026-08-05 06:09:09] INFO   | Container started: auth-service-6e1e8</text>
-  <text x="30" y="210" class="log-text log-info">[2026-08-05 06:09:11] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="230" class="log-text log-info">[2026-08-05 06:09:13] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="250" class="log-text log-warn">[2026-08-05 06:09:15] WARN   | High latency detected: user-service</text>
-  <text x="30" y="270" class="log-text log-info">[2026-08-05 06:09:17] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="290" class="log-text log-info">[2026-08-05 06:09:19] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="310" class="log-text log-debug">[2026-08-05 06:09:21] DEBUG  | Cache hit: user:2e4e4</text>
-  <text x="30" y="330" class="log-text log-warn">[2026-08-05 06:09:23] WARN   | High latency detected: user-service</text>
-  <text x="30" y="350" class="log-text log-info">[2026-08-05 06:09:25] INFO   | Database query optimized (89ms→17ms)</text>
+  <text x="30" y="70" class="log-text log-debug">[2026-08-05 08:50:01] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="90" class="log-text log-info">[2026-08-05 08:50:03] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="110" class="log-text log-info">[2026-08-05 08:50:05] INFO   | Pod user-service-3e3a2 started</text>
+  <text x="30" y="130" class="log-text log-debug">[2026-08-05 08:50:07] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="150" class="log-text log-info">[2026-08-05 08:50:09] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="170" class="log-text log-info">[2026-08-05 08:50:11] INFO   | Backup completed: 556 MB</text>
+  <text x="30" y="190" class="log-text log-info">[2026-08-05 08:50:13] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="210" class="log-text log-info">[2026-08-05 08:50:15] INFO   | Request processed: 200 OK (29ms)</text>
+  <text x="30" y="230" class="log-text log-info">[2026-08-05 08:50:17] INFO   | Container started: payment-service-7e4f6</text>
+  <text x="30" y="250" class="log-text log-info">[2026-08-05 08:50:19] INFO   | Deploy rollout: 32/47 pods updated</text>
+  <text x="30" y="270" class="log-text log-info">[2026-08-05 08:50:21] INFO   | Request processed: 200 OK (36ms)</text>
+  <text x="30" y="290" class="log-text log-info">[2026-08-05 08:50:23] INFO   | Database query optimized (95ms→17ms)</text>
+  <text x="30" y="310" class="log-text log-info">[2026-08-05 08:50:25] INFO   | Deploy rollout: 27/47 pods updated</text>
+  <text x="30" y="330" class="log-text log-debug">[2026-08-05 08:50:27] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="350" class="log-text log-debug">[2026-08-05 08:50:29] DEBUG  | Rate limit check: 5807 req/s</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
