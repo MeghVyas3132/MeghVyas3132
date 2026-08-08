@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-08-08 20:12:11] INFO   | Pod user-service-9e7c7 started</text>
-  <text x="30" y="90" class="log-text log-info">[2026-08-08 20:12:13] INFO   | Pod notification-svc-7b6a5 started</text>
-  <text x="30" y="110" class="log-text log-info">[2026-08-08 20:12:15] INFO   | Deploy rollout: 20/47 pods updated</text>
-  <text x="30" y="130" class="log-text log-info">[2026-08-08 20:12:17] INFO   | Container started: api-gateway-6e6e1</text>
-  <text x="30" y="150" class="log-text log-info">[2026-08-08 20:12:19] INFO   | Container started: payment-service-2a5c9</text>
-  <text x="30" y="170" class="log-text log-info">[2026-08-08 20:12:21] INFO   | Request processed: 200 OK (23ms)</text>
-  <text x="30" y="190" class="log-text log-info">[2026-08-08 20:12:23] INFO   | Health check passed: notification-svc</text>
-  <text x="30" y="210" class="log-text log-info">[2026-08-08 20:12:25] INFO   | Container started: auth-service-2d9d3</text>
-  <text x="30" y="230" class="log-text log-info">[2026-08-08 20:12:27] INFO   | Container started: api-gateway-5d6b1</text>
-  <text x="30" y="250" class="log-text log-info">[2026-08-08 20:12:29] INFO   | Request processed: 200 OK (50ms)</text>
-  <text x="30" y="270" class="log-text log-info">[2026-08-08 20:12:31] INFO   | Metric exported: cpu_usage=89%</text>
-  <text x="30" y="290" class="log-text log-debug">[2026-08-08 20:12:33] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="310" class="log-text log-info">[2026-08-08 20:12:35] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="330" class="log-text log-debug">[2026-08-08 20:12:37] DEBUG  | Rate limit check: 9614 req/s</text>
-  <text x="30" y="350" class="log-text log-info">[2026-08-08 20:12:39] INFO   | Container started: payment-service-4a9e6</text>
+  <text x="30" y="70" class="log-text log-info">[2026-08-08 20:48:01] INFO   | Pod user-service-2c2d7 started</text>
+  <text x="30" y="90" class="log-text log-info">[2026-08-08 20:48:03] INFO   | Metric exported: cpu_usage=82%</text>
+  <text x="30" y="110" class="log-text log-debug">[2026-08-08 20:48:05] DEBUG  | Rate limit check: 8385 req/s</text>
+  <text x="30" y="130" class="log-text log-info">[2026-08-08 20:48:07] INFO   | Request processed: 200 OK (32ms)</text>
+  <text x="30" y="150" class="log-text log-debug">[2026-08-08 20:48:09] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="170" class="log-text log-info">[2026-08-08 20:48:11] INFO   | Request processed: 200 OK (24ms)</text>
+  <text x="30" y="190" class="log-text log-info">[2026-08-08 20:48:13] INFO   | Auto-scaling triggered: +1 pods</text>
+  <text x="30" y="210" class="log-text log-info">[2026-08-08 20:48:15] INFO   | Database query optimized (87ms→14ms)</text>
+  <text x="30" y="230" class="log-text log-info">[2026-08-08 20:48:17] INFO   | Database query optimized (71ms→13ms)</text>
+  <text x="30" y="250" class="log-text log-info">[2026-08-08 20:48:19] INFO   | Auto-scaling triggered: +3 pods</text>
+  <text x="30" y="270" class="log-text log-info">[2026-08-08 20:48:21] INFO   | Database query optimized (88ms→12ms)</text>
+  <text x="30" y="290" class="log-text log-info">[2026-08-08 20:48:23] INFO   | Metric exported: cpu_usage=94%</text>
+  <text x="30" y="310" class="log-text log-warn">[2026-08-08 20:48:25] WARN   | High latency detected: user-service</text>
+  <text x="30" y="330" class="log-text log-debug">[2026-08-08 20:48:27] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="350" class="log-text log-info">[2026-08-08 20:48:29] INFO   | Metric exported: cpu_usage=83%</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
