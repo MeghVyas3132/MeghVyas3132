@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-debug">[2026-08-14 15:26:21] DEBUG  | Rate limit check: 9928 req/s</text>
-  <text x="30" y="90" class="log-text log-debug">[2026-08-14 15:26:23] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="110" class="log-text log-info">[2026-08-14 15:26:25] INFO   | Health check passed: user-service</text>
-  <text x="30" y="130" class="log-text log-info">[2026-08-14 15:26:27] INFO   | Database query optimized (74ms→23ms)</text>
-  <text x="30" y="150" class="log-text log-debug">[2026-08-14 15:26:29] DEBUG  | Rate limit check: 7675 req/s</text>
-  <text x="30" y="170" class="log-text log-info">[2026-08-14 15:26:31] INFO   | Health check passed: notification-svc</text>
-  <text x="30" y="190" class="log-text log-info">[2026-08-14 15:26:33] INFO   | Auto-scaling triggered: +2 pods</text>
-  <text x="30" y="210" class="log-text log-warn">[2026-08-14 15:26:35] WARN   | High latency detected: notification-svc</text>
-  <text x="30" y="230" class="log-text log-debug">[2026-08-14 15:26:37] DEBUG  | Rate limit check: 5195 req/s</text>
-  <text x="30" y="250" class="log-text log-info">[2026-08-14 15:26:39] INFO   | Pod auth-service-5c5c7 started</text>
-  <text x="30" y="270" class="log-text log-info">[2026-08-14 15:26:41] INFO   | Backup completed: 553 MB</text>
-  <text x="30" y="290" class="log-text log-info">[2026-08-14 15:26:43] INFO   | Auto-scaling triggered: +3 pods</text>
-  <text x="30" y="310" class="log-text log-debug">[2026-08-14 15:26:45] DEBUG  | Cache hit: user:2f7d9</text>
-  <text x="30" y="330" class="log-text log-info">[2026-08-14 15:26:47] INFO   | Database query optimized (47ms→17ms)</text>
-  <text x="30" y="350" class="log-text log-info">[2026-08-14 15:26:49] INFO   | Metric exported: cpu_usage=81%</text>
+  <text x="30" y="70" class="log-text log-info">[2026-08-14 16:22:46] INFO   | Metric exported: cpu_usage=73%</text>
+  <text x="30" y="90" class="log-text log-info">[2026-08-14 16:22:48] INFO   | Health check passed: notification-svc</text>
+  <text x="30" y="110" class="log-text log-info">[2026-08-14 16:22:50] INFO   | Backup completed: 533 MB</text>
+  <text x="30" y="130" class="log-text log-debug">[2026-08-14 16:22:52] DEBUG  | Cache hit: user:4e3d8</text>
+  <text x="30" y="150" class="log-text log-info">[2026-08-14 16:22:54] INFO   | Database query optimized (98ms→15ms)</text>
+  <text x="30" y="170" class="log-text log-info">[2026-08-14 16:22:56] INFO   | Backup completed: 945 MB</text>
+  <text x="30" y="190" class="log-text log-info">[2026-08-14 16:22:58] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="210" class="log-text log-info">[2026-08-14 16:23:00] INFO   | Backup completed: 898 MB</text>
+  <text x="30" y="230" class="log-text log-debug">[2026-08-14 16:23:02] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="250" class="log-text log-info">[2026-08-14 16:23:04] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="270" class="log-text log-debug">[2026-08-14 16:23:06] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="290" class="log-text log-info">[2026-08-14 16:23:08] INFO   | Database query optimized (95ms→10ms)</text>
+  <text x="30" y="310" class="log-text log-info">[2026-08-14 16:23:10] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="330" class="log-text log-info">[2026-08-14 16:23:12] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="350" class="log-text log-info">[2026-08-14 16:23:14] INFO   | Load balancer: distributing traffic</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
