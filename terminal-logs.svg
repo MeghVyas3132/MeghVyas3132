@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-debug">[2026-08-15 18:26:10] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="90" class="log-text log-warn">[2026-08-15 18:26:12] WARN   | High latency detected: auth-service</text>
-  <text x="30" y="110" class="log-text log-info">[2026-08-15 18:26:14] INFO   | SSL cert renewed: *.meghvyas.dev</text>
-  <text x="30" y="130" class="log-text log-warn">[2026-08-15 18:26:16] WARN   | High latency detected: api-gateway</text>
-  <text x="30" y="150" class="log-text log-info">[2026-08-15 18:26:18] INFO   | Health check passed: payment-service</text>
-  <text x="30" y="170" class="log-text log-warn">[2026-08-15 18:26:20] WARN   | High latency detected: notification-svc</text>
-  <text x="30" y="190" class="log-text log-info">[2026-08-15 18:26:22] INFO   | Container started: payment-service-8d9b5</text>
-  <text x="30" y="210" class="log-text log-info">[2026-08-15 18:26:24] INFO   | Database query optimized (67ms→15ms)</text>
-  <text x="30" y="230" class="log-text log-debug">[2026-08-15 18:26:26] DEBUG  | Rate limit check: 6259 req/s</text>
-  <text x="30" y="250" class="log-text log-info">[2026-08-15 18:26:28] INFO   | Deploy rollout: 20/47 pods updated</text>
-  <text x="30" y="270" class="log-text log-info">[2026-08-15 18:26:30] INFO   | Deploy rollout: 31/47 pods updated</text>
-  <text x="30" y="290" class="log-text log-info">[2026-08-15 18:26:32] INFO   | Auto-scaling triggered: +1 pods</text>
-  <text x="30" y="310" class="log-text log-info">[2026-08-15 18:26:34] INFO   | Database query optimized (51ms→20ms)</text>
-  <text x="30" y="330" class="log-text log-info">[2026-08-15 18:26:36] INFO   | Request processed: 200 OK (25ms)</text>
-  <text x="30" y="350" class="log-text log-debug">[2026-08-15 18:26:38] DEBUG  | Rate limit check: 8332 req/s</text>
+  <text x="30" y="70" class="log-text log-debug">[2026-08-15 18:55:55] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="90" class="log-text log-info">[2026-08-15 18:55:57] INFO   | Database query optimized (50ms→15ms)</text>
+  <text x="30" y="110" class="log-text log-info">[2026-08-15 18:55:59] INFO   | Container started: payment-service-7d6d3</text>
+  <text x="30" y="130" class="log-text log-info">[2026-08-15 18:56:01] INFO   | Load balancer: distributing traffic</text>
+  <text x="30" y="150" class="log-text log-info">[2026-08-15 18:56:03] INFO   | Container started: payment-service-6f3c4</text>
+  <text x="30" y="170" class="log-text log-info">[2026-08-15 18:56:05] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="190" class="log-text log-info">[2026-08-15 18:56:07] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="210" class="log-text log-info">[2026-08-15 18:56:09] INFO   | Deploy rollout: 32/47 pods updated</text>
+  <text x="30" y="230" class="log-text log-debug">[2026-08-15 18:56:11] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="250" class="log-text log-info">[2026-08-15 18:56:13] INFO   | Deploy rollout: 22/47 pods updated</text>
+  <text x="30" y="270" class="log-text log-debug">[2026-08-15 18:56:15] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="290" class="log-text log-info">[2026-08-15 18:56:17] INFO   | Container started: auth-service-7a4c7</text>
+  <text x="30" y="310" class="log-text log-info">[2026-08-15 18:56:19] INFO   | Deploy rollout: 33/47 pods updated</text>
+  <text x="30" y="330" class="log-text log-info">[2026-08-15 18:56:21] INFO   | Container started: payment-service-8c1a5</text>
+  <text x="30" y="350" class="log-text log-debug">[2026-08-15 18:56:23] DEBUG  | Circuit breaker: CLOSED</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
