@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-debug">[2026-08-22 10:17:23] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="90" class="log-text log-info">[2026-08-22 10:17:25] INFO   | Load balancer: distributing traffic</text>
-  <text x="30" y="110" class="log-text log-info">[2026-08-22 10:17:27] INFO   | Deploy rollout: 26/47 pods updated</text>
-  <text x="30" y="130" class="log-text log-info">[2026-08-22 10:17:29] INFO   | Pod api-gateway-2e7e9 started</text>
-  <text x="30" y="150" class="log-text log-debug">[2026-08-22 10:17:31] DEBUG  | Rate limit check: 7785 req/s</text>
-  <text x="30" y="170" class="log-text log-info">[2026-08-22 10:17:33] INFO   | Container started: payment-service-1c3a2</text>
-  <text x="30" y="190" class="log-text log-info">[2026-08-22 10:17:35] INFO   | Container started: auth-service-2b9a5</text>
-  <text x="30" y="210" class="log-text log-warn">[2026-08-22 10:17:37] WARN   | High latency detected: payment-service</text>
-  <text x="30" y="230" class="log-text log-info">[2026-08-22 10:17:39] INFO   | Request processed: 200 OK (12ms)</text>
-  <text x="30" y="250" class="log-text log-info">[2026-08-22 10:17:41] INFO   | Auto-scaling triggered: +2 pods</text>
-  <text x="30" y="270" class="log-text log-info">[2026-08-22 10:17:43] INFO   | Database query optimized (65ms→14ms)</text>
-  <text x="30" y="290" class="log-text log-info">[2026-08-22 10:17:45] INFO   | Pod payment-service-9c5b8 started</text>
-  <text x="30" y="310" class="log-text log-info">[2026-08-22 10:17:47] INFO   | Deploy rollout: 37/47 pods updated</text>
-  <text x="30" y="330" class="log-text log-debug">[2026-08-22 10:17:49] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="350" class="log-text log-warn">[2026-08-22 10:17:51] WARN   | High latency detected: auth-service</text>
+  <text x="30" y="70" class="log-text log-debug">[2026-08-22 10:43:02] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="90" class="log-text log-debug">[2026-08-22 10:43:04] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="110" class="log-text log-info">[2026-08-22 10:43:06] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="130" class="log-text log-debug">[2026-08-22 10:43:08] DEBUG  | Rate limit check: 9572 req/s</text>
+  <text x="30" y="150" class="log-text log-info">[2026-08-22 10:43:10] INFO   | Deploy rollout: 32/47 pods updated</text>
+  <text x="30" y="170" class="log-text log-info">[2026-08-22 10:43:12] INFO   | Deploy rollout: 22/47 pods updated</text>
+  <text x="30" y="190" class="log-text log-debug">[2026-08-22 10:43:14] DEBUG  | Cache hit: user:7b5b3</text>
+  <text x="30" y="210" class="log-text log-info">[2026-08-22 10:43:16] INFO   | Request processed: 200 OK (28ms)</text>
+  <text x="30" y="230" class="log-text log-info">[2026-08-22 10:43:18] INFO   | Health check passed: user-service</text>
+  <text x="30" y="250" class="log-text log-info">[2026-08-22 10:43:20] INFO   | Request processed: 200 OK (49ms)</text>
+  <text x="30" y="270" class="log-text log-debug">[2026-08-22 10:43:22] DEBUG  | Cache hit: user:4f4a5</text>
+  <text x="30" y="290" class="log-text log-warn">[2026-08-22 10:43:24] WARN   | High latency detected: user-service</text>
+  <text x="30" y="310" class="log-text log-info">[2026-08-22 10:43:26] INFO   | Container started: auth-service-9a2b6</text>
+  <text x="30" y="330" class="log-text log-debug">[2026-08-22 10:43:28] DEBUG  | Rate limit check: 9235 req/s</text>
+  <text x="30" y="350" class="log-text log-info">[2026-08-22 10:43:30] INFO   | Container started: user-service-8c6a7</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
