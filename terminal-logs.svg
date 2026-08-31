@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-debug">[2026-08-31 01:34:45] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="90" class="log-text log-debug">[2026-08-31 01:34:47] DEBUG  | Cache hit: user:1a6a2</text>
-  <text x="30" y="110" class="log-text log-info">[2026-08-31 01:34:49] INFO   | Container started: notification-svc-6b7f1</text>
-  <text x="30" y="130" class="log-text log-debug">[2026-08-31 01:34:51] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="150" class="log-text log-info">[2026-08-31 01:34:53] INFO   | Metric exported: cpu_usage=76%</text>
-  <text x="30" y="170" class="log-text log-warn">[2026-08-31 01:34:55] WARN   | High latency detected: api-gateway</text>
-  <text x="30" y="190" class="log-text log-info">[2026-08-31 01:34:57] INFO   | Pod notification-svc-2a8c2 started</text>
-  <text x="30" y="210" class="log-text log-info">[2026-08-31 01:34:59] INFO   | Database query optimized (90ms→18ms)</text>
-  <text x="30" y="230" class="log-text log-debug">[2026-08-31 01:35:01] DEBUG  | Cache hit: user:2d1a1</text>
-  <text x="30" y="250" class="log-text log-info">[2026-08-31 01:35:03] INFO   | Deploy rollout: 36/47 pods updated</text>
-  <text x="30" y="270" class="log-text log-info">[2026-08-31 01:35:05] INFO   | Backup completed: 857 MB</text>
-  <text x="30" y="290" class="log-text log-warn">[2026-08-31 01:35:07] WARN   | High latency detected: api-gateway</text>
-  <text x="30" y="310" class="log-text log-info">[2026-08-31 01:35:09] INFO   | Database query optimized (47ms→20ms)</text>
-  <text x="30" y="330" class="log-text log-info">[2026-08-31 01:35:11] INFO   | Pod auth-service-7c8f9 started</text>
-  <text x="30" y="350" class="log-text log-info">[2026-08-31 01:35:13] INFO   | Deploy rollout: 36/47 pods updated</text>
+  <text x="30" y="70" class="log-text log-warn">[2026-08-31 07:35:24] WARN   | High latency detected: payment-service</text>
+  <text x="30" y="90" class="log-text log-debug">[2026-08-31 07:35:26] DEBUG  | Cache hit: user:4c4b8</text>
+  <text x="30" y="110" class="log-text log-info">[2026-08-31 07:35:28] INFO   | Container started: notification-svc-5e9a5</text>
+  <text x="30" y="130" class="log-text log-info">[2026-08-31 07:35:30] INFO   | Backup completed: 944 MB</text>
+  <text x="30" y="150" class="log-text log-debug">[2026-08-31 07:35:32] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="170" class="log-text log-info">[2026-08-31 07:35:34] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="190" class="log-text log-debug">[2026-08-31 07:35:36] DEBUG  | Rate limit check: 8449 req/s</text>
+  <text x="30" y="210" class="log-text log-info">[2026-08-31 07:35:38] INFO   | Deploy rollout: 24/47 pods updated</text>
+  <text x="30" y="230" class="log-text log-debug">[2026-08-31 07:35:40] DEBUG  | Cache hit: user:8d4f8</text>
+  <text x="30" y="250" class="log-text log-info">[2026-08-31 07:35:42] INFO   | Metric exported: cpu_usage=72%</text>
+  <text x="30" y="270" class="log-text log-info">[2026-08-31 07:35:44] INFO   | Deploy rollout: 20/47 pods updated</text>
+  <text x="30" y="290" class="log-text log-info">[2026-08-31 07:35:46] INFO   | Request processed: 200 OK (36ms)</text>
+  <text x="30" y="310" class="log-text log-debug">[2026-08-31 07:35:48] DEBUG  | Circuit breaker: CLOSED</text>
+  <text x="30" y="330" class="log-text log-debug">[2026-08-31 07:35:50] DEBUG  | Rate limit check: 8767 req/s</text>
+  <text x="30" y="350" class="log-text log-info">[2026-08-31 07:35:52] INFO   | Auto-scaling triggered: +1 pods</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
