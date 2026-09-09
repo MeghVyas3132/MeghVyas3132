@@ -61,7 +61,7 @@
       <text class="pct" x="560" y="158" text-anchor="end">10%</text>
       <rect x="320" y="164" width="168" height="4" rx="2" fill="#e6c78f"/>
       <rect x="320" y="164" width="16.8" height="4" rx="2" fill="#45568a"/>
-      <text class="lang" x="320" y="184">HTML</text>
+      <text class="lang" x="320" y="184">Shell</text>
       <text class="pct" x="560" y="184" text-anchor="end">2%</text>
       <rect x="320" y="190" width="168" height="4" rx="2" fill="#e6c78f"/>
       <rect x="320" y="190" width="3.4" height="4" rx="2" fill="#f5411a"/>
