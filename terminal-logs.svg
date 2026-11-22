@@ -25,21 +25,21 @@
   <text x="30" y="38" class="terminal-title">LIVE SYSTEM LOGS [LAST 60 SECONDS]</text>
   
   <!-- Log Lines -->
-  <text x="30" y="70" class="log-text log-info">[2026-11-22 02:18:50] INFO   | Container started: notification-svc-2f5f4</text>
-  <text x="30" y="90" class="log-text log-info">[2026-11-22 02:18:52] INFO   | Request processed: 200 OK (27ms)</text>
-  <text x="30" y="110" class="log-text log-debug">[2026-11-22 02:18:54] DEBUG  | Circuit breaker: CLOSED</text>
-  <text x="30" y="130" class="log-text log-info">[2026-11-22 02:18:56] INFO   | Health check passed: notification-svc</text>
-  <text x="30" y="150" class="log-text log-info">[2026-11-22 02:18:58] INFO   | Auto-scaling triggered: +1 pods</text>
-  <text x="30" y="170" class="log-text log-debug">[2026-11-22 02:19:00] DEBUG  | Cache hit: user:1f8e5</text>
-  <text x="30" y="190" class="log-text log-warn">[2026-11-22 02:19:02] WARN   | High latency detected: notification-svc</text>
-  <text x="30" y="210" class="log-text log-info">[2026-11-22 02:19:04] INFO   | Request processed: 200 OK (36ms)</text>
-  <text x="30" y="230" class="log-text log-warn">[2026-11-22 02:19:06] WARN   | High latency detected: api-gateway</text>
-  <text x="30" y="250" class="log-text log-warn">[2026-11-22 02:19:08] WARN   | High latency detected: notification-svc</text>
-  <text x="30" y="270" class="log-text log-info">[2026-11-22 02:19:10] INFO   | Database query optimized (74ms→21ms)</text>
-  <text x="30" y="290" class="log-text log-info">[2026-11-22 02:19:12] INFO   | Auto-scaling triggered: +2 pods</text>
-  <text x="30" y="310" class="log-text log-warn">[2026-11-22 02:19:14] WARN   | High latency detected: api-gateway</text>
-  <text x="30" y="330" class="log-text log-info">[2026-11-22 02:19:16] INFO   | Pod payment-service-9c6a5 started</text>
-  <text x="30" y="350" class="log-text log-info">[2026-11-22 02:19:18] INFO   | Metric exported: cpu_usage=72%</text>
+  <text x="30" y="70" class="log-text log-info">[2026-11-22 09:55:51] INFO   | Metric exported: cpu_usage=77%</text>
+  <text x="30" y="90" class="log-text log-info">[2026-11-22 09:55:53] INFO   | Request processed: 200 OK (33ms)</text>
+  <text x="30" y="110" class="log-text log-info">[2026-11-22 09:55:55] INFO   | Auto-scaling triggered: +2 pods</text>
+  <text x="30" y="130" class="log-text log-info">[2026-11-22 09:55:57] INFO   | Metric exported: cpu_usage=76%</text>
+  <text x="30" y="150" class="log-text log-info">[2026-11-22 09:55:59] INFO   | Request processed: 200 OK (31ms)</text>
+  <text x="30" y="170" class="log-text log-debug">[2026-11-22 09:56:01] DEBUG  | Rate limit check: 7908 req/s</text>
+  <text x="30" y="190" class="log-text log-info">[2026-11-22 09:56:03] INFO   | Pod user-service-4b1a8 started</text>
+  <text x="30" y="210" class="log-text log-info">[2026-11-22 09:56:05] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="230" class="log-text log-info">[2026-11-22 09:56:07] INFO   | SSL cert renewed: *.meghvyas.dev</text>
+  <text x="30" y="250" class="log-text log-info">[2026-11-22 09:56:09] INFO   | Deploy rollout: 38/47 pods updated</text>
+  <text x="30" y="270" class="log-text log-info">[2026-11-22 09:56:11] INFO   | Backup completed: 558 MB</text>
+  <text x="30" y="290" class="log-text log-warn">[2026-11-22 09:56:13] WARN   | High latency detected: api-gateway</text>
+  <text x="30" y="310" class="log-text log-info">[2026-11-22 09:56:15] INFO   | Auto-scaling triggered: +2 pods</text>
+  <text x="30" y="330" class="log-text log-info">[2026-11-22 09:56:17] INFO   | Metric exported: cpu_usage=88%</text>
+  <text x="30" y="350" class="log-text log-info">[2026-11-22 09:56:19] INFO   | Health check passed: payment-service</text>
   
   <!-- Cursor -->
   <rect x="30" y="370" width="10" height="15" class="cursor blinking"/>
